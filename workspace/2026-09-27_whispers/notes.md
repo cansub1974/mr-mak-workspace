@@ -13,6 +13,7 @@ It is waiting for a product decision.
 | Date | Decision | Why it matters |
 | --- | --- | --- |
 | 2026-09-27 | The workspace hub is the project’s thinking and handoff surface. GitHub Issues remains the implementation tracker. | Keeps ideas readable without splitting task status across systems. |
+| 2026-09-27 | `D:\AI_Modelling` is the local source library for Whispers modelling work and is linked as `projects/ai-modelling`. | Keeps large editable assets outside the workspace repository while making them available from the project hub. |
 
 ## Questions to resolve
 

@@ -29,6 +29,7 @@ public/workspace
 inbox/*
 !inbox/.gitkeep
 projects/whispers/
+projects/ai-modelling/
 projects/.whispers-incomplete-clone/
 **/job.json
 **/result.json
