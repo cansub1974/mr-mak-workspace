@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-mak-report="document">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whispers of Eden's Embrace · Project hub</title>
+  <link rel="stylesheet" href="../_shared/report.css">
+  <link rel="stylesheet" href="../_shared/examples.css">
+  <script defer src="../_shared/report.js"></script>
+</head>
+<body>
+  <main class="container">
+    <p class="eyebrow">Project hub · Unreal Engine 5.8</p>
+    <h1>Whispers of Eden's Embrace</h1>
+    <p class="lead">A first-person dark-fantasy life simulator and mystery visual novel set at Hotel Eden: a Neo-Gothic Victorian retreat in the wilderness of British Columbia.</p>
+    <p class="meta">Workspace project folder: <code>projects/whispers</code> · Linked GitHub repository: <a href="https://github.com/cansub1974/Whispers" target="_blank" rel="noreferrer">cansub1974/Whispers ↗</a></p>
+
+    <section class="stats" aria-label="Project status">
+      <div><strong>1</strong><small>open roadmap issue</small></div>
+      <div><strong>73</strong><small>most recently closed issue</small></div>
+      <div><strong>5b79d95</strong><small>local checkout revision</small></div>
+    </section>
+
+    <section class="mak-card">
+      <div class="card-header"><span class="card-num">01</span><span class="card-title">The game</span></div>
+      <p>Players arrive as Hotel Eden's maintenance man. Daily repairs, conversations, and practical help build relationships with staff and guests, improve the retreat, and gradually expose the Eden family's occult history.</p>
+      <ul>
+        <li><strong>Place:</strong> an isolated mountain hotel surrounded by redwood forest, lakes, and wilderness.</li>
+        <li><strong>Experience:</strong> intimate, atmospheric, elegant, and unsettling.</li>
+        <li><strong>Core loop:</strong> maintain the hotel; build relationships; unlock opportunities; follow supernatural clues.</li>
+        <li><strong>Simulation:</strong> NPC routines, relationships, and memory supported by Convai and a custom backend.</li>
+      </ul>
+    </section>
+
+    <section class="mak-card">
+      <div class="card-header"><span class="card-num">02</span><span class="card-title">Current work</span></div>
+      <p><span class="status">Needs a product decision</span> <a href="https://github.com/cansub1974/Whispers/issues/66" target="_blank" rel="noreferrer">#66 · Eden Estate arrival and hotel access slice ↗</a></p>
+      <p>The current roadmap is waiting for direction on the arrival-and-access slice. The interaction-demo inventory work, including its inventory list, was completed through issue #73.</p>
+      <div class="callout"><strong>Good next conversation:</strong> define the player’s arrival at the Eden Estate—what they see first, their first useful task, what access is initially blocked, and the first hint that the hotel is concealing something.</div>
+    </section>
+
+    <section class="mak-card">
+      <div class="card-header"><span class="card-num">03</span><span class="card-title">Working setup</span></div>
+      <table>
+        <thead><tr><th>Area</th><th>Decision</th><th>Where to work</th></tr></thead>
+        <tbody>
+          <tr><td>Engine</td><td>Unreal Engine 5.8, first-person and Blueprint-first</td><td><a href="../../projects/whispers/Whispers.uproject">Whispers.uproject</a></td></tr>
+          <tr><td>Gameplay code</td><td>No root <code>Source/</code>; native interaction code is contained in <code>Plugins/WhispersInteraction</code></td><td><a href="../../projects/whispers/Plugins/WhispersInteraction/">Interaction plugin</a></td></tr>
+          <tr><td>Planning</td><td>Codex shapes requirements and execution prompts; DeepSeek implements one scoped task at a time</td><td><a href="../../projects/whispers/docs/agents/planner-contract.md">Planning contract</a></td></tr>
+          <tr><td>Task tracking</td><td>GitHub Issues is the project’s sole tracker</td><td><a href="https://github.com/cansub1974/Whispers/issues" target="_blank" rel="noreferrer">Issues ↗</a></td></tr>
+          <tr><td>Workspace thinking</td><td>Keep decisions, questions, and session handoffs here</td><td><a href="notes.md">Working notes</a> · <a href="next-session.md">Next session</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mak-card">
+      <div class="card-header"><span class="card-num">04</span><span class="card-title">Useful project material</span></div>
+      <div class="grid">
+        <article class="variant"><p class="var-label">Foundation</p><p><a href="../../projects/whispers/README.md">Game premise and technical direction</a></p></article>
+        <article class="variant"><p class="var-label">Feature designs</p><p><a href="../../projects/whispers/docs/features/">Interaction, doors, and audio documentation</a></p></article>
+        <article class="variant"><p class="var-label">Evidence</p><p><a href="../../projects/whispers/docs/evidence/">Accepted implementation evidence</a></p></article>
+        <article class="variant"><p class="var-label">Project rules</p><p><a href="../../projects/whispers/AGENTS.md">Workflow and ownership rules</a></p></article>
+      </div>
+    </section>
+
+    <section class="mak-card">
+      <div class="card-header"><span class="card-num">05</span><span class="card-title">A clean working rhythm</span></div>
+      <ol class="checklist">
+        <li>Capture new ideas and decisions in <a href="notes.md">Working notes</a>.</li>
+        <li>Turn an agreed outcome into a GitHub issue with a complete execution packet.</li>
+        <li>Keep implementation evidence in Whispers; use this hub to retain the project narrative and handoffs.</li>
+        <li>At the end of a session, update <a href="next-session.md">Next session</a> with the current state and the smallest useful next action.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>

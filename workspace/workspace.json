@@ -126,6 +126,33 @@
       "status": "active",
       "pinned": false,
       "sample": true
+    },
+    {
+      "id": "whispers-eden",
+      "title": "Whispers of Eden's Embrace",
+      "description": "Project hub for the Hotel Eden dark-fantasy life simulator: product direction, working notes, and implementation handoffs.",
+      "type": "group",
+      "category": "dev",
+      "created": "2026-09-27",
+      "updated": "2026-09-27",
+      "folder": "2026-09-27_whispers",
+      "steps": [
+        {
+          "name": "Project hub",
+          "path": "index.html"
+        },
+        {
+          "name": "Working notes",
+          "path": "notes.md"
+        },
+        {
+          "name": "Next session",
+          "path": "next-session.md"
+        }
+      ],
+      "status": "active",
+      "pinned": true,
+      "defaultStep": 0
     }
   ]
 }
