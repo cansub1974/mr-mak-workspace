@@ -1,2 +1,6 @@
 # Project-local MCP definitions can be added here after selecting a provider.
 # Account logins stay in the agent's own secure storage. Do not commit keys.
+
+[mcp_servers.customuse]
+url = "https://api.customuse.com/v1/mcp"
+bearer_token_env_var = "CUSTOMUSE_MCP_TOKEN"
