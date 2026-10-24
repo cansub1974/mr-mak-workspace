@@ -1,0 +1,173 @@
+{
+ "configuration": "<E_IV02_Configuration.D: 3>",
+ "seed": 24024,
+ "components": {
+  "Facade": {
+   "mesh": "SM_IV02_FacadeBay_Opaque",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 32,
+   "visible": true,
+   "collision": "<CollisionEnabled.QUERY_ONLY: 1>",
+   "cast_shadow": true
+  },
+  "IvyB": {
+   "mesh": "SM_Ivy_WallPatch_Prototype",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 2,
+   "visible": false,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "IvyC": {
+   "mesh": "SM_Ivy_WallPatch_Prototype",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 64,
+   "visible": true,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "IvyD": {
+   "mesh": "SM_Ivy_WallPatch_Prototype",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 64,
+   "visible": true,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "FacadeGlass": {
+   "mesh": "SM_IV02_FacadeBay_Glass",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 32,
+   "visible": true,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "IvyB_PA": {
+   "mesh": "SM_Ivy_WallPatch_Prototype_PreserveArea",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 2,
+   "visible": false,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "IvyC_PA": {
+   "mesh": "SM_Ivy_WallPatch_Prototype_PreserveArea",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 64,
+   "visible": false,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  },
+  "IvyD_PA": {
+   "mesh": "SM_Ivy_WallPatch_Prototype_PreserveArea",
+   "mobility": "<ComponentMobility.STATIC: 0>",
+   "instances": 64,
+   "visible": false,
+   "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+   "cast_shadow": true
+  }
+ },
+ "bookmarks": [
+  "IV02_Cam_FirstPerson",
+  "IV02_Cam_Oblique",
+  "IV02_Cam_Courtyard",
+  "IV02_Cam_Distant",
+  "IV02_Cam_DenseOverlap"
+ ],
+ "sun": "IV02_Sun",
+ "route": "IV02_RouteSequence",
+ "cameras": [
+  {
+   "label": "IV02_Cam_FirstPerson",
+   "location_cm": [
+    319.0,
+    -49.0,
+    150.0
+   ],
+   "rotation_deg": {
+    "pitch": 0.0,
+    "yaw": 90.0,
+    "roll": -0.0
+   },
+   "fov_deg": 90.0,
+   "constrain_aspect_ratio": false
+  },
+  {
+   "label": "IV02_Cam_Oblique",
+   "location_cm": [
+    126.0,
+    -230.0,
+    170.0
+   ],
+   "rotation_deg": {
+    "pitch": 8.4078,
+    "yaw": 47.9289,
+    "roll": -0.0
+   },
+   "fov_deg": 90.0,
+   "constrain_aspect_ratio": false
+  },
+  {
+   "label": "IV02_Cam_Courtyard",
+   "location_cm": [
+    319.0,
+    -1500.0,
+    150.0
+   ],
+   "rotation_deg": {
+    "pitch": 2.6719,
+    "yaw": 90.0,
+    "roll": -0.0
+   },
+   "fov_deg": 90.0,
+   "constrain_aspect_ratio": false
+  },
+  {
+   "label": "IV02_Cam_Distant",
+   "location_cm": [
+    319.0,
+    -6000.0,
+    160.0
+   ],
+   "rotation_deg": {
+    "pitch": 0.5729,
+    "yaw": 90.0,
+    "roll": -0.0
+   },
+   "fov_deg": 90.0,
+   "constrain_aspect_ratio": false
+  },
+  {
+   "label": "IV02_Cam_DenseOverlap",
+   "location_cm": [
+    300.0,
+    -120.0,
+    200.0
+   ],
+   "rotation_deg": {
+    "pitch": 17.4725,
+    "yaw": 80.6979,
+    "roll": -0.0
+   },
+   "fov_deg": 90.0,
+   "constrain_aspect_ratio": false
+  }
+ ],
+ "tick_enabled": false,
+ "actors": [
+  "IV02_Benchmark",
+  "IV02_Cam_Courtyard",
+  "IV02_Cam_DenseOverlap",
+  "IV02_Cam_Distant",
+  "IV02_Cam_FirstPerson",
+  "IV02_Cam_Oblique",
+  "IV02_Cam_Route",
+  "IV02_Ground",
+  "IV02_PPV_FixedExposure",
+  "IV02_RouteSequence",
+  "IV02_SkyAtmosphere",
+  "IV02_SkyLight",
+  "IV02_Sun",
+  "Lamppost_Exterior_01"
+ ]
+}

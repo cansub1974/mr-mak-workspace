@@ -1,6 +1,14 @@
 # IV02 — opaque static Nanite ivy
 
-Revision IV02-r1, 24 October 2026. **Pre-implementation packet. No ivy has been authored, imported or benchmarked in IV02.**
+Current status, 25 October 2026: **the prototype source, Unreal import, isolated facade test and workstation measurement suite are delivered.** #113 is independently verified and closed. #114 has reviewed technical evidence and awaits Jason's visual verdict; target-budget acceptance remains NOT RUN/pending. Full kit, PCG and hotel installation are not delivered.
+
+Open the **Ivy - Nanite IV02** tab for model downloads, actual game screenshots, Preserve Area video, measured tables and the acceptance ledger. Editable source: `D:/AI_Modelling/hotel_eden/working/ivy_IV02/IV02_Ivy_Prototype.blend`; byte-identical delivered copy in `D:/Unreal Projects/Whispers 5.8/SourceAssets/HotelEden/IV02/`. Unreal level: `/Game/Whispers/Tests/HotelEden/IV02/L_IvyPrototype`.
+
+Current reports: [Unreal delivery](evidence/unreal/ivy-IV02-B.md), [Blender delivery](evidence/unreal/ivy-IV02-A.md), [independent technical review](evidence/unreal/independent-review-114.md), [publication/source manifest](evidence/unreal/publication-manifest.json). Rebuild this tab with `python build_report.py`; `publish_evidence.py` copies and verifies the review subset without modifying originals. Original raw profiles remain under Whispers `Saved/IV02` (1,794 indexed files, 11.46 GB). The tab embeds a smaller display proxy of the original side-by-side video; pixel measurements use the original frames.
+
+The records below are the **historical 24 October preflight and proposed contract**, retained for provenance. Their unrun statuses and older engine snapshot have been superseded by the current delivery reports above.
+
+## Historical preflight — IV02-r1, 24 October 2026
 
 Live packets: [#113 — Blender source/export](https://github.com/cansub1974/Whispers/issues/113) and [#114 — Unreal prototype/measurement](https://github.com/cansub1974/Whispers/issues/114). Both read back OPEN and `needs-triage`; #114 is natively blocked by #113. No assignment, issue claim or editor/resource lock was acquired by this session. IssueBridge and the lead own triage/assignment; publication alone does not authorize execution under an assigned specialist contract.
 

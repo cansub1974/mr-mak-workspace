@@ -1,0 +1,359 @@
+{
+  "published_utc": "2026-10-24T22:29:49.802202+00:00",
+  "model_original": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\IV02_Ivy_Prototype.blend",
+  "model_delivery": "D:\\Unreal Projects\\Whispers 5.8\\SourceAssets\\HotelEden\\IV02\\IV02_Ivy_Prototype.blend",
+  "model_sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
+  "source_and_delivery_identical": true,
+  "unreal_level": "/Game/Whispers/Tests/HotelEden/IV02/L_IvyPrototype",
+  "unreal_mesh": "/Game/Whispers/Presentation/Environment/HotelEden/IV02/Meshes/SM_Ivy_WallPatch_Prototype",
+  "raw_root": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02",
+  "raw_files": 1794,
+  "raw_bytes": 11460553184,
+  "raw_index_sha256": "d76299f8a8041fcb7d8d2a8fddf77379185a48fd9e85ab6a938e5d90e9fbcab8",
+  "issues": [
+    {
+      "number": 113,
+      "state": "CLOSED",
+      "labels": [
+        "done"
+      ],
+      "url": "https://github.com/cansub1974/Whispers/issues/113",
+      "review_url": "https://github.com/cansub1974/Whispers/issues/113#issuecomment-6383014115",
+      "review_created": "2026-10-24T10:18:21Z"
+    },
+    {
+      "number": 114,
+      "state": "OPEN",
+      "labels": [
+        "ready-for-human"
+      ],
+      "url": "https://github.com/cansub1974/Whispers/issues/114",
+      "review_url": "https://github.com/cansub1974/Whispers/issues/114#issuecomment-6388190669",
+      "review_created": "2026-10-24T18:53:29Z"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\SourceAssets\\HotelEden\\IV02\\IV02_Ivy_Prototype.blend",
+      "workspace": "downloads/IV02_Ivy_Prototype.blend",
+      "bytes": 5261497,
+      "sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
+      "matches_original_index": false
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\SourceAssets\\HotelEden\\IV02\\exports\\SM_Ivy_WallPatch_Prototype.fbx",
+      "workspace": "downloads/SM_Ivy_WallPatch_Prototype.fbx",
+      "bytes": 2709916,
+      "sha256": "b6dfd5744cf8cb349c0e92a0361e3cfa7833b0f6f7f824bbb1372d3a090e9fee",
+      "matches_original_index": false
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgA_front_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgA_front_DL.jpg",
+      "bytes": 173663,
+      "sha256": "ac3eb5f7328fb1eecf918bec79331b6cffc07ecfa1c27bfef5770629dc07647b",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_back_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_back_DL.jpg",
+      "bytes": 105546,
+      "sha256": "c0f5a77dba4b0167666dffb7ac32acba726cd0a3805ebafbfab99e9258e3b694",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_back_TSF.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_back_TSF.jpg",
+      "bytes": 108229,
+      "sha256": "864b14a7bddc991adaf184cc8ddeb12a866142a34bd845b98fe72abd789cc75b",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_front_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_front_DL.jpg",
+      "bytes": 204058,
+      "sha256": "2b5200477fd8fa45cee69cf889121938a6292725a6bd9addced96eeae107f4de",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_front_TSF.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_front_TSF.jpg",
+      "bytes": 151616,
+      "sha256": "bfe61e1ea64e50b0d8fbfe95c50d0d2d11f218f58cd9660292b2769247a1b2af",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_local_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_local_DL.jpg",
+      "bytes": 127754,
+      "sha256": "5af97919e618c89bc2350e58fe179dc609b635391c750fa77674b61df4fb5fce",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgB_local_TSF.jpg",
+      "workspace": "evidence/unreal/sheets/cfgB_local_TSF.jpg",
+      "bytes": 128233,
+      "sha256": "fcf7c7e45ae179ce5d33915fdc2fd89b03b9d5abfeb37a4281502ea5ee84d897",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgC_front_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgC_front_DL.jpg",
+      "bytes": 204324,
+      "sha256": "56dbb5b1b1520b94edc5033f0cc62d87fe10584618fa2a45d43112e850147bd9",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgC_front_DL_PA0.jpg",
+      "workspace": "evidence/unreal/sheets/cfgC_front_DL_PA0.jpg",
+      "bytes": 89604,
+      "sha256": "b8bfa4c849265c6bda9c719179f1bd548cd2c716dc12efd0e91ea5447f259b6f",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgC_front_DL_PA1.jpg",
+      "workspace": "evidence/unreal/sheets/cfgC_front_DL_PA1.jpg",
+      "bytes": 89725,
+      "sha256": "656ebd8b515895216768dcd2f25a236943d199bb40fa07511bb88712cbc1a755",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\sheets\\cfgD_front_DL.jpg",
+      "workspace": "evidence/unreal/sheets/cfgD_front_DL.jpg",
+      "bytes": 208516,
+      "sha256": "c58b0f44ad6296e4b3ddb6612a85fd3c28dde7ed3aadadafc7e5e45b5a2762dc",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\shots\\visual__cfgB_front_DL__view0_first_person_045m.png",
+      "workspace": "evidence/unreal/shots/visual__cfgB_front_DL__view0_first_person_045m.png",
+      "bytes": 2745695,
+      "sha256": "37305e1d848a15cac1dc61ffa3969dcff6493dfd52b741af1a10a4514ed0e7d4",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\shots\\visual__cfgB_front_DL__view1_oblique_3m.png",
+      "workspace": "evidence/unreal/shots/visual__cfgB_front_DL__view1_oblique_3m.png",
+      "bytes": 2960847,
+      "sha256": "d95c6766bcd7514e1a5d4cc69428c7f79b0fc9bf83c15815abe471bfd3ea0008",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\shots\\visual__cfgB_front_DL__view2_courtyard_15m.png",
+      "workspace": "evidence/unreal/shots/visual__cfgB_front_DL__view2_courtyard_15m.png",
+      "bytes": 2083380,
+      "sha256": "5e4ed2d491c8495fcd12837a16998901b1dc327fd005519c64e6f44b66fe8bde",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\shots\\visual__cfgB_front_DL__view3_distant_60m.png",
+      "workspace": "evidence/unreal/shots/visual__cfgB_front_DL__view3_distant_60m.png",
+      "bytes": 1776353,
+      "sha256": "a879daa7322e87cc4e051b7d8afe746de432652fd5bac6ca04466c2db58e283f",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\runs\\visual\\shots\\visual__cfgB_front_DL__view4_dense_overlap.png",
+      "workspace": "evidence/unreal/shots/visual__cfgB_front_DL__view4_dense_overlap.png",
+      "bytes": 3115072,
+      "sha256": "910345d53be08527b9aa263d7cfc98af91f85c3a8907c297a1c028290292eb7b",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\close_30s_8consec_PA0.jpg",
+      "workspace": "evidence/unreal/temporal/close_30s_8consec_PA0.jpg",
+      "bytes": 86533,
+      "sha256": "fc8d6210bed4486a5d97d581a3e06e4b6a6d6719978a9f6f31234eb01d1b1b19",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\close_30s_8consec_PA1.jpg",
+      "workspace": "evidence/unreal/temporal/close_30s_8consec_PA1.jpg",
+      "bytes": 86428,
+      "sha256": "f58c8b94b05093a4764528739995a59d9671f98a21d50c08c740c9620cbf7801",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\distant_6to7s_zoom_PA0_vs_PA1.jpg",
+      "workspace": "evidence/unreal/temporal/distant_6to7s_zoom_PA0_vs_PA1.jpg",
+      "bytes": 96885,
+      "sha256": "dfcffd2ab6e4244b5a40d1c8f2f4e86e0026fcf80f27d18f7190a1a34e5d3283",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\end_route_last2_PA0.jpg",
+      "workspace": "evidence/unreal/temporal/end_route_last2_PA0.jpg",
+      "bytes": 68479,
+      "sha256": "f03d800836716979a23289eb3b69b9c470faa23921db694f3c12d052249593a3",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\end_route_last7_PA0.jpg",
+      "workspace": "evidence/unreal/temporal/end_route_last7_PA0.jpg",
+      "bytes": 71020,
+      "sha256": "ae4ae9367e617cded8f5ae58783353b53418250f1b169225cfca90c3276371d0",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\mid_14s_8consec_PA0.jpg",
+      "workspace": "evidence/unreal/temporal/mid_14s_8consec_PA0.jpg",
+      "bytes": 55279,
+      "sha256": "a772008a949a92cd46e9a6201fa76ed73d541ad16e4c2f692dd872590c693ef8",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\mid_14s_8consec_PA1.jpg",
+      "workspace": "evidence/unreal/temporal/mid_14s_8consec_PA1.jpg",
+      "bytes": 55811,
+      "sha256": "7389625d5ddb8d8230ed5b11371c88bb536f6a486dff191f0213487b711c11af",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\sbs_every2s_sheet.jpg",
+      "workspace": "evidence/unreal/temporal/sbs_every2s_sheet.jpg",
+      "bytes": 344064,
+      "sha256": "b92cb44709a9dd901df145e5a3c4115aeda1d4701072274e5f5c4700c0659a6f",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\still_view2_courtyard_15m_A_PA0_PA1_crop.jpg",
+      "workspace": "evidence/unreal/temporal/still_view2_courtyard_15m_A_PA0_PA1_crop.jpg",
+      "bytes": 85363,
+      "sha256": "7ab302b60f988e7e70663c8daaf541903b8a7735e884181e1ac058737157bb67",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\still_view3_distant_60m_A_PA0_PA1_crop.jpg",
+      "workspace": "evidence/unreal/temporal/still_view3_distant_60m_A_PA0_PA1_crop.jpg",
+      "bytes": 54552,
+      "sha256": "732f8995a1db625c116a9ce7af069a9b4ae5485a3e34b868c5bea94d21c95a14",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\temporal_review\\temporal_review.json",
+      "workspace": "evidence/unreal/temporal/temporal_review.json",
+      "bytes": 24245,
+      "sha256": "326b79348a269577aeccee9f10635a6d1fad0196dfcb38b5046d05d8a1130603",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\evidence\\editor_vis\\cfgA_dense_nanite_overdraw.png",
+      "workspace": "evidence/unreal/diagnostics/cfgA_dense_nanite_overdraw.png",
+      "bytes": 228904,
+      "sha256": "1ccb76b48d921817ac788e84a1db58c43bed7f10fc28c46cf92e4f616c16d434",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\evidence\\editor_vis\\cfgB_dense_nanite_overdraw.png",
+      "workspace": "evidence/unreal/diagnostics/cfgB_dense_nanite_overdraw.png",
+      "bytes": 379067,
+      "sha256": "6cf610e46aeaf9d087526d9d0c5e8085fe5b429e7635604d92a09250ef2bbc60",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\evidence\\editor_vis\\cfgD_dense_nanite_overdraw.png",
+      "workspace": "evidence/unreal/diagnostics/cfgD_dense_nanite_overdraw.png",
+      "bytes": 433494,
+      "sha256": "9f71765fe772a622d113b1e701ea3a5fe81d2015263f34f682f317bbb453c2b9",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\evidence\\editor_vis\\cfgD_dense_vsm_vpage.png",
+      "workspace": "evidence/unreal/diagnostics/cfgD_dense_vsm_vpage.png",
+      "bytes": 315966,
+      "sha256": "0da48a33b4523b219ff82090d1ba1180d35240e2f45571a139386081999295a7",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\summary.json",
+      "workspace": "evidence/unreal/analysis/summary.json",
+      "bytes": 2123915,
+      "sha256": "314f2d98b31d939f97f9fe89f32f3aeef3737e67e75888547ba7c2cdd370d4d1",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\summary.md",
+      "workspace": "evidence/unreal/analysis/summary.md",
+      "bytes": 31066,
+      "sha256": "e355522e2db9f62288917919db643df9ee9e27a3103e14b0e38e01f65ec12823",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\fixture\\placement_manifest.json",
+      "workspace": "evidence/unreal/fixture/placement_manifest.json",
+      "bytes": 56454,
+      "sha256": "abf72025716dd77f838db6a83923adb5621e8df102e7a623e1d8549df6d6199b",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\fixture\\fixture_state_after_reopen.json",
+      "workspace": "evidence/unreal/fixture/fixture_state_after_reopen.json",
+      "bytes": 3858,
+      "sha256": "d27ed09ef3a7b9691f5683bcbb50f7dff50522dd0b0e24f6850c2203a1720e01",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\import\\compare_import.json",
+      "workspace": "evidence/unreal/import/compare_import.json",
+      "bytes": 4533,
+      "sha256": "6daf9f8fa4c9a902e9615ba204a82d257bc7f4f8e9f63f78ac7d5099ab4918e4",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\import\\readback.json",
+      "workspace": "evidence/unreal/import/readback.json",
+      "bytes": 14172,
+      "sha256": "604dc45231fb53ae82a52c82f9c8cb77aa793805e09fab9f180a569d24173113",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\visual_pairs.json",
+      "workspace": "evidence/unreal/analysis/visual_pairs.json",
+      "bytes": 2044,
+      "sha256": "7c0d1095ce4d5a0e5ff030a44dc6b2fc2b73d662e5f723f7fbf4001a970d44cc",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\analysis\\video_pa.json",
+      "workspace": "evidence/unreal/analysis/video_pa.json",
+      "bytes": 19218,
+      "sha256": "4bcb6800148176d520354db12b8312179f5be4245809dc169c6e1b7024aa85d4",
+      "matches_original_index": true
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\IV02\\evidence_index.json",
+      "workspace": "evidence/unreal/raw-evidence-index.json",
+      "bytes": 347616,
+      "sha256": "d76299f8a8041fcb7d8d2a8fddf77379185a48fd9e85ab6a938e5d90e9fbcab8",
+      "matches_original_index": false
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\docs\\verification\\ivy-IV02-A.md",
+      "workspace": "evidence/unreal/ivy-IV02-A.md",
+      "bytes": 15053,
+      "sha256": "9d33dfde1b3208bd5f399e6266590615b07be43d9650c760a9f21a5313148ad5",
+      "matches_original_index": false
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\docs\\verification\\ivy-IV02-B.md",
+      "workspace": "evidence/unreal/ivy-IV02-B.md",
+      "bytes": 35965,
+      "sha256": "bf392ef4b285d046982425b3f591242f05a291456f570d7e91a0ebf265a8eae5",
+      "matches_original_index": false
+    },
+    {
+      "source": "D:\\Unreal Projects\\Whispers 5.8\\docs\\features\\hotel-eden-ivy-iv02.md",
+      "workspace": "evidence/unreal/fixture-reproduction.md",
+      "bytes": 24100,
+      "sha256": "aa9985bdb344688fdae4258d23c732879585ff02064766b7113089b3fb53069a",
+      "matches_original_index": false
+    }
+  ],
+  "limits": "Copied review subset verified against delivered index. This did not re-run Unreal tests or rehash all 11.46 GB. Video proxy is a separate display derivative; original MP4 remains in Saved/IV02.",
+  "review_video": {
+    "path": "evidence/unreal/route-preserve-area-comparison.mp4",
+    "bytes": 6937357,
+    "sha256": "a72a809bffc05090c69d21c0fc748162a72af86734373642c89f7c8eee47ac5e",
+    "derivative": "1920x540 H.264 CRF24 display proxy; original 3840x1080 MP4 unchanged"
+  }
+}

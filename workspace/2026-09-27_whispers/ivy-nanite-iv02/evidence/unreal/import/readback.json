@@ -1,0 +1,505 @@
+[
+ {
+  "asset": "/Game/Whispers/Presentation/Environment/HotelEden/IV02/Meshes/SM_Ivy_WallPatch_Prototype",
+  "bounds_min_cm": [
+   0.19001,
+   -40.42752,
+   -0.00218
+  ],
+  "bounds_max_cm": [
+   7.90166,
+   40.20658,
+   182.97163
+  ],
+  "bounds_size_cm": [
+   7.7117,
+   80.6341,
+   182.9738
+  ],
+  "nanite": {
+   "enabled": true,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.NONE: 0>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "IvyAtlas",
+    "imported": "IvyAtlas",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/IV02/Materials/MI_Ivy_DefaultLit.MI_Ivy_DefaultLit"
+   }
+  ],
+  "uv_channels_lod0": 1,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+  "lightmap_coordinate_index": 0,
+  "has_navigation_data": false,
+  "nanite_triangles": 33516,
+  "nanite_vertices": 21793,
+  "lod0_render_triangles": 3831,
+  "import_source": [
+   "D:/Unreal Projects/Whispers 5.8/SourceAssets/HotelEden/IV02/exports/SM_Ivy_WallPatch_Prototype.fbx"
+  ],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 21793,
+   "triangles": 33516,
+   "uv_sets": 1,
+   "connected_components": 519,
+   "open_border_edges": 9604,
+   "bounds_min_cm": [
+    0.19001,
+    -40.42752,
+    -0.00218
+   ],
+   "bounds_max_cm": [
+    7.90166,
+    40.20658,
+    182.97163
+   ]
+  }
+ },
+ {
+  "asset": "/Game/Whispers/Presentation/Environment/HotelEden/IV02/Meshes/SM_Ivy_WallPatch_Prototype_PreserveArea",
+  "bounds_min_cm": [
+   -0.13913,
+   -40.89209,
+   -3.69681
+  ],
+  "bounds_max_cm": [
+   11.67581,
+   42.54817,
+   183.04797
+  ],
+  "bounds_size_cm": [
+   11.8149,
+   83.4403,
+   186.7448
+  ],
+  "nanite": {
+   "enabled": true,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.PRESERVE_AREA: 1>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "IvyAtlas",
+    "imported": "IvyAtlas",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/IV02/Materials/MI_Ivy_DefaultLit.MI_Ivy_DefaultLit"
+   }
+  ],
+  "uv_channels_lod0": 1,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+  "lightmap_coordinate_index": 0,
+  "has_navigation_data": false,
+  "nanite_triangles": 33516,
+  "nanite_vertices": 21793,
+  "lod0_render_triangles": 3716,
+  "import_source": [
+   "D:/Unreal Projects/Whispers 5.8/SourceAssets/HotelEden/IV02/exports/SM_Ivy_WallPatch_Prototype.fbx"
+  ],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 21793,
+   "triangles": 33516,
+   "uv_sets": 1,
+   "connected_components": 519,
+   "open_border_edges": 9604,
+   "bounds_min_cm": [
+    0.19001,
+    -40.42752,
+    -0.00218
+   ],
+   "bounds_max_cm": [
+    7.90166,
+    40.20658,
+    182.97163
+   ]
+  }
+ },
+ {
+  "asset": "/Game/Whispers/Tests/HotelEden/IV02/SM_IV02_FacadeBay",
+  "bounds_min_cm": [
+   -448.99997,
+   -60.00005,
+   -20.0
+  ],
+  "bounds_max_cm": [
+   455.00003,
+   220.00005,
+   420.00003
+  ],
+  "bounds_size_cm": [
+   904.0,
+   280.0001,
+   440.0
+  ],
+  "nanite": {
+   "enabled": true,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.NONE: 0>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "HE PBR01 | Limestone",
+    "imported": "HE_PBR01___Limestone",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Limestone.MI_HE_HE_PBR01_Limestone"
+   },
+   {
+    "slot": "HE PBR01 | Brick",
+    "imported": "HE_PBR01___Brick",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Brick.MI_HE_HE_PBR01_Brick"
+   },
+   {
+    "slot": "HE PBR01 | Interior",
+    "imported": "HE_PBR01___Interior",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Interior.MI_HE_HE_PBR01_Interior"
+   },
+   {
+    "slot": "HE PBR01 | Limestone | relief 00",
+    "imported": "HE_PBR01___Limestone___relief_00",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Limestone_relief_00.MI_HE_HE_PBR01_Limestone_relief_00"
+   },
+   {
+    "slot": "HE PBR01 | Glass",
+    "imported": "HE_PBR01___Glass",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Glass.MI_HE_HE_PBR01_Glass"
+   },
+   {
+    "slot": "HE PBR01 | Iron",
+    "imported": "HE_PBR01___Iron",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Iron.MI_HE_HE_PBR01_Iron"
+   }
+  ],
+  "uv_channels_lod0": 2,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+  "lightmap_coordinate_index": 1,
+  "has_navigation_data": true,
+  "nanite_triangles": 117668,
+  "nanite_vertices": 132548,
+  "lod0_render_triangles": 2697,
+  "import_source": [
+   "D:/Unreal Projects/Whispers 5.8/SourceAssets/HotelEden/IV02/exports/SM_IV02_FacadeBay.fbx"
+  ],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 59617,
+   "triangles": 117668,
+   "uv_sets": 2,
+   "connected_components": 105,
+   "open_border_edges": 1292,
+   "bounds_min_cm": [
+    -448.99997,
+    -60.00005,
+    -20.0
+   ],
+   "bounds_max_cm": [
+    455.00003,
+    220.00005,
+    420.00003
+   ]
+  }
+ },
+ {
+  "asset": "/Game/Whispers/Tests/HotelEden/IV02/Validation/SM_IV02_AxisMarkers",
+  "bounds_min_cm": [
+   -1.0,
+   -51.0,
+   -1.0
+  ],
+  "bounds_max_cm": [
+   26.0,
+   1.0,
+   201.0
+  ],
+  "bounds_size_cm": [
+   27.0,
+   52.0,
+   202.0
+  ],
+  "nanite": {
+   "enabled": false,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.NONE: 0>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "Material_0",
+    "imported": "Material_0",
+    "material": "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+   }
+  ],
+  "uv_channels_lod0": 1,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+  "lightmap_coordinate_index": 0,
+  "has_navigation_data": true,
+  "nanite_triangles": 0,
+  "nanite_vertices": 0,
+  "lod0_render_triangles": 32,
+  "import_source": [
+   "D:/Unreal Projects/Whispers 5.8/SourceAssets/HotelEden/IV02/exports/IV02_AxisMarkers.fbx"
+  ],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 24,
+   "triangles": 32,
+   "uv_sets": 1,
+   "connected_components": 4,
+   "open_border_edges": 0,
+   "bounds_min_cm": [
+    -1.0,
+    -51.0,
+    -1.0
+   ],
+   "bounds_max_cm": [
+    26.0,
+    1.0,
+    201.0
+   ]
+  }
+ },
+ {
+  "asset": "/Game/Whispers/Tests/HotelEden/IV02/SM_IV02_FacadeBay_Opaque",
+  "bounds_min_cm": [
+   -448.99997,
+   -60.00005,
+   -20.0
+  ],
+  "bounds_max_cm": [
+   455.00003,
+   220.00005,
+   420.00003
+  ],
+  "bounds_size_cm": [
+   904.0,
+   280.0001,
+   440.0
+  ],
+  "nanite": {
+   "enabled": true,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.NONE: 0>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "HE PBR01 | Limestone",
+    "imported": "HE PBR01 | Limestone",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Limestone.MI_HE_HE_PBR01_Limestone"
+   },
+   {
+    "slot": "HE PBR01 | Brick",
+    "imported": "HE PBR01 | Brick",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Brick.MI_HE_HE_PBR01_Brick"
+   },
+   {
+    "slot": "HE PBR01 | Interior",
+    "imported": "HE PBR01 | Interior",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Interior.MI_HE_HE_PBR01_Interior"
+   },
+   {
+    "slot": "HE PBR01 | Limestone | relief 00",
+    "imported": "HE PBR01 | Limestone | relief 00",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Limestone_relief_00.MI_HE_HE_PBR01_Limestone_relief_00"
+   },
+   {
+    "slot": "HE PBR01 | Iron",
+    "imported": "HE PBR01 | Iron",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Iron.MI_HE_HE_PBR01_Iron"
+   }
+  ],
+  "uv_channels_lod0": 2,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+  "lightmap_coordinate_index": 0,
+  "has_navigation_data": false,
+  "nanite_triangles": 117628,
+  "nanite_vertices": 132488,
+  "lod0_render_triangles": 2728,
+  "import_source": [],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 59581,
+   "triangles": 117628,
+   "uv_sets": 2,
+   "connected_components": 103,
+   "open_border_edges": 1264,
+   "bounds_min_cm": [
+    -448.99997,
+    -60.00005,
+    -20.0
+   ],
+   "bounds_max_cm": [
+    455.00003,
+    220.00005,
+    420.00003
+   ]
+  }
+ },
+ {
+  "asset": "/Game/Whispers/Tests/HotelEden/IV02/SM_IV02_FacadeBay_Glass",
+  "bounds_min_cm": [
+   -232.50015,
+   9.14998,
+   55.00002
+  ],
+  "bounds_max_cm": [
+   242.49985,
+   10.65001,
+   419.99997
+  ],
+  "bounds_size_cm": [
+   475.0,
+   1.5,
+   365.0
+  ],
+  "nanite": {
+   "enabled": false,
+   "explicit_tangents": false,
+   "lerp_u_vs": true,
+   "position_precision": -2147483648,
+   "normal_precision": -1,
+   "tangent_precision": -1,
+   "keep_percent_triangles": 1.0,
+   "trim_relative_error": 0.0,
+   "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+   "fallback_percent_triangles": 1.0,
+   "fallback_relative_error": 1.0,
+   "generate_fallback": "<NaniteGenerateFallback.PLATFORM_DEFAULT: 0>",
+   "displacement_uv_channel": 0,
+   "max_edge_length_factor": 0.0,
+   "shape_preservation": "<NaniteShapePreservation.NONE: 0>",
+   "voxel_level": 0
+  },
+  "lod_count": 1,
+  "material_slots": [
+   {
+    "slot": "HE PBR01 | Glass",
+    "imported": "Material_0",
+    "material": "/Game/Whispers/Presentation/Environment/HotelEden/MM01/Instances/MI_HE_HE_PBR01_Glass.MI_HE_HE_PBR01_Glass"
+   }
+  ],
+  "uv_channels_lod0": 2,
+  "simple_collision_count": 0,
+  "convex_collision_count": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+  "lightmap_coordinate_index": 0,
+  "has_navigation_data": false,
+  "nanite_triangles": 0,
+  "nanite_vertices": 0,
+  "lod0_render_triangles": 40,
+  "import_source": [],
+  "body_setup": {
+   "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+  },
+  "source_model": {
+   "outcome": "<GeometryScriptOutcomePins.SUCCESS: 1>",
+   "vertices": 36,
+   "triangles": 40,
+   "uv_sets": 2,
+   "connected_components": 2,
+   "open_border_edges": 28,
+   "bounds_min_cm": [
+    -232.50015,
+    9.14998,
+    55.00002
+   ],
+   "bounds_max_cm": [
+    242.49985,
+    10.65001,
+    419.99997
+   ]
+  }
+ }
+]

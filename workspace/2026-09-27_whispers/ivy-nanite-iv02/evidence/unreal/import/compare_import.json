@@ -1,0 +1,199 @@
+{
+ "ivy": {
+  "ue_corners": 100548,
+  "ref_corners": 100548,
+  "unmatched_triangles": 0,
+  "matched_corners": 100548,
+  "matching": {
+   "exact_key_triangles": 33485,
+   "fallback_triangles": 31,
+   "fallback_max_centroid_cm": 3.263038002650811e-06
+  },
+  "position_err_cm": {
+   "n": 100548,
+   "max": 8.470314048257458e-06,
+   "p99": 7.678263422640555e-06,
+   "mean": 2.8205322217082985e-06
+  },
+  "normal_err_deg": {
+   "n": 100548,
+   "max": 9.507220963046152e-06,
+   "p99": 6.502146373618258e-06,
+   "mean": 4.666238304500767e-06
+  },
+  "normal_over_1deg": 0,
+  "uv0_err": {
+   "n": 100548,
+   "max": 2.9802322387695312e-08,
+   "p99": 2.9802322387695312e-08,
+   "mean": 8.17920333441788e-09
+  },
+  "color_err_255_vs_linear_ref": {
+   "n": 100548,
+   "max": 0.9999847412109375,
+   "p99": 0.9950374066829681,
+   "mean": 0.7012808717354226
+  },
+  "color_err_255_vs_srgb_encoded_ref": {
+   "n": 100548,
+   "max": 74.1759598048862,
+   "p99": 73.98665235419021,
+   "mean": 67.36776213707346
+  },
+  "color_channels_ue": {
+   "R": {
+    "min": 0.0,
+    "max": 0.9999999403953552,
+    "mean": 0.6081598382835363
+   },
+   "G": {
+    "min": 0.0,
+    "max": 0.9960784316062927,
+    "mean": 0.5148395920656501
+   },
+   "B": {
+    "min": 0.0,
+    "max": 0.9999999403953552,
+    "mean": 0.38208599062278964
+   },
+   "A": {
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0
+   }
+  },
+  "color_channel_correlation_RGB": [
+   [
+    1.0,
+    0.0918,
+    0.1555
+   ],
+   [
+    0.0918,
+    1.0,
+    0.1015
+   ],
+   [
+    0.1555,
+    0.1015,
+    1.0
+   ]
+  ],
+  "material_ids": [
+   0
+  ]
+ },
+ "facade": {
+  "ue_corners": 353004,
+  "ref_corners": 353004,
+  "unmatched_triangles": 0,
+  "matched_corners": 353004,
+  "matching": {
+   "exact_key_triangles": 115972,
+   "fallback_triangles": 1696,
+   "fallback_max_centroid_cm": 4.649698873955258e-05
+  },
+  "position_err_cm": {
+   "n": 353004,
+   "max": 0.0007111025473521334,
+   "p99": 4.6771381542983477e-05,
+   "mean": 3.4021009421503235e-05
+  },
+  "normal_err_deg": {
+   "n": 353004,
+   "max": 0.0022302821267784767,
+   "p99": 7.443026089337888e-06,
+   "mean": 4.718857596990366e-06
+  },
+  "normal_over_1deg": 0,
+  "uv0_err": {
+   "n": 353004,
+   "max": 3.635883331298828e-06,
+   "p99": 2.334127202630043e-08,
+   "mean": 6.093125389930356e-10
+  },
+  "uv1_err": {
+   "n": 353004,
+   "max": 3.635883331298828e-06,
+   "p99": 2.9802322387695312e-08,
+   "mean": 5.326729798630837e-09
+  },
+  "material_index_equal_triangles": 117668,
+  "material_index_compared_triangles": 117668
+ },
+ "facade_split": {
+  "SM_IV02_FacadeBay_Opaque": {
+   "ue_corners": 352884,
+   "ref_corners": 352884,
+   "unmatched_triangles": 0,
+   "matching": {
+    "exact_key_triangles": 115932,
+    "fallback_triangles": 1696,
+    "fallback_max_centroid_cm": 4.649698873955258e-05
+   },
+   "position_err_cm": {
+    "n": 352884,
+    "max": 0.0007111025473521334,
+    "p99": 4.6771381542983477e-05,
+    "mean": 3.40271504968867e-05
+   },
+   "normal_err_deg": {
+    "n": 352884,
+    "max": 0.0022302821267784767,
+    "p99": 7.443026089337888e-06,
+    "mean": 4.718939911978574e-06
+   },
+   "normal_over_1deg": 0,
+   "uv0_err": {
+    "n": 352884,
+    "max": 3.635883331298828e-06,
+    "p99": 2.334127202630043e-08,
+    "mean": 6.08252934898953e-10
+   },
+   "uv1_err": {
+    "n": 352884,
+    "max": 3.635883331298828e-06,
+    "p99": 2.9802322387695312e-08,
+    "mean": 5.327274376282474e-09
+   },
+   "material_index_equal_triangles": 117628
+  },
+  "SM_IV02_FacadeBay_Glass": {
+   "ue_corners": 120,
+   "ref_corners": 120,
+   "unmatched_triangles": 0,
+   "matching": {
+    "exact_key_triangles": 40,
+    "fallback_triangles": 0,
+    "fallback_max_centroid_cm": 0.0
+   },
+   "position_err_cm": {
+    "n": 120,
+    "max": 2.4370064428674007e-05,
+    "p99": 2.4370064428674007e-05,
+    "mean": 1.596194904132803e-05
+   },
+   "normal_err_deg": {
+    "n": 120,
+    "max": 4.9783130603797145e-06,
+    "p99": 4.9783130603797145e-06,
+    "mean": 4.476793911165531e-06
+   },
+   "normal_over_1deg": 0,
+   "uv0_err": {
+    "n": 120,
+    "max": 3.725290298461914e-08,
+    "p99": 3.725290298461914e-08,
+    "mean": 3.725290298461914e-09
+   },
+   "uv1_err": {
+    "n": 120,
+    "max": 3.725290298461914e-08,
+    "p99": 3.725290298461914e-08,
+    "mean": 3.725290298461914e-09
+   },
+   "material_index_equal_triangles": 40
+  },
+  "triangle_total": 117668
+ }
+}

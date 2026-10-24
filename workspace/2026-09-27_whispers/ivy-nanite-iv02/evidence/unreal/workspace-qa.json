@@ -1,0 +1,27 @@
+{
+  "title": "Hotel Eden · Ivy IV02 model and evidence",
+  "errors": [],
+  "brokenImages": [],
+  "localLinkCount": 76,
+  "missing": [],
+  "modelDownloadSha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
+  "modelDownloadMatches": true,
+  "imageEnlargementAndDownload": true,
+  "video": {
+    "duration": 44,
+    "width": 1920,
+    "height": 540,
+    "currentTime": 0.311112
+  },
+  "views": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "scope": "Isolated report rendering from local source; authenticated desktop API was not accessible. No Unreal tests rerun."
+}

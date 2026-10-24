@@ -1,128 +1,56 @@
 [
   {
-    "criterion": "Environment",
-    "status": "PASS \u2014 inspection only",
-    "evidence": "Engine/project/editor/map/PIE/dirty readbacks",
-    "artifact": "editor-state.json"
-  },
-  {
-    "criterion": "Rendering state",
-    "status": "PASS \u2014 inspection only",
-    "evidence": "Live Epic/TSR/100%/VSM/Substrate/Nanite cvars",
-    "artifact": "editor-rendering.json"
-  },
-  {
-    "criterion": "Host hardware",
-    "status": "PASS \u2014 identified",
-    "evidence": "CPU/RAM via CIM; GPU/VRAM/driver via engine startup log",
-    "artifact": "hardware.json"
-  },
-  {
-    "criterion": "Target platform and budget",
-    "status": "PENDING LEAD DECISION",
-    "evidence": "Historical RTX 3060/60 FPS direction; complete current profile/allocation unagreed",
-    "artifact": null
-  },
-  {
-    "criterion": "Fab/Quixel audit",
-    "status": "PASS \u2014 audit only",
-    "evidence": "Authenticated, 92 records reported; shortlisted packs and local candidates; no imports/licence actions",
-    "artifact": "fab-shortlist.json"
-  },
-  {
-    "criterion": "Existing facade section",
-    "status": "PASS \u2014 source identified",
-    "evidence": "62 candidate objects in existing MS02 crop; export/visual content not yet verified",
-    "artifact": "facade-selection.json"
-  },
-  {
-    "criterion": "MS02 preservation",
-    "status": "PASS \u2014 #113 self-test",
-    "evidence": "SHA-256, size and mtime identical before/after all IV02-A master processes",
-    "artifact": "blender/master_after.txt"
-  },
-  {
-    "criterion": "A1 Source preservation",
-    "status": "PASS \u2014 self-test; awaiting independent verification",
-    "evidence": "Master hash unchanged; fixture names/crop/matrices recorded; ivy .blend reopens with curves + GN, no hotel data",
-    "artifact": "blender/reopen_verify.json"
-  },
-  {
-    "criterion": "A2 Geometry/look",
-    "status": "IMPLEMENTED \u2014 33,516 tris; Jason verdict at Unreal milestone",
-    "evidence": "Open opaque cordate leaves, petioles, 3 woody stems; 11 visible defects repaired; references beside actual mesh",
-    "artifact": "blender/ivy_build.json"
-  },
-  {
-    "criterion": "A3 Asset attributes",
-    "status": "PASS \u2014 self-test",
-    "evidence": "Pivot/axes, nominal + tight bounds, one IvyAtlas slot, 23\u201324 px gutters, R/G/B masks independent",
-    "artifact": "blender/atlas_report.json"
-  },
-  {
-    "criterion": "A4 FBX round trip",
-    "status": "PASS \u2014 self-test (IV02-r2: both FBXs per corner)",
-    "evidence": "Ivy: 100,548 corners exact, position \u22643.5e-8 m, markers 0.0 cm. Facade: 353,004 corners, normals \u22640.037\u00b0, UV0/UV1 exact; source custom normals restored",
-    "artifact": "blender/fbx_roundtrip.json"
-  },
-  {
-    "criterion": "A5 Reproduction/delivery",
-    "status": "DELIVERED \u2014 awaiting independent verification",
-    "evidence": "Specialist delivered 69 manifest files to Whispers SourceAssets/HotelEden/IV02 + docs/verification/ivy-IV02-A.md + credits entry; bytes match manifest",
-    "artifact": "blender/IV02_file_manifest.json"
+    "criterion": "A1\u2013A5 Blender/export",
+    "status": "PASS \u2014 independently verified; #113 closed",
+    "finding": "Editable source, master preservation, attributes and both FBX round trips verified.",
+    "artifact": "independent-review-113.md"
   },
   {
     "criterion": "B1 Unreal import",
-    "status": "NOT RUN",
-    "evidence": "Nanite, dimensions, normals, slots, UVs and vertex colors",
-    "artifact": null
+    "status": "PASS \u2014 technical review",
+    "finding": "33,516 ivy triangles; axis/UV/color/normal/slot checks. Facade opaque/glass split retained original geometry.",
+    "artifact": "import/compare_import.json"
   },
   {
-    "criterion": "B2 Isolated fixture/route",
-    "status": "NOT RUN",
-    "evidence": "Actual facade materials/lighting, exclusions, cameras and save/reopen",
-    "artifact": null
+    "criterion": "B2 Fixture and reproduction",
+    "status": "PASS \u2014 technical review",
+    "finding": "Saved/reopened isolated map, window/corner/ledge, stable cameras and 0/2/64/128 instances.",
+    "artifact": "fixture/fixture_state_after_reopen.json"
   },
   {
-    "criterion": "B3 Shading/shadows/Nanite",
-    "status": "NOT RUN",
-    "evidence": "Material and Preserve Area comparisons, overdraw, VSM and temporal inspection",
-    "artifact": null
+    "criterion": "B3 Shading/shadows/retention",
+    "status": "Evidence reviewed; limitations retained",
+    "finding": "Preserve Area improves distant retention. Its enabled variant has not been timed.",
+    "artifact": "independent-review-114.md"
   },
   {
-    "criterion": "B4 A\u2013D profiling",
-    "status": "NOT RUN",
-    "evidence": "Three comparable captures per configuration/view plus separate traversal, raw profiles, p95/p99, variability",
-    "artifact": null
+    "criterion": "B4 Workstation performance",
+    "status": "Verified evidence delivered",
+    "finding": "Three A\u2013D repetitions, five steady views, separate first/warm traversals and raw profiles.",
+    "artifact": "analysis/summary.md"
   },
   {
-    "criterion": "B5 Agreed budget acceptance",
-    "status": "NOT RUN",
-    "evidence": "No agreed current allocation or target-hardware measurements",
+    "criterion": "B5 Target budget acceptance",
+    "status": "NOT RUN / pending",
+    "finding": "No agreed performance allocation and no RTX 3060 run. Workstation timings do not certify the target.",
     "artifact": null
   },
   {
     "criterion": "B6 Jason visual verdict",
-    "status": "NOT RUN",
-    "evidence": "Actual game-mesh/reference comparison for this prototype",
-    "artifact": null
-  },
-  {
-    "criterion": "B7 Independent verification/delivery",
     "status": "PENDING",
-    "evidence": "#113 Blender work awaits independent verification; #114 Unreal work not started",
+    "finding": "The prototype is ready to inspect; this report does not supply Jason\u2019s verdict.",
     "artifact": null
   },
   {
-    "criterion": "Full kit and PCG placement",
-    "status": "GATED \u2014 NOT RUN",
-    "evidence": "Requires accepted prototype and continuation contract",
-    "artifact": null
+    "criterion": "B7 Scoped delivery",
+    "status": "Verified under IV02-r2",
+    "finding": "Whispers delivery and complete 1,794-file hashed local index reviewed.",
+    "artifact": "independent-review-114.md"
   },
   {
-    "criterion": "Final full-coverage suite",
-    "status": "GATED \u2014 NOT RUN",
-    "evidence": "Final material/PCG coverage, actual hotel or documented representative stress scene",
+    "criterion": "Complete kit, PCG and hotel installation",
+    "status": "NOT BUILT \u2014 gated follow-on",
+    "finding": "This delivery is one prototype patch and an isolated test scene.",
     "artifact": null
   }
 ]

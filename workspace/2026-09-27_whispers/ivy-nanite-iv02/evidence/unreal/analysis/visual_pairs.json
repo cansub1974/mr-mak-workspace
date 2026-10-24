@@ -1,0 +1,62 @@
+{
+ "view1_oblique_3m": {
+  "mean_abs_diff_255": 0.6773265496399177,
+  "share_pixels_maxdiff_gt8": 0.008033854166666667,
+  "max_diff_255": 109
+ },
+ "view2_courtyard_15m": {
+  "mean_abs_diff_255": 0.3880713091563786,
+  "share_pixels_maxdiff_gt8": 0.0017973572530864197,
+  "max_diff_255": 58
+ },
+ "view3_distant_60m": {
+  "mean_abs_diff_255": 0.3359384645061728,
+  "share_pixels_maxdiff_gt8": 0.0023929398148148148,
+  "max_diff_255": 65
+ },
+ "DL_vs_TSF__cfgB_back_DL__view0_first_person_045m": {
+  "mean_abs_diff_255": 1.1396810699588478,
+  "share_pixels_maxdiff_gt8": 0.011062885802469136,
+  "max_diff_255": 30
+ },
+ "DL_vs_TSF__cfgB_back_DL__view1_oblique_3m": {
+  "mean_abs_diff_255": 0.5218248456790123,
+  "share_pixels_maxdiff_gt8": 0.002130111882716049,
+  "max_diff_255": 36
+ },
+ "DL_vs_TSF__cfgB_back_DL__view4_dense_overlap": {
+  "mean_abs_diff_255": 0.6476742541152264,
+  "share_pixels_maxdiff_gt8": 0.0015533371913580246,
+  "max_diff_255": 18
+ },
+ "DL_vs_TSF__cfgB_front_DL__view0_first_person_045m": {
+  "mean_abs_diff_255": 1.0689975565843621,
+  "share_pixels_maxdiff_gt8": 0.02332175925925926,
+  "max_diff_255": 118
+ },
+ "DL_vs_TSF__cfgB_front_DL__view1_oblique_3m": {
+  "mean_abs_diff_255": 0.4855494470164609,
+  "share_pixels_maxdiff_gt8": 0.0016300154320987655,
+  "max_diff_255": 93
+ },
+ "DL_vs_TSF__cfgB_front_DL__view4_dense_overlap": {
+  "mean_abs_diff_255": 0.6703840342078189,
+  "share_pixels_maxdiff_gt8": 0.006736111111111111,
+  "max_diff_255": 103
+ },
+ "DL_vs_TSF__cfgB_local_DL__view0_first_person_045m": {
+  "mean_abs_diff_255": 0.4281304655349794,
+  "share_pixels_maxdiff_gt8": 0.0003771219135802469,
+  "max_diff_255": 22
+ },
+ "DL_vs_TSF__cfgB_local_DL__view1_oblique_3m": {
+  "mean_abs_diff_255": 0.194512120627572,
+  "share_pixels_maxdiff_gt8": 0.0009765625,
+  "max_diff_255": 118
+ },
+ "DL_vs_TSF__cfgB_local_DL__view4_dense_overlap": {
+  "mean_abs_diff_255": 0.2590110596707819,
+  "share_pixels_maxdiff_gt8": 0.0004272762345679012,
+  "max_diff_255": 27
+ }
+}

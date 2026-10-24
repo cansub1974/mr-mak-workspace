@@ -134,7 +134,7 @@
       "type": "group",
       "category": "dev",
       "created": "2026-09-27",
-      "updated": "2026-10-24",
+      "updated": "2026-10-25",
       "folder": "2026-09-27_whispers",
       "steps": [
         {
@@ -142,7 +142,7 @@
           "path": "index.html"
         },
         {
-          "name": "Ivy — Nanite IV02",
+          "name": "Ivy - Nanite IV02",
           "path": "ivy-nanite-iv02-review.html"
         },
         {
