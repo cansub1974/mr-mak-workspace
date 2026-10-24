@@ -125,12 +125,27 @@ Empty factory-startup process, import settings recorded (`fbx_roundtrip.json`).
   1/255). Corner data are seam-free per vertex (no vertex needs splitting: 21,793 unique
   vertex/normal/UV/colour keys). Bounds deviation ≤ 5e-7 cm (tolerance 1 cm or 2%). Pivot 0.0 cm.
 - Axis markers: origin, +X 0.25 m, +Y 0.5 m, +Z 2 m all reimport with 0.0 cm error.
-- Facade: 117,668/117,668 triangles, 59,617 vertices, slot order preserved (Limestone, Brick,
-  Interior, Limestone | relief 00, Glass, Iron), UVMap + UV1, bounds within 5e-5 cm.
+- Facade (IV02-r2 per-corner comparison, `fbx_roundtrip.json` → `facade_per_corner`): baseline
+  `facade_baseline.py` re-runs `export_facade.py` in scratch and triangulates the evaluated clipped
+  fixture exactly as io_scene_fbx does (Whispers `SourceAssets/HotelEden/IV02/qa/facade_baseline.npz`).
+  `roundtrip_facade.py` reimports in a clean process: 59,617/59,617 vertices, 117,668/117,668
+  triangles, 353,004/353,004 corners; identity correspondence (vertex order and per-triangle corner
+  vertex indices equal), material index per triangle equal. Position ≤ 4.4e-7 m; corner normals max
+  0.037° (p99 0.025°, 0 over 1°); UV0 `UVMap` (BakeAtlas) and UV1 (SurfaceMetres) max error 0.0
+  (tolerance 1e-5); 133,084 unique vertex/normal/UV0/UV1 keys after split. Slot order preserved,
+  bounds within 5e-5 cm. Renders `IV02_facade_roundtrip_clay_wide/plinth`, `_uv1_checker`.
+- **r2 repair:** all 62 source objects carry custom split normals; r1 rebuilt the fixture from
+  positions/UVs only (6,897 intact corners > 1° from source, max 167°: plinths, pedestals, window
+  frames re-averaged). `export_facade.py` now carries each object's evaluated corner normals through
+  the clip and re-applies them; fixture vs source on 347,129 intact corners: max 0.040°, UVs exact
+  (`facade_baseline.json` → `source_fidelity`). New facade FBX SHA-256 `df553515…`, 16,606,892 B;
+  master hash unchanged before/after r2 (`master_*_r2.txt`).
 - Images `IV02_roundtrip_front/oblique` show the reimported mesh (atlas reassigned from `textures/`
   because the FBX strips texture paths).
 
-### A5 Reproduction and delivery — source complete; independent verification pending
+### A5 Reproduction and delivery — delivered to Whispers (IV02-r2); independent verification pending
+
+Delivered by the specialist to Whispers `SourceAssets/HotelEden/IV02/` with `docs/verification/ivy-IV02-A.md` and the credits entry; receipt in issue #113.
 
 Generator, atlas baker, export settings (in `ivy_build.json` / `facade_export.json`), provenance,
 manifests and this hand-off exist at named paths. Reproduce from `D:/AI_Modelling/hotel_eden/working/ivy_IV02`:

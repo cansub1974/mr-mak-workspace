@@ -2,10 +2,12 @@
 
 Read-only use of the master. Run in its own background process:
   blender --factory-startup --disable-autoexec -b <MS02.blend> --python export_facade.py -- <selection.json> <out_dir>
-Never saves a .blend. All edits (clip copies, image filepaths, temporary links)
+Never saves a .blend. IV02-r2: each source object's own evaluated corner normals (custom split
+normals, sharp edges) are carried through the clip as a loop layer and re-applied as custom normals;
+r1 copied only positions/UVs and so re-averaged hard corners. All edits (clip copies, image filepaths, temporary links)
 live only in this process's memory and are discarded on exit.
 """
-import bpy, bmesh, json, sys, hashlib, os
+import bpy, bmesh, json, sys, hashlib, os, math
 from pathlib import Path
 from mathutils import Vector, Matrix
 from mathutils.bvhtree import BVHTree
@@ -58,13 +60,22 @@ for name in frozen:
     max_uv = max(max_uv, len(ob.data.uv_layers))
 for i in range(max_uv):
     bm_all.loops.layers.uv.new('UVMap' if i == 0 else f'UV{i}')
+NRM = 'he_src_normal'
+nl_all = bm_all.loops.layers.float_vector.new(NRM)
 
 for name in frozen:
     ob = bpy.data.objects[name]
     ev = ob.evaluated_get(dg)
     me = ev.to_mesh()
     src_faces = len(me.polygons)
+    N3 = ob.matrix_world.to_3x3().inverted().transposed()
+    wn = [(N3 @ Vector(c.vector)).normalized() for c in me.corner_normals]
     bm = bmesh.new(); bm.from_mesh(me)
+    nl_src = bm.loops.layers.float_vector.new(NRM)
+    li = 0
+    for f in bm.faces:  # from_mesh keeps polygon and corner order
+        for loop in f.loops:
+            loop[nl_src] = wn[li]; li += 1
     bm.transform(ob.matrix_world)
     uvn = [l.name for l in me.uv_layers]
     uv_names_seen[name] = uvn
@@ -90,6 +101,7 @@ for name in frozen:
     vmap = [bm_all.verts.new(v.co) for v in tmp.vertices]
     bm_all.verts.ensure_lookup_table()
     uvls = [bm_all.loops.layers.uv[i] for i in range(max_uv)]
+    src_n = tmp.attributes[NRM].data
     for p in tmp.polygons:
         try:
             f = bm_all.faces.new([vmap[i] for i in p.vertices])
@@ -100,6 +112,7 @@ for name in frozen:
             for k in range(max_uv):
                 if src_uv[k] is not None:
                     loop[uvls[k]].uv = src_uv[k].data[li].uv
+            loop[nl_all] = src_n[li].vector
     lo = [min(v.co[i] for v in tmp.vertices) for i in range(3)] if len(tmp.vertices) else None
     hi = [max(v.co[i] for v in tmp.vertices) for i in range(3)] if len(tmp.vertices) else None
     he = {k: float(ob[k]) for k in ob.keys() if k.startswith('he_')}
@@ -120,6 +133,19 @@ report['landmarks_all_present'] = all(v > 0 for v in report['landmarks'].values(
 bm_all.transform(SRC_TO_FIXTURE)
 fix = bpy.data.meshes.new('SM_IV02_FacadeBay')
 bm_all.to_mesh(fix); bm_all.free()
+want = []; n_degenerate = 0
+for p in fix.polygons:
+    for li in p.loop_indices:
+        v = Vector(fix.attributes[NRM].data[li].vector)
+        if v.length < 0.5:  # clip-interpolated corner with no usable normal: fall back to the face normal
+            v = p.normal.copy(); n_degenerate += 1
+        want.append(v.normalized())
+fix.attributes.remove(fix.attributes[NRM])
+fix.normals_split_custom_set([tuple(v) for v in want])
+dev = [math.degrees(Vector(c.vector).angle(w, 0.0)) for c, w in zip(fix.corner_normals, want)]
+report['source_normals'] = {'route': 'per-object evaluated corner_normals -> world (inverse-transpose) -> loop layer through bisect -> normals_split_custom_set',
+                            'corners': len(want), 'degenerate_fallback_face_normal': n_degenerate,
+                            'max_set_vs_wanted_deg': max(dev), 'has_custom_normals': fix.has_custom_normals}
 for m in global_mats:
     fix.materials.append(bpy.data.materials.get(m) if m else None)
 fob = bpy.data.objects.new('SM_IV02_FacadeBay', fix)

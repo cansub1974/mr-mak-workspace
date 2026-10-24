@@ -3747,6 +3747,13 @@
   "P_9c317df106f647ca": 16
  },
  "landmarks_all_present": true,
+ "source_normals": {
+  "route": "per-object evaluated corner_normals -> world (inverse-transpose) -> loop layer through bisect -> normals_split_custom_set",
+  "corners": 351620,
+  "degenerate_fallback_face_normal": 0,
+  "max_set_vs_wanted_deg": 0.03956468118525214,
+  "has_custom_normals": true
+ },
  "fixture": {
   "material_slots_in_order": [
    "HE PBR01 | Limestone",
@@ -8914,8 +8921,8 @@
  ],
  "fbx": {
   "path": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\exports\\SM_IV02_FacadeBay.fbx",
-  "bytes": 16623148,
-  "sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+  "bytes": 16606892,
+  "sha256": "df5535150b8c4c353996871b4ef2496e541cd13dda47be46dbc4df1808a45254",
   "settings": {
    "use_selection": true,
    "object_types": [

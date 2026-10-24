@@ -1,6 +1,12 @@
 {
  "root": "D:/AI_Modelling/hotel_eden/working/ivy_IV02",
- "generated_utc": "2026-10-24T09:48:20.396419Z",
+ "generated_utc": "2026-10-24T10:10:56.834421+00:00",
+ "excluded": [
+  "logs/**",
+  "scratch/**",
+  "*.blend1",
+  "qa/IV02_file_manifest.json"
+ ],
  "files": [
   {
    "path": "exports/facade-textures/T_HE_Brick_BC.png",
@@ -76,8 +82,8 @@
   },
   {
    "path": "exports/SM_IV02_FacadeBay.fbx",
-   "bytes": 16623148,
-   "sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+   "bytes": 16606892,
+   "sha256": "df5535150b8c4c353996871b4ef2496e541cd13dda47be46dbc4df1808a45254",
    "over_50MB": false
   },
   {
@@ -90,12 +96,6 @@
    "path": "IV02_Ivy_Prototype.blend",
    "bytes": 5261497,
    "sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
-   "over_50MB": false
-  },
-  {
-   "path": "IV02_Ivy_Prototype.blend1",
-   "bytes": 5261494,
-   "sha256": "d36f6a8bab35337e8c037bb48f746a964f29fbcb4efc05859cf281d750f03252",
    "over_50MB": false
   },
   {
@@ -141,9 +141,21 @@
    "over_50MB": false
   },
   {
+   "path": "qa/facade_baseline.json",
+   "bytes": 17445,
+   "sha256": "bf9d84b4864e04daa13de837bac204e56805e5fd48818984f0fe12beaedd2fff",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/facade_baseline.npz",
+   "bytes": 13597812,
+   "sha256": "792fdf2bbb7097af2cef0fd2fb443108bbdaa5a59daf2741f40a8a8cf496c3da",
+   "over_50MB": false
+  },
+  {
    "path": "qa/facade_export.json",
-   "bytes": 139840,
-   "sha256": "b59bbe8088837863d6c22504e60af6651234f6688a2b24c7ce200e77682d935a",
+   "bytes": 140146,
+   "sha256": "129d1b5950d5cfb6cb107685b479368d22641002f8afaabc29d3616927a90884",
    "over_50MB": false
   },
   {
@@ -154,8 +166,8 @@
   },
   {
    "path": "qa/fbx_roundtrip.json",
-   "bytes": 5256,
-   "sha256": "2d017a556795fd0d37379a7d786561f2de93baffabdf4554208180d209cf4566",
+   "bytes": 7659,
+   "sha256": "4db9c72ed055fc06056246fb67612d14ecab20b41b3868acdb7ffdf58f20bc14",
    "over_50MB": false
   },
   {
@@ -183,9 +195,21 @@
    "over_50MB": false
   },
   {
+   "path": "qa/master_after_r2.txt",
+   "bytes": 210,
+   "sha256": "c53414c36e1248ac21ab581f02b394d08d223db0f24c367d2613c5f826d07b51",
+   "over_50MB": false
+  },
+  {
    "path": "qa/master_before.txt",
    "bytes": 210,
    "sha256": "ed279fdf45c8285600173c1b3cc81ac9650458a9998818fc9611988345de2c55",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/master_before_r2.txt",
+   "bytes": 210,
+   "sha256": "f3b2b9e5965306eb3c52910b4ef497145f664f1f3da18a8d0104030696984ac7",
    "over_50MB": false
   },
   {
@@ -216,6 +240,24 @@
    "path": "renders/IV02_facade_oblique.png",
    "bytes": 3863634,
    "sha256": "e38f8cd623d9235759b2ac92ed2ba07367639fec5822a47bcd6efc5fbc3d652f",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_roundtrip_clay_plinth.png",
+   "bytes": 1334959,
+   "sha256": "e303e1d78bdaaebc800c4559621d4107862881978fb80f5fcf4151eca1366750",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_roundtrip_clay_wide.png",
+   "bytes": 1375854,
+   "sha256": "6f41fe8ffd48e709cdfda0031f14a0e18edf6979d1b8a4aa6f7428c234f0ba80",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_roundtrip_uv1_checker.png",
+   "bytes": 1463422,
+   "sha256": "300ac6fb885d51bc9919a621d3502e65c8becb402739a2a72e26349fed21cb89",
    "over_50MB": false
   },
   {
@@ -263,13 +305,13 @@
   {
    "path": "renders/IV02_roundtrip_front.png",
    "bytes": 1961519,
-   "sha256": "387b853675ea467cea677f974a6e14887ae49fa88745ff3d16d91016d7158ce5",
+   "sha256": "cd68f6732e330fa743c25579b7b291113f7a899b472d863fba31a9ac1d1e170c",
    "over_50MB": false
   },
   {
    "path": "renders/IV02_roundtrip_oblique.png",
    "bytes": 1962273,
-   "sha256": "2dc77248786273146072d5bae8cc46dcd9cb401a2a26dc69c8bdf9de2f5c3ac2",
+   "sha256": "1984b946e94169047973f4954abda92ec23a62b8ab4276a689418c34f471e6d1",
    "over_50MB": false
   },
   {
@@ -310,14 +352,26 @@
   },
   {
    "path": "scripts/export_facade.py",
-   "bytes": 11487,
-   "sha256": "18c06cad3350342799397ace5ed4cb217d99b38a939a29798e7a1c15aa519518",
+   "bytes": 13137,
+   "sha256": "425a7ac7a36ff8341472ddbc4c9dc3edd5089196d46e077c1a1e7e3f3bb606c8",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/facade_baseline.py",
+   "bytes": 7618,
+   "sha256": "902b2f03b8d2fc6493915ef52366eb0984f82bcc20a1ee197a370d26a361e906",
    "over_50MB": false
   },
   {
    "path": "scripts/ivy_shapes.py",
    "bytes": 4637,
    "sha256": "563bc43722639e68c06e8abd549cd89c2785eb6473fca9447e104363109284b8",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/make_manifest.py",
+   "bytes": 1178,
+   "sha256": "366f5b9db812ad964395fb1d4df81771dd8b77f94abef33281aebcc611a808d1",
    "over_50MB": false
   },
   {
@@ -342,6 +396,12 @@
    "path": "scripts/roundtrip.py",
    "bytes": 10973,
    "sha256": "5e9b4d958806e4c754126638a19ca169936b572cf20f282db06097488382e245",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/roundtrip_facade.py",
+   "bytes": 9017,
+   "sha256": "23fd246e109559136cc2f88d3b4ac638e9e3397e77f70cd787fd4b5accc1f11f",
    "over_50MB": false
   },
   {

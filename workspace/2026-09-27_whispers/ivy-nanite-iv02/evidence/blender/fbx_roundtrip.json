@@ -213,7 +213,7 @@
   "basis": "Blender +X out of wall, +Y width, +Z up; Unreal expectation (X, -Y, Z) x 100 cm"
  },
  "facade": {
-  "fbx_sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+  "fbx_sha256": "df5535150b8c4c353996871b4ef2496e541cd13dda47be46dbc4df1808a45254",
   "triangles": {
    "export": 117668,
    "reimport": 117668,
@@ -273,5 +273,86 @@
   "renders/IV02_roundtrip_oblique.png"
  ],
  "render_note": "actual reimported FBX mesh; atlas textures assigned from textures/ because the FBX stores stripped texture paths",
- "saved_blend": false
+ "saved_blend": false,
+ "facade_per_corner": {
+  "fbx": "exports/SM_IV02_FacadeBay.fbx",
+  "fbx_sha256": "df5535150b8c4c353996871b4ef2496e541cd13dda47be46dbc4df1808a45254",
+  "baseline": "qa/facade_baseline.npz",
+  "baseline_sha256": "792fdf2bbb7097af2cef0fd2fb443108bbdaa5a59daf2741f40a8a8cf496c3da",
+  "import_settings": {
+   "use_custom_normals": true,
+   "use_image_search": false,
+   "use_anim": false,
+   "global_scale": 1.0,
+   "bake_space_transform": false,
+   "axis_forward": "-Y",
+   "axis_up": "Z"
+  },
+  "counts_baseline_reimport": {
+   "vertices": [
+    59617,
+    59617
+   ],
+   "triangles": [
+    117668,
+    117668
+   ],
+   "corners": [
+    353004,
+    353004
+   ]
+  },
+  "vertex_order_preserved": true,
+  "triangle_corner_order_preserved": true,
+  "correspondence_method": "identity: vertex order and per-triangle corner vertex indices identical to the baseline",
+  "unmatched_triangles": 0,
+  "corners_compared": 353004,
+  "material_index_per_triangle_equal": true,
+  "max_position_error_m": 4.387174940687244e-07,
+  "normal_error_deg": {
+   "samples": 353004,
+   "max": 0.037163937333924306,
+   "p99": 0.025335653492445334,
+   "mean": 0.006593020686161763,
+   "n_over_tol": 0
+  },
+  "uv": {
+   "UVMap": {
+    "present": true,
+    "reimport_layer": "UVMap",
+    "samples": 353004,
+    "max_error": 0.0,
+    "p99_error": 0.0,
+    "n_over_tol": 0
+   },
+   "UV1": {
+    "present": true,
+    "reimport_layer": "UV1",
+    "samples": 353004,
+    "max_error": 0.0,
+    "p99_error": 0.0,
+    "n_over_tol": 0
+   }
+  },
+  "uv_channel_mapping": {
+   "UVMap": "UV0 = source BakeAtlas",
+   "UV1": "UV1 = source SurfaceMetres"
+  },
+  "tolerances": {
+   "position_m": 0.0001,
+   "normal_deg": 1.0,
+   "uv": 1e-05
+  },
+  "has_custom_normals_reimport": true,
+  "unique_vertex_normal_uv0_uv1_corner_keys_after_split": 133084,
+  "split_note": "FBX stores control points (= Blender vertices) and per-corner normals/UVs; an engine splits a control point wherever corner data differ",
+  "saved_blend": false,
+  "pass": true,
+  "renders": [
+   "renders/IV02_facade_roundtrip_clay_wide.png",
+   "renders/IV02_facade_roundtrip_clay_plinth.png",
+   "renders/IV02_facade_roundtrip_uv1_checker.png"
+  ],
+  "render_note": "actual reimported facade FBX mesh with its imported custom normals; clay and UV1 (SurfaceMetres) checker overrides, render only"
+ }
 }

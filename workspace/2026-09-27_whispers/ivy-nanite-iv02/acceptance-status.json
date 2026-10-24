@@ -61,14 +61,14 @@
   },
   {
     "criterion": "A4 FBX round trip",
-    "status": "PASS \u2014 self-test",
-    "evidence": "Clean process: equal tris/verts/corners; position \u22643.5e-8 m; normals/UV/colour exact; markers 0.0 cm",
+    "status": "PASS \u2014 self-test (IV02-r2: both FBXs per corner)",
+    "evidence": "Ivy: 100,548 corners exact, position \u22643.5e-8 m, markers 0.0 cm. Facade: 353,004 corners, normals \u22640.037\u00b0, UV0/UV1 exact; source custom normals restored",
     "artifact": "blender/fbx_roundtrip.json"
   },
   {
     "criterion": "A5 Reproduction/delivery",
-    "status": "PENDING INDEPENDENT VERIFICATION",
-    "evidence": "Scripts, manifests, hashes and hand-off complete; delivery owner copies into Whispers SourceAssets/HotelEden/IV02",
+    "status": "DELIVERED \u2014 awaiting independent verification",
+    "evidence": "Specialist delivered 69 manifest files to Whispers SourceAssets/HotelEden/IV02 + docs/verification/ivy-IV02-A.md + credits entry; bytes match manifest",
     "artifact": "blender/IV02_file_manifest.json"
   },
   {

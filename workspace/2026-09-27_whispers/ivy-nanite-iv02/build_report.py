@@ -20,8 +20,8 @@ criteria = [
  ('A1 Source preservation', 'PASS — self-test; awaiting independent verification', 'Master hash unchanged; fixture names/crop/matrices recorded; ivy .blend reopens with curves + GN, no hotel data', 'blender/reopen_verify.json'),
  ('A2 Geometry/look', 'IMPLEMENTED — 33,516 tris; Jason verdict at Unreal milestone', 'Open opaque cordate leaves, petioles, 3 woody stems; 11 visible defects repaired; references beside actual mesh', 'blender/ivy_build.json'),
  ('A3 Asset attributes', 'PASS — self-test', 'Pivot/axes, nominal + tight bounds, one IvyAtlas slot, 23–24 px gutters, R/G/B masks independent', 'blender/atlas_report.json'),
- ('A4 FBX round trip', 'PASS — self-test', 'Clean process: equal tris/verts/corners; position ≤3.5e-8 m; normals/UV/colour exact; markers 0.0 cm', 'blender/fbx_roundtrip.json'),
- ('A5 Reproduction/delivery', 'PENDING INDEPENDENT VERIFICATION', 'Scripts, manifests, hashes and hand-off complete; delivery owner copies into Whispers SourceAssets/HotelEden/IV02', 'blender/IV02_file_manifest.json'),
+ ('A4 FBX round trip', 'PASS — self-test (IV02-r2: both FBXs per corner)', 'Ivy: 100,548 corners exact, position ≤3.5e-8 m, markers 0.0 cm. Facade: 353,004 corners, normals ≤0.037°, UV0/UV1 exact; source custom normals restored', 'blender/fbx_roundtrip.json'),
+ ('A5 Reproduction/delivery', 'DELIVERED — awaiting independent verification', 'Specialist delivered 69 manifest files to Whispers SourceAssets/HotelEden/IV02 + docs/verification/ivy-IV02-A.md + credits entry; bytes match manifest', 'blender/IV02_file_manifest.json'),
  ('B1 Unreal import', 'NOT RUN', 'Nanite, dimensions, normals, slots, UVs and vertex colors', None),
  ('B2 Isolated fixture/route', 'NOT RUN', 'Actual facade materials/lighting, exclusions, cameras and save/reopen', None),
  ('B3 Shading/shadows/Nanite', 'NOT RUN', 'Material and Preserve Area comparisons, overdraw, VSM and temporal inspection', None),
@@ -44,7 +44,7 @@ html = '''<!doctype html>
 <html lang="en" data-mak-report="document"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hotel Eden — opaque Nanite ivy IV02</title><link rel="stylesheet" href="../_shared/report.css"><script defer src="../_shared/report.js"></script>
 <style>.table-scroll{max-width:100%;overflow-x:auto}td,th{border-bottom:1px solid var(--mak-border);vertical-align:top}table{display:table!important;min-width:640px!important}.notice{padding:18px 22px;border:1px solid var(--mak-border);background:var(--mak-surface);border-radius:10px}nav{display:flex;flex-wrap:wrap;gap:10px 24px;margin:24px 0}li{margin-bottom:6px}details{padding:14px 0;border-bottom:1px solid var(--mak-border)}summary{cursor:pointer;font-weight:600}section{margin-top:32px}h2{margin-bottom:12px!important}</style></head><body><main>
-<p class="meta">Whispers · Hotel Eden · IV02-r1 · 24 October 2026</p>
+<p class="meta">Whispers · Hotel Eden · IV02-r2 · 24 October 2026</p>
 <h1>Opaque Nanite ivy: prototype and evidence</h1>
 <p class="notice"><strong>#113 Blender prototype implemented; awaiting independent verification.</strong><br>One editable opaque ivy patch, its atlas and FBX exports and the clipped MS02 facade fixture exist and passed self-tests (A1–A4). No Unreal import, timings or visual acceptance exist yet (#114).</p>
 <nav><a href="#status">Acceptance</a><a href="#blender">Blender prototype</a><a href="#facts">Observed baseline</a><a href="#sourcing">Asset shortlist</a><a href="#budget">Budget proposal</a><a href="#results">Performance results</a><a href="#files">Sources and reproduction</a></nav>
