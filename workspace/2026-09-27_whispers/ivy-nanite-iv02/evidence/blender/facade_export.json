@@ -1,0 +1,8943 @@
+{
+ "source": "D:\\AI_Modelling\\hotel_eden\\working\\master_MS02\\Hotel_Eden_Master_MS02.blend",
+ "blender": "5.2.1 LTS",
+ "crop_min_m": [
+  -1.0,
+  -0.4000000059604645,
+  -0.20000000298023224
+ ],
+ "crop_max_m": [
+  8.100000381469727,
+  2.4000000953674316,
+  4.199999809265137
+ ],
+ "anchor_m": [
+  3.549999952316284,
+  1.7999999523162842,
+  0.0
+ ],
+ "source_to_fixture_matrix": [
+  [
+   1.0,
+   0.0,
+   0.0,
+   -3.549999952316284
+  ],
+  [
+   0.0,
+   1.0,
+   0.0,
+   -1.7999999523162842
+  ],
+  [
+   0.0,
+   0.0,
+   1.0,
+   -0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "fixture_to_unreal": "Unreal cm = (X, -Y, Z) * 100 of fixture metres; rotations conjugated by diag(1,-1,1)",
+ "saved_blend": false,
+ "selection_frozen_count": 62,
+ "selection_live_count": 62,
+ "selection_matches_frozen": true,
+ "selection_diff": {
+  "missing_live": [],
+  "extra_live": []
+ },
+ "objects": [
+  {
+   "name": "P_00f4f78a4290663d | E14 SLIM CORNER pedestal.001 | PBR01",
+   "source_faces": 76,
+   "clipped_faces": 76,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.45375001430511475,
+    1.6377499103546143,
+    0.43000006675720215
+   ],
+   "clipped_max_m": [
+    0.8222500085830688,
+    2.0062499046325684,
+    2.200000047683716
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6380000114440918
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.315000057220459
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_1132b23fed32f0d4 | E14 inside dressed base.010 | PBR01",
+   "source_faces": 32,
+   "clipped_faces": 32,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 0.9999999999999996,
+    "he_uv1vu": 7.938616350374214e-18,
+    "he_uv1ou": 2.974414655195317e-17,
+    "he_uv1uv": -4.027614322194339e-15,
+    "he_uv1vv": 1.0000000000000002,
+    "he_uv1ov": 2.220446049250313e-16
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.489999771118164,
+    0.30000001192092896,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    7.819999694824219,
+    0.6300000548362732,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     2.32659304182667e-16,
+     -1.0361040418503794e-15,
+     7.654999732971191
+    ],
+    [
+     -2.32659304182667e-16,
+     1.0,
+     -1.490404869154303e-15,
+     0.4650000333786011
+    ],
+    [
+     1.0361040418503794e-15,
+     1.490404869154303e-15,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_116a67196665d071 | E14 SLIM A08 corner-owned solid pedestal | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 44,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.30799999833106995,
+    1.491999864578247,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    0.968000054359436,
+    2.1519999504089355,
+    0.699999988079071
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6380000114440918
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.25
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_19420bdf3991bbee | E01_E_LAKE_L1_003.005 | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 10,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.489999771118164,
+    -0.30000001192092896,
+    0.0
+   ],
+   "clipped_max_m": [
+    8.100000381469727,
+    0.30000001192092896,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.84499979019165
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_1985c8a884862b09 | E01_E_BAY-GRANDE supported front | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    6.0,
+    1.6200001239776611,
+    0.0
+   ],
+   "clipped_max_m": [
+    7.400001525878906,
+    1.7999999523162842,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     6.700000762939453
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_32821c4658a5726f | CORNER pedestal foliate lancet 1.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.6445988416671753,
+    0.49742770195007324,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    -0.49785956740379333,
+    0.6445139646530151,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.5712292194366455
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.5709708333015442
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_354a613c3ce422e0 | E01_E_LAKE_L1_003.015 | PBR01",
+   "source_faces": 26,
+   "clipped_faces": 26,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.30000001192092896,
+    -0.30000001192092896,
+    0.0
+   ],
+   "clipped_max_m": [
+    0.6600000262260437,
+    0.30000001192092896,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.48000001907348633
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_3bca079bf92feb33 | CORNER pedestal foliate lancet 2.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.6646460890769958,
+    0.26249992847442627,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    -0.6096957325935364,
+    0.4173986315727234,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.6371709108352661
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.33994928002357483
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_3dd268498459d731 | E14 SLIM CORNER lower faceted shaft.001 | PBR01",
+   "source_faces": 28,
+   "clipped_faces": 22,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.4867500066757202,
+    1.6707499027252197,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    0.7892500162124634,
+    1.973249912261963,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6380000114440918
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_3ef507ea900c4815 | E01_E_BAY-GRANDE supported front.005 | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    4.1999969482421875,
+    1.6200001239776611,
+    0.0
+   ],
+   "clipped_max_m": [
+    6.0,
+    1.7999999523162842,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     5.099998474121094
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_432cc2a50885fc03 | E14 SLIM CORNER pedestal foliate lancet 2.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.469374656677246,
+    1.9703326225280762,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    7.554569244384766,
+    2.0005552768707275,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511971950531006
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.9854439496994019
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_44dc39685558468f | Provisional terrace | PBR01",
+   "source_faces": 76,
+   "clipped_faces": 28,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.9000015258789062,
+    -0.40000009536743164,
+    -0.20000000298023224
+   ],
+   "clipped_max_m": [
+    8.100000381469727,
+    2.4000000953674316,
+    0.0
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     35.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -1.25
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     -0.10000000149011612
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_4a6baaff01ca7db7 | Recessed glazing.046 | PBR01",
+   "source_faces": 328,
+   "clipped_faces": 16,
+   "materials": [
+    "HE PBR01 | Glass"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    4.224998474121094,
+    1.69350004196167,
+    0.5500001907348633
+   ],
+   "clipped_max_m": [
+    5.974998474121094,
+    1.7084999084472656,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     5.099998474121094
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7009999752044678
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.4375
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_4e8b10112504dec6 | E14 SLIM CORNER pedestal.001 | PBR01",
+   "source_faces": 76,
+   "clipped_faces": 76,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.327749729156494,
+    1.6377499103546143,
+    0.43000006675720215
+   ],
+   "clipped_max_m": [
+    7.696249485015869,
+    2.0062499046325684,
+    2.200000047683716
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511999607086182
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.315000057220459
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_58a1e5f4b22e3827 | E01_E rebuilt bay cheek | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 25,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.310001373291016,
+    0.0,
+    0.0
+   ],
+   "clipped_max_m": [
+    7.490001678466797,
+    1.7100000381469727,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.400001525878906
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.8550000190734863
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     6.599999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_59a074e1c596d2c3 | CORNER lower attached shaft 1.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.561454176902771,
+    0.5020719170570374,
+    2.6699037551879883
+   ],
+   "clipped_max_m": [
+    -0.502071738243103,
+    0.5614543557167053,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.523847758769989
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.523847758769989
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000896453857
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_5ae949d83be243ba | E14 inside lower roll and hollow.010 | PBR01",
+   "source_faces": 84,
+   "clipped_faces": 64,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0000000000000004,
+    "he_uv1vu": 5.130600751357814e-18,
+    "he_uv1ou": -8.093104346545174e-18,
+    "he_uv1uv": -9.835912143667155e-15,
+    "he_uv1vv": 1.000000000000001,
+    "he_uv1ov": -5.551115123125783e-16
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.489999771118164,
+    0.30000001192092896,
+    0.5500001907348633
+   ],
+   "clipped_max_m": [
+    7.7699995040893555,
+    0.5799999833106995,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     4.7966178783810545e-16,
+     -7.233075900378583e-14,
+     7.62999963760376
+    ],
+    [
+     -4.7966178783810545e-16,
+     1.0,
+     -5.33438005952732e-14,
+     0.4399999976158142
+    ],
+    [
+     7.233075900378583e-14,
+     5.33438005952732e-14,
+     1.0,
+     4.625
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_5b5c4714fc5c258f | CORNER pedestal foliate lancet 0.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.4175001084804535,
+    0.6096957325935364,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    -0.26260140538215637,
+    0.6646460890769958,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.34005075693130493
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.6371709108352661
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_5ba689d52d427bab | E01_E_A08_BASE_0_13_0_0 | PBR01",
+   "source_faces": 60,
+   "clipped_faces": 60,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.14000701904296875,
+    -0.2999999523162842,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    1.2600021362304688,
+    2.319999933242798,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.7000045776367188
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.0099999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_6471c23f1d552862 | E14 SLIM CORNER lower attached shaft 1.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.601139545440674,
+    1.9111393690109253,
+    2.6699037551879883
+   ],
+   "clipped_max_m": [
+    7.633800029754639,
+    1.9437997341156006,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.613116264343262
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.9231162071228027
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000896453857
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_67411fc2b7c563d7 | E14 SOLID PLINTH W-OUTER--0.3-0 | PBR01",
+   "source_faces": 24,
+   "clipped_faces": 19,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.8199999928474426,
+    -0.4000000059604645,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    0.30000001192092896,
+    -0.26000022888183594,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     -0.25999999046325684
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.986500263214111
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_6c2a1504d55bee6e | E01_E_A08_BASE_0_16_0_0 | PBR01",
+   "source_faces": 32,
+   "clipped_faces": 25,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    6.890003204345703,
+    -0.2999999523162842,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    8.100000381469727,
+    0.8199999332427979,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     9.19000244140625
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.25999999046325684
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_6d5ae920638828b2 | E14 SLIM CORNER pedestal foliate lancet 1.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.470470666885376,
+    1.9085851907730103,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    0.5511772632598877,
+    1.9894825220108032,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.5108239650726318
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.9490338563919067
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_6e752e8690db8241 | E01_E_BAY-GRANDE supported front.017 | PBR01",
+   "source_faces": 24,
+   "clipped_faces": 13,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.75,
+    1.6200001239776611,
+    0.3000001907348633
+   ],
+   "clipped_max_m": [
+    1.1999969482421875,
+    1.7999999523162842,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.9749984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.325000286102295
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_70cc277365294855 | CORNER pedestal weathering.001 | PBR01",
+   "source_faces": 92,
+   "clipped_faces": 92,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.7250000238418579,
+    -0.04500001668930054,
+    2.1999998092651367
+   ],
+   "clipped_max_m": [
+    0.04499998688697815,
+    0.7250000238418579,
+    2.6700000762939453
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.3400000333786011
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.3400000035762787
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     2.434999942779541
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_712c6fc7606c1710 | E14 SLIM A08 corner-owned solid pedestal | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 44,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.181999683380127,
+    1.491999864578247,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    7.841999530792236,
+    2.1519999504089355,
+    0.699999988079071
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511999607086182
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.25
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_72dc8d5cff9bf3bf | E14 SLIM CORNER pedestal foliate lancet 2.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.4594446122646332,
+    1.7793748378753662,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    0.4896673858165741,
+    1.8645691871643066,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.47455599904060364
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219720125198364
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_7788317271220238 | CORNER pedestal.001 | PBR01",
+   "source_faces": 76,
+   "clipped_faces": 76,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.675000011920929,
+    0.005000025033950806,
+    0.43000006675720215
+   ],
+   "clipped_max_m": [
+    -0.005000054836273193,
+    0.6749999523162842,
+    2.200000047683716
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.3400000333786011
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.3400000035762787
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.315000057220459
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_810f7a0b808459c6 | E14 SLIM CORNER lower faceted shaft.001 | PBR01",
+   "source_faces": 28,
+   "clipped_faces": 22,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.3607497215271,
+    1.6707499027252197,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    7.663249492645264,
+    1.973249912261963,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511999607086182
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_8c8a6d6d54f567be | CORNER lower faceted shaft.001 | PBR01",
+   "source_faces": 28,
+   "clipped_faces": 22,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.6150000095367432,
+    0.06499999761581421,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    -0.06499999761581421,
+    0.6150000095367432,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.3400000035762787
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.3400000035762787
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_93ea5711b3d209ff | E14 SLIM CORNER pedestal foliate lancet 0.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.660332202911377,
+    1.779430627822876,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    7.690555095672607,
+    1.8646249771118164,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.675443649291992
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8220278024673462
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_9573ae85ee489573 | E01_E_A08_BASE_0_15_0_0 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 44,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    6.890003204345703,
+    -0.2999999523162842,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    8.010002136230469,
+    2.319999933242798,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.450002670288086
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.0099999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_9a5986173bf91878 | E01_E_A08_BASE_0_14_0_1 | PBR01",
+   "source_faces": 52,
+   "clipped_faces": 52,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    4.660003662109375,
+    1.2000000476837158,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    8.010002136230469,
+    2.319999933242798,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     6.335002899169922
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7599999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_9c317df106f647ca | E01_E_BAY-GRANDE supported front.009 | PBR01",
+   "source_faces": 36,
+   "clipped_faces": 16,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    3.0,
+    1.6200001239776611,
+    0.3000001907348633
+   ],
+   "clipped_max_m": [
+    4.1999969482421875,
+    1.7999999523162842,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     3.5999984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.325000286102295
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_SM_HE_OPT01_Host_0d0aa1cd9b | Unique host section ('EXTERIOR', 0, 1, 0)",
+   "source_faces": 1132,
+   "clipped_faces": 16,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.30000001192092896,
+    -0.3999999761581421,
+    0.0
+   ],
+   "clipped_max_m": [
+    0.30000001192092896,
+    0.2999992370605469,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -25.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_WINDOW_24e3af13eab1a58a | Window structure E01_E_A06_WINDOW_W1-22",
+   "source_faces": 19934,
+   "clipped_faces": 111,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior",
+    "HE PBR01 | Iron",
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.899998664855957,
+    -0.3169003427028656,
+    0.44999998807907104
+   ],
+   "clipped_max_m": [
+    8.100000381469727,
+    0.7599999904632568,
+    4.200000286102295
+   ],
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     9.099998474121094
+    ],
+    [
+     0.0,
+     1.0,
+     -8.742277657347586e-08,
+     0.30000001192092896
+    ],
+    [
+     0.0,
+     8.742277657347586e-08,
+     1.0,
+     0.550000011920929
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_WINDOW_9ab003c2031b2eb2 | Window structure E01_E_A06_WINDOW_W1-24",
+   "source_faces": 19934,
+   "clipped_faces": 860,
+   "materials": [
+    "HE PBR01 | Limestone",
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior",
+    "HE PBR01 | Iron"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.000000000000001,
+    "he_uv1vu": -1.1626447427727678e-17,
+    "he_uv1ou": 5.444343958073827e-17,
+    "he_uv1uv": -1.8200335691336074e-16,
+    "he_uv1vv": 0.9999999999999993,
+    "he_uv1ov": 3.0531133177191805e-16
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.8999984860420227,
+    1.4900000095367432,
+    0.4259999990463257
+   ],
+   "clipped_max_m": [
+    3.2999985218048096,
+    2.259999990463257,
+    4.200000286102295
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     2.0999984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7999999523162842
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.550000011920929
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_WINDOW_d9b034af713459bc | Window structure E01_E_A06_WINDOW_W1-23",
+   "source_faces": 19934,
+   "clipped_faces": 860,
+   "materials": [
+    "HE PBR01 | Limestone",
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior",
+    "HE PBR01 | Iron"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    3.899998426437378,
+    1.4900000095367432,
+    0.4259999990463257
+   ],
+   "clipped_max_m": [
+    6.2999982833862305,
+    2.259999990463257,
+    4.200000286102295
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     5.099998474121094
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7999999523162842
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.550000011920929
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_aaedce571f2646f8 | A08 corner-owned solid pedestal | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 44,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.940000057220459,
+    -0.260000079870224,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    0.260000079870224,
+    0.940000057220459,
+    0.699999988079071
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.3400000035762787
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.3400000035762787
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.25
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_b4322e67424be201 | E01_E_LAKE_L1_003.006 | PBR01",
+   "source_faces": 25,
+   "clipped_faces": 8,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.489999771118164,
+    -0.30000001192092896,
+    0.3000001907348633
+   ],
+   "clipped_max_m": [
+    8.100000381469727,
+    0.30000001192092896,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.84499979019165
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.325000286102295
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_b544bd84df0d145f | E14 SLIM CORNER lower attached shaft 2.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.497149467468262,
+    1.9542131423950195,
+    2.669863700866699
+   ],
+   "clipped_max_m": [
+    7.526849746704102,
+    1.9880996942520142,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511999607086182
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.9649999141693115
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685001373291016
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_b7272e51a78881f4 | CORNER lower attached shaft 0.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.3670000433921814,
+    0.580388069152832,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    -0.31300002336502075,
+    0.6420000195503235,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.3400000333786011
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.6000000238418579
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_b7f941ad1110a7cb | E14 SLIM CORNER pedestal foliate lancet 1.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.59858512878418,
+    1.908822774887085,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    7.679482460021973,
+    1.9895293712615967,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.639033794403076
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.9491760730743408
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_bce43d604a65d3f5 | E14 SLIM CORNER lower attached shaft 0.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.6231499910354614,
+    1.9542133808135986,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    0.6528500318527222,
+    1.9880999326705933,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6380000114440918
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.9649999141693115
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_bd90c644380bfe05 | E01_E_BAY-GRANDE supported front.008 | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    3.0,
+    1.6200001239776611,
+    0.0
+   ],
+   "clipped_max_m": [
+    4.1999969482421875,
+    1.7999999523162842,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     3.5999984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_c771778741d4571d | E14 inside dressed base.009 | PBR01",
+   "source_faces": 32,
+   "clipped_faces": 32,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0000000000000007,
+    "he_uv1vu": -5.2550474184341175e-17,
+    "he_uv1ou": 2.3647712344579307e-18,
+    "he_uv1uv": 1.951249749441432e-16,
+    "he_uv1vv": 0.9999999999999996,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.32999998331069946,
+    0.30000001192092896,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    0.6600000262260437,
+    0.6300000548362732,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     -2.32659304182667e-16,
+     1.0361040418503794e-15,
+     0.4950000047683716
+    ],
+    [
+     2.32659304182667e-16,
+     1.0,
+     -1.490404869154303e-15,
+     0.4650000333786011
+    ],
+    [
+     -1.0361040418503794e-15,
+     1.490404869154303e-15,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_c9ff3256399aaca1 | E01_E_A08_BASE_0_12_0_0 | PBR01",
+   "source_faces": 16,
+   "clipped_faces": 16,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.25999557971954346,
+    -0.2999999523162842,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    1.2600021362304688,
+    0.700007438659668,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.7599988579750061
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.2000037580728531
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_cfc5d0297660e553 | E14 SLIM CORNER lower attached shaft 2.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.47190022468566895,
+    1.807149887084961,
+    2.669863700866699
+   ],
+   "clipped_max_m": [
+    0.5057867765426636,
+    1.8368499279022217,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.49500003457069397
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685001373291016
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_d4503c2c3684eb7e | Recessed glazing.046 | PBR01",
+   "source_faces": 328,
+   "clipped_faces": 16,
+   "materials": [
+    "HE PBR01 | Glass"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    1.2249984741210938,
+    1.69350004196167,
+    0.5500001907348633
+   ],
+   "clipped_max_m": [
+    2.9749984741210938,
+    1.7084999084472656,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     2.0999984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7009999752044678
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.4375
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_d48dae2a3113023f | CORNER lower attached shaft 2.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    -0.6419996619224548,
+    0.31299999356269836,
+    2.669863700866699
+   ],
+   "clipped_max_m": [
+    -0.5803877711296082,
+    0.367000013589859,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     -0.6000000238418579
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     0.3400000035762787
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685001373291016
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_d88f6085203bf7ad | E14 SLIM CORNER pedestal foliate lancet 0.001 | PBR01",
+   "source_faces": 12600,
+   "clipped_faces": 12600,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.5953749418258667,
+    1.9703326225280762,
+    0.5200052261352539
+   ],
+   "clipped_max_m": [
+    0.6805692911148071,
+    2.0005552768707275,
+    2.080000162124634
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6379721164703369
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.9854439496994019
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     1.3000026941299438
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_d93ed1bf10e1a563 | E01_E rebuilt bay cheek.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 22,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.660003662109375,
+    0.0,
+    0.0
+   ],
+   "clipped_max_m": [
+    0.839996337890625,
+    1.7100000381469727,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.75
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.8550000190734863
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     6.599999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_dd9d0164fed339bf | E01_E_BAY-GRANDE supported front.013 | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    1.1999969482421875,
+    1.6200001239776611,
+    0.0
+   ],
+   "clipped_max_m": [
+    3.0,
+    1.7999999523162842,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     2.0999984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_e6fafc3793dba028 | E14 SLIM CORNER lower attached shaft 1.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.5162002444267273,
+    1.9111394882202148,
+    2.6699037551879883
+   ],
+   "clipped_max_m": [
+    0.5488606095314026,
+    1.9437998533248901,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.5368837714195251
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.9231162071228027
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000896453857
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_e715e4664a8a88df | E01_E_A08_BASE_0_14_0_0 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 44,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.14000701904296875,
+    1.2000000476837158,
+    -0.19999998807907104
+   ],
+   "clipped_max_m": [
+    4.660003662109375,
+    2.319999933242798,
+    0.550000011920929
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     2.400005340576172
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7599999904632568
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.17500001192092896
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_ead51e3725a0c5da | E01_E_LAKE_L1_003.016 | PBR01",
+   "source_faces": 20,
+   "clipped_faces": 17,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.30000001192092896,
+    -0.30000001192092896,
+    0.3000001907348633
+   ],
+   "clipped_max_m": [
+    0.6600000262260437,
+    0.30000001192092896,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.48000001907348633
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.325000286102295
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_ec1fbadd4ec87d82 | E01_E_BAY-GRANDE supported front.001 | PBR01",
+   "source_faces": 23,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    6.0,
+    1.6200001239776611,
+    0.3000001907348633
+   ],
+   "clipped_max_m": [
+    7.400001525878906,
+    1.7999999523162842,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     6.700000762939453
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     4.325000286102295
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_edfc58211ee2068f | E14 inside lower roll and hollow.009 | PBR01",
+   "source_faces": 84,
+   "clipped_faces": 64,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0000000000000004,
+    "he_uv1vu": -2.797482677411512e-18,
+    "he_uv1ou": 2.4776877827585668e-17,
+    "he_uv1uv": 3.1363108495261412e-15,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": -2.220446049250313e-16
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.3800000548362732,
+    0.30000001192092896,
+    0.5500001907348633
+   ],
+   "clipped_max_m": [
+    0.6600000262260437,
+    0.5799999833106995,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     -4.7966178783810545e-16,
+     7.233075900378583e-14,
+     0.5200000405311584
+    ],
+    [
+     4.7966178783810545e-16,
+     1.0,
+     -5.33438005952732e-14,
+     0.4399999976158142
+    ],
+    [
+     -7.233075900378583e-14,
+     5.33438005952732e-14,
+     1.0,
+     4.625
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_f08e4fe91a7e9be9 | E14 SLIM CORNER pedestal weathering.001 | PBR01",
+   "source_faces": 92,
+   "clipped_faces": 92,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.42624998092651367,
+    1.6102498769760132,
+    2.1999998092651367
+   ],
+   "clipped_max_m": [
+    0.8497500419616699,
+    2.03374981880188,
+    2.6700000762939453
+   ],
+   "matrix_world": [
+    [
+     7.549790126404332e-08,
+     -1.0,
+     0.0,
+     0.6380000114440918
+    ],
+    [
+     1.0,
+     7.549790126404332e-08,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     2.434999942779541
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_f6581f5a97ec2eca | E14 SLIM CORNER pedestal weathering.001 | PBR01",
+   "source_faces": 92,
+   "clipped_faces": 92,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.3002495765686035,
+    1.6102498769760132,
+    2.1999998092651367
+   ],
+   "clipped_max_m": [
+    7.72374963760376,
+    2.03374981880188,
+    2.6700000762939453
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.511999607086182
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     2.434999942779541
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_f84736cd39bd12ed | E01_E_BAY-GRANDE supported front.016 | PBR01",
+   "source_faces": 12,
+   "clipped_faces": 12,
+   "materials": [
+    "HE PBR01 | Brick",
+    "HE PBR01 | Interior"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    0.75,
+    1.6200001239776611,
+    0.0
+   ],
+   "clipped_max_m": [
+    1.1999969482421875,
+    1.7999999523162842,
+    0.30000001192092896
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.9749984741210938
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.7100000381469727
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.15000000596046448
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "name": "P_f88588f991bcfeef | E14 SLIM CORNER lower attached shaft 0.001 | PBR01",
+   "source_faces": 44,
+   "clipped_faces": 34,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ],
+   "he_uv_props": {
+    "he_uv0u": 0.0,
+    "he_uv0v": 0.0,
+    "he_uv1uu": 1.0,
+    "he_uv1vu": 0.0,
+    "he_uv1ou": 0.0,
+    "he_uv1uv": 0.0,
+    "he_uv1vv": 1.0,
+    "he_uv1ov": 0.0
+   },
+   "he_uv1_identity": true,
+   "uv_layers": [
+    "BakeAtlas",
+    "SurfaceMetres"
+   ],
+   "clipped_min_m": [
+    7.6442131996154785,
+    1.807149887084961,
+    2.6700000762939453
+   ],
+   "clipped_max_m": [
+    7.678099632263184,
+    1.8368499279022217,
+    4.199999809265137
+   ],
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     7.654999732971191
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     1.8219999074935913
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     5.685000419616699
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  }
+ ],
+ "material_uv_route": "HE PBR01 brick/limestone/iron/relief sample SurfaceMetres (UV1) through the per-object affine he_uv1uu,vu,ou,uv,vv,ov object properties: u = x*uu + y*vu + ou, v = x*uv + y*vv + ov; relief also uses BakeAtlas (UVMap).",
+ "all_he_uv1_identity": true,
+ "uv_layer_policy": "combined UV channel k = k-th UV layer of each source object; max 2",
+ "landmarks": {
+  "P_WINDOW_9ab003c2031b2eb2": 860,
+  "P_d4503c2c3684eb7e": 16,
+  "P_d93ed1bf10e1a563": 22,
+  "P_f08e4fe91a7e9be9": 92,
+  "P_e715e4664a8a88df": 44,
+  "P_9c317df106f647ca": 16
+ },
+ "landmarks_all_present": true,
+ "fixture": {
+  "material_slots_in_order": [
+   "HE PBR01 | Limestone",
+   "HE PBR01 | Brick",
+   "HE PBR01 | Interior",
+   "HE PBR01 | Limestone | relief 00",
+   "HE PBR01 | Glass",
+   "HE PBR01 | Iron"
+  ],
+  "vertices": 59617,
+  "faces": 116976,
+  "triangles": 117668,
+  "tight_min_m": [
+   -4.489999771118164,
+   -2.200000047683716,
+   -0.20000000298023224
+  ],
+  "tight_max_m": [
+   4.550000190734863,
+   0.6000001430511475,
+   4.200000286102295
+  ],
+  "tight_size_cm": [
+   903.9999961853027,
+   280.0000190734863,
+   440.0000289082527
+  ],
+  "envelope_limit_cm": [
+   910,
+   280,
+   440
+  ],
+  "within_envelope": false,
+  "uv_layers": [
+   "UVMap",
+   "UV1"
+  ]
+ },
+ "anchor_support_survey_fixture_frame": [
+  {
+   "x": -0.5,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.001,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.101,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.201,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.301,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.401,
+   "hit_y": 0.48,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.2,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.15,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.1,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.05,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.0,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.05,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.1,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.15,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.2,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.25,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.3,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.35,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.501,
+   "hit_y": 0.52,
+   "normal": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.601,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.601,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.601,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.601,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.601,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 0.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 0.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 0.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 0.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 0.601,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.601,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.601,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.601,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.701,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.701,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.701,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.701,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.701,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 0.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 0.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 0.701,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.701,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.701,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.701,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.801,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.801,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.801,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.801,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.801,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 0.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 0.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 0.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 0.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 0.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 0.801,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.801,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.801,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.801,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 0.901,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 0.901,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 0.901,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 0.901,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 0.901,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 0.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 0.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 0.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 0.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 0.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 0.901,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 0.901,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 0.901,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 0.901,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.001,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.001,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.001,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.001,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.001,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.001,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.001,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.001,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.001,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.101,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.101,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.101,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.101,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.101,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.101,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.101,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.101,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.101,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.101,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.101,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.101,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.101,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.101,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.201,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.201,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.201,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.201,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.201,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.201,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.201,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.201,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.201,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.201,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.201,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.201,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.201,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.201,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.301,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.301,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.301,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.301,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.301,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.301,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.301,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.301,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.301,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.301,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.301,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.301,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.301,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.301,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.301,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.401,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.401,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.401,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.401,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.401,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.401,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.401,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.401,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.401,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.401,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.401,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.401,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.401,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.401,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.501,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.501,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.501,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.501,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.501,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.501,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.501,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.501,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.501,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.501,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.501,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.501,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.601,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.601,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.601,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.601,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.601,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.601,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.601,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.601,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.601,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.601,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.601,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.701,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.701,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.701,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.701,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.701,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.701,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.701,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.701,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.701,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.701,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.701,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.801,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.801,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.801,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.801,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.801,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.801,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.801,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.801,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.801,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.801,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.801,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 1.901,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 1.901,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 1.901,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 1.901,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 1.901,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 1.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 1.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 1.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 1.901,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 1.901,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 1.901,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 1.901,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 1.901,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 1.901,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.5,
+   "z": 2.001,
+   "hit_y": 0.14,
+   "normal": [
+    -0.949,
+    0.316,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.45,
+   "z": 2.001,
+   "hit_y": 0.195,
+   "normal": [
+    0.707,
+    0.707,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.4,
+   "z": 2.001,
+   "hit_y": 0.18,
+   "normal": [
+    -0.993,
+    0.117,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.35,
+   "z": 2.001,
+   "hit_y": 0.3103,
+   "normal": [
+    0.423,
+    0.906,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.3,
+   "z": 2.001,
+   "hit_y": 0.44,
+   "normal": [
+    -0.762,
+    0.648,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": -0.25,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.2,
+   "z": 2.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.15,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.1,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": -0.05,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.0,
+   "z": 2.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.05,
+   "z": 2.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.1,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.15,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.2,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.25,
+   "z": 2.001,
+   "hit_y": 0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.3,
+   "z": 2.001,
+   "hit_y": -0.0,
+   "normal": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "material": "HE PBR01 | Brick"
+  },
+  {
+   "x": 0.35,
+   "z": 2.001,
+   "hit_y": 0.28,
+   "normal": [
+    -0.998,
+    0.06,
+    -0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.4,
+   "z": 2.001,
+   "hit_y": 0.44,
+   "normal": [
+    0.986,
+    0.164,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.45,
+   "z": 2.001,
+   "hit_y": 0.3103,
+   "normal": [
+    -0.423,
+    0.906,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  },
+  {
+   "x": 0.5,
+   "z": 2.001,
+   "hit_y": 0.18,
+   "normal": [
+    0.894,
+    0.447,
+    0.0
+   ],
+   "material": "HE PBR01 | Limestone"
+  }
+ ],
+ "facade_textures": [
+  {
+   "image": "T_HE_Limestone_BC.png",
+   "file": "exports/facade-textures/T_HE_Limestone_BC.png",
+   "bytes": 5847169,
+   "sha256": "7e3ce551486788f2660f9ac3727bbdc8860604e49818e17ffd17ff50418cc843",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "sRGB",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Limestone",
+    "HE PBR01 | Limestone | relief 00"
+   ]
+  },
+  {
+   "image": "T_HE_Limestone_ORM.png",
+   "file": "exports/facade-textures/T_HE_Limestone_ORM.png",
+   "bytes": 2430734,
+   "sha256": "f976ca651e6098661c43090087af9d86693e5e3ac653334572801fcc22abc391",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Limestone",
+    "HE PBR01 | Limestone | relief 00"
+   ]
+  },
+  {
+   "image": "T_HE_Limestone_N.png",
+   "file": "exports/facade-textures/T_HE_Limestone_N.png",
+   "bytes": 5961128,
+   "sha256": "e8234dbb5516a97b7d56daa3951e77085c404a47c06d8f34a3a982955e05da0a",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Limestone"
+   ]
+  },
+  {
+   "image": "T_HE_Brick_BC.png",
+   "file": "exports/facade-textures/T_HE_Brick_BC.png",
+   "bytes": 1617396,
+   "sha256": "9e1b22f3773383f4c3b6d1c81b52de1d33f9c2f3cac679665460395d32b7745e",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "sRGB",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Brick"
+   ]
+  },
+  {
+   "image": "T_HE_Brick_ORM.png",
+   "file": "exports/facade-textures/T_HE_Brick_ORM.png",
+   "bytes": 1182455,
+   "sha256": "9c2e3306b8b86debe8f336142a82bca686b52dcd11b2985ad5278eec34604cd1",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Brick"
+   ]
+  },
+  {
+   "image": "T_HE_Brick_N.png",
+   "file": "exports/facade-textures/T_HE_Brick_N.png",
+   "bytes": 5470448,
+   "sha256": "aa68fc7b76715ca8bd781136dd5b23999d10ae2fc04eaadf2076f226a14796c1",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Brick"
+   ]
+  },
+  {
+   "image": "T_HE_Relief_00_N.png",
+   "file": "exports/facade-textures/T_HE_Relief_00_N.png",
+   "bytes": 20062710,
+   "sha256": "20bb74e4d2a93ada7b572ba500efe1341e623ebb2f36f0165e2d405bed76f041",
+   "size_px": [
+    4096,
+    4096
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ]
+  },
+  {
+   "image": "T_HE_Relief_00_AO.png",
+   "file": "exports/facade-textures/T_HE_Relief_00_AO.png",
+   "bytes": 7635816,
+   "sha256": "7b08937df1f416aac1a240d8e37fe8e8b0f66f58768ee125bb6d63885cb80991",
+   "size_px": [
+    4096,
+    4096
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Limestone | relief 00"
+   ]
+  },
+  {
+   "image": "T_HE_Iron_BC.png",
+   "file": "exports/facade-textures/T_HE_Iron_BC.png",
+   "bytes": 131394,
+   "sha256": "69de637980c5aeb801a433e747f48e434400fbfe2a720ae690596746af99ae26",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "sRGB",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Iron"
+   ]
+  },
+  {
+   "image": "T_HE_Iron_ORM.png",
+   "file": "exports/facade-textures/T_HE_Iron_ORM.png",
+   "bytes": 1025514,
+   "sha256": "bd47da3054a6acc447cae3697c4a2523c6e33f97bffc7a2633181f657f07410c",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Iron"
+   ]
+  },
+  {
+   "image": "T_HE_Iron_N.png",
+   "file": "exports/facade-textures/T_HE_Iron_N.png",
+   "bytes": 495946,
+   "sha256": "f39da2d984aee91c43fa0288661f0f396d7483d0ef6a2feb97610bd156f932c6",
+   "size_px": [
+    2048,
+    2048
+   ],
+   "colorspace": "Non-Color",
+   "packed": true,
+   "materials": [
+    "HE PBR01 | Iron"
+   ]
+  }
+ ],
+ "facade_materials": [
+  {
+   "name": "HE PBR01 | Limestone",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "COMBXYZ",
+    "GROUP",
+    "MATH",
+    "NORMAL_MAP",
+    "OUTPUT_MATERIAL",
+    "SEPARATE_COLOR",
+    "SEPXYZ",
+    "TEX_IMAGE",
+    "UVMAP"
+   ],
+   "images": [
+    "T_HE_Limestone_BC.png",
+    "T_HE_Limestone_ORM.png",
+    "T_HE_Limestone_N.png"
+   ]
+  },
+  {
+   "name": "HE PBR01 | Brick",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "COMBXYZ",
+    "GROUP",
+    "MATH",
+    "NORMAL_MAP",
+    "OUTPUT_MATERIAL",
+    "SEPARATE_COLOR",
+    "SEPXYZ",
+    "TEX_IMAGE",
+    "UVMAP"
+   ],
+   "images": [
+    "T_HE_Brick_BC.png",
+    "T_HE_Brick_ORM.png",
+    "T_HE_Brick_N.png"
+   ]
+  },
+  {
+   "name": "HE PBR01 | Interior",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "OUTPUT_MATERIAL"
+   ],
+   "images": []
+  },
+  {
+   "name": "HE PBR01 | Limestone | relief 00",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "COMBXYZ",
+    "GROUP",
+    "MATH",
+    "NORMAL_MAP",
+    "OUTPUT_MATERIAL",
+    "SEPARATE_COLOR",
+    "SEPXYZ",
+    "TEX_IMAGE",
+    "UVMAP"
+   ],
+   "images": [
+    "T_HE_Limestone_BC.png",
+    "T_HE_Limestone_ORM.png",
+    "T_HE_Relief_00_N.png",
+    "T_HE_Relief_00_AO.png"
+   ]
+  },
+  {
+   "name": "HE PBR01 | Glass",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "OUTPUT_MATERIAL"
+   ],
+   "images": []
+  },
+  {
+   "name": "HE PBR01 | Iron",
+   "node_types": [
+    "ATTRIBUTE",
+    "BSDF_PRINCIPLED",
+    "COMBXYZ",
+    "GROUP",
+    "MATH",
+    "NORMAL_MAP",
+    "OUTPUT_MATERIAL",
+    "SEPARATE_COLOR",
+    "SEPXYZ",
+    "TEX_IMAGE",
+    "UVMAP"
+   ],
+   "images": [
+    "T_HE_Iron_BC.png",
+    "T_HE_Iron_ORM.png",
+    "T_HE_Iron_N.png"
+   ]
+  }
+ ],
+ "fbx": {
+  "path": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\exports\\SM_IV02_FacadeBay.fbx",
+  "bytes": 16623148,
+  "sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+  "settings": {
+   "use_selection": true,
+   "object_types": [
+    "MESH"
+   ],
+   "global_scale": 1.0,
+   "apply_unit_scale": true,
+   "apply_scale_options": "FBX_SCALE_NONE",
+   "axis_forward": "-Y",
+   "axis_up": "Z",
+   "bake_space_transform": false,
+   "use_mesh_modifiers": true,
+   "mesh_smooth_type": "FACE",
+   "use_tspace": true,
+   "use_triangles": true,
+   "colors_type": "NONE",
+   "add_leaf_bones": false,
+   "bake_anim": false,
+   "use_custom_props": false,
+   "path_mode": "RELATIVE",
+   "embed_textures": false
+  }
+ },
+ "master_is_dirty_in_memory": false
+}

@@ -37,15 +37,39 @@
   },
   {
     "criterion": "MS02 preservation",
-    "status": "PARTIAL",
-    "evidence": "Size/mtime unchanged; no pre-inspection hash, so no content-hash proof",
-    "artifact": "source-preservation.json"
+    "status": "PASS \u2014 #113 self-test",
+    "evidence": "SHA-256, size and mtime identical before/after all IV02-A master processes",
+    "artifact": "blender/master_after.txt"
   },
   {
-    "criterion": "A1\u2013A5 Blender/export",
-    "status": "NOT RUN",
-    "evidence": "Source, opaque geometry, atlas, masks, axis/pivots, FBX round trip and independent delivery",
-    "artifact": null
+    "criterion": "A1 Source preservation",
+    "status": "PASS \u2014 self-test; awaiting independent verification",
+    "evidence": "Master hash unchanged; fixture names/crop/matrices recorded; ivy .blend reopens with curves + GN, no hotel data",
+    "artifact": "blender/reopen_verify.json"
+  },
+  {
+    "criterion": "A2 Geometry/look",
+    "status": "IMPLEMENTED \u2014 33,516 tris; Jason verdict at Unreal milestone",
+    "evidence": "Open opaque cordate leaves, petioles, 3 woody stems; 11 visible defects repaired; references beside actual mesh",
+    "artifact": "blender/ivy_build.json"
+  },
+  {
+    "criterion": "A3 Asset attributes",
+    "status": "PASS \u2014 self-test",
+    "evidence": "Pivot/axes, nominal + tight bounds, one IvyAtlas slot, 23\u201324 px gutters, R/G/B masks independent",
+    "artifact": "blender/atlas_report.json"
+  },
+  {
+    "criterion": "A4 FBX round trip",
+    "status": "PASS \u2014 self-test",
+    "evidence": "Clean process: equal tris/verts/corners; position \u22643.5e-8 m; normals/UV/colour exact; markers 0.0 cm",
+    "artifact": "blender/fbx_roundtrip.json"
+  },
+  {
+    "criterion": "A5 Reproduction/delivery",
+    "status": "PENDING INDEPENDENT VERIFICATION",
+    "evidence": "Scripts, manifests, hashes and hand-off complete; delivery owner copies into Whispers SourceAssets/HotelEden/IV02",
+    "artifact": "blender/IV02_file_manifest.json"
   },
   {
     "criterion": "B1 Unreal import",
@@ -86,7 +110,7 @@
   {
     "criterion": "B7 Independent verification/delivery",
     "status": "PENDING",
-    "evidence": "Implementation has not begun; packet publication is not implementation delivery",
+    "evidence": "#113 Blender work awaits independent verification; #114 Unreal work not started",
     "artifact": null
   },
   {

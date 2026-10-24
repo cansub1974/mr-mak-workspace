@@ -1,0 +1,277 @@
+{
+ "blender": "5.2.1 LTS",
+ "process": "factory-startup, empty scene, no blend opened",
+ "import_settings": {
+  "use_custom_normals": true,
+  "use_image_search": false,
+  "use_anim": false,
+  "global_scale": 1.0,
+  "bake_space_transform": false,
+  "axis_forward": "-Y",
+  "axis_up": "Z",
+  "colors_type": "LINEAR"
+ },
+ "ivy": {
+  "fbx_sha256": "b6dfd5744cf8cb349c0e92a0361e3cfa7833b0f6f7f824bbb1372d3a090e9fee",
+  "imported_objects": [
+   "SM_Ivy_WallPatch_Prototype"
+  ],
+  "object_matrix_world": [
+   [
+    1.0,
+    -8.742277657347586e-08,
+    0.0,
+    0.0
+   ],
+   [
+    8.742277657347586e-08,
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "object_origin_m": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot_deviation_cm": 0.0,
+  "triangles": {
+   "export": 33516,
+   "reimport": 33516,
+   "equal": true,
+   "all_triangles": true
+  },
+  "vertices": {
+   "export": 21793,
+   "reimport": 21793,
+   "equal": true,
+   "unique_corner_attribute_vertices_after_split": 21793,
+   "note": "FBX stores control points (= Blender vertices) plus per-corner normals/UV/colour; an engine splits a vertex wherever corner data differ"
+  },
+  "corners": {
+   "reimport": 100548,
+   "export": 100548,
+   "loop_order_preserved": true,
+   "compared": 100548
+  },
+  "tight_bounds_reimport_m": [
+   [
+    0.001900072442367673,
+    -0.40206578373908997,
+    -2.1825475414516404e-05
+   ],
+   [
+    0.07901664078235626,
+    0.40427523851394653,
+    1.8297163248062134
+   ]
+  ],
+  "tight_bounds_export_m": [
+   [
+    0.001900077797472477,
+    -0.40206578373908997,
+    -2.1825475414516404e-05
+   ],
+   [
+    0.07901664078235626,
+    0.40427523851394653,
+    1.8297163248062134
+   ]
+  ],
+  "bounds_max_deviation_cm": [
+   5.355104804039001e-07,
+   0.0,
+   0.0
+  ],
+  "bounds_tolerance_cm": [
+   1.0,
+   1.6126820445060732,
+   3.659476300563256
+  ],
+  "bounds_within_tolerance": true,
+  "max_position_error_m": 3.5390257835388184e-08,
+  "max_normal_error_deg": 0.0,
+  "max_uv_error": 0.0,
+  "max_color_error": 0.0,
+  "tolerances": {
+   "position_m": 0.0001,
+   "normal_deg": 1.0,
+   "uv": 1e-05,
+   "color": 0.00392156862745098
+  },
+  "pass_attributes": true,
+  "uv_layers": [
+   "UVMap"
+  ],
+  "color_attributes": [
+   [
+    "Color",
+    "CORNER",
+    "FLOAT_COLOR"
+   ]
+  ],
+  "color_channel_stats": {
+   "R": {
+    "min": 0.0,
+    "median": 0.71875,
+    "max": 1.0,
+    "mean": 0.6094011069340016
+   },
+   "G": {
+    "min": 0.0,
+    "median": 0.5098646879196167,
+    "max": 0.9999821782112122,
+    "mean": 0.5167972023535161
+   },
+   "B": {
+    "min": 0.0,
+    "median": 0.32811135053634644,
+    "max": 1.0,
+    "mean": 0.3838186473560286
+   },
+   "A": {
+    "min": 1.0,
+    "median": 1.0,
+    "max": 1.0,
+    "mean": 1.0
+   }
+  },
+  "material_slots": [
+   "IvyAtlas"
+  ]
+ },
+ "axis_markers": {
+  "markers": {
+   "IV02_Axis_Origin": {
+    "centroid_m": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "expected_m": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "error_cm": 0.0
+   },
+   "IV02_Axis_PlusX_0p25m": {
+    "centroid_m": [
+     0.25,
+     0.0,
+     0.0
+    ],
+    "expected_m": [
+     0.25,
+     0.0,
+     0.0
+    ],
+    "error_cm": 0.0
+   },
+   "IV02_Axis_PlusY_0p5m": {
+    "centroid_m": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "expected_m": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "error_cm": 0.0
+   },
+   "IV02_Axis_PlusZ_2m": {
+    "centroid_m": [
+     0.0,
+     0.0,
+     2.0
+    ],
+    "expected_m": [
+     0.0,
+     0.0,
+     2.0
+    ],
+    "error_cm": 0.0
+   }
+  },
+  "max_error_cm": 0.0,
+  "within_0p1cm": true,
+  "basis": "Blender +X out of wall, +Y width, +Z up; Unreal expectation (X, -Y, Z) x 100 cm"
+ },
+ "facade": {
+  "fbx_sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+  "triangles": {
+   "export": 117668,
+   "reimport": 117668,
+   "equal": true
+  },
+  "vertices": {
+   "export": 59617,
+   "reimport": 59617
+  },
+  "material_slots_reimport": [
+   "HE PBR01 | Limestone",
+   "HE PBR01 | Brick",
+   "HE PBR01 | Interior",
+   "HE PBR01 | Limestone | relief 00",
+   "HE PBR01 | Glass",
+   "HE PBR01 | Iron"
+  ],
+  "material_slots_export": [
+   "HE PBR01 | Limestone",
+   "HE PBR01 | Brick",
+   "HE PBR01 | Interior",
+   "HE PBR01 | Limestone | relief 00",
+   "HE PBR01 | Glass",
+   "HE PBR01 | Iron"
+  ],
+  "slot_order_preserved": true,
+  "uv_layers": [
+   "UVMap",
+   "UV1"
+  ],
+  "tight_bounds_reimport_m": [
+   [
+    -4.489999771118164,
+    -2.200000524520874,
+    -0.20000000298023224
+   ],
+   [
+    4.550000190734863,
+    0.6000005602836609,
+    4.200000286102295
+   ]
+  ],
+  "bounds_max_deviation_cm": [
+   0.0,
+   4.76837158203125e-05,
+   0.0
+  ],
+  "bounds_within_1cm": true,
+  "origin_m": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "renders": [
+  "renders/IV02_roundtrip_front.png",
+  "renders/IV02_roundtrip_oblique.png"
+ ],
+ "render_note": "actual reimported FBX mesh; atlas textures assigned from textures/ because the FBX stores stripped texture paths",
+ "saved_blend": false
+}

@@ -1,0 +1,366 @@
+{
+ "root": "D:/AI_Modelling/hotel_eden/working/ivy_IV02",
+ "generated_utc": "2026-10-24T09:48:20.396419Z",
+ "files": [
+  {
+   "path": "exports/facade-textures/T_HE_Brick_BC.png",
+   "bytes": 1617396,
+   "sha256": "9e1b22f3773383f4c3b6d1c81b52de1d33f9c2f3cac679665460395d32b7745e",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Brick_N.png",
+   "bytes": 5470448,
+   "sha256": "aa68fc7b76715ca8bd781136dd5b23999d10ae2fc04eaadf2076f226a14796c1",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Brick_ORM.png",
+   "bytes": 1182455,
+   "sha256": "9c2e3306b8b86debe8f336142a82bca686b52dcd11b2985ad5278eec34604cd1",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Iron_BC.png",
+   "bytes": 131394,
+   "sha256": "69de637980c5aeb801a433e747f48e434400fbfe2a720ae690596746af99ae26",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Iron_N.png",
+   "bytes": 495946,
+   "sha256": "f39da2d984aee91c43fa0288661f0f396d7483d0ef6a2feb97610bd156f932c6",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Iron_ORM.png",
+   "bytes": 1025514,
+   "sha256": "bd47da3054a6acc447cae3697c4a2523c6e33f97bffc7a2633181f657f07410c",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Limestone_BC.png",
+   "bytes": 5847169,
+   "sha256": "7e3ce551486788f2660f9ac3727bbdc8860604e49818e17ffd17ff50418cc843",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Limestone_N.png",
+   "bytes": 5961128,
+   "sha256": "e8234dbb5516a97b7d56daa3951e77085c404a47c06d8f34a3a982955e05da0a",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Limestone_ORM.png",
+   "bytes": 2430734,
+   "sha256": "f976ca651e6098661c43090087af9d86693e5e3ac653334572801fcc22abc391",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Relief_00_AO.png",
+   "bytes": 7635816,
+   "sha256": "7b08937df1f416aac1a240d8e37fe8e8b0f66f58768ee125bb6d63885cb80991",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/facade-textures/T_HE_Relief_00_N.png",
+   "bytes": 20062710,
+   "sha256": "20bb74e4d2a93ada7b572ba500efe1341e623ebb2f36f0165e2d405bed76f041",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/IV02_AxisMarkers.fbx",
+   "bytes": 18124,
+   "sha256": "27ccb7f2d7a8e7cd19bced3f6b67807bb6e66122ce20efcea7b45fe607f10e4c",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/SM_IV02_FacadeBay.fbx",
+   "bytes": 16623148,
+   "sha256": "fb89f46d20ca08ecbce29911aec5ad301e9dacae5f6b4d4fb40fe5c24abe489a",
+   "over_50MB": false
+  },
+  {
+   "path": "exports/SM_Ivy_WallPatch_Prototype.fbx",
+   "bytes": 2709916,
+   "sha256": "b6dfd5744cf8cb349c0e92a0361e3cfa7833b0f6f7f824bbb1372d3a090e9fee",
+   "over_50MB": false
+  },
+  {
+   "path": "IV02_Ivy_Prototype.blend",
+   "bytes": 5261497,
+   "sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
+   "over_50MB": false
+  },
+  {
+   "path": "IV02_Ivy_Prototype.blend1",
+   "bytes": 5261494,
+   "sha256": "d36f6a8bab35337e8c037bb48f746a964f29fbcb4efc05859cf281d750f03252",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/A2_compare_close.png",
+   "bytes": 2693823,
+   "sha256": "aba659c18be5392ade555fc86e9f8f89e85b5414f76271e32a882242861ee76b",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/A2_compare_wall_scale.png",
+   "bytes": 1717503,
+   "sha256": "a8707814889234821085258fc644418e3151f5ca4886103129c636e1bb1f9268",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/atlas_BaseColor_preview.png",
+   "bytes": 761661,
+   "sha256": "1ff94fd9fc5bd60a03269b546bb9bcbf996178aeefd4d8ed5d86e40eb8824cc1",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/atlas_footprint_ids.png",
+   "bytes": 20867,
+   "sha256": "a8011e3e8ee84b3ccb4dae65aa57dd200420f3341887670376ad5cfff3913c7f",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/atlas_Normal_preview.png",
+   "bytes": 762922,
+   "sha256": "ba1da092f9e8ac1d4eb0067c90afe08c26f91896976aad51037598dcd28e8099",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/atlas_report.json",
+   "bytes": 2842,
+   "sha256": "308c1fca9013c03cf8822b94583127a11a7621bb961c0c68a239f40b9cfa3fb2",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/atlas_Roughness_preview.png",
+   "bytes": 268205,
+   "sha256": "fc7fe144fa04023ad1be6f8f0bcdf95fc3256dcbaeb1e3a417729efa773841ab",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/facade_export.json",
+   "bytes": 139840,
+   "sha256": "b59bbe8088837863d6c22504e60af6651234f6688a2b24c7ce200e77682d935a",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/facade_review.json",
+   "bytes": 26588,
+   "sha256": "4efa149e350dbb5404637d9c8ed4ec25184411f86c8fd61288a5510e874a4b12",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/fbx_roundtrip.json",
+   "bytes": 5256,
+   "sha256": "2d017a556795fd0d37379a7d786561f2de93baffabdf4554208180d209cf4566",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/ivy_build.json",
+   "bytes": 6985,
+   "sha256": "9199e47e3ca537aae1ee08d6c3cbe5711642f703d0f51554adfb13d4680cf94f",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/ivy_export_reference.json",
+   "bytes": 22148492,
+   "sha256": "5f66e362bd9310cd78495e12cc553ec13ee2e246907f9577cb68aaea9abce1f5",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/mask_RGB_strip.png",
+   "bytes": 262179,
+   "sha256": "a3600dc1ea99661f58983e636ee5dc52e554975e4913e98164020f3dee7d5587",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/master_after.txt",
+   "bytes": 210,
+   "sha256": "b75a8b55e9fca32db8c93c1143bb987c18d5d4e9b3a03b998c68c15f061ef100",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/master_before.txt",
+   "bytes": 210,
+   "sha256": "ed279fdf45c8285600173c1b3cc81ac9650458a9998818fc9611988345de2c55",
+   "over_50MB": false
+  },
+  {
+   "path": "qa/reopen_verify.json",
+   "bytes": 2400,
+   "sha256": "2a9fd8ec8972f142eec3c9ddbc63efdc40acdfa6ecce603b94e8a173a62f4480",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_bay_wide.png",
+   "bytes": 2410853,
+   "sha256": "dbadd21450085c1ccc1e12ceaf80109d302ba838eb1e852488b5e9b1e3d9241a",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_close.png",
+   "bytes": 3938495,
+   "sha256": "c7ab96111c1ed752ab4cf00a1a83bcc57261701a7f803420200f49409c66ccd3",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_first_person.png",
+   "bytes": 2878492,
+   "sha256": "3ae0a87bc985a40a3c2dad417fa49497d7921371c29ff811e895a5b44e5447eb",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_facade_oblique.png",
+   "bytes": 3863634,
+   "sha256": "e38f8cd623d9235759b2ac92ed2ba07367639fec5822a47bcd6efc5fbc3d652f",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_first_person_1p7m.png",
+   "bytes": 2531251,
+   "sha256": "1f230d93852a8c21abd9d8feadb2209586f99492fdbf18c6ab3fe4f8deffe990",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_front_close.png",
+   "bytes": 3873586,
+   "sha256": "3ea60cdeca5b2e799a31900082a8b92cf92b2df3e5ece86b2a70b8ab55c4ea5a",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_front_full.png",
+   "bytes": 2083834,
+   "sha256": "e59b3d6f047b8920eb5bef9a8ae4e7336a9baa5aab1d9e48756e0877171258ce",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_mask_B.png",
+   "bytes": 723495,
+   "sha256": "c0a02bef81513e15fb45e07de8986c9792a965cb14aa5ac9736013d4084d6f92",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_mask_G.png",
+   "bytes": 685518,
+   "sha256": "a4726bcc0013cd9dde45aef32fd916e0017e0365d35a5788da5dce51433c1107",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_mask_R.png",
+   "bytes": 731040,
+   "sha256": "f46dafc136e6d6892a5bb94f10459ec50e5eabfff7847fc61fdbeba8c5565b7c",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_oblique_close.png",
+   "bytes": 3439938,
+   "sha256": "ea5f4750698bfcc6870b611ec2c9eff8ab0a3ab40be1efbcd1845d20775da519",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_roundtrip_front.png",
+   "bytes": 1961519,
+   "sha256": "387b853675ea467cea677f974a6e14887ae49fa88745ff3d16d91016d7158ce5",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_roundtrip_oblique.png",
+   "bytes": 1962273,
+   "sha256": "2dc77248786273146072d5bae8cc46dcd9cb401a2a26dc69c8bdf9de2f5c3ac2",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_side_close.png",
+   "bytes": 2583521,
+   "sha256": "d434c5808e8c28a1a6df984a8b8f61107585be73bee24d9aefaa777621f55745",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_side_root.png",
+   "bytes": 2876280,
+   "sha256": "d93728e88a92939da0a0659975264a26da877fd43770b0f345a8fe3bdb11c364",
+   "over_50MB": false
+  },
+  {
+   "path": "renders/IV02_unlit_basecolor_close.png",
+   "bytes": 2823683,
+   "sha256": "f945af57c8d63f2eb65d6899c94c8b1b4543141767e69aa2756ed0e2dbd22769",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/bake_atlas.py",
+   "bytes": 8938,
+   "sha256": "70845572453f04ae64851b231ccf08015667d7f06939da161cc9239cabc909a1",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/build_ivy.py",
+   "bytes": 33448,
+   "sha256": "79b8621bccbc6a17627507f9061c3cb1c03b95310cf1fe777e36a73c37644c73",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/compose_review.py",
+   "bytes": 1907,
+   "sha256": "e3c3677ad2ceb2915de85e4524db3861ce5e335daf2fe2895e2de666fdb6a1ea",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/export_facade.py",
+   "bytes": 11487,
+   "sha256": "18c06cad3350342799397ace5ed4cb217d99b38a939a29798e7a1c15aa519518",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/ivy_shapes.py",
+   "bytes": 4637,
+   "sha256": "563bc43722639e68c06e8abd549cd89c2785eb6473fca9447e104363109284b8",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/probe.py",
+   "bytes": 1631,
+   "sha256": "049edf78ac631a14315f9b456ffdcdecc074e1f4be73a0d2d5984e2e88164ceb",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/reopen_verify.py",
+   "bytes": 7911,
+   "sha256": "b702d281850ee64c8e9d8213ac5f926afe5b5db06fdc0b02a56a3f73e746d00b",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/review_master.py",
+   "bytes": 8069,
+   "sha256": "e77b8fe42d1a043d1be5a0d61962dc2c884abd7bac6591a933f4f6d0c1a591a5",
+   "over_50MB": false
+  },
+  {
+   "path": "scripts/roundtrip.py",
+   "bytes": 10973,
+   "sha256": "5e9b4d958806e4c754126638a19ca169936b572cf20f282db06097488382e245",
+   "over_50MB": false
+  },
+  {
+   "path": "textures/T_Ivy_Atlas_BaseColor.png",
+   "bytes": 1823752,
+   "sha256": "ee942486f8dfabc29b12f5e9da3c59d93caa9419056f326afd91ff9526ae8d34",
+   "over_50MB": false
+  },
+  {
+   "path": "textures/T_Ivy_Atlas_Normal.png",
+   "bytes": 1832412,
+   "sha256": "0ea4a54a7246d2b1ed7e27f5bb4dbe030ecaa38090bdca91c560c2004139e308",
+   "over_50MB": false
+  },
+  {
+   "path": "textures/T_Ivy_Atlas_Roughness.png",
+   "bytes": 473132,
+   "sha256": "960973872ddddf2924387afbc0d2eabe0571a18837642cccde59174cd5ea136d",
+   "over_50MB": false
+  }
+ ]
+}

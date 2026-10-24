@@ -1,0 +1,161 @@
+{
+ "resolution": [
+  2048,
+  2048
+ ],
+ "seed": 24024,
+ "cells_uv": {
+  "L0": [
+   0.0,
+   0.5,
+   0.5,
+   1.0
+  ],
+  "L1": [
+   0.5,
+   0.5,
+   1.0,
+   1.0
+  ],
+  "L2": [
+   0.0,
+   0.0,
+   0.5,
+   0.5
+  ],
+  "L3": [
+   0.5,
+   0.25,
+   0.75,
+   0.5
+  ],
+  "Woody": [
+   0.75,
+   0.25,
+   1.0,
+   0.5
+  ],
+  "Branch": [
+   0.5,
+   0.0,
+   0.75,
+   0.25
+  ],
+  "Petiole": [
+   0.75,
+   0.0,
+   1.0,
+   0.25
+  ]
+ },
+ "inset_px": 24,
+ "files_sha256": {
+  "T_Ivy_Atlas_BaseColor.png": "ee942486f8dfabc29b12f5e9da3c59d93caa9419056f326afd91ff9526ae8d34",
+  "T_Ivy_Atlas_Normal.png": "0ea4a54a7246d2b1ed7e27f5bb4dbe030ecaa38090bdca91c560c2004139e308",
+  "T_Ivy_Atlas_Roughness.png": "960973872ddddf2924387afbc0d2eabe0571a18837642cccde59174cd5ea136d"
+ },
+ "colour_spaces": {
+  "BaseColor": "sRGB",
+  "Normal": "linear, tangent space, OpenGL +Y (green up). Unreal: enable Flip Green Channel",
+  "Roughness": "linear (single channel)"
+ },
+ "no_alpha": true,
+ "gutter_px_min_to_foreign_cell": {
+  "L0": 23,
+  "L1": 23,
+  "L2": 23,
+  "L3": 23,
+  "Woody": 24,
+  "Branch": 24,
+  "Petiole": 24
+ },
+ "first_mip_with_cross_island_mixing": {
+  "L0": 11,
+  "L1": 11,
+  "L2": 11,
+  "L3": 10,
+  "Woody": 10,
+  "Branch": 10,
+  "Petiole": 10
+ },
+ "island_stats": {
+  "L0": {
+   "footprint_px": 432719,
+   "base_mean_srgb": [
+    58.1,
+    92.4,
+    34.6
+   ],
+   "roughness_mean": 0.612,
+   "roughness_std": 0.028,
+   "base_luma_std": 12.04
+  },
+  "L1": {
+   "footprint_px": 516584,
+   "base_mean_srgb": [
+    50.5,
+    82.9,
+    31.6
+   ],
+   "roughness_mean": 0.633,
+   "roughness_std": 0.03,
+   "base_luma_std": 12.2
+  },
+  "L2": {
+   "footprint_px": 508399,
+   "base_mean_srgb": [
+    67.5,
+    101.0,
+    37.5
+   ],
+   "roughness_mean": 0.652,
+   "roughness_std": 0.028,
+   "base_luma_std": 11.89
+  },
+  "L3": {
+   "footprint_px": 113423,
+   "base_mean_srgb": [
+    102.3,
+    136.1,
+    50.5
+   ],
+   "roughness_mean": 0.551,
+   "roughness_std": 0.027,
+   "base_luma_std": 11.45
+  },
+  "Woody": {
+   "footprint_px": 215296,
+   "base_mean_srgb": [
+    70.4,
+    57.7,
+    41.5
+   ],
+   "roughness_mean": 0.86,
+   "roughness_std": 0.002,
+   "base_luma_std": 3.6
+  },
+  "Branch": {
+   "footprint_px": 215296,
+   "base_mean_srgb": [
+    75.8,
+    68.6,
+    43.3
+   ],
+   "roughness_mean": 0.78,
+   "roughness_std": 0.002,
+   "base_luma_std": 3.83
+  },
+  "Petiole": {
+   "footprint_px": 215296,
+   "base_mean_srgb": [
+    66.6,
+    74.2,
+    37.2
+   ],
+   "roughness_mean": 0.6,
+   "roughness_std": 0.002,
+   "base_luma_std": 3.33
+  }
+ },
+ "texel_density_note": "leaf cells ~976 px per ~0.14 m leaf at mip 0; at 10 m on 1080p/90deg (~0.0104 m/px) the sampled mip is ~6, blocks 64 px, inside every cell"
+}

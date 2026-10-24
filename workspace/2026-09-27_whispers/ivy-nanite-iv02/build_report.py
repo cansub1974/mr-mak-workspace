@@ -16,15 +16,19 @@ criteria = [
  ('Target platform and budget', 'PENDING LEAD DECISION', 'Historical RTX 3060/60 FPS direction; complete current profile/allocation unagreed', None),
  ('Fab/Quixel audit', 'PASS — audit only', 'Authenticated, 92 records reported; shortlisted packs and local candidates; no imports/licence actions', 'fab-shortlist.json'),
  ('Existing facade section', 'PASS — source identified', '62 candidate objects in existing MS02 crop; export/visual content not yet verified', 'facade-selection.json'),
- ('MS02 preservation', 'PARTIAL', 'Size/mtime unchanged; no pre-inspection hash, so no content-hash proof', 'source-preservation.json'),
- ('A1–A5 Blender/export', 'NOT RUN', 'Source, opaque geometry, atlas, masks, axis/pivots, FBX round trip and independent delivery', None),
+ ('MS02 preservation', 'PASS — #113 self-test', 'SHA-256, size and mtime identical before/after all IV02-A master processes', 'blender/master_after.txt'),
+ ('A1 Source preservation', 'PASS — self-test; awaiting independent verification', 'Master hash unchanged; fixture names/crop/matrices recorded; ivy .blend reopens with curves + GN, no hotel data', 'blender/reopen_verify.json'),
+ ('A2 Geometry/look', 'IMPLEMENTED — 33,516 tris; Jason verdict at Unreal milestone', 'Open opaque cordate leaves, petioles, 3 woody stems; 11 visible defects repaired; references beside actual mesh', 'blender/ivy_build.json'),
+ ('A3 Asset attributes', 'PASS — self-test', 'Pivot/axes, nominal + tight bounds, one IvyAtlas slot, 23–24 px gutters, R/G/B masks independent', 'blender/atlas_report.json'),
+ ('A4 FBX round trip', 'PASS — self-test', 'Clean process: equal tris/verts/corners; position ≤3.5e-8 m; normals/UV/colour exact; markers 0.0 cm', 'blender/fbx_roundtrip.json'),
+ ('A5 Reproduction/delivery', 'PENDING INDEPENDENT VERIFICATION', 'Scripts, manifests, hashes and hand-off complete; delivery owner copies into Whispers SourceAssets/HotelEden/IV02', 'blender/IV02_file_manifest.json'),
  ('B1 Unreal import', 'NOT RUN', 'Nanite, dimensions, normals, slots, UVs and vertex colors', None),
  ('B2 Isolated fixture/route', 'NOT RUN', 'Actual facade materials/lighting, exclusions, cameras and save/reopen', None),
  ('B3 Shading/shadows/Nanite', 'NOT RUN', 'Material and Preserve Area comparisons, overdraw, VSM and temporal inspection', None),
  ('B4 A–D profiling', 'NOT RUN', 'Three comparable captures per configuration/view plus separate traversal, raw profiles, p95/p99, variability', None),
  ('B5 Agreed budget acceptance', 'NOT RUN', 'No agreed current allocation or target-hardware measurements', None),
  ('B6 Jason visual verdict', 'NOT RUN', 'Actual game-mesh/reference comparison for this prototype', None),
- ('B7 Independent verification/delivery', 'PENDING', 'Implementation has not begun; packet publication is not implementation delivery', None),
+ ('B7 Independent verification/delivery', 'PENDING', '#113 Blender work awaits independent verification; #114 Unreal work not started', None),
  ('Full kit and PCG placement', 'GATED — NOT RUN', 'Requires accepted prototype and continuation contract', None),
  ('Final full-coverage suite', 'GATED — NOT RUN', 'Final material/PCG coverage, actual hotel or documented representative stress scene', None),
 ]
@@ -42,11 +46,26 @@ html = '''<!doctype html>
 <style>.table-scroll{max-width:100%;overflow-x:auto}td,th{border-bottom:1px solid var(--mak-border);vertical-align:top}table{display:table!important;min-width:640px!important}.notice{padding:18px 22px;border:1px solid var(--mak-border);background:var(--mak-surface);border-radius:10px}nav{display:flex;flex-wrap:wrap;gap:10px 24px;margin:24px 0}li{margin-bottom:6px}details{padding:14px 0;border-bottom:1px solid var(--mak-border)}summary{cursor:pointer;font-weight:600}section{margin-top:32px}h2{margin-bottom:12px!important}</style></head><body><main>
 <p class="meta">Whispers · Hotel Eden · IV02-r1 · 24 October 2026</p>
 <h1>Opaque Nanite ivy: prototype and evidence</h1>
-<p class="notice"><strong>Pre-implementation. The ivy workflow has not been built or performance-accepted.</strong><br>The required linked packets are published for project triage. This tab contains observed environment/source facts and the proposed test contract. No IV02 timings, prototype exports or Unreal test level exist yet.</p>
-<nav><a href="#status">Acceptance</a><a href="#facts">Observed baseline</a><a href="#sourcing">Asset shortlist</a><a href="#budget">Budget proposal</a><a href="#results">Performance results</a><a href="#files">Sources and reproduction</a></nav>
+<p class="notice"><strong>#113 Blender prototype implemented; awaiting independent verification.</strong><br>One editable opaque ivy patch, its atlas and FBX exports and the clipped MS02 facade fixture exist and passed self-tests (A1–A4). No Unreal import, timings or visual acceptance exist yet (#114).</p>
+<nav><a href="#status">Acceptance</a><a href="#blender">Blender prototype</a><a href="#facts">Observed baseline</a><a href="#sourcing">Asset shortlist</a><a href="#budget">Budget proposal</a><a href="#results">Performance results</a><a href="#files">Sources and reproduction</a></nav>
 <p><a href="https://github.com/cansub1974/Whispers/issues/113">#113 — Blender source and export</a> → <a href="https://github.com/cansub1974/Whispers/issues/114">#114 — Unreal prototype and measurement</a>. Both were read back OPEN with <code>needs-triage</code>; #114 has a native blocked-by dependency on #113. No issue or editor lock was claimed by this session.</p>
 <section id="status"><h2>Acceptance ledger</h2>'''
 html += table(['Criterion','Result','Evidence / next proof'],[(escape(a),escape(b),escape(c)+(f' · {link("evidence/"+d,"raw JSON")}' if d else '')) for a,b,c,d in criteria])
+html += '''</section><section id="blender"><h2>IV02-A Blender prototype (#113)</h2>
+<p>Actual exported mesh, rendered from the FBX and the reopened source. Full ledger, repaired defects and findings: '''+link('evidence/blender/README.md','IV02-A hand-off')+'''.</p>
+<p><img src="ivy-nanite-iv02/evidence/blender/A2_compare_wall_scale.jpg" alt="Reference, accepted IV01 and IV02 exported mesh on the MS02 bay" style="max-width:100%"></p>
+<p><img src="ivy-nanite-iv02/evidence/blender/A2_compare_close.jpg" alt="Reference close crop beside IV02 front and oblique close renders" style="max-width:100%"></p>
+<p><img src="ivy-nanite-iv02/evidence/blender/mask_RGB_strip.jpg" alt="Vertex colour masks R cavity, G growth, B tip" style="max-width:100%"></p>'''
+html += table(['Measure','Value'],[(escape(a),escape(b)) for a,b in [
+ ('Triangles / vertices','33,516 / 21,793 (blades 21,312; petioles 5,592; stems 6,612); about 233 leaves'),
+ ('Tight bounds','X 0.19–7.90 cm, Y −40.2–40.4 cm, Z 0–183.0 cm; nominal 25 × 100 × 200 cm'),
+ ('Materials / UV','One slot IvyAtlas; UVMap; 2048² atlas, 23–24 px gutters, no alpha'),
+ ('Vertex colour','Color CORNER linear: R cavity, G growth, B tip, A 1; |r| ≤ 0.16'),
+ ('Round trip','Equal topology; position ≤ 3.5e-8 m; normals, UVs, colours exact; markers 0.0 cm'),
+ ('Facade fixture','62 MS02 objects clipped, 117,668 tris, 6 original slots, 11 original textures'),
+ ('Master','SHA-256 4ea301be…d5ff unchanged before/after'),
+ ('Fit finding','Anchor pier is ~0.75 m wide: 15/25 footprint samples supported; X 6.725 fully supported'),
+]])
 html += '''</section><section id="facts"><h2>Observed baseline</h2>
 <p>These are editor/environment observations. They do not establish the no-ivy gameplay frame-time baseline.</p>'''
 html += table(['Item','Observed value'],[(escape(a),escape(b)) for a,b in [
@@ -108,7 +127,9 @@ card = next(x for x in data['entities'] if x['id']=='whispers-eden')
 step = {'name':'Ivy — Nanite IV02','path':'ivy-nanite-iv02-review.html'}
 if not any(s['path']==step['path'] for s in card['steps']):
     card['steps'].insert(1,step)
-card['updated']='2026-10-24'
+card['updated']=max(card.get('updated',''),'2026-10-24')
 card['defaultStep']=next(i for i,s in enumerate(card['steps']) if s['path']==step['path'])
-registry.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+new_text = json.dumps(data,indent=2,ensure_ascii=False)+chr(10)
+if json.loads(registry.read_text(encoding='utf-8')) != data:   # leave the shared registry untouched unless this tab changes
+    registry.write_text(new_text,encoding='utf-8')
 print(json.dumps({'tab':step,'criteria':len(criteria),'timing_runs':0}))

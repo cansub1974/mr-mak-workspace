@@ -1,0 +1,344 @@
+{
+ "revision": "IV02-r1",
+ "seed": 24024,
+ "blender": "5.2.1 LTS",
+ "source_blend": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\IV02_Ivy_Prototype.blend",
+ "collections": {
+  "IV02_SourceCurves": [
+   "IV02_Stems"
+  ],
+  "IV02_LeafSources": [
+   "IV02_Leaf_L0",
+   "IV02_Leaf_L1",
+   "IV02_Leaf_L2",
+   "IV02_Leaf_L3"
+  ],
+  "IV02_GrowthGN": [
+   "IV02_IvyPatch_GN"
+  ],
+  "IV02_Export": [
+   "SM_Ivy_WallPatch_Prototype",
+   "IV02_Axis_Origin",
+   "IV02_Axis_PlusX_0p25m",
+   "IV02_Axis_PlusY_0p5m",
+   "IV02_Axis_PlusZ_2m"
+  ]
+ },
+ "curves": {
+  "object": "IV02_Stems",
+  "type": "CURVES",
+  "curve_count": 53,
+  "point_count": 463,
+  "woody_curves": 3,
+  "max_path_m": 1.9600099290633284,
+  "stem_region_m": {
+   "y": [
+    -0.38,
+    0.38
+   ],
+   "z": [
+    0.0,
+    1.86
+   ]
+  }
+ },
+ "geometry_nodes": {
+  "group": "IV02_IvyGrowth",
+  "modifier_object": "IV02_IvyPatch_GN",
+  "inputs": {
+   "Seed": 24024,
+   "Stem Segment": 0.02500000037252903,
+   "Leaf Spacing": 0.02199999988079071,
+   "Leaf Density": 0.949999988079071,
+   "Leaf Merge Distance": 0.027000000700354576,
+   "Max Path": 1.9600099325180054,
+   "Young Tip Threshold": 0.8500000238418579
+  },
+  "node_inputs": {
+   "Object Info": "IV02_Stems",
+   "Collection Info": "IV02_LeafSources",
+   "Set Material": "IvyAtlas"
+  },
+  "evaluated_faces": 20310,
+  "evaluated_triangles": 33516
+ },
+ "leaf_sources": {
+  "L0": {
+   "object": "IV02_Leaf_L0",
+   "faces": 80,
+   "triangles": 126,
+   "blade_length_m": 0.078,
+   "petiole_length_m": 0.046
+  },
+  "L1": {
+   "object": "IV02_Leaf_L1",
+   "faces": 76,
+   "triangles": 120,
+   "blade_length_m": 0.083,
+   "petiole_length_m": 0.052
+  },
+  "L2": {
+   "object": "IV02_Leaf_L2",
+   "faces": 68,
+   "triangles": 108,
+   "blade_length_m": 0.074,
+   "petiole_length_m": 0.042
+  },
+  "L3": {
+   "object": "IV02_Leaf_L3",
+   "faces": 68,
+   "triangles": 108,
+   "blade_length_m": 0.052,
+   "petiole_length_m": 0.03
+  }
+ },
+ "export_mesh": {
+  "object": "SM_Ivy_WallPatch_Prototype",
+  "vertices": 21793,
+  "triangles": 33516,
+  "loops": 100548,
+  "triangles_by_island": {
+   "Woody": 2340,
+   "Branch": 4272,
+   "L1": 5280,
+   "Petiole": 5592,
+   "L0": 6120,
+   "L2": 5544,
+   "L3": 4368
+  },
+  "leaf_instances_estimate": 209,
+  "blade_triangles": 21312,
+  "petiole_triangles": 5592,
+  "stem_triangles": 6612,
+  "material_slots": [
+   "IvyAtlas"
+  ],
+  "uv_layers": [
+   "UVMap"
+  ],
+  "color_attributes": [
+   [
+    "Color",
+    "CORNER",
+    "FLOAT_COLOR"
+   ]
+  ],
+  "tight_min_m": [
+   0.001900077797472477,
+   -0.40206578373908997,
+   -2.1825475414516404e-05
+  ],
+  "tight_max_m": [
+   0.07901664078235626,
+   0.40427523851394653,
+   1.8297163248062134
+  ],
+  "tight_size_cm": [
+   7.7116562984883785,
+   80.63410222530365,
+   182.9738150281628
+  ],
+  "nominal_m": {
+   "y": [
+    -0.5,
+    0.5
+   ],
+   "z": [
+    0.0,
+    2.0
+   ],
+   "x": [
+    0.0,
+    0.25
+   ]
+  },
+  "within_nominal": true,
+  "vertices_behind_wall_plane": 0,
+  "pivot_object_origin_m": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "object_matrix_identity": true,
+  "root_ring_radius_m_measured": 0.008500000461936026,
+  "blade_triangles_covered_from_front_and_obliques": 3108,
+  "blade_covered_fraction": 0.14583333333333334,
+  "uv_island_check": {
+   "L0": {
+    "corners": 18360,
+    "all_inside_16px_inset": true
+   },
+   "L1": {
+    "corners": 15840,
+    "all_inside_16px_inset": true
+   },
+   "L2": {
+    "corners": 16632,
+    "all_inside_16px_inset": true
+   },
+   "L3": {
+    "corners": 13104,
+    "all_inside_16px_inset": true
+   },
+   "Woody": {
+    "corners": 7020,
+    "all_inside_16px_inset": true
+   },
+   "Branch": {
+    "corners": 12816,
+    "all_inside_16px_inset": true
+   },
+   "Petiole": {
+    "corners": 16776,
+    "all_inside_16px_inset": true
+   }
+  },
+  "vertex_color": {
+   "R": {
+    "min": 0.0,
+    "p05": 0.0,
+    "median": 0.71875,
+    "p95": 1.0,
+    "max": 1.0,
+    "mean": 0.6094011069340016
+   },
+   "G": {
+    "min": 0.0,
+    "p05": 0.18238238990306854,
+    "median": 0.5098646879196167,
+    "p95": 0.8785808086395264,
+    "max": 0.9999821782112122,
+    "mean": 0.5167972023535161
+   },
+   "B": {
+    "min": 0.0,
+    "p05": 0.05000000074505806,
+    "median": 0.32811135053634644,
+    "p95": 0.8381912112236023,
+    "max": 1.0,
+    "mean": 0.3838186473560286
+   },
+   "A": {
+    "min": 1.0,
+    "p05": 1.0,
+    "median": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "mean": 1.0
+   }
+  },
+  "vertex_color_hist10": {
+   "R": [
+    16051,
+    7353,
+    7332,
+    4902,
+    3880,
+    5203,
+    4447,
+    4417,
+    4801,
+    42162
+   ],
+   "G": [
+    432,
+    6876,
+    12420,
+    13158,
+    15768,
+    14562,
+    12330,
+    14706,
+    6804,
+    3492
+   ],
+   "B": [
+    10314,
+    13974,
+    20676,
+    11996,
+    10402,
+    15224,
+    5112,
+    5610,
+    4452,
+    2788
+   ]
+  },
+  "channel_correlation": {
+   "RG": 0.09179646844806612,
+   "RB": 0.1555259524609454,
+   "GB": 0.1015364781251351
+  },
+  "collision": "none (no UCX objects; no collision in export)"
+ },
+ "cavity_bake": {
+  "rays": 32,
+  "max_distance_m": 0.08,
+  "occluders": "patch BVH + wall plane X=0",
+  "blade_hemisphere": "oriented to +X (front face)",
+  "domain": "per vertex, written to every corner"
+ },
+ "fbx": {
+  "ivy": {
+   "path": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\exports\\SM_Ivy_WallPatch_Prototype.fbx",
+   "bytes": 2709916,
+   "sha256": "b6dfd5744cf8cb349c0e92a0361e3cfa7833b0f6f7f824bbb1372d3a090e9fee"
+  },
+  "axis_markers": {
+   "path": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\exports\\IV02_AxisMarkers.fbx",
+   "bytes": 18124,
+   "sha256": "27ccb7f2d7a8e7cd19bced3f6b67807bb6e66122ce20efcea7b45fe607f10e4c"
+  },
+  "settings": {
+   "object_types": [
+    "MESH"
+   ],
+   "global_scale": 1.0,
+   "apply_unit_scale": true,
+   "apply_scale_options": "FBX_SCALE_NONE",
+   "axis_forward": "-Y",
+   "axis_up": "Z",
+   "bake_space_transform": false,
+   "use_mesh_modifiers": true,
+   "mesh_smooth_type": "FACE",
+   "use_tspace": true,
+   "use_triangles": true,
+   "colors_type": "LINEAR",
+   "prioritize_active_color": true,
+   "add_leaf_bones": false,
+   "bake_anim": false,
+   "use_custom_props": false,
+   "path_mode": "STRIP",
+   "embed_textures": false,
+   "use_selection": true
+  }
+ },
+ "axis_markers_m": {
+  "IV02_Axis_Origin": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "IV02_Axis_PlusX_0p25m": [
+   0.25,
+   0.0,
+   0.0
+  ],
+  "IV02_Axis_PlusY_0p5m": [
+   0.0,
+   0.5,
+   0.0
+  ],
+  "IV02_Axis_PlusZ_2m": [
+   0.0,
+   0.0,
+   2.0
+  ]
+ },
+ "blend": {
+  "path": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\IV02_Ivy_Prototype.blend",
+  "bytes": 5261497,
+  "sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7"
+ }
+}

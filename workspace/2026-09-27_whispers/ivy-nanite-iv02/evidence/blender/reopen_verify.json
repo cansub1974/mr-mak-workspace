@@ -1,0 +1,108 @@
+{
+ "blend": "D:\\AI_Modelling\\hotel_eden\\working\\ivy_IV02\\IV02_Ivy_Prototype.blend",
+ "blender": "5.2.1 LTS",
+ "blend_sha256": "08cdfdbe454e3ab7028f9b31aa6ab27eba4f609a8e5474d0b94de6d87d787eb7",
+ "collections": {
+  "IV02_Export": [
+   "IV02_Axis_Origin",
+   "IV02_Axis_PlusX_0p25m",
+   "IV02_Axis_PlusY_0p5m",
+   "IV02_Axis_PlusZ_2m",
+   "SM_Ivy_WallPatch_Prototype"
+  ],
+  "IV02_GrowthGN": [
+   "IV02_IvyPatch_GN"
+  ],
+  "IV02_LeafSources": [
+   "IV02_Leaf_L0",
+   "IV02_Leaf_L1",
+   "IV02_Leaf_L2",
+   "IV02_Leaf_L3"
+  ],
+  "IV02_SourceCurves": [
+   "IV02_Stems"
+  ]
+ },
+ "curves_editable": {
+  "object_type": "CURVES",
+  "curves": 53,
+  "points": 463,
+  "attributes": [
+   "ivy_leafy",
+   "ivy_root_offset",
+   "ivy_woody",
+   "position",
+   "radius"
+  ]
+ },
+ "geometry_nodes": {
+  "modifier": "IV02_IvyGrowth",
+  "node_group": "IV02_IvyGrowth",
+  "nodes": 82,
+  "evaluates_on_reopen_triangles": 33516,
+  "export_copy_triangles": 33516,
+  "gn_matches_export": true
+ },
+ "no_hotel_data": {
+  "objects_total": 11,
+  "hotel_like_objects": [],
+  "materials": [
+   "IvyAtlas"
+  ],
+  "meshes": 10
+ },
+ "images": [
+  {
+   "name": "T_Ivy_Atlas_BaseColor.png",
+   "packed": true,
+   "colorspace": "sRGB",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  {
+   "name": "T_Ivy_Atlas_Normal.png",
+   "packed": true,
+   "colorspace": "Non-Color",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  {
+   "name": "T_Ivy_Atlas_Roughness.png",
+   "packed": true,
+   "colorspace": "Non-Color",
+   "size": [
+    2048,
+    2048
+   ]
+  }
+ ],
+ "renders": {
+  "front_full": "renders/IV02_front_full.png",
+  "front_close": "renders/IV02_front_close.png",
+  "oblique_close": "renders/IV02_oblique_close.png",
+  "side_close": "renders/IV02_side_close.png",
+  "side_low": "renders/IV02_side_root.png",
+  "first_person": "renders/IV02_first_person_1p7m.png",
+  "mask_Red": "renders/IV02_mask_R.png",
+  "mask_Green": "renders/IV02_mask_G.png",
+  "mask_Blue": "renders/IV02_mask_B.png",
+  "unlit_basecolor": "renders/IV02_unlit_basecolor_close.png"
+ },
+ "render_settings": {
+  "engine": "BLENDER_EEVEE",
+  "samples": 96,
+  "view_transform": "AgX",
+  "sun_rotation_deg": [
+   50.0,
+   -35.0,
+   60.0
+  ],
+  "sun_energy": 4.0,
+  "backdrop": "flat plane X=0, RGB (0.55,0.50,0.42), render-only, not saved"
+ },
+ "saved_blend": false
+}
