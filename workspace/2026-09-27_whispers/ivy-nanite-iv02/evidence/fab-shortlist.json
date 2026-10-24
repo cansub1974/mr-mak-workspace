@@ -1,0 +1,50 @@
+{
+  "captured_utc": "2026-10-24T06:14:53.592146+00:00",
+  "authenticated": true,
+  "state": "logged_in",
+  "total_owned_reported": 92,
+  "name_searches": [
+    {
+      "query": "ivy",
+      "matches": 0
+    },
+    {
+      "query": "vine",
+      "matches": 0
+    },
+    {
+      "query": "climber",
+      "matches": 0
+    }
+  ],
+  "shortlist": [
+    {
+      "id": "aafa85a424d04402b654171e43e63d52",
+      "title": "Dark Ruins Megascans Sample",
+      "description": "Dark Ruins Megascans Sample",
+      "type": "complete-project",
+      "compatible": true,
+      "engine_versions": [
+        "UE_5.5",
+        "UE_5.6",
+        "UE_5.7",
+        "UE_5.8"
+      ],
+      "url": "https://www.fab.com/listings/836ed2f8-e2d6-49be-98d3-59d104bd351e",
+      "success": true
+    },
+    {
+      "id": "901d90cacd2346b1896d45431d502119",
+      "title": "Sharur's Normandy Village + PCG Plants",
+      "description": "<p><a target=\"_blank\" href=\"https://youtu.be/VEZ85CLNd9g\" rel=\"noopener noreferrer nofollow\">Cinematic Demo</a></p><p><br><a target=\"_blank\" href=\"https://discord.gg/tcWEFag\" rel=\"noopener noreferrer nofollow\">Join My Discord for Support</a></p><p><a target=\"_blank\" href=\"https://www.artstation.com/sharur3d\" rel=\"noopener noreferrer nofollow\">More on Artstation</a><br><br>\u26a0\ufe0f Disclaimer:</p><p><span class=\"fabkit-prose-color--yellow\"><strong>This environment pack is fully designed for Lumen/Pathtracer and dynamic lighting only. Static lighting is not supported. </strong></span></p><p><a target=\"_blank\" href=\"https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/\" rel=\"noopener noreferrer nofollow\">Instructions to enable lumen in your project</a><br><br>Plugins enabled: PCG, PCGExternalDataInterop, PCGGeometryScriptInterop<br><br>This environment pack includes 97 modular meshes for creating broken and ruined stone buildings, allowing for flexible construction of detailed structures. It features 6 types of fully animated grass, 3 trees, and 9 Pivot Painter bushes for realistic vegetation movement. Wall ivy adds natural overgrowth detail, while included PCG graphs make it easy to procedurally scatter forests and grass across your scenes.</p>",
+      "type": "unreal-engine",
+      "compatible": false,
+      "engine_versions": [
+        "UE_5.6"
+      ],
+      "url": "https://www.fab.com/listings/bf734560-f98b-4e4d-9a6c-e473b910a780",
+      "success": true
+    }
+  ],
+  "decision": "No imports. Normandy contains wall ivy per metadata; geometry, license provenance and opacity suitability unverified. Inspect existing local ivy before authoring. No suitable owned leaf geometry proven yet."
+}

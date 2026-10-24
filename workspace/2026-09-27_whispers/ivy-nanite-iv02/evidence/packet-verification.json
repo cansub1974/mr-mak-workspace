@@ -1,0 +1,30 @@
+{
+  "issues": [
+    {
+      "issue": 113,
+      "state": "OPEN",
+      "labels": [
+        "needs-triage"
+      ],
+      "body_matches_local": true,
+      "shared_contract_identical": true,
+      "body_sha256": "0305c7725bff688abf73a2a970e27a81930997ab52ea6b571b3c96ca2fafd961"
+    },
+    {
+      "issue": 114,
+      "state": "OPEN",
+      "labels": [
+        "needs-triage"
+      ],
+      "body_matches_local": true,
+      "shared_contract_identical": true,
+      "body_sha256": "e82795ff30ca141a6dd0b81d8d48a8fc26c28109af77c625dfdfa3d50243c028"
+    }
+  ],
+  "native_dependency": {
+    "114_blocked_by": [
+      113
+    ]
+  },
+  "scope": "Packet consistency only. Independent implementation verification NOT RUN."
+}

@@ -1,0 +1,1225 @@
+{
+  "source": "D:\\AI_Modelling\\hotel_eden\\working\\master_MS02\\Hotel_Eden_Master_MS02.blend",
+  "blender": "5.2.1 LTS",
+  "selection": "world-space AABB intersects crop; evaluated export is clipped on disposable copies only",
+  "crop_min_m": [
+    -1.0,
+    -0.4,
+    -0.2
+  ],
+  "crop_max_m": [
+    8.1,
+    2.4,
+    4.2
+  ],
+  "anchor_m": [
+    3.55,
+    1.8,
+    0
+  ],
+  "objects": [
+    {
+      "name": "P_00f4f78a4290663d | E14 SLIM CORNER pedestal.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.45375001430511475,
+        1.6377499103546143,
+        0.43000006675720215
+      ],
+      "max_m": [
+        0.8222500085830688,
+        2.0062499046325684,
+        2.200000047683716
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_1132b23fed32f0d4 | E14 inside dressed base.010 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.489999771118164,
+        0.30000001192092896,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        7.819999694824219,
+        0.6300000548362732,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_116a67196665d071 | E14 SLIM A08 corner-owned solid pedestal | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.30799999833106995,
+        1.491999864578247,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        0.9679999947547913,
+        2.1519999504089355,
+        0.699999988079071
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_19420bdf3991bbee | E01_E_LAKE_L1_003.005 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.489999771118164,
+        -0.30000001192092896,
+        0.0
+      ],
+      "max_m": [
+        8.199999809265137,
+        0.30000001192092896,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_1985c8a884862b09 | E01_E_BAY-GRANDE supported front | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        6.0,
+        1.6200001239776611,
+        0.0
+      ],
+      "max_m": [
+        7.400001525878906,
+        1.7999999523162842,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_32821c4658a5726f | CORNER pedestal foliate lancet 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.6445989012718201,
+        0.49742770195007324,
+        0.5200052261352539
+      ],
+      "max_m": [
+        -0.49785956740379333,
+        0.6445139646530151,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_354a613c3ce422e0 | E01_E_LAKE_L1_003.015 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.30000001192092896,
+        -0.30000001192092896,
+        0.0
+      ],
+      "max_m": [
+        0.6600000262260437,
+        0.30000001192092896,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_3bca079bf92feb33 | CORNER pedestal foliate lancet 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.6646460890769958,
+        0.26249992847442627,
+        0.5200052261352539
+      ],
+      "max_m": [
+        -0.6096957325935364,
+        0.4173986315727234,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_3dd268498459d731 | E14 SLIM CORNER lower faceted shaft.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.4867500066757202,
+        1.6707499027252197,
+        2.6700000762939453
+      ],
+      "max_m": [
+        0.7892500162124634,
+        1.973249912261963,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_3ef507ea900c4815 | E01_E_BAY-GRANDE supported front.005 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        4.1999969482421875,
+        1.6200001239776611,
+        0.0
+      ],
+      "max_m": [
+        6.0,
+        1.7999999523162842,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_432cc2a50885fc03 | E14 SLIM CORNER pedestal foliate lancet 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.469374656677246,
+        1.9703326225280762,
+        0.5200052261352539
+      ],
+      "max_m": [
+        7.554569244384766,
+        2.0005552768707275,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_44dc39685558468f | Provisional terrace | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.9000015258789062,
+        -8.0,
+        -0.20000000298023224
+      ],
+      "max_m": [
+        70.9000015258789,
+        5.5,
+        0.0
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_4a6baaff01ca7db7 | Recessed glazing.046 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        4.224998474121094,
+        1.69350004196167,
+        0.5500001907348633
+      ],
+      "max_m": [
+        5.974998474121094,
+        1.7084999084472656,
+        8.324999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Glass"
+      ]
+    },
+    {
+      "name": "P_4e8b10112504dec6 | E14 SLIM CORNER pedestal.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.327749729156494,
+        1.6377499103546143,
+        0.43000006675720215
+      ],
+      "max_m": [
+        7.696249485015869,
+        2.0062499046325684,
+        2.200000047683716
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_58a1e5f4b22e3827 | E01_E rebuilt bay cheek | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.310001373291016,
+        0.0,
+        0.0
+      ],
+      "max_m": [
+        7.490001678466797,
+        1.7100000381469727,
+        13.199999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_59a074e1c596d2c3 | CORNER lower attached shaft 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.561454176902771,
+        0.4862411618232727,
+        2.6699037551879883
+      ],
+      "max_m": [
+        -0.48624131083488464,
+        0.5614543557167053,
+        8.700098037719727
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_5ae949d83be243ba | E14 inside lower roll and hollow.010 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.489999771118164,
+        0.29999998211860657,
+        0.5500001907348633
+      ],
+      "max_m": [
+        7.7699995040893555,
+        0.5799999833106995,
+        8.699999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_5b5c4714fc5c258f | CORNER pedestal foliate lancet 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.4175001084804535,
+        0.6096957325935364,
+        0.5200052261352539
+      ],
+      "max_m": [
+        -0.26260140538215637,
+        0.6646460890769958,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_5ba689d52d427bab | E01_E_A08_BASE_0_13_0_0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.14000701904296875,
+        -0.2999999523162842,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        1.2600021362304688,
+        2.319999933242798,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_6471c23f1d552862 | E14 SLIM CORNER lower attached shaft 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.592432498931885,
+        1.9024326801300049,
+        2.6699037551879883
+      ],
+      "max_m": [
+        7.633800029754639,
+        1.9437997341156006,
+        8.700098037719727
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_67411fc2b7c563d7 | E14 SOLID PLINTH W-OUTER--0.3-0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.8199999928474426,
+        -13.713000297546387,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        0.30000001192092896,
+        -0.26000022888183594,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_6c2a1504d55bee6e | E01_E_A08_BASE_0_16_0_0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        6.890003204345703,
+        -0.2999999523162842,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        11.490001678466797,
+        0.8199999332427979,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_6d5ae920638828b2 | E14 SLIM CORNER pedestal foliate lancet 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.4704706370830536,
+        1.9085851907730103,
+        0.5200052261352539
+      ],
+      "max_m": [
+        0.5511772632598877,
+        1.9894825220108032,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_6e752e8690db8241 | E01_E_BAY-GRANDE supported front.017 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.75,
+        1.6200001239776611,
+        0.3000001907348633
+      ],
+      "max_m": [
+        1.1999969482421875,
+        1.7999999523162842,
+        8.350000381469727
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_70cc277365294855 | CORNER pedestal weathering.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.7250000238418579,
+        -0.04500001668930054,
+        2.1999998092651367
+      ],
+      "max_m": [
+        0.04499998688697815,
+        0.7250000238418579,
+        2.6700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_712c6fc7606c1710 | E14 SLIM A08 corner-owned solid pedestal | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.181999683380127,
+        1.491999864578247,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        7.841999530792236,
+        2.1519999504089355,
+        0.699999988079071
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_72dc8d5cff9bf3bf | E14 SLIM CORNER pedestal foliate lancet 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.4594446122646332,
+        1.7793748378753662,
+        0.5200052261352539
+      ],
+      "max_m": [
+        0.4896673858165741,
+        1.8645691871643066,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_7788317271220238 | CORNER pedestal.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.675000011920929,
+        0.004999999888241291,
+        0.43000006675720215
+      ],
+      "max_m": [
+        -0.005000029690563679,
+        0.675000011920929,
+        2.200000047683716
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_810f7a0b808459c6 | E14 SLIM CORNER lower faceted shaft.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.3607497215271,
+        1.6707499027252197,
+        2.6700000762939453
+      ],
+      "max_m": [
+        7.663249492645264,
+        1.973249912261963,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_8c8a6d6d54f567be | CORNER lower faceted shaft.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.6150000095367432,
+        0.06499997526407242,
+        2.6700000762939453
+      ],
+      "max_m": [
+        -0.06499997526407242,
+        0.6150000095367432,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_93ea5711b3d209ff | E14 SLIM CORNER pedestal foliate lancet 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.660332202911377,
+        1.779430627822876,
+        0.5200052261352539
+      ],
+      "max_m": [
+        7.690555095672607,
+        1.8646249771118164,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_9573ae85ee489573 | E01_E_A08_BASE_0_15_0_0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        6.890003204345703,
+        -0.2999999523162842,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        8.010002136230469,
+        2.319999933242798,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_9a5986173bf91878 | E01_E_A08_BASE_0_14_0_1 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        4.660003662109375,
+        1.2000000476837158,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        8.010002136230469,
+        2.319999933242798,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_9c317df106f647ca | E01_E_BAY-GRANDE supported front.009 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        3.0,
+        1.6200001239776611,
+        0.3000001907348633
+      ],
+      "max_m": [
+        4.1999969482421875,
+        1.7999999523162842,
+        8.350000381469727
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_aaedce571f2646f8 | A08 corner-owned solid pedestal | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.940000057220459,
+        -0.260000079870224,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        0.260000079870224,
+        0.940000057220459,
+        0.699999988079071
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_b4322e67424be201 | E01_E_LAKE_L1_003.006 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.489999771118164,
+        -0.30000001192092896,
+        0.3000001907348633
+      ],
+      "max_m": [
+        8.199999809265137,
+        0.30000001192092896,
+        8.350000381469727
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_b544bd84df0d145f | E14 SLIM CORNER lower attached shaft 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.497149467468262,
+        1.9419001340866089,
+        2.669863700866699
+      ],
+      "max_m": [
+        7.526849746704102,
+        1.9880996942520142,
+        8.700139045715332
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_b7272e51a78881f4 | CORNER lower attached shaft 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.3670000433921814,
+        0.5580000281333923,
+        2.6700000762939453
+      ],
+      "max_m": [
+        -0.31300002336502075,
+        0.6420000195503235,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_b7f941ad1110a7cb | E14 SLIM CORNER pedestal foliate lancet 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.59858512878418,
+        1.908822774887085,
+        0.5200052261352539
+      ],
+      "max_m": [
+        7.679482460021973,
+        1.9895293712615967,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_bce43d604a65d3f5 | E14 SLIM CORNER lower attached shaft 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.6231499910354614,
+        1.9418998956680298,
+        2.6700000762939453
+      ],
+      "max_m": [
+        0.6528500318527222,
+        1.9880999326705933,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_bd90c644380bfe05 | E01_E_BAY-GRANDE supported front.008 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        3.0,
+        1.6200001239776611,
+        0.0
+      ],
+      "max_m": [
+        4.1999969482421875,
+        1.7999999523162842,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_c771778741d4571d | E14 inside dressed base.009 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.32999998331069946,
+        0.30000001192092896,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        0.6600000262260437,
+        0.6300000548362732,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_c9ff3256399aaca1 | E01_E_A08_BASE_0_12_0_0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.25999557971954346,
+        -0.2999999523162842,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        1.2600021362304688,
+        0.700007438659668,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_cfc5d0297660e553 | E14 SLIM CORNER lower attached shaft 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.47190022468566895,
+        1.807149887084961,
+        2.669863700866699
+      ],
+      "max_m": [
+        0.518099844455719,
+        1.8368499279022217,
+        8.700139045715332
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_d4503c2c3684eb7e | Recessed glazing.046 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        1.2249984741210938,
+        1.69350004196167,
+        0.5500001907348633
+      ],
+      "max_m": [
+        2.9749984741210938,
+        1.7084999084472656,
+        8.324999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Glass"
+      ]
+    },
+    {
+      "name": "P_d48dae2a3113023f | CORNER lower attached shaft 2.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.6419996619224548,
+        0.31299999356269836,
+        2.669863700866699
+      ],
+      "max_m": [
+        -0.558000385761261,
+        0.367000013589859,
+        8.700139045715332
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_d88f6085203bf7ad | E14 SLIM CORNER pedestal foliate lancet 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.5953749418258667,
+        1.9703326225280762,
+        0.5200052261352539
+      ],
+      "max_m": [
+        0.6805692911148071,
+        2.0005552768707275,
+        2.080000162124634
+      ],
+      "materials": [
+        "HE PBR01 | Limestone | relief 00"
+      ]
+    },
+    {
+      "name": "P_d93ed1bf10e1a563 | E01_E rebuilt bay cheek.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.660003662109375,
+        0.0,
+        0.0
+      ],
+      "max_m": [
+        0.839996337890625,
+        1.7100000381469727,
+        13.199999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_dd9d0164fed339bf | E01_E_BAY-GRANDE supported front.013 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        1.1999969482421875,
+        1.6200001239776611,
+        0.0
+      ],
+      "max_m": [
+        3.0,
+        1.7999999523162842,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_e6fafc3793dba028 | E14 SLIM CORNER lower attached shaft 1.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.5162002444267273,
+        1.9024325609207153,
+        2.6699037551879883
+      ],
+      "max_m": [
+        0.557567298412323,
+        1.9437998533248901,
+        8.700098037719727
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_e715e4664a8a88df | E01_E_A08_BASE_0_14_0_0 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.14000701904296875,
+        1.2000000476837158,
+        -0.19999998807907104
+      ],
+      "max_m": [
+        4.660003662109375,
+        2.319999933242798,
+        0.550000011920929
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_ead51e3725a0c5da | E01_E_LAKE_L1_003.016 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.30000001192092896,
+        -0.30000001192092896,
+        0.3000001907348633
+      ],
+      "max_m": [
+        0.6600000262260437,
+        0.30000001192092896,
+        8.350000381469727
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_ec1fbadd4ec87d82 | E01_E_BAY-GRANDE supported front.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        6.0,
+        1.6200001239776611,
+        0.3000001907348633
+      ],
+      "max_m": [
+        7.400001525878906,
+        1.7999999523162842,
+        8.350000381469727
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_edfc58211ee2068f | E14 inside lower roll and hollow.009 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.3800000250339508,
+        0.29999998211860657,
+        0.5500001907348633
+      ],
+      "max_m": [
+        0.6600000262260437,
+        0.5799999833106995,
+        8.699999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_f08e4fe91a7e9be9 | E14 SLIM CORNER pedestal weathering.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.42624998092651367,
+        1.6102498769760132,
+        2.1999998092651367
+      ],
+      "max_m": [
+        0.8497500419616699,
+        2.03374981880188,
+        2.6700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_f6581f5a97ec2eca | E14 SLIM CORNER pedestal weathering.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.3002495765686035,
+        1.6102498769760132,
+        2.1999998092651367
+      ],
+      "max_m": [
+        7.72374963760376,
+        2.03374981880188,
+        2.6700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_f84736cd39bd12ed | E01_E_BAY-GRANDE supported front.016 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.75,
+        1.6200001239776611,
+        0.0
+      ],
+      "max_m": [
+        1.1999969482421875,
+        1.7999999523162842,
+        0.30000001192092896
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_f88588f991bcfeef | E14 SLIM CORNER lower attached shaft 0.001 | PBR01",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.631899833679199,
+        1.807149887084961,
+        2.6700000762939453
+      ],
+      "max_m": [
+        7.678099632263184,
+        1.8368499279022217,
+        8.700000762939453
+      ],
+      "materials": [
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_SM_HE_OPT01_Host_0d0aa1cd9b | Unique host section ('EXTERIOR', 0, 1, 0)",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        -0.30000001192092896,
+        -30.0,
+        0.0
+      ],
+      "max_m": [
+        12.300000190734863,
+        0.2999992370605469,
+        13.199999809265137
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior"
+      ]
+    },
+    {
+      "name": "P_WINDOW_24e3af13eab1a58a | Window structure E01_E_A06_WINDOW_W1-22",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        7.849998474121094,
+        -0.4300007224082947,
+        0.4259999394416809
+      ],
+      "max_m": [
+        10.349998474121094,
+        0.7700000405311584,
+        8.65000057220459
+      ],
+      "materials": [
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior",
+        "HE PBR01 | Iron",
+        "HE PBR01 | Limestone"
+      ]
+    },
+    {
+      "name": "P_WINDOW_9ab003c2031b2eb2 | Window structure E01_E_A06_WINDOW_W1-24",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        0.8499984741210938,
+        1.4900000095367432,
+        0.4259999990463257
+      ],
+      "max_m": [
+        3.3499984741210938,
+        2.2699999809265137,
+        8.65000057220459
+      ],
+      "materials": [
+        "HE PBR01 | Limestone",
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior",
+        "HE PBR01 | Iron"
+      ]
+    },
+    {
+      "name": "P_WINDOW_d9b034af713459bc | Window structure E01_E_A06_WINDOW_W1-23",
+      "collections": [
+        "EXTERIOR | OPT01 shared architecture"
+      ],
+      "min_m": [
+        3.8499984741210938,
+        1.4900000095367432,
+        0.4259999990463257
+      ],
+      "max_m": [
+        6.349998474121094,
+        2.2699999809265137,
+        8.65000057220459
+      ],
+      "materials": [
+        "HE PBR01 | Limestone",
+        "HE PBR01 | Brick",
+        "HE PBR01 | Interior",
+        "HE PBR01 | Iron"
+      ]
+    }
+  ],
+  "status": "inspected source candidates; export and visible surface checks NOT RUN"
+}

@@ -1,0 +1,9 @@
+{
+    "CPU":  "AMD Ryzen 9 7900X 12-Core Processor            ",
+    "PhysicalRAMBytes":  67816374272,
+    "GPU":  "AMD Radeon RX 7900 XTX",
+    "DedicatedVRAMMiB":  24560,
+    "Driver":  "32.0.21042.62",
+    "DriverMarketing":  "AMD Adrenalin Software 2026.04.17",
+    "Source":  "Win32 CIM CPU/RAM and Whispers startup D3D12 adapter log"
+}

@@ -1,0 +1,14 @@
+{
+  "observed_before": {
+    "size_bytes": 2671407245,
+    "mtime_utc": "2026-10-19T14:44:44Z"
+  },
+  "observed_after": {
+    "size_bytes": 2671407245,
+    "mtime_utc": "2026-10-19T14:44:44.393782+00:00"
+  },
+  "size_and_mtime_unchanged": true,
+  "sha256_before": null,
+  "sha256_after": null,
+  "limitation": "No pre-inspection content hash was collected; size/mtime preservation is observed, not a content-hash proof. A1 requires the implementation worker to collect matching before/after hashes."
+}

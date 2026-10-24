@@ -134,12 +134,16 @@
       "type": "group",
       "category": "dev",
       "created": "2026-09-27",
-      "updated": "2026-09-27",
+      "updated": "2026-10-24",
       "folder": "2026-09-27_whispers",
       "steps": [
         {
           "name": "Project hub",
           "path": "index.html"
+        },
+        {
+          "name": "Ivy — Nanite IV02",
+          "path": "ivy-nanite-iv02-review.html"
         },
         {
           "name": "Working notes",
@@ -156,7 +160,7 @@
       ],
       "status": "active",
       "pinned": true,
-      "defaultStep": 0
+      "defaultStep": 1
     }
   ]
 }

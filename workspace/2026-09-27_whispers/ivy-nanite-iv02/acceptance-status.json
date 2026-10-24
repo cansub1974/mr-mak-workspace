@@ -1,0 +1,104 @@
+[
+  {
+    "criterion": "Environment",
+    "status": "PASS \u2014 inspection only",
+    "evidence": "Engine/project/editor/map/PIE/dirty readbacks",
+    "artifact": "editor-state.json"
+  },
+  {
+    "criterion": "Rendering state",
+    "status": "PASS \u2014 inspection only",
+    "evidence": "Live Epic/TSR/100%/VSM/Substrate/Nanite cvars",
+    "artifact": "editor-rendering.json"
+  },
+  {
+    "criterion": "Host hardware",
+    "status": "PASS \u2014 identified",
+    "evidence": "CPU/RAM via CIM; GPU/VRAM/driver via engine startup log",
+    "artifact": "hardware.json"
+  },
+  {
+    "criterion": "Target platform and budget",
+    "status": "PENDING LEAD DECISION",
+    "evidence": "Historical RTX 3060/60 FPS direction; complete current profile/allocation unagreed",
+    "artifact": null
+  },
+  {
+    "criterion": "Fab/Quixel audit",
+    "status": "PASS \u2014 audit only",
+    "evidence": "Authenticated, 92 records reported; shortlisted packs and local candidates; no imports/licence actions",
+    "artifact": "fab-shortlist.json"
+  },
+  {
+    "criterion": "Existing facade section",
+    "status": "PASS \u2014 source identified",
+    "evidence": "62 candidate objects in existing MS02 crop; export/visual content not yet verified",
+    "artifact": "facade-selection.json"
+  },
+  {
+    "criterion": "MS02 preservation",
+    "status": "PARTIAL",
+    "evidence": "Size/mtime unchanged; no pre-inspection hash, so no content-hash proof",
+    "artifact": "source-preservation.json"
+  },
+  {
+    "criterion": "A1\u2013A5 Blender/export",
+    "status": "NOT RUN",
+    "evidence": "Source, opaque geometry, atlas, masks, axis/pivots, FBX round trip and independent delivery",
+    "artifact": null
+  },
+  {
+    "criterion": "B1 Unreal import",
+    "status": "NOT RUN",
+    "evidence": "Nanite, dimensions, normals, slots, UVs and vertex colors",
+    "artifact": null
+  },
+  {
+    "criterion": "B2 Isolated fixture/route",
+    "status": "NOT RUN",
+    "evidence": "Actual facade materials/lighting, exclusions, cameras and save/reopen",
+    "artifact": null
+  },
+  {
+    "criterion": "B3 Shading/shadows/Nanite",
+    "status": "NOT RUN",
+    "evidence": "Material and Preserve Area comparisons, overdraw, VSM and temporal inspection",
+    "artifact": null
+  },
+  {
+    "criterion": "B4 A\u2013D profiling",
+    "status": "NOT RUN",
+    "evidence": "Three comparable captures per configuration/view plus separate traversal, raw profiles, p95/p99, variability",
+    "artifact": null
+  },
+  {
+    "criterion": "B5 Agreed budget acceptance",
+    "status": "NOT RUN",
+    "evidence": "No agreed current allocation or target-hardware measurements",
+    "artifact": null
+  },
+  {
+    "criterion": "B6 Jason visual verdict",
+    "status": "NOT RUN",
+    "evidence": "Actual game-mesh/reference comparison for this prototype",
+    "artifact": null
+  },
+  {
+    "criterion": "B7 Independent verification/delivery",
+    "status": "PENDING",
+    "evidence": "Implementation has not begun; packet publication is not implementation delivery",
+    "artifact": null
+  },
+  {
+    "criterion": "Full kit and PCG placement",
+    "status": "GATED \u2014 NOT RUN",
+    "evidence": "Requires accepted prototype and continuation contract",
+    "artifact": null
+  },
+  {
+    "criterion": "Final full-coverage suite",
+    "status": "GATED \u2014 NOT RUN",
+    "evidence": "Final material/PCG coverage, actual hotel or documented representative stress scene",
+    "artifact": null
+  }
+]

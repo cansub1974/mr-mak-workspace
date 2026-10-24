@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-10-24T06:14:53.592146+00:00",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "project": "D:/Unreal Projects/Whispers 5.8/Whispers.uproject",
+  "cvars": {
+    "r.ScreenPercentage": 100.0,
+    "r.AntiAliasingMethod": 4.0,
+    "r.TemporalAA.Upsampling": 1.0,
+    "r.VSync": 0.0,
+    "t.MaxFPS": 0.0,
+    "r.Nanite": 1.0,
+    "r.Nanite.Foliage": 1.0,
+    "r.Shadow.Virtual.Enable": 1.0,
+    "r.Substrate": 1.0,
+    "r.RayTracing.Nanite.Mode": 1.0,
+    "r.Lumen.HardwareRayTracing": 1.0,
+    "r.MegaLights.EnableForProject": 1.0,
+    "sg.ViewDistanceQuality": 3.0,
+    "sg.ShadowQuality": 3.0,
+    "sg.GlobalIlluminationQuality": 3.0,
+    "sg.ReflectionQuality": 3.0,
+    "sg.AntiAliasingQuality": 3.0,
+    "sg.TextureQuality": 3.0,
+    "sg.EffectsQuality": 3.0,
+    "sg.PostProcessQuality": 3.0,
+    "sg.FoliageQuality": 3.0,
+    "sg.ShadingQuality": 3.0,
+    "r.Streaming.PoolSize": 3000.0
+  },
+  "measurement_context": "Editor readback only; no gameplay benchmark or performance acceptance"
+}
