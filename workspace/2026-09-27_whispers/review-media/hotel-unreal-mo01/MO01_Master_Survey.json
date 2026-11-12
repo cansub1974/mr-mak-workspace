@@ -1,0 +1,12372 @@
+{
+ "objects": [
+  {
+   "name": "Light | Hotel.MeredithOffice.Fireplace.01",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.4
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -4.5
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.304
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.Fireplace.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fire",
+    "mo01_Fixture": "Fireplace",
+    "mo01_Lumens": 1500,
+    "mo01_TemperatureK": 1900,
+    "mo01_AttenuationRadiusCm": 700,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "Fireplace_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "",
+    "mo01_BlenderPreviewW": 50.0,
+    "mo01_Flicker": "Candle",
+    "mo01_SourceRadiusCm": 25
+   },
+   "light": {
+    "type": "POINT",
+    "energy": 50.0,
+    "radius": 0.25,
+    "color": [
+     1.0,
+     0.2339806854724884,
+     0.0
+    ],
+    "cutoff": 7.0,
+    "spot": null,
+    "size": null,
+    "size_y": null,
+    "shape": null
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.PictureLight.01",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -0.0,
+     -0.968277,
+     0.249878,
+     17.780001
+    ],
+    [
+     1.0,
+     -0.0,
+     -0.0,
+     -4.5
+    ],
+    [
+     0.0,
+     0.249878,
+     0.968277,
+     12.34715
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.PictureLight.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "PictureLight",
+    "mo01_Lumens": 400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 400,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "PictureLight_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 13.33,
+    "mo01_Rule": "WallSconce",
+    "mo01_OuterConeDeg": 70,
+    "mo01_InnerConeDeg": 40,
+    "mo01_Direction": "down onto the portrait"
+   },
+   "light": {
+    "type": "SPOT",
+    "energy": 13.333333015441895,
+    "radius": 0.029999999329447746,
+    "color": [
+     1.0,
+     0.39263081550598145,
+     0.09484114497900009
+    ],
+    "cutoff": 4.0,
+    "spot": 1.2217304706573486,
+    "size": null,
+    "size_y": null,
+    "shape": null
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WallSconce.01",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": "MO01 | Sconce S06 | 01",
+   "matrix_world": [
+    [
+     1.0,
+     -0.0,
+     0.0,
+     17.855001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -3.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.249
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WallSconce.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "WallSconce",
+    "mo01_Lumens": 1400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 520,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WallSconce_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 46.67,
+    "mo01_Profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce",
+    "mo01_SourceRadiusCm": 3,
+    "mo01_AllowMegaLights": true,
+    "mo01_Fitting": "SM_EC01_Sconce_S06 (EC01 S06, shared)",
+    "mo01_ShadeCastShadow": false,
+    "mo01_EmissiveParams": "EmissiveStrength / EmissiveColor on M_EC01_SconceGlass"
+   },
+   "light": {
+    "type": "POINT",
+    "energy": 46.66666793823242,
+    "radius": 0.029999999329447746,
+    "color": [
+     1.0,
+     0.39263081550598145,
+     0.09484114497900009
+    ],
+    "cutoff": 5.199999809265137,
+    "spot": null,
+    "size": null,
+    "size_y": null,
+    "shape": null
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WallSconce.02",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": "MO01 | Sconce S06 | 02",
+   "matrix_world": [
+    [
+     1.0,
+     -0.0,
+     0.0,
+     17.855001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -5.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.249
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WallSconce.02",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "WallSconce",
+    "mo01_Lumens": 1400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 520,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WallSconce_MeredithOffice_02",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 46.67,
+    "mo01_Profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce",
+    "mo01_SourceRadiusCm": 3,
+    "mo01_AllowMegaLights": true,
+    "mo01_Fitting": "SM_EC01_Sconce_S06 (EC01 S06, shared)",
+    "mo01_ShadeCastShadow": false,
+    "mo01_EmissiveParams": "EmissiveStrength / EmissiveColor on M_EC01_SconceGlass"
+   },
+   "light": {
+    "type": "POINT",
+    "energy": 46.66666793823242,
+    "radius": 0.029999999329447746,
+    "color": [
+     1.0,
+     0.39263081550598145,
+     0.09484114497900009
+    ],
+    "cutoff": 5.199999809265137,
+    "spot": null,
+    "size": null,
+    "size_y": null,
+    "shape": null
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.01",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     -0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     11.455
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "W3-06",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "light": {
+    "type": "AREA",
+    "energy": 100.0,
+    "radius": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff": 6.400000095367432,
+    "spot": null,
+    "size": 1.7000000476837158,
+    "size_y": 2.419600009918213,
+    "shape": "RECTANGLE"
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.02",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     -0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     11.455
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.02",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_02",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "W3-07",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "light": {
+    "type": "AREA",
+    "energy": 100.0,
+    "radius": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff": 6.400000095367432,
+    "spot": null,
+    "size": 1.7000000476837158,
+    "size_y": 2.419600009918213,
+    "shape": "RECTANGLE"
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.03",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -0.0,
+     0.0,
+     1.0,
+     26.0
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     1.0,
+     -0.0,
+     11.205
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.03",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_03",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "E13-W-1",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "light": {
+    "type": "AREA",
+    "energy": 100.0,
+    "radius": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff": 6.400000095367432,
+    "spot": null,
+    "size": 1.7000000476837158,
+    "size_y": 2.3276000022888184,
+    "shape": "RECTANGLE"
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.04",
+   "type": "LIGHT",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -0.0,
+     0.0,
+     1.0,
+     26.0
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     1.0,
+     -0.0,
+     11.205
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.04",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_04",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "E13-W-0",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "light": {
+    "type": "AREA",
+    "energy": 100.0,
+    "radius": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff": 6.400000095367432,
+    "spot": null,
+    "size": 1.7000000476837158,
+    "size_y": 2.3276000022888184,
+    "shape": "RECTANGLE"
+   }
+  },
+  {
+   "name": "MO01 | Alcove | Door | 00a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -0.412
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Door | 00b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -0.829333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Door | 01a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -1.358667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Door | 01b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -1.776
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Door | 02a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -2.305333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Door | 02b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.559999
+    ],
+    [
+     -1.084893,
+     0.0,
+     0.0,
+     -2.722667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 00a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.787333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 00b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.869333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 01a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.734
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 01b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.816
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 02a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.680667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Knob | 02b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.582001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.762667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Pilaster | 00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.43
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.355
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Pilaster | 01",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.43
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.301667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Pilaster | 02",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.43
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.248333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Pilaster | 03",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.43
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -3.195
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 00 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 00 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 00 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 00 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 00 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 01 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 01 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 01 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 01 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 01 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 02 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 02 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 02 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 02 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Alcove | Shelf | 02 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.106001
+    ],
+    [
+     -0.836667,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_low_01",
+   "mesh_users": 2,
+   "tris": 605,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_02",
+   "mesh_users": 2,
+   "tris": 717,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_03",
+   "mesh_users": 3,
+   "tris": 603,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_01",
+   "mesh_users": 2,
+   "tris": 696,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_00",
+   "mesh_users": 3,
+   "tris": 659,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 0 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -0.41
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_top_01",
+   "mesh_users": 2,
+   "tris": 348,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 1 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_low_00",
+   "mesh_users": 1,
+   "tris": 547,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 1 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_01",
+   "mesh_users": 2,
+   "tris": 696,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 1 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_03",
+   "mesh_users": 3,
+   "tris": 603,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 1 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -1.356667
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_top_00",
+   "mesh_users": 1,
+   "tris": 464,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_low_01",
+   "mesh_users": 2,
+   "tris": 605,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_00",
+   "mesh_users": 3,
+   "tris": 659,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_02",
+   "mesh_users": 2,
+   "tris": 717,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_03",
+   "mesh_users": 3,
+   "tris": 603,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_mid_00",
+   "mesh_users": 3,
+   "tris": 659,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | Alcove | bay 2 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.41
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -2.303333
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_Alcove_top_01",
+   "mesh_users": 2,
+   "tris": 348,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_00",
+   "mesh_users": 2,
+   "tris": 580,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_04",
+   "mesh_users": 4,
+   "tris": 522,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_03",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_02",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_05",
+   "mesh_users": 4,
+   "tris": 601,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 0 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_00",
+   "mesh_users": 3,
+   "tris": 406,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_02",
+   "mesh_users": 2,
+   "tris": 551,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_00",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_01",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_05",
+   "mesh_users": 4,
+   "tris": 601,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_01",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 1 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_02",
+   "mesh_users": 2,
+   "tris": 493,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_01",
+   "mesh_users": 2,
+   "tris": 493,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_03",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_02",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_00",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_04",
+   "mesh_users": 4,
+   "tris": 522,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 2 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_01",
+   "mesh_users": 1,
+   "tris": 406,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_02",
+   "mesh_users": 2,
+   "tris": 551,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_00",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_01",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_05",
+   "mesh_users": 4,
+   "tris": 601,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_02",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 3 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_00",
+   "mesh_users": 3,
+   "tris": 406,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_00",
+   "mesh_users": 2,
+   "tris": 580,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_04",
+   "mesh_users": 4,
+   "tris": 522,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_03",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_02",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_04",
+   "mesh_users": 4,
+   "tris": 522,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 4 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_02",
+   "mesh_users": 2,
+   "tris": 493,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.959
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_low_01",
+   "mesh_users": 2,
+   "tris": 493,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.347
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_03",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 2",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.707
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_05",
+   "mesh_users": 4,
+   "tris": 601,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 3",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.066999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_00",
+   "mesh_users": 4,
+   "tris": 667,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 4",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.427
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_mid_01",
+   "mesh_users": 4,
+   "tris": 609,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Books | South | bay 5 | row 5",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.39
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.787
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_BookRow_South_top_00",
+   "mesh_users": 3,
+   "tris": 406,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | SM_HE_Palm_P03_Canes",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": "MO01 | Corner palm | placement",
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "placement_asset_id": "FUR-024"
+   },
+   "mesh": "SM_HE_Palm_P03_Cane_01",
+   "mesh_users": 3,
+   "tris": 1344,
+   "slots": [
+    "M_HE_Palm_P03 | slender olive green cane"
+   ],
+   "uv": [
+    "UVMap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | SM_HE_Palm_P03_Frond_Midribs",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": "MO01 | Corner palm | placement",
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "placement_asset_id": "FUR-024"
+   },
+   "mesh": "SM_HE_Palm_P03_Rachis_01",
+   "mesh_users": 3,
+   "tris": 10368,
+   "slots": [
+    "M_HE_Palm_P03 | tapered frond rachis"
+   ],
+   "uv": [
+    "UVMap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | SM_HE_Palm_P03_Leaflets",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": "MO01 | Corner palm | placement",
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "placement_asset_id": "FUR-024"
+   },
+   "mesh": "P03 | individual palm leaflets",
+   "mesh_users": 3,
+   "tris": 25344,
+   "slots": [
+    "M_HE_Palm_P03 | pinnate leaflets"
+   ],
+   "uv": [
+    "UVMap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | SM_HE_Palm_P03_Planter",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": "MO01 | Corner palm | placement",
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "placement_asset_id": "FUR-024"
+   },
+   "mesh": "SM_HE_Palm_P03_Planter",
+   "mesh_users": 3,
+   "tris": 1344,
+   "slots": [
+    "M_HE_Palm_P03 | matte aged ivory ceramic"
+   ],
+   "uv": [
+    "UVMap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | SM_HE_Palm_P03_Soil",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": "MO01 | Corner palm | placement",
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "placement_asset_id": "FUR-024"
+   },
+   "mesh": "SM_HE_Palm_P03_Soil",
+   "mesh_users": 3,
+   "tris": 64,
+   "slots": [
+    "M_HE_Palm_P03 | soil"
+   ],
+   "uv": [
+    "UVMap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Corner palm | placement",
+   "type": "EMPTY",
+   "colls": [
+    "MO01 | Decoration"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.976296,
+     -0.21644,
+     0.0,
+     24.74
+    ],
+    [
+     0.21644,
+     0.976296,
+     0.0,
+     -1.14
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     8.9997
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "asset_id": "FUR-024",
+    "approved_revision": "P03",
+    "source_game_model": "approved-media/plant-p03/Hotel_Eden_PalmPlanter_P03_Source_and_Game.blend",
+    "mo01_copy_of": "LP01 | East stair palm | placement",
+    "mo01_scale": 1.0
+   }
+  },
+  {
+   "name": "MO01 | E13-W-0 | DrapeSide_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     0.903489,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_L",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | DrapeSide_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     0.903489,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_R",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Fringe_Swag_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Swag_E",
+   "mesh_users": 2,
+   "tris": 88,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Fringe_Tail_E_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_E_L",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Fringe_Tail_E_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_E_R",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Sheer",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     0.900383,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Sheer",
+   "mesh_users": 4,
+   "tris": 1900,
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Swag_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Swag_E",
+   "mesh_users": 2,
+   "tris": 2640,
+   "slots": [
+    "M_MO01_Swag_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Tail_E_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_E_L",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-0 | Tail_E_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -2.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_E_R",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | DrapeSide_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     0.903489,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_L",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | DrapeSide_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     0.903489,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_R",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Fringe_Swag_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Swag_E",
+   "mesh_users": 2,
+   "tris": 88,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Fringe_Tail_E_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_E_L",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Fringe_Tail_E_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_E_R",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Sheer",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     0.900383,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Sheer",
+   "mesh_users": 4,
+   "tris": 1900,
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Swag_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Swag_E",
+   "mesh_users": 2,
+   "tris": 2640,
+   "slots": [
+    "M_MO01_Swag_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Tail_E_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_E_L",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | E13-W-1 | Tail_E_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -1.0,
+     0.0,
+     25.700001
+    ],
+    [
+     1.0,
+     0.0,
+     0.0,
+     -5.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_E_R",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | G01 fuel (approved, placed)",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -0.66,
+     0.0,
+     17.43
+    ],
+    [
+     0.66,
+     0.0,
+     0.0,
+     -4.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.66,
+     8.91098
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "Fuel | charred lower log A.002",
+   "mesh_users": 1,
+   "tris": 2644,
+   "slots": [
+    "M_HE_Grate_G01_BAKED.001"
+   ],
+   "uv": [
+    "UV0_Baked"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | G01 grate (approved, placed)",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -0.66,
+     0.0,
+     17.43
+    ],
+    [
+     0.66,
+     0.0,
+     0.0,
+     -4.5
+    ],
+    [
+     0.0,
+     0.0,
+     0.66,
+     8.91098
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "Cube.001",
+   "mesh_users": 1,
+   "tris": 2718,
+   "slots": [
+    "M_HE_Grate_G01_BAKED.001"
+   ],
+   "uv": [
+    "UV0_Baked"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Mantel | Books",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.835001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -4.74445
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.323999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Books_Mantel",
+   "mesh_users": 1,
+   "tris": 145,
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Mantel | Candelabra | 01",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.790001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -5.34
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.323999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Candelabra",
+   "mesh_users": 2,
+   "tris": 7616,
+   "slots": [
+    "M_MO01_Candelabra"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Mantel | Candelabra | 02",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.790001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -3.66
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.323999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Candelabra",
+   "mesh_users": 2,
+   "tris": 7616,
+   "slots": [
+    "M_MO01_Candelabra"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Mantel | Clock",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Books and mantel"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.77
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -4.36
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.323999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Clock",
+   "mesh_users": 1,
+   "tris": 2478,
+   "slots": [
+    "M_MO01_Clock",
+    "M_MO01_ClockDial",
+    "M_MO01_ClockGlass"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait canvas | AlcoveCase",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -0.0,
+     0.0,
+     0.78,
+     17.526297
+    ],
+    [
+     0.78,
+     0.0,
+     0.0,
+     -1.775
+    ],
+    [
+     0.0,
+     0.78,
+     -0.0,
+     11.124
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Canvas_AlcoveCase",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait canvas | BetweenWindows",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.25,
+     0.0,
+     0.0,
+     21.1
+    ],
+    [
+     0.0,
+     0.0,
+     -1.25,
+     -0.382
+    ],
+    [
+     0.0,
+     1.25,
+     0.0,
+     11.054
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Canvas_BetweenWindows",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait canvas | OverMantel",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -0.0,
+     1.45,
+     17.714642
+    ],
+    [
+     1.45,
+     0.0,
+     -0.0,
+     -4.5
+    ],
+    [
+     -0.0,
+     1.45,
+     0.0,
+     11.483999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Canvas_OverMantel",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait frame | AlcoveCase",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -0.0,
+     0.0,
+     0.78,
+     17.526297
+    ],
+    [
+     0.78,
+     0.0,
+     0.0,
+     -1.775
+    ],
+    [
+     0.0,
+     0.78,
+     -0.0,
+     11.124
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "Plane.001",
+   "mesh_users": 21,
+   "tris": 5615,
+   "slots": [
+    "M_HotelEden_AF02 | scanned aged gilt, baked game maps"
+   ],
+   "uv": [
+    "UV0_ScannedAtlas",
+    "UV1_Lightmap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait frame | BetweenWindows",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.25,
+     0.0,
+     0.0,
+     21.1
+    ],
+    [
+     0.0,
+     0.0,
+     -1.25,
+     -0.382
+    ],
+    [
+     0.0,
+     1.25,
+     0.0,
+     11.054
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "Plane.001",
+   "mesh_users": 21,
+   "tris": 5615,
+   "slots": [
+    "M_HotelEden_AF02 | scanned aged gilt, baked game maps"
+   ],
+   "uv": [
+    "UV0_ScannedAtlas",
+    "UV1_Lightmap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Portrait frame | OverMantel",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     -0.0,
+     1.45,
+     17.714642
+    ],
+    [
+     1.45,
+     0.0,
+     -0.0,
+     -4.5
+    ],
+    [
+     -0.0,
+     1.45,
+     0.0,
+     11.483999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "Plane.001",
+   "mesh_users": 21,
+   "tris": 5615,
+   "slots": [
+    "M_HotelEden_AF02 | scanned aged gilt, baked game maps"
+   ],
+   "uv": [
+    "UV0_ScannedAtlas",
+    "UV1_Lightmap"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Sconce S06 | 01",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.620001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -3.45
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.164
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_EC01_Sconce_S06",
+   "mesh_users": 14,
+   "tris": 4056,
+   "slots": [
+    "M_EC01_SconceBrass",
+    "M_EC01_SconceGlass",
+    "M_EC01_SconceFlame"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | Sconce S06 | 02",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Lighting"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.620001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -5.55
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.164
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_EC01_Sconce_S06",
+   "mesh_users": 14,
+   "tris": 4056,
+   "slots": [
+    "M_EC01_SconceBrass",
+    "M_EC01_SconceGlass",
+    "M_EC01_SconceFlame"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 00a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.212
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 00b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.596834
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 01a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.093666
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 01b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.4785
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 02a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.975334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 02b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.360167
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 03a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.857
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 03b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.241833
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 04a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.738667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 04b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.123501
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 05a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.620335
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Door | 05b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     22.005167
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.24
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.141999
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseDoor",
+   "mesh_users": 18,
+   "tris": 98,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 00a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.554834
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 00b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.636833
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 01a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.436501
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 01b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.518501
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 02a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.318167
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 02b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.400167
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 03a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.199833
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 03b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.281834
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 04a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.081501
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 04b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.1635
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 05a",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.963167
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Knob | 05b",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     22.045166
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.218
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.804
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseKnob",
+   "mesh_users": 18,
+   "tris": 128,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     17.155001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 01",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.036667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 02",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     18.918333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 03",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     19.800001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     20.681667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 05",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     21.563334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Pilaster | 06",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     22.445
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.37
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CasePilaster",
+   "mesh_users": 11,
+   "tris": 108,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 00 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 00 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 00 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 00 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 00 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     17.210001
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 01 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 01 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 01 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 01 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 01 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.091667
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 02 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 02 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 02 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 02 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 02 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     18.973333
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 03 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 03 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 03 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 03 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 03 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     19.855
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 04 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 04 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 04 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 04 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 04 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     20.736668
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 05 | 1.31",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.319
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 05 | 1.68",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     10.679
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 05 | 2.04",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.039
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 05 | 2.40",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.399
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | South | Shelf | 05 | 2.75",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.771667,
+     0.0,
+     0.0,
+     21.618334
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -6.694
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     11.759
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_CaseShelf",
+   "mesh_users": 45,
+   "tris": 10,
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | DrapeSide_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_L",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | DrapeSide_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_R",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Fringe_Swag_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Swag_N",
+   "mesh_users": 2,
+   "tris": 88,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Fringe_Tail_N_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_N_L",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Fringe_Tail_N_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_N_R",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Sheer",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Sheer",
+   "mesh_users": 4,
+   "tris": 1900,
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Swag_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Swag_N",
+   "mesh_users": 2,
+   "tris": 2640,
+   "slots": [
+    "M_MO01_Swag_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Tail_N_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_N_L",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-06 | Tail_N_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     23.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_N_R",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | DrapeSide_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_L",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | DrapeSide_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DrapeSide_R",
+   "mesh_users": 4,
+   "tris": 1400,
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Fringe_Swag_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Swag_N",
+   "mesh_users": 2,
+   "tris": 88,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Fringe_Tail_N_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_N_L",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Fringe_Tail_N_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Fringe_Tail_N_R",
+   "mesh_users": 2,
+   "tris": 54,
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Sheer",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Sheer",
+   "mesh_users": 4,
+   "tris": 1900,
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Swag_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Swag_N",
+   "mesh_users": 2,
+   "tris": 2640,
+   "slots": [
+    "M_MO01_Swag_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Tail_N_L",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_N_L",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "MO01 | W3-07 | Tail_N_R",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     -1.0,
+     0.0,
+     0.0,
+     19.1
+    ],
+    [
+     -0.0,
+     -1.0,
+     0.0,
+     -0.3
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Tail_N_R",
+   "mesh_users": 2,
+   "tris": 756,
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Fabric"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Bookcase_Alcove",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Bookcase_Alcove",
+   "mesh_users": 1,
+   "tris": 110,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Bookcase_South",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Bookcase_South",
+   "mesh_users": 1,
+   "tris": 206,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Ceiling",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Floor and ceiling"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Ceiling",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Ceiling"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_ChimneyBreast",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_ChimneyBreast",
+   "mesh_users": 1,
+   "tris": 14,
+   "slots": [
+    "M_MO01_BreastPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Cornice",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Cornice",
+   "mesh_users": 1,
+   "tris": 576,
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_DadoRail",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DadoRail",
+   "mesh_users": 1,
+   "tris": 726,
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_BF",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_BF",
+   "mesh_users": 1,
+   "tris": 12,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_BN",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_BN",
+   "mesh_users": 1,
+   "tris": 6,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_BS",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_BS",
+   "mesh_users": 1,
+   "tris": 94,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_E",
+   "mesh_users": 1,
+   "tris": 798,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_N",
+   "mesh_users": 1,
+   "tris": 974,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_S",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_S",
+   "mesh_users": 1,
+   "tris": 188,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Dado_WS",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Dado_WS",
+   "mesh_users": 1,
+   "tris": 94,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_DoorArchitrave_D-MO-24",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Door"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_DoorArchitrave_D-MO-24",
+   "mesh_users": 1,
+   "tris": 84,
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Firebox",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Firebox",
+   "mesh_users": 1,
+   "tris": 288,
+   "slots": [
+    "M_MO01_FireBrick",
+    "M_MO01_FireboxIron"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [
+    "Soot"
+   ],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Hearth",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Hearth",
+   "mesh_users": 1,
+   "tris": 8,
+   "slots": [
+    "M_MO01_MarbleHearth"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_LadderRail",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_LadderRail",
+   "mesh_users": 1,
+   "tris": 136,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_LibraryLadder",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Bookcases"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_LibraryLadder",
+   "mesh_users": 1,
+   "tris": 160,
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Mantel",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Fireplace"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     0.0,
+     1.0,
+     0.0,
+     17.620001
+    ],
+    [
+     -1.0,
+     0.0,
+     0.0,
+     -4.5
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     9.004
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Mantel",
+   "mesh_users": 1,
+   "tris": 714,
+   "slots": [
+    "M_MO01_Mantel"
+   ],
+   "uv": [
+    "UV0_Bake"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_BF",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_BF",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_BN",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_BN",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_BS",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_BS",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_E",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_E",
+   "mesh_users": 1,
+   "tris": 92,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_N",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_N",
+   "mesh_users": 1,
+   "tris": 92,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_S",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_S",
+   "mesh_users": 1,
+   "tris": 14,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_WN",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_WN",
+   "mesh_users": 1,
+   "tris": 8,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Paper_WS",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Paper_WS",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Parquet",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Floor and ceiling"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Parquet",
+   "mesh_users": 1,
+   "tris": 2,
+   "slots": [
+    "M_MO01_Parquet"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Pelmet_E13-W-0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Pelmet_E13-W-0",
+   "mesh_users": 1,
+   "tris": 292,
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Pelmet_E13-W-1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Pelmet_E13-W-1",
+   "mesh_users": 1,
+   "tris": 292,
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Pelmet_W3-06",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Pelmet_W3-06",
+   "mesh_users": 1,
+   "tris": 292,
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Pelmet_W3-07",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Pelmet_W3-07",
+   "mesh_users": 1,
+   "tris": 292,
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_PictureLight",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Portraits"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_PictureLight",
+   "mesh_users": 1,
+   "tris": 68,
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Rug",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Floor and ceiling"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Rug",
+   "mesh_users": 1,
+   "tris": 10,
+   "slots": [
+    "M_MO01_Rug"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_Skirting",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Walls"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_Skirting",
+   "mesh_users": 1,
+   "tris": 460,
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_WindowArchitrave_E13-W-0",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_WindowArchitrave_E13-W-0",
+   "mesh_users": 1,
+   "tris": 1180,
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_WindowArchitrave_E13-W-1",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_WindowArchitrave_E13-W-1",
+   "mesh_users": 1,
+   "tris": 1180,
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_WindowArchitrave_W3-06",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_WindowArchitrave_W3-06",
+   "mesh_users": 1,
+   "tris": 1180,
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "SM_MO01_WindowArchitrave_W3-07",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Windows"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {},
+   "mesh": "SM_MO01_WindowArchitrave_W3-07",
+   "mesh_users": 1,
+   "tris": 1180,
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "uv": [
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "UCX_SM_MO01_Bookcase_Alcove_00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Colliders"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_collider": true
+   },
+   "mesh": "UCX_SM_MO01_Bookcase_Alcove_00",
+   "mesh_users": 1,
+   "tris": 12,
+   "slots": [
+    "M_EC01_Collider"
+   ],
+   "uv": [],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "UCX_SM_MO01_Bookcase_South_00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Colliders"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_collider": true
+   },
+   "mesh": "UCX_SM_MO01_Bookcase_South_00",
+   "mesh_users": 1,
+   "tris": 12,
+   "slots": [
+    "M_EC01_Collider"
+   ],
+   "uv": [],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "UCX_SM_MO01_ChimneyBreast_00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Colliders"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_collider": true
+   },
+   "mesh": "UCX_SM_MO01_ChimneyBreast_00",
+   "mesh_users": 1,
+   "tris": 12,
+   "slots": [
+    "M_EC01_Collider"
+   ],
+   "uv": [],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  },
+  {
+   "name": "UCX_SM_MO01_Mantel_00",
+   "type": "MESH",
+   "colls": [
+    "MO01 | Colliders"
+   ],
+   "parent": null,
+   "matrix_world": [
+    [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "props": {
+    "mo01_collider": true
+   },
+   "mesh": "UCX_SM_MO01_Mantel_00",
+   "mesh_users": 1,
+   "tris": 12,
+   "slots": [
+    "M_EC01_Collider"
+   ],
+   "uv": [],
+   "attrs": [],
+   "modifiers": [],
+   "library": null
+  }
+ ],
+ "others_inside_office": [
+  {
+   "name": "P_6108b2fb07f2afb2 | E13 STRING CONTINUOUS MITRED W | PBR01",
+   "type": "MESH",
+   "data": "SM_HE_OPT01_6f6286783a71",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    -0.88,
+    26.88
+   ],
+   "y": [
+    -0.88,
+    50.88
+   ],
+   "z": [
+    -0.304,
+    0.396
+   ]
+  },
+  {
+   "name": "P_de6bd330dbd9aec7 | E13 CORNICE CONTINUOUS MITRED W | PBR01",
+   "type": "MESH",
+   "data": "SM_HE_OPT01_bacaa4712fae",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    -1.12,
+    27.12
+   ],
+   "y": [
+    -1.12,
+    51.12
+   ],
+   "z": [
+    3.906,
+    4.696
+   ]
+  },
+  {
+   "name": "P_SM_HE_OPT01_Host_349f20eca9 | Unique host section ('INTERIOR', 1, 1, 0)",
+   "type": "MESH",
+   "data": "SM_HE_OPT01_Host_349f20eca9_preserved.001",
+   "colls": [
+    "INTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    0.3,
+    69.7
+   ],
+   "y": [
+    -1.2,
+    49.7
+   ],
+   "z": [
+    -9.004,
+    4.226
+   ]
+  },
+  {
+   "name": "P_WINDOW_37d0939ef225707b | Window structure E13 WINDOW LAKE-INNER-W-0-3",
+   "type": "MESH",
+   "data": "SM_HE_UR03_73d2703d55a9620e",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    25.57,
+    26.8
+   ],
+   "y": [
+    1.3,
+    3.8
+   ],
+   "z": [
+    0.796,
+    3.596
+   ]
+  },
+  {
+   "name": "P_WINDOW_66ad34a1264de0c7 | Window structure E01_E_A06_WINDOW_W3-07",
+   "type": "MESH",
+   "data": "SM_HE_UR03_022a55e5a8d07d03",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    17.85,
+    20.35
+   ],
+   "y": [
+    -0.8,
+    0.43
+   ],
+   "z": [
+    0.996,
+    3.896
+   ]
+  },
+  {
+   "name": "P_WINDOW_6ce59ffe0deffc5e | Window structure E01_E_A06_WINDOW_W3-06",
+   "type": "MESH",
+   "data": "SM_HE_UR03_022a55e5a8d07d03",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    21.85,
+    24.35
+   ],
+   "y": [
+    -0.8,
+    0.43
+   ],
+   "z": [
+    0.996,
+    3.896
+   ]
+  },
+  {
+   "name": "P_WINDOW_7570f73ea3201b6c | Window structure E13 WINDOW LAKE-INNER-W-1-3",
+   "type": "MESH",
+   "data": "SM_HE_UR03_73d2703d55a9620e.001",
+   "colls": [
+    "EXTERIOR | OPT01 shared architecture"
+   ],
+   "hidden_render": false,
+   "x": [
+    25.57,
+    26.8
+   ],
+   "y": [
+    4.2,
+    6.7
+   ],
+   "z": [
+    0.796,
+    3.596
+   ]
+  },
+  {
+   "name": "QA02 before finish | P_SM_HE_OPT01_Host_349f20eca9 | Unique host section ('INTERIOR', 1, 1, 0)",
+   "type": "MESH",
+   "data": "SM_HE_OPT01_Host_349f20eca9.007",
+   "colls": [
+    "QA02 | Original game history"
+   ],
+   "hidden_render": true,
+   "x": [
+    -23.7,
+    45.7
+   ],
+   "y": [
+    -26.2,
+    24.7
+   ],
+   "z": [
+    -9.004,
+    4.226
+   ]
+  },
+  {
+   "name": "SOURCE_UR02_Live_P_SM_HE_OPT01_Host_51ce6239f6 | Unique host section ('EXTERIOR', 2, 1, 0)",
+   "type": "MESH",
+   "data": "SM_HE_OPT01_Host_51ce6239f6.001",
+   "colls": [
+    "UR02 | Live original surrounding walls"
+   ],
+   "hidden_render": true,
+   "x": [
+    9.7,
+    22.3
+   ],
+   "y": [
+    -25.3,
+    5.0
+   ],
+   "z": [
+    -9.004,
+    4.196
+   ]
+  }
+ ]
+}

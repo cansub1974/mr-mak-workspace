@@ -1,0 +1,260 @@
+{
+ "before": {
+  "world": [
+   3925.165,
+   -12604.772,
+   60187.0
+  ],
+  "local": [
+   2395.0,
+   400.0,
+   1022.0
+  ],
+  "yaw": -174.5,
+  "box_extent": [
+   160.0,
+   280.0,
+   120.0
+  ],
+  "anchors": [
+   "loc.merediths_office.actual_mo"
+  ]
+ },
+ "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/D/TE/1P8RF86TYO9T4KNT3FR2IS",
+ "dirty_before": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "forest_before": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "registry_before": {
+  "anchors": [
+   {
+    "bPhysicallyValid": true,
+    "id": "loc.merediths_office.actual_mo",
+    "kind": "stand",
+    "transform": {
+     "rotation": {
+      "w": 1.0,
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.0
+     },
+     "scale3D": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+     },
+     "translation": {
+      "x": 3925.16507,
+      "y": -12604.77238,
+      "z": 60070.0
+     }
+    }
+   },
+   {
+    "bPhysicallyValid": true,
+    "id": "portal.Door_BP_HingedDoor_3952_-12884_60067.b.sl6",
+    "kind": "stand",
+    "transform": {
+     "rotation": {
+      "w": 1.0,
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.0
+     },
+     "scale3D": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+     },
+     "translation": {
+      "x": 3942.51308,
+      "y": -12784.93909,
+      "z": 60070.0
+     }
+    }
+   }
+  ],
+  "bProvisional": true,
+  "bounds": {
+   "isValid": 1,
+   "max": {
+    "x": 4111.26528,
+    "y": -12310.72612,
+    "z": 60307.0
+   },
+   "min": {
+    "x": 3739.06487,
+    "y": -12898.81864,
+    "z": 60067.0
+   }
+  },
+  "displayName": "MO \u2014 Meredith's office",
+  "doorIds": [
+   "Door_BP_DoorKit_Double_3952_-12884_60067"
+  ],
+  "extent": {
+   "x": 160.0,
+   "y": 280.0,
+   "z": 120.0
+  },
+  "facilityIds": [],
+  "floor": "level3",
+  "frame": {
+   "rotation": {
+    "w": 0.047978129,
+    "x": -0.0,
+    "y": 0.0,
+    "z": -0.998848386
+   },
+   "scale3D": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+   },
+   "translation": {
+    "x": 3925.16507,
+    "y": -12604.77238,
+    "z": 60187.0
+   }
+  },
+  "kind": "office",
+  "lightIds": [],
+  "roomId": "room.eden.mo"
+ },
+ "target_local": {
+  "centre": [
+   2140.0,
+   350.0,
+   1022.0
+  ],
+  "extent": [
+   427.9999999999999,
+   318.0,
+   120.0
+  ]
+ },
+ "applied": true,
+ "after": {
+  "world": [
+   4174.199,
+   -12530.562,
+   60187.0
+  ],
+  "local": [
+   2140.0,
+   350.0,
+   1022.0
+  ],
+  "yaw": -174.5,
+  "box_extent": [
+   428.0,
+   318.0,
+   120.0
+  ],
+  "anchors": [
+   "loc.merediths_office.actual_mo"
+  ]
+ },
+ "saved_packages": [
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/D/TE/1P8RF86TYO9T4KNT3FR2IS"
+ ],
+ "others_unsaved_left": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "forest_at_save": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "dirty_after": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "registry_after": {
+  "frame": {
+   "rotation": {
+    "x": -0.0,
+    "y": 0.0,
+    "z": -0.998848386,
+    "w": 0.047978129
+   },
+   "scale3D": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+   },
+   "translation": {
+    "x": 4174.19882,
+    "y": -12530.56191,
+    "z": 60187.0
+   }
+  },
+  "extent": {
+   "x": 428.0,
+   "y": 318.0,
+   "z": 120.0
+  },
+  "bounds": {
+   "isValid": 1,
+   "min": {
+    "x": 3717.6903,
+    "y": -12888.11988,
+    "z": 60067.0
+   },
+   "max": {
+    "x": 4630.70734,
+    "y": -12173.00394,
+    "z": 60307.0
+   }
+  }
+ },
+ "verify": {
+  "inside": {
+   "new_chair": true,
+   "new_desk": true,
+   "old_chair": true,
+   "door_inside": true,
+   "fire": true,
+   "corridor_outside": false
+  },
+  "dirty": [
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+  ],
+  "volume": {
+   "world": [
+    4174.199,
+    -12530.562,
+    60187.0
+   ],
+   "local": [
+    2140.0,
+    350.0,
+    1022.0
+   ],
+   "yaw": -174.5,
+   "box_extent": [
+    428.0,
+    318.0,
+    120.0
+   ],
+   "anchors": [
+    "loc.merediths_office.actual_mo"
+   ]
+  }
+ }
+}

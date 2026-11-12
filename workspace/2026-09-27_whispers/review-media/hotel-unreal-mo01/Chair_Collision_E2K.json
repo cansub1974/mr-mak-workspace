@@ -1,0 +1,98 @@
+{
+ "before": {
+  "Base": {
+   "profile": "BlockAllDynamic",
+   "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+   "pawn": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "nav": true
+  },
+  "Seat": {
+   "profile": "BlockAllDynamic",
+   "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+   "pawn": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "nav": true
+  }
+ },
+ "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+ "dirty_before": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "forest_before": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "others_unsaved_left": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "applied": true,
+ "after": {
+  "Base": {
+   "profile": "Custom",
+   "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+   "pawn": "<CollisionResponseType.ECR_IGNORE: 0>",
+   "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "nav": false
+  },
+  "Seat": {
+   "profile": "Custom",
+   "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+   "pawn": "<CollisionResponseType.ECR_IGNORE: 0>",
+   "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+   "nav": false
+  }
+ },
+ "saved_packages": [
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK"
+ ],
+ "forest_at_save": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "dirty_after": [
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+  "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+ ],
+ "verify": {
+  "components": {
+   "Base": {
+    "profile": "Custom",
+    "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "pawn": "<CollisionResponseType.ECR_IGNORE: 0>",
+    "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "nav": false
+   },
+   "Seat": {
+    "profile": "Custom",
+    "enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "pawn": "<CollisionResponseType.ECR_IGNORE: 0>",
+    "camera": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "visibility": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "nav": false
+   }
+  },
+  "ok": true,
+  "dirty": [
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_BC",
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_N",
+   "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/DeskPedestal/T_DeskPedestal_ORM"
+  ]
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "root_present": true,
+ "collections": {
+  "MO01 | Walls": 18,
+  "MO01 | Fireplace": 6,
+  "MO01 | Bookcases": 96,
+  "MO01 | Windows": 44,
+  "MO01 | Door": 1,
+  "MO01 | Floor and ceiling": 3,
+  "MO01 | Portraits": 7,
+  "MO01 | Books and mantel": 56,
+  "MO01 | Decoration": 6,
+  "MO01 | Furniture": 4,
+  "MO01 | Lighting": 10,
+  "MO01 | Colliders": 4
+ },
+ "objects": 255,
+ "game_mesh_objects": 242,
+ "game_triangles": 237927,
+ "unique_game_meshes": 97,
+ "colliders": [
+  "UCX_SM_MO01_Bookcase_Alcove_00",
+  "UCX_SM_MO01_Bookcase_South_00",
+  "UCX_SM_MO01_ChimneyBreast_00",
+  "UCX_SM_MO01_Mantel_00"
+ ],
+ "lights": [
+  "Light | Hotel.MeredithOffice.Fireplace.01",
+  "Light | Hotel.MeredithOffice.PictureLight.01",
+  "Light | Hotel.MeredithOffice.WallSconce.01",
+  "Light | Hotel.MeredithOffice.WallSconce.02",
+  "Light | Hotel.MeredithOffice.WindowFill.01",
+  "Light | Hotel.MeredithOffice.WindowFill.02",
+  "Light | Hotel.MeredithOffice.WindowFill.03",
+  "Light | Hotel.MeredithOffice.WindowFill.04"
+ ],
+ "light_identity_ok": true,
+ "images_used": 88,
+ "images_packed": 88,
+ "images_missing": [],
+ "meshes_without_uv": [],
+ "mantel": true,
+ "drape_objects": 36,
+ "swags": [
+  "SM_MO01_Swag_E",
+  "SM_MO01_Swag_N",
+  "SM_MO01_Tail_E_L",
+  "SM_MO01_Tail_E_R",
+  "SM_MO01_Tail_N_L",
+  "SM_MO01_Tail_N_R"
+ ],
+ "valance_left": [],
+ "book_rows_placed": 52,
+ "book_row_modules": 20,
+ "book_triangles": 30087,
+ "mantel_props": [
+  "MO01 | Mantel | Books",
+  "MO01 | Mantel | Candelabra | 01",
+  "MO01 | Mantel | Candelabra | 02",
+  "MO01 | Mantel | Clock"
+ ],
+ "sconces": [
+  {
+   "name": "MO01 | Sconce S06 | 01",
+   "mesh": "SM_EC01_Sconce_S06",
+   "shares_ec01_mesh": true,
+   "light": [
+    "Light | Hotel.MeredithOffice.WallSconce.01"
+   ]
+  },
+  {
+   "name": "MO01 | Sconce S06 | 02",
+   "mesh": "SM_EC01_Sconce_S06",
+   "shares_ec01_mesh": true,
+   "light": [
+    "Light | Hotel.MeredithOffice.WallSconce.02"
+   ]
+  }
+ ],
+ "sconce_lights": {
+  "Light | Hotel.MeredithOffice.WallSconce.01": {
+   "type": "POINT",
+   "lumens": 1400,
+   "profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce"
+  },
+  "Light | Hotel.MeredithOffice.WallSconce.02": {
+   "type": "POINT",
+   "lumens": 1400,
+   "profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce"
+  }
+ },
+ "temp_left": {
+  "collection": false,
+  "objects": [],
+  "meshes": [],
+  "materials": []
+ },
+ "corner_palm": {
+  "parts": 5,
+  "shares_lobby_meshes": true,
+  "asset": "FUR-024",
+  "revision": "P03",
+  "plan": [
+   24.74,
+   1.14
+  ],
+  "scale": 1.0,
+  "triangles": 38464
+ },
+ "rug": {
+  "size": [
+   5.3,
+   3.532
+  ],
+  "x": [
+   18.65,
+   23.95
+  ],
+  "y": [
+   2.184,
+   5.716
+  ],
+  "texture": [
+   1024,
+   2048
+  ]
+ },
+ "furniture": {
+  "MO01 | Furniture | Desk (FUR-107)": {
+   "mesh": "SM_DeskPedestal",
+   "fur": "FUR-107",
+   "tris": 16414,
+   "loc_cm_ue": [
+    2030.0,
+    400.0,
+    901.7
+   ]
+  },
+  "MO01 | Furniture | Chair base (FUR-108)": {
+   "mesh": "SM_ChairSwivel_Base",
+   "fur": "FUR-108",
+   "tris": 5125,
+   "loc_cm_ue": [
+    1930.0,
+    400.0,
+    901.7
+   ]
+  },
+  "MO01 | Furniture | Chair seat (FUR-108)": {
+   "mesh": "SM_ChairSwivel_Seat",
+   "fur": "FUR-108",
+   "tris": 20934,
+   "loc_cm_ue": [
+    1930.0,
+    400.0,
+    925.9
+   ]
+  },
+  "MO01 | Furniture | Sofa (FUR-106)": {
+   "mesh": "SM_SofaChesterfield",
+   "fur": "FUR-106",
+   "tris": 24993,
+   "loc_cm_ue": [
+    2110.0,
+    122.0,
+    900.8
+   ]
+  }
+ },
+ "duplicate_material_names": [],
+ "ec01_trim_ao": {
+  "packed": true,
+  "std_across_u": 0.0,
+  "mean": 0.8761
+ },
+ "file": "D:\\AI_Modelling\\hotel_eden\\working\\master_MS02\\Hotel_Eden_Master_MS02.blend"
+}

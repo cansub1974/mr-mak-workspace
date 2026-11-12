@@ -1,0 +1,110 @@
+{
+ "Day": {
+  "views": {
+   "Ref_Match": {
+    "file": "MO01_Ref_Match.png",
+    "seconds": 69.1,
+    "camera": [
+     25.1,
+     6.05,
+     1.55
+    ],
+    "target": [
+     17.6,
+     2.9,
+     1.45
+    ],
+    "lens": 17
+   },
+   "Plan_Top": {
+    "file": "MO01_Plan_Top.png",
+    "seconds": 50.6,
+    "camera": [
+     21.4,
+     3.5,
+     4.12
+    ],
+    "target": [
+     21.4,
+     3.5,
+     0.0
+    ],
+    "lens": "ORTHO:9.4"
+   },
+   "Fireplace": {
+    "file": "MO01_Fireplace.png",
+    "seconds": 43.3,
+    "camera": [
+     20.6,
+     4.5,
+     1.5
+    ],
+    "target": [
+     17.6,
+     4.5,
+     1.7
+    ],
+    "lens": 26
+   },
+   "Windows_North": {
+    "file": "MO01_Windows_North.png",
+    "seconds": 45.8,
+    "camera": [
+     21.1,
+     5.3,
+     1.6
+    ],
+    "target": [
+     21.1,
+     0.3,
+     2.1
+    ],
+    "lens": 19
+   },
+   "Door_East": {
+    "file": "MO01_Door_East.png",
+    "seconds": 46.7,
+    "camera": [
+     19.2,
+     1.6,
+     1.6
+    ],
+    "target": [
+     24.6,
+     6.2,
+     1.55
+    ],
+    "lens": 20
+   }
+  },
+  "night": false,
+  "exposure": 1.399999976158142,
+  "samples": 80,
+  "lights": "MO01 game-rule lights only + daylight sky",
+  "hidden_far_objects": 13556
+ },
+ "Night": {
+  "views": {
+   "Ref_Match": {
+    "file": "MO01_Ref_Match_Night.png",
+    "seconds": 65.2,
+    "camera": [
+     25.1,
+     6.05,
+     1.55
+    ],
+    "target": [
+     17.6,
+     2.9,
+     1.45
+    ],
+    "lens": 17
+   }
+  },
+  "night": true,
+  "exposure": 2.5999999046325684,
+  "samples": 80,
+  "lights": "MO01 game-rule lights only (no WindowFill)",
+  "hidden_far_objects": 13560
+ }
+}

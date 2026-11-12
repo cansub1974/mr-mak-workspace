@@ -1,0 +1,4000 @@
+{
+ "checkpoint": {
+  "L_HotelEden_Building": {
+   "folder": "..\\..\\..\\..\\..\\..\\Unreal Projects\\Whispers 5.8\\Saved\\MCP\\HotelMO01\\Checkpoint\\L_HotelEden_Building",
+   "umap_bytes": 15481236,
+   "external_actor_files": 0
+  },
+  "ini": "..\\..\\..\\..\\..\\..\\Unreal Projects\\Whispers 5.8\\Saved\\MCP\\HotelMO01\\Checkpoint\\DefaultGameplayTags.ini"
+ },
+ "textures": {
+  "T_MO01_Books_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_BaseColor",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Books_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_NormalGL",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Books_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_ORM",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Velvet_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Velvet_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Velvet_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_DrapeSide_L_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_L_AO",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_DrapeSide_L_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_L_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_DrapeSide_R_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_R_AO",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_DrapeSide_R_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_R_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Fringe_BaseColorAlpha": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Fringe_BaseColorAlpha",
+   "size": [
+    512,
+    128
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Fringe_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Fringe_NormalGL",
+   "size": [
+    512,
+    128
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Sheer_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Sheer_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Sheer_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Sheer_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_AO",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_SheerFolds_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_SheerFolds_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Swag_E_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_E_AO",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Swag_E_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_E_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Tail_E_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_E_AO",
+   "size": [
+    256,
+    256
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Tail_E_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_E_NormalGL",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Candelabra_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Candelabra_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Candelabra_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Clock_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Clock_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Clock_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_ClockDial_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_ClockDial_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Portraits_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Portraits_BaseColor",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Swag_N_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_N_AO",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Swag_N_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_N_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Tail_N_AO": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_N_AO",
+   "size": [
+    256,
+    256
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Tail_N_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_N_NormalGL",
+   "size": [
+    512,
+    512
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_FireBrick_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_FireBrick_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_FireBrick_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Marble_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_BaseColor",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Marble_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_ORM",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Marble_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_NormalGL",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Mantel_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_BaseColor",
+   "size": [
+    4096,
+    4096
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Mantel_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_NormalGL",
+   "size": [
+    4096,
+    4096
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Mantel_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_ORM",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Wallpaper_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Wallpaper_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Wallpaper_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Parquet_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_BaseColor",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_Parquet_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_ORM",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_MO01_Parquet_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_NormalGL",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_Rug_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Rug_BaseColor",
+   "size": [
+    1024,
+    2048
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_MO01_RugPile_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_RugPile_NormalGL",
+   "size": [
+    2048,
+    2048
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_HE_Palm_P03_Leaf_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_HE_Palm_P03_Leaf_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_HE_Palm_P03_Leaf_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_HE_Palm_P03_Pot_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_HE_Palm_P03_Pot_BakedNormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_BakedNormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_HE_Palm_P03_Pot_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_HE_Grate_G01_BaseColor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_BaseColor",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": true,
+   "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+   "kind": "color"
+  },
+  "T_HE_Grate_G01_ORM": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_ORM",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+   "kind": "masks"
+  },
+  "T_HE_Grate_G01_Normal_GL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_Normal_GL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_VelvetBump_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  },
+  "T_MO01_SheerBump_NormalGL": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_SheerBump_NormalGL",
+   "size": [
+    1024,
+    1024
+   ],
+   "srgb": false,
+   "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+   "kind": "normal_gl"
+  }
+ },
+ "materials": {
+  "parents": {
+   "opaque": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+   "translucent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Translucent.M_MO01_Translucent"
+  },
+  "instances": {
+   "M_MO01_Wallpaper": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Wallpaper",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Wallpaper_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "vectors": {
+     "WoodUVScale": [
+      2.65041,
+      2.33046,
+      0.0,
+      0.0
+     ]
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Parquet": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Parquet",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Parquet_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "vectors": {
+     "WoodUVScale": [
+      0.29412,
+      0.29412,
+      0.0,
+      0.0
+     ]
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_MarbleHearth": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_MarbleHearth",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Marble_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "vectors": {
+     "WoodUVScale": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_PelmetVelvet": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_PelmetVelvet",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "vectors": {
+     "WoodUVScale": [
+      3.52113,
+      3.52113,
+      0.0,
+      0.0
+     ]
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_FireBrick": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_FireBrick",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseVertexColor": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_FireBrick_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "vectors": {
+     "WoodUVScale": [
+      0.55556,
+      0.55556,
+      0.0,
+      0.0
+     ]
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_PaintedPlaster": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_PaintedPlaster",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.74,
+      0.7,
+      0.62,
+      1.0
+     ]
+    },
+    "textures": {
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Textures/T_EC01_Trim_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Textures/T_EC01_Trim_ORM"
+    },
+    "scalars": {
+     "Roughness": 0.55,
+     "TrimAOToBaseColor": 0.35,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_BreastPlaster": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_BreastPlaster",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": true,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.62,
+      0.58,
+      0.5,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.85,
+     "Metallic": 0.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Ceiling": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Ceiling",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": true,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.76,
+      0.72,
+      0.64,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.9,
+     "Metallic": 0.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_FireboxIron": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_FireboxIron",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": true,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.03,
+      0.028,
+      0.026,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.7,
+     "Metallic": 0.6
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Rug": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Rug",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false,
+     "UseDetailNormal": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Rug_BaseColor",
+     "DetailNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_RugPile_NormalGL"
+    },
+    "scalars": {
+     "Roughness": 0.95,
+     "DetailNormalStrength": 0.8
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Portraits": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Portraits",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false,
+     "UseDetailNormal": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Portraits_BaseColor",
+     "DetailNormal": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Textures/T_EC01_Canvas_NormalGL"
+    },
+    "scalars": {
+     "Roughness": 0.42,
+     "DetailNormalStrength": 0.35
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Books": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Books",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "MetallicFromORM": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Books_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Candelabra": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Candelabra",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "MetallicFromORM": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Candelabra_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Clock": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Clock",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "MetallicFromORM": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Clock_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Mantel": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Mantel",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "MetallicFromORM": false
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Mantel_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.5,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_ClockDial": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_ClockDial",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_ClockDial_BaseColor"
+    },
+    "scalars": {
+     "Roughness": 0.28
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_ClockGlass": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_ClockGlass",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Translucent.M_MO01_Translucent",
+    "switches": {
+     "UseUVT": false,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.95,
+      0.95,
+      0.93,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.04,
+     "Opacity": 0.12
+    },
+    "overrides": {
+     "two_sided": false
+    },
+    "read": {
+     "two_sided": false,
+     "blend": null
+    }
+   },
+   "M_MO01_DrapeSide_L": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_DrapeSide_L",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_L_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_L_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_DrapeSide_R": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_DrapeSide_R",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_R_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_DrapeSide_R_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_Swag_N": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Swag_N",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_N_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_N_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_Swag_E": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Swag_E",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_E_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Swag_E_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_Tail_N": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Tail_N",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_N_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_N_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_Tail_E": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Tail_E",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Velvet_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_E_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Tail_E_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_VelvetBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_MO01_Sheer": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Sheer",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Translucent.M_MO01_Translucent",
+    "switches": {
+     "MainOnWoodUV": true,
+     "UseNormalMap": false,
+     "UseTrimLayer": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_ORM",
+     "TrimNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_SheerFolds_NormalGL",
+     "TrimORM": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Sheer_AO",
+     "GrainNormal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_SheerBump_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "TrimAOToBaseColor": 0.8,
+     "TrimNormalStrength": 1.0,
+     "GrainStrength": 0.35,
+     "Opacity": 0.55
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_MO01_Fringe": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Fringe",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "MetallicFromORM": false,
+     "UseOpacityFromTexture": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Fringe_BaseColorAlpha",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures/T_MO01_Fringe_NormalGL"
+    },
+    "scalars": {
+     "Roughness": 0.45,
+     "Metallic": 0.7,
+     "NormalStrength": 1.0,
+     "Opacity": 1.0
+    },
+    "overrides": {
+     "two_sided": true,
+     "blend": "masked",
+     "clip": 0.5
+    },
+    "read": {
+     "two_sided": true,
+     "blend": "<BlendMode.BLEND_MASKED: 1>"
+    }
+   },
+   "M_HE_Palm_P03 | pinnate leaflets": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Materials/MI_HE_Palm_P03_Leaflets",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Leaf_NormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "NormalStrength": 1.0
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_HE_Palm_P03 | matte aged ivory ceramic": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Materials/MI_HE_Palm_P03_Planter",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures/T_HE_Palm_P03_Pot_BakedNormalGL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_HE_Palm_P03 | slender olive green cane": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Materials/MI_HE_Palm_P03_Cane",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.075,
+      0.14,
+      0.05,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.83,
+     "Metallic": 0.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_HE_Palm_P03 | soil": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Materials/MI_HE_Palm_P03_Soil",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.065,
+      0.05,
+      0.032,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.93,
+     "Metallic": 0.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_HE_Palm_P03 | tapered frond rachis": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Materials/MI_HE_Palm_P03_Rachis",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "UseBaseColorTexture": false,
+     "UseORM": false,
+     "RoughnessFromORM": false,
+     "UseNormalMap": false
+    },
+    "vectors": {
+     "BaseColorTint": [
+      0.07,
+      0.145,
+      0.05,
+      1.0
+     ]
+    },
+    "scalars": {
+     "Roughness": 0.76,
+     "Metallic": 0.0
+    },
+    "overrides": {
+     "two_sided": true
+    },
+    "read": {
+     "two_sided": true,
+     "blend": null
+    }
+   },
+   "M_HE_Grate_G01_BAKED": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Materials/MI_HE_Grate_G01",
+    "parent": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/M_MO01_Surface.M_MO01_Surface",
+    "switches": {
+     "UseUVT": false,
+     "MetallicFromORM": true
+    },
+    "textures": {
+     "BaseColor": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_BaseColor",
+     "ORM": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_ORM",
+     "Normal": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures/T_HE_Grate_G01_Normal_GL"
+    },
+    "scalars": {
+     "AOToBaseColor": 0.0,
+     "NormalStrength": 1.0
+    },
+    "overrides": {},
+    "read": {
+     "two_sided": null,
+     "blend": null
+    }
+   },
+   "M_EC01_Mahogany": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Mahogany",
+    "reused": true
+   },
+   "M_EC01_MahoganyTrim": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_MahoganyTrim",
+    "reused": true
+   },
+   "M_EC01_FiguredVeneer": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_FiguredVeneer",
+    "reused": true
+   },
+   "M_EC01_HardwareBrass": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_HardwareBrass",
+    "reused": true
+   },
+   "M_HE_FireplaceFlame": {
+    "path": "/Game/Whispers/Presentation/Environment/HotelEden/Fireplace/M_HE_FireplaceFlame",
+    "reused": true
+   }
+  }
+ },
+ "meshes": {
+  "SM_MO01_CaseDoor": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_CaseDoor",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1
+   ],
+   "bounds_err_cm": 3.3974647521972656e-06,
+   "triangles": 98,
+   "source_triangles": 98,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_CaseKnob": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_CaseKnob",
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.166496753692627e-07,
+   "triangles": 128,
+   "source_triangles": 128,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_CasePilaster": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_CasePilaster",
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.76837158203125e-06,
+   "triangles": 108,
+   "source_triangles": 108,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_CaseShelf": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_CaseShelf",
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0609626770019531e-05,
+   "triangles": 10,
+   "source_triangles": 10,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_low_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_low_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.708766937255859e-06,
+   "triangles": 605,
+   "source_triangles": 605,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_mid_02": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_mid_02",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.77558171749115e-06,
+   "triangles": 717,
+   "source_triangles": 717,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_mid_03": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_mid_03",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.388632416725159e-06,
+   "triangles": 603,
+   "source_triangles": 603,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_mid_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_mid_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 6.978865712881088e-06,
+   "triangles": 696,
+   "source_triangles": 696,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_mid_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_mid_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.213543772697449e-06,
+   "triangles": 659,
+   "source_triangles": 659,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_top_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_top_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 2.513028448447585e-06,
+   "triangles": 348,
+   "source_triangles": 348,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_low_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_low_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 6.5658241510391235e-06,
+   "triangles": 547,
+   "source_triangles": 547,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_Alcove_top_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_Alcove_top_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 6.869900971651077e-06,
+   "triangles": 464,
+   "source_triangles": 464,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_low_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_low_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.6954879760742188e-06,
+   "triangles": 580,
+   "source_triangles": 580,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_04": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_04",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 6.200280040502548e-06,
+   "triangles": 522,
+   "source_triangles": 522,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_03": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_03",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.060566425323486e-06,
+   "triangles": 609,
+   "source_triangles": 609,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_02": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_02",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.5299530029296875e-06,
+   "triangles": 667,
+   "source_triangles": 667,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_05": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_05",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.76837158203125e-06,
+   "triangles": 601,
+   "source_triangles": 601,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_top_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_top_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.647772923111916e-06,
+   "triangles": 406,
+   "source_triangles": 406,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_low_02": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_low_02",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.424022674560547e-06,
+   "triangles": 551,
+   "source_triangles": 551,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_00": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_00",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.7220458984375e-06,
+   "triangles": 667,
+   "source_triangles": 667,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_mid_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_mid_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.424022674560547e-06,
+   "triangles": 609,
+   "source_triangles": 609,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_top_02": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_top_02",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 6.504356861114502e-06,
+   "triangles": 493,
+   "source_triangles": 493,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_low_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_low_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.662441253662109e-06,
+   "triangles": 493,
+   "source_triangles": 493,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_BookRow_South_top_01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_BookRow_South_top_01",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.810746759176254e-06,
+   "triangles": 406,
+   "source_triangles": 406,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_DrapeSide_L": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_DrapeSide_L",
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 9.655952453613281e-06,
+   "triangles": 1400,
+   "source_triangles": 1400,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_DrapeSide_R": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_DrapeSide_R",
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.761882781982422e-06,
+   "triangles": 1400,
+   "source_triangles": 1400,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Swag_E": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Swag_E",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 5.125999450683594e-06,
+   "triangles": 88,
+   "source_triangles": 88,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Tail_E_L": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Tail_E_L",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.748603820800781e-06,
+   "triangles": 54,
+   "source_triangles": 54,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Tail_E_R": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Tail_E_R",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.271766662597656e-06,
+   "triangles": 54,
+   "source_triangles": 54,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Sheer": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Sheer",
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.58306884765625e-06,
+   "triangles": 1900,
+   "source_triangles": 1900,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": [
+    "M_MO01_Sheer"
+   ]
+  },
+  "SM_MO01_Swag_E": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Swag_E",
+   "slots": [
+    "M_MO01_Swag_E"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.52587890625e-05,
+   "triangles": 2640,
+   "source_triangles": 2640,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Tail_E_L": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Tail_E_L",
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0371208190917969e-05,
+   "triangles": 756,
+   "source_triangles": 756,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Tail_E_R": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Tail_E_R",
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.3909759521484375e-06,
+   "triangles": 756,
+   "source_triangles": 756,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Books_Mantel": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Books_Mantel",
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.6632183132969658e-06,
+   "triangles": 145,
+   "source_triangles": 145,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_Candelabra": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Candelabra",
+   "slots": [
+    "M_MO01_Candelabra"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.430511474609375e-06,
+   "triangles": 7616,
+   "source_triangles": 7616,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_Clock": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Clock",
+   "slots": [
+    "M_MO01_Clock",
+    "M_MO01_ClockDial",
+    "M_MO01_ClockGlass"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 1.1622905731201172e-06,
+   "triangles": 2478,
+   "source_triangles": 2478,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 1,
+   "translucent": [
+    "M_MO01_ClockGlass"
+   ]
+  },
+  "SM_MO01_Canvas_AlcoveCase": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Canvas_AlcoveCase",
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.0994415283203125e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Canvas_BetweenWindows": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Canvas_BetweenWindows",
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.0994415283203125e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Canvas_OverMantel": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Canvas_OverMantel",
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.0994415283203125e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Swag_N": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Swag_N",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.62939453125e-06,
+   "triangles": 88,
+   "source_triangles": 88,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Tail_N_L": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Tail_N_L",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.748603820800781e-06,
+   "triangles": 54,
+   "source_triangles": 54,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Fringe_Tail_N_R": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Fringe_Tail_N_R",
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.271766662597656e-06,
+   "triangles": 54,
+   "source_triangles": 54,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Swag_N": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Swag_N",
+   "slots": [
+    "M_MO01_Swag_N"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.430511474609375e-05,
+   "triangles": 2640,
+   "source_triangles": 2640,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Tail_N_L": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Tail_N_L",
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.239776611328125e-05,
+   "triangles": 756,
+   "source_triangles": 756,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Tail_N_R": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Tail_N_R",
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.239776611328125e-05,
+   "triangles": 756,
+   "source_triangles": 756,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Bookcase_Alcove": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Bookcase_Alcove",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    2
+   ],
+   "bounds_err_cm": 1.33514404296875e-05,
+   "triangles": 110,
+   "source_triangles": 110,
+   "ucx": 1,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Bookcase_South": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Bookcase_South",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    2
+   ],
+   "bounds_err_cm": 2.47955322265625e-05,
+   "triangles": 206,
+   "source_triangles": 206,
+   "ucx": 1,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Ceiling": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Ceiling",
+   "slots": [
+    "M_MO01_Ceiling"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.9591064453125e-05,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_ChimneyBreast": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_ChimneyBreast",
+   "slots": [
+    "M_MO01_BreastPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.1444091796875e-05,
+   "triangles": 14,
+   "source_triangles": 14,
+   "ucx": 1,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Cornice": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Cornice",
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.9591064453125e-05,
+   "triangles": 576,
+   "source_triangles": 576,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_DadoRail": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_DadoRail",
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.528594970703125e-05,
+   "triangles": 726,
+   "source_triangles": 726,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_BF": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_BF",
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0967254638671875e-05,
+   "triangles": 12,
+   "source_triangles": 12,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_BN": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_BN",
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 2.384185791015625e-07,
+   "triangles": 6,
+   "source_triangles": 6,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_BS": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_BS",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 2.2649765014648438e-06,
+   "triangles": 94,
+   "source_triangles": 94,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_E": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_E",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 2.8014183044433594e-05,
+   "triangles": 798,
+   "source_triangles": 798,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_N": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_N",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 3.552436828613281e-05,
+   "triangles": 974,
+   "source_triangles": 974,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_S": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_S",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 1.3947486877441406e-05,
+   "triangles": 188,
+   "source_triangles": 188,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Dado_WS": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Dado_WS",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2
+   ],
+   "bounds_err_cm": 2.1457672119140625e-06,
+   "triangles": 94,
+   "source_triangles": 94,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_DoorArchitrave_D-MO-24": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_DoorArchitrave_D-MO-24",
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 7.867813110351562e-06,
+   "triangles": 84,
+   "source_triangles": 84,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Firebox": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Firebox",
+   "slots": [
+    "M_MO01_FireBrick",
+    "M_MO01_FireboxIron"
+   ],
+   "slot_map": [
+    0,
+    1
+   ],
+   "bounds_err_cm": 3.814697265625e-06,
+   "triangles": 288,
+   "source_triangles": 288,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Hearth": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Hearth",
+   "slots": [
+    "M_MO01_MarbleHearth"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 9.5367431640625e-06,
+   "triangles": 8,
+   "source_triangles": 8,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_LadderRail": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_LadderRail",
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 2.3365020751953125e-05,
+   "triangles": 136,
+   "source_triangles": 136,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_LibraryLadder": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_LibraryLadder",
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_map": [
+    0,
+    1
+   ],
+   "bounds_err_cm": 7.62939453125e-06,
+   "triangles": 160,
+   "source_triangles": 160,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Mantel": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Mantel",
+   "slots": [
+    "M_MO01_Mantel"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 9.298324584960938e-06,
+   "triangles": 714,
+   "source_triangles": 714,
+   "ucx": 1,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_Paper_BF": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_BF",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0927847142738756e-05,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_BN": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_BN",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.814697265625e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_BS": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_BS",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.814697265625e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_E": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_E",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 2.7975289413006976e-05,
+   "triangles": 92,
+   "source_triangles": 92,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_N": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_N",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.759180617635138e-05,
+   "triangles": 92,
+   "source_triangles": 92,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_S": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_S",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.759180617635138e-05,
+   "triangles": 14,
+   "source_triangles": 14,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_WN": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_WN",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.2894860446976963e-05,
+   "triangles": 8,
+   "source_triangles": 8,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Paper_WS": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Paper_WS",
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.152581368543906e-06,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Parquet": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Parquet",
+   "slots": [
+    "M_MO01_Parquet"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 4.9591064453125e-05,
+   "triangles": 2,
+   "source_triangles": 2,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Pelmet_E13-W-0": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Pelmet_E13-W-0",
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.58306884765625e-06,
+   "triangles": 292,
+   "source_triangles": 292,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Pelmet_E13-W-1": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Pelmet_E13-W-1",
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.58306884765625e-06,
+   "triangles": 292,
+   "source_triangles": 292,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Pelmet_W3-06": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Pelmet_W3-06",
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.463859558105469e-06,
+   "triangles": 292,
+   "source_triangles": 292,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Pelmet_W3-07": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Pelmet_W3-07",
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 8.463859558105469e-06,
+   "triangles": 292,
+   "source_triangles": 292,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_PictureLight": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_PictureLight",
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.9073486328125e-06,
+   "triangles": 68,
+   "source_triangles": 68,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Rug": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Rug",
+   "slots": [
+    "M_MO01_Rug"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.0517578125e-05,
+   "triangles": 10,
+   "source_triangles": 10,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_Skirting": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Skirting",
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 2.574920654296875e-05,
+   "triangles": 460,
+   "source_triangles": 460,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_WindowArchitrave_E13-W-0": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_WindowArchitrave_E13-W-0",
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.1444091796875e-05,
+   "triangles": 1180,
+   "source_triangles": 1180,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_WindowArchitrave_E13-W-1": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_WindowArchitrave_E13-W-1",
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.1444091796875e-05,
+   "triangles": 1180,
+   "source_triangles": 1180,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_WindowArchitrave_W3-06": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_WindowArchitrave_W3-06",
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0013580322265625e-05,
+   "triangles": 1180,
+   "source_triangles": 1180,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_MO01_WindowArchitrave_W3-07": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_WindowArchitrave_W3-07",
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.0013580322265625e-05,
+   "triangles": 1180,
+   "source_triangles": 1180,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 3,
+   "translucent": []
+  },
+  "SM_HE_Palm_P03": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Meshes/SM_HE_Palm_P03",
+   "slots": [
+    "M_HE_Palm_P03 | slender olive green cane",
+    "M_HE_Palm_P03 | tapered frond rachis",
+    "M_HE_Palm_P03 | pinnate leaflets",
+    "M_HE_Palm_P03 | matte aged ivory ceramic",
+    "M_HE_Palm_P03 | soil"
+   ],
+   "slot_map": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "bounds_err_cm": 7.62939453125e-06,
+   "triangles": 38464,
+   "source_triangles": 38464,
+   "ucx": 1,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_HE_Grate_G01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Meshes/SM_HE_Grate_G01",
+   "slots": [
+    "M_HE_Grate_G01_BAKED_002"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 3.814697265625e-06,
+   "triangles": 2718,
+   "source_triangles": 2718,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_HE_Fuel_G01": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Meshes/SM_HE_Fuel_G01",
+   "slots": [
+    "M_HE_Grate_G01_BAKED_002"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.9073486328125e-06,
+   "triangles": 2644,
+   "source_triangles": 2644,
+   "ucx": 0,
+   "nanite": true,
+   "uv_channels": 1,
+   "translucent": []
+  },
+  "SM_MO01_FireCards": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_FireCards",
+   "slots": [
+    "M_HE_FireplaceFlame"
+   ],
+   "slot_map": [
+    0
+   ],
+   "bounds_err_cm": 1.430511474609375e-06,
+   "triangles": 6,
+   "source_triangles": 6,
+   "ucx": 0,
+   "nanite": false,
+   "uv_channels": 1,
+   "translucent": []
+  }
+ },
+ "fixtures": {
+  "tags": {
+   "Light.Zone.Hotel.MeredithOffice": true,
+   "Light.Group.MeredithOffice": true,
+   "Light.Role.Practical": true,
+   "Light.Role.Fire": true,
+   "Light.Role.Fill": true
+  },
+  "window_fill_profile": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "500.0",
+   "TemperatureK": "6200.0",
+   "SourceWidthCm": "170.0",
+   "SourceHeightCm": "240.0",
+   "AttenuationRadiusCm": "700.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.NONE: 2>",
+   "bCastShadows": "False",
+   "bAllowMegaLights": "True"
+  }
+ },
+ "place": {
+  "actor": {
+   "label": "MO01_MeredithOffice",
+   "components": {
+    "AF02_Frame": {
+     "resource": "SM_HE_AF02_Frame",
+     "instances": 3,
+     "collision": "none"
+    },
+    "Fuel_G01": {
+     "resource": "SM_HE_Fuel_G01",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Grate_G01": {
+     "resource": "SM_HE_Grate_G01",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Palm_P03": {
+     "resource": "SM_HE_Palm_P03",
+     "instances": 1,
+     "collision": "block (UCX boxes)"
+    },
+    "BookRow_Alcove_low_00": {
+     "resource": "SM_MO01_BookRow_Alcove_low_00",
+     "instances": 1,
+     "collision": "none"
+    },
+    "BookRow_Alcove_low_01": {
+     "resource": "SM_MO01_BookRow_Alcove_low_01",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_Alcove_mid_00": {
+     "resource": "SM_MO01_BookRow_Alcove_mid_00",
+     "instances": 3,
+     "collision": "none"
+    },
+    "BookRow_Alcove_mid_01": {
+     "resource": "SM_MO01_BookRow_Alcove_mid_01",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_Alcove_mid_02": {
+     "resource": "SM_MO01_BookRow_Alcove_mid_02",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_Alcove_mid_03": {
+     "resource": "SM_MO01_BookRow_Alcove_mid_03",
+     "instances": 3,
+     "collision": "none"
+    },
+    "BookRow_Alcove_top_00": {
+     "resource": "SM_MO01_BookRow_Alcove_top_00",
+     "instances": 1,
+     "collision": "none"
+    },
+    "BookRow_Alcove_top_01": {
+     "resource": "SM_MO01_BookRow_Alcove_top_01",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_South_low_00": {
+     "resource": "SM_MO01_BookRow_South_low_00",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_South_low_01": {
+     "resource": "SM_MO01_BookRow_South_low_01",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_South_low_02": {
+     "resource": "SM_MO01_BookRow_South_low_02",
+     "instances": 2,
+     "collision": "none"
+    },
+    "BookRow_South_mid_00": {
+     "resource": "SM_MO01_BookRow_South_mid_00",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_mid_01": {
+     "resource": "SM_MO01_BookRow_South_mid_01",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_mid_02": {
+     "resource": "SM_MO01_BookRow_South_mid_02",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_mid_03": {
+     "resource": "SM_MO01_BookRow_South_mid_03",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_mid_04": {
+     "resource": "SM_MO01_BookRow_South_mid_04",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_mid_05": {
+     "resource": "SM_MO01_BookRow_South_mid_05",
+     "instances": 4,
+     "collision": "none"
+    },
+    "BookRow_South_top_00": {
+     "resource": "SM_MO01_BookRow_South_top_00",
+     "instances": 3,
+     "collision": "none"
+    },
+    "BookRow_South_top_01": {
+     "resource": "SM_MO01_BookRow_South_top_01",
+     "instances": 1,
+     "collision": "none"
+    },
+    "BookRow_South_top_02": {
+     "resource": "SM_MO01_BookRow_South_top_02",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Bookcase_Alcove": {
+     "resource": "SM_MO01_Bookcase_Alcove",
+     "instances": 1,
+     "collision": "block (UCX boxes)"
+    },
+    "Bookcase_South": {
+     "resource": "SM_MO01_Bookcase_South",
+     "instances": 1,
+     "collision": "block (UCX boxes)"
+    },
+    "Books_Mantel": {
+     "resource": "SM_MO01_Books_Mantel",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Candelabra": {
+     "resource": "SM_MO01_Candelabra",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Canvas_AlcoveCase": {
+     "resource": "SM_MO01_Canvas_AlcoveCase",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Canvas_BetweenWindows": {
+     "resource": "SM_MO01_Canvas_BetweenWindows",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Canvas_OverMantel": {
+     "resource": "SM_MO01_Canvas_OverMantel",
+     "instances": 1,
+     "collision": "none"
+    },
+    "CaseDoor": {
+     "resource": "SM_MO01_CaseDoor",
+     "instances": 18,
+     "collision": "none"
+    },
+    "CaseKnob": {
+     "resource": "SM_MO01_CaseKnob",
+     "instances": 18,
+     "collision": "none"
+    },
+    "CasePilaster": {
+     "resource": "SM_MO01_CasePilaster",
+     "instances": 11,
+     "collision": "none"
+    },
+    "CaseShelf": {
+     "resource": "SM_MO01_CaseShelf",
+     "instances": 45,
+     "collision": "none"
+    },
+    "Ceiling": {
+     "resource": "SM_MO01_Ceiling",
+     "instances": 1,
+     "collision": "none"
+    },
+    "ChimneyBreast": {
+     "resource": "SM_MO01_ChimneyBreast",
+     "instances": 1,
+     "collision": "block (UCX boxes)"
+    },
+    "Clock": {
+     "resource": "SM_MO01_Clock",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Cornice": {
+     "resource": "SM_MO01_Cornice",
+     "instances": 1,
+     "collision": "none"
+    },
+    "DadoRail": {
+     "resource": "SM_MO01_DadoRail",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_BF": {
+     "resource": "SM_MO01_Dado_BF",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_BN": {
+     "resource": "SM_MO01_Dado_BN",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_BS": {
+     "resource": "SM_MO01_Dado_BS",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_E": {
+     "resource": "SM_MO01_Dado_E",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_N": {
+     "resource": "SM_MO01_Dado_N",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_S": {
+     "resource": "SM_MO01_Dado_S",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Dado_WS": {
+     "resource": "SM_MO01_Dado_WS",
+     "instances": 1,
+     "collision": "none"
+    },
+    "DoorArchitrave_D_MO_24": {
+     "resource": "SM_MO01_DoorArchitrave_D-MO-24",
+     "instances": 1,
+     "collision": "none"
+    },
+    "DrapeSide_L": {
+     "resource": "SM_MO01_DrapeSide_L",
+     "instances": 4,
+     "collision": "none"
+    },
+    "DrapeSide_R": {
+     "resource": "SM_MO01_DrapeSide_R",
+     "instances": 4,
+     "collision": "none"
+    },
+    "FireCards": {
+     "resource": "SM_MO01_FireCards",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Firebox": {
+     "resource": "SM_MO01_Firebox",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Fringe_Swag_E": {
+     "resource": "SM_MO01_Fringe_Swag_E",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Fringe_Swag_N": {
+     "resource": "SM_MO01_Fringe_Swag_N",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Fringe_Tail_E_L": {
+     "resource": "SM_MO01_Fringe_Tail_E_L",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Fringe_Tail_E_R": {
+     "resource": "SM_MO01_Fringe_Tail_E_R",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Fringe_Tail_N_L": {
+     "resource": "SM_MO01_Fringe_Tail_N_L",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Fringe_Tail_N_R": {
+     "resource": "SM_MO01_Fringe_Tail_N_R",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Hearth": {
+     "resource": "SM_MO01_Hearth",
+     "instances": 1,
+     "collision": "none"
+    },
+    "LadderRail": {
+     "resource": "SM_MO01_LadderRail",
+     "instances": 1,
+     "collision": "none"
+    },
+    "LibraryLadder": {
+     "resource": "SM_MO01_LibraryLadder",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Mantel": {
+     "resource": "SM_MO01_Mantel",
+     "instances": 1,
+     "collision": "block (UCX boxes)"
+    },
+    "Paper_BF": {
+     "resource": "SM_MO01_Paper_BF",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_BN": {
+     "resource": "SM_MO01_Paper_BN",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_BS": {
+     "resource": "SM_MO01_Paper_BS",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_E": {
+     "resource": "SM_MO01_Paper_E",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_N": {
+     "resource": "SM_MO01_Paper_N",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_S": {
+     "resource": "SM_MO01_Paper_S",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_WN": {
+     "resource": "SM_MO01_Paper_WN",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Paper_WS": {
+     "resource": "SM_MO01_Paper_WS",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Parquet": {
+     "resource": "SM_MO01_Parquet",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Pelmet_E13_W_0": {
+     "resource": "SM_MO01_Pelmet_E13-W-0",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Pelmet_E13_W_1": {
+     "resource": "SM_MO01_Pelmet_E13-W-1",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Pelmet_W3_06": {
+     "resource": "SM_MO01_Pelmet_W3-06",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Pelmet_W3_07": {
+     "resource": "SM_MO01_Pelmet_W3-07",
+     "instances": 1,
+     "collision": "none"
+    },
+    "PictureLight": {
+     "resource": "SM_MO01_PictureLight",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Rug": {
+     "resource": "SM_MO01_Rug",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Sheer": {
+     "resource": "SM_MO01_Sheer",
+     "instances": 4,
+     "collision": "none"
+    },
+    "Skirting": {
+     "resource": "SM_MO01_Skirting",
+     "instances": 1,
+     "collision": "none"
+    },
+    "Swag_E": {
+     "resource": "SM_MO01_Swag_E",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Swag_N": {
+     "resource": "SM_MO01_Swag_N",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Tail_E_L": {
+     "resource": "SM_MO01_Tail_E_L",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Tail_E_R": {
+     "resource": "SM_MO01_Tail_E_R",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Tail_N_L": {
+     "resource": "SM_MO01_Tail_N_L",
+     "instances": 2,
+     "collision": "none"
+    },
+    "Tail_N_R": {
+     "resource": "SM_MO01_Tail_N_R",
+     "instances": 2,
+     "collision": "none"
+    },
+    "WindowArchitrave_E13_W_0": {
+     "resource": "SM_MO01_WindowArchitrave_E13-W-0",
+     "instances": 1,
+     "collision": "none"
+    },
+    "WindowArchitrave_E13_W_1": {
+     "resource": "SM_MO01_WindowArchitrave_E13-W-1",
+     "instances": 1,
+     "collision": "none"
+    },
+    "WindowArchitrave_W3_06": {
+     "resource": "SM_MO01_WindowArchitrave_W3-06",
+     "instances": 1,
+     "collision": "none"
+    },
+    "WindowArchitrave_W3_07": {
+     "resource": "SM_MO01_WindowArchitrave_W3-07",
+     "instances": 1,
+     "collision": "none"
+    }
+   },
+   "instances": 233
+  },
+  "lights": [
+   {
+    "label": "WallSconce_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WallSconce.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_EC01_Sconce",
+    "light_err_cm": 8.866111870709672e-05,
+    "class": "BP_EC01_WallSconce_S06"
+   },
+   {
+    "label": "WallSconce_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WallSconce.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_EC01_Sconce",
+    "light_err_cm": 8.866111870709672e-05,
+    "class": "BP_EC01_WallSconce_S06"
+   },
+   {
+    "label": "Fireplace_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.Fireplace.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fire",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_Fireplace",
+    "class": "BP_Light_Fireplace_C",
+    "light_world_cm": [
+     1740.0,
+     450.0,
+     930.4
+    ],
+    "forward": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "label": "PictureLight_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.PictureLight.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_WallSconce",
+    "class": "BP_Light_WallSconce_C",
+    "light_world_cm": [
+     1778.0,
+     450.0,
+     1234.7
+    ],
+    "forward": [
+     -0.25,
+     -0.0,
+     -0.968
+    ],
+    "dir_err": 0.0
+   },
+   {
+    "label": "WindowFill_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WindowFill.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_MO01_WindowFill",
+    "class": "BP_Light_WindowFill_C",
+    "light_world_cm": [
+     2310.0,
+     0.0,
+     1145.5
+    ],
+    "forward": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "dir_err": 0.0
+   },
+   {
+    "label": "WindowFill_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WindowFill.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_MO01_WindowFill",
+    "class": "BP_Light_WindowFill_C",
+    "light_world_cm": [
+     1910.0,
+     0.0,
+     1145.5
+    ],
+    "forward": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "dir_err": 0.0
+   },
+   {
+    "label": "WindowFill_MeredithOffice_03",
+    "id": "Hotel.MeredithOffice.WindowFill.03",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_MO01_WindowFill",
+    "class": "BP_Light_WindowFill_C",
+    "light_world_cm": [
+     2600.0,
+     545.0,
+     1120.5
+    ],
+    "forward": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "dir_err": 0.0
+   },
+   {
+    "label": "WindowFill_MeredithOffice_04",
+    "id": "Hotel.MeredithOffice.WindowFill.04",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "groups": "(GameplayTags=((TagName=\"Light.Group.MeredithOffice\")))",
+    "profile": "DA_LightProfile_MO01_WindowFill",
+    "class": "BP_Light_WindowFill_C",
+    "light_world_cm": [
+     2600.0,
+     255.0,
+     1120.5
+    ],
+    "forward": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "dir_err": 0.0
+   }
+  ],
+  "fire": {
+   "crackle": "MO01_Fireplace_Crackle",
+   "cards": "MO01_MeredithOffice/FireCards (M_HE_FireplaceFlame)",
+   "sound_cm": [
+    1743.553638458252,
+    450.4108428955078,
+    930.4371871948241
+   ]
+  },
+  "retired_lm01": [
+   {
+    "label": "LM01_RoomLamp_Level3Rooms_Lamp_04",
+    "class": "/Script/Engine.Actor",
+    "folder": "Lighting/OccupiedRooms",
+    "translation_cm": [
+     2154.0000000000573,
+     341.00000000001455,
+     1280.0
+    ],
+    "rotation_quat": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "light_components": [
+     {
+      "name": "PointLight",
+      "class": "PointLightComponent",
+      "translation_cm": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation_quat": [
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "intensity": 5000.0
+     }
+    ],
+    "light": {
+     "LightId": "Hotel.Level3Rooms.Lamp.04",
+     "ZoneTag": "(TagName=\"Light.Zone.Hotel.Level3Rooms\")",
+     "RoleTag": "(TagName=\"Light.Role.Practical\")",
+     "GroupTags": "(GameplayTags=((TagName=\"Light.Group.OccupiedRooms\")))",
+     "Profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom"
+    }
+   },
+   {
+    "label": "LM01_Zone_Level3Rooms_Lamp_04",
+    "class": "/Script/WhispersLighting.WhispersLightZoneVolume",
+    "folder": "Lighting/Zones/Hotel",
+    "translation_cm": [
+     2154.0000000000573,
+     341.00000000001455,
+     1110.0
+    ],
+    "rotation_quat": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "zone": {
+     "tag": "Light.Zone.Hotel.Level3Rooms",
+     "extent": [
+      428.0,
+      322.0,
+      205.0
+     ],
+     "never_dormant": false
+    }
+   }
+  ],
+  "zone": {
+   "volume": {
+    "label": "MO01_Zone_MeredithOffice",
+    "center": [
+     2140.0,
+     350.0,
+     1110.0
+    ],
+    "extent": [
+     430.0,
+     320.0,
+     205.0
+    ],
+    "zone": "Light.Zone.Hotel.MeredithOffice"
+   },
+   "portals": [
+    {
+     "label": "MO01_Portal_Office_Exterior",
+     "a": "Light.Zone.Hotel.MeredithOffice",
+     "b": "Light.Zone.Eden.Exterior",
+     "pos": [
+      2310,
+      30,
+      1120
+     ]
+    },
+    {
+     "label": "EC01_Portal_Office_MeredithOffice",
+     "was": {
+      "label": "EC01_Portal_Office_Level3Rooms",
+      "b": "Light.Zone.Hotel.Level3Rooms"
+     },
+     "a": "Light.Zone.Hotel.ExecutiveCorridor",
+     "b": "Light.Zone.Hotel.MeredithOffice"
+    }
+   ]
+  },
+  "saved": true,
+  "dirty_after_save": []
+ },
+ "verify": {
+  "world": "L_HotelEden_Building",
+  "placements": 233,
+  "worst_placement_err_cm": 0.0,
+  "lights": [
+   {
+    "label": "Fireplace_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.Fireplace.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fire",
+    "profile": "DA_LightProfile_Fireplace"
+   },
+   {
+    "label": "PictureLight_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.PictureLight.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_WallSconce"
+   },
+   {
+    "label": "WallSconce_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WallSconce.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_EC01_Sconce"
+   },
+   {
+    "label": "WallSconce_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WallSconce.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_EC01_Sconce"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WindowFill.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WindowFill.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_03",
+    "id": "Hotel.MeredithOffice.WindowFill.03",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_04",
+    "id": "Hotel.MeredithOffice.WindowFill.04",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   }
+  ],
+  "zone": {
+   "volume": true,
+   "portal_exterior": true,
+   "door_portal": true,
+   "lm01_retired": true
+  },
+  "crackle": true,
+  "dirty": []
+ },
+ "world": {
+  "world": "L_EdenE2K",
+  "placements": 233,
+  "worst_placement_err_cm": 0.0,
+  "lights": [
+   {
+    "label": "Fireplace_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.Fireplace.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fire",
+    "profile": "DA_LightProfile_Fireplace"
+   },
+   {
+    "label": "PictureLight_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.PictureLight.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_WallSconce"
+   },
+   {
+    "label": "WallSconce_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WallSconce.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_EC01_Sconce"
+   },
+   {
+    "label": "WallSconce_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WallSconce.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Practical",
+    "profile": "DA_LightProfile_EC01_Sconce"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_01",
+    "id": "Hotel.MeredithOffice.WindowFill.01",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_02",
+    "id": "Hotel.MeredithOffice.WindowFill.02",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_03",
+    "id": "Hotel.MeredithOffice.WindowFill.03",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   },
+   {
+    "label": "WindowFill_MeredithOffice_04",
+    "id": "Hotel.MeredithOffice.WindowFill.04",
+    "zone": "Light.Zone.Hotel.MeredithOffice",
+    "role": "Light.Role.Fill",
+    "profile": "DA_LightProfile_MO01_WindowFill"
+   }
+  ],
+  "zone": {
+   "volume": true,
+   "portal_exterior": true,
+   "door_portal": true,
+   "lm01_retired": true
+  },
+  "crackle": true,
+  "dirty": [],
+  "instance": {
+   "translation_cm": [
+    6270.800668628429,
+    -11977.063322630067,
+    59165.00000000001
+   ],
+   "rotation_quat": [
+    -0.0,
+    0.0,
+    -0.9988483864849509,
+    0.04797812852134391
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "updates": [
+  {
+   "moved": [
+    {
+     "resource": "SM_MO01_Ceiling",
+     "name": "SM_MO01_Ceiling__ms02",
+     "from_cm": [
+      2140.0001525878906,
+      350.0,
+      1319.9000358581543
+     ],
+     "to_cm": [
+      2140.0001525878906,
+      350.0,
+      1318.99995803833
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_BF",
+     "name": "SM_MO01_Paper_BF__ms02",
+     "from_cm": [
+      1762.1000289916992,
+      450.0,
+      995.3999519348145
+     ],
+     "to_cm": [
+      1762.3001098632812,
+      450.0,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_BN",
+     "name": "SM_MO01_Paper_BN__ms02",
+     "from_cm": [
+      1736.0000610351562,
+      324.9000072479248,
+      995.3999519348145
+     ],
+     "to_cm": [
+      1736.0000610351562,
+      324.6999979019165,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_BS",
+     "name": "SM_MO01_Paper_BS__ms02",
+     "from_cm": [
+      1736.0000610351562,
+      575.0999927520752,
+      995.3999519348145
+     ],
+     "to_cm": [
+      1736.0000610351562,
+      575.2999782562256,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_E",
+     "name": "SM_MO01_Paper_E__ms02",
+     "from_cm": [
+      2569.900131225586,
+      349.9999761581421,
+      995.3999519348145
+     ],
+     "to_cm": [
+      2569.700050354004,
+      349.9999761581421,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_N",
+     "name": "SM_MO01_Paper_N__ms02",
+     "from_cm": [
+      2140.0001525878906,
+      30.09999990463257,
+      995.3999519348145
+     ],
+     "to_cm": [
+      2140.0001525878906,
+      30.300000309944153,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_S",
+     "name": "SM_MO01_Paper_S__ms02",
+     "from_cm": [
+      2140.0001525878906,
+      669.8999881744385,
+      995.3999519348145
+     ],
+     "to_cm": [
+      2140.0001525878906,
+      669.7000026702881,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_WN",
+     "name": "SM_MO01_Paper_WN__ms02",
+     "from_cm": [
+      1710.099983215332,
+      177.4999976158142,
+      995.3999519348145
+     ],
+     "to_cm": [
+      1710.300064086914,
+      177.4999976158142,
+      995.3999519348145
+     ]
+    },
+    {
+     "resource": "SM_MO01_Paper_WS",
+     "name": "SM_MO01_Paper_WS__ms02",
+     "from_cm": [
+      1710.099983215332,
+      622.4999904632568,
+      995.3999519348145
+     ],
+     "to_cm": [
+      1710.300064086914,
+      622.4999904632568,
+      995.3999519348145
+     ]
+    }
+   ],
+   "dirty_after_save": []
+  }
+ ],
+ "look": {
+  "label": "MO01_OfficeLook",
+  "priority": 3.0,
+  "blend_radius": 50.0,
+  "settings": {
+   "lumen_final_gather_quality": 2.0,
+   "auto_exposure_bias": -0.5,
+   "local_exposure_shadow_contrast_scale": 0.8999999761581421,
+   "vignette_intensity": 0.44999998807907104
+  },
+  "bounds_cm": [
+   [
+    1710.0,
+    30.0,
+    905.0
+   ],
+   [
+    2570.0,
+    670.0,
+    1315.0
+   ]
+  ],
+  "dirty_after_save": []
+ }
+}

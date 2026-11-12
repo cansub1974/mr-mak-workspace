@@ -1,0 +1,706 @@
+{
+ "plan": {
+  "Desk_Pedestal_MO": {
+   "from_local": {
+    "t": [
+     2291.3334536985485,
+     365.00248902833664,
+     900.3999999999942
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.04797813035645057,
+     -0.9988483863968042
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": -5.500000210530178
+   },
+   "to_local": {
+    "t": [
+     2030.0,
+     400.0,
+     901.7
+    ],
+    "q": [
+     0.0,
+     -0.0,
+     0.9999999999999999,
+     6.123233995736766e-17
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 180.0
+   }
+  },
+  "Chair_Swivel_MO": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     900.3999999999942
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.672366806074723,
+     0.7402181287221196
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 84.49999978946985
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     901.7
+    ],
+    "q": [
+     0.0,
+     0.0,
+     -0.7071067811865476,
+     0.7071067811865477
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": -90.00000000000001
+   }
+  },
+  "Life_Manager_Desk_Phone_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_Desk_Read_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_Desk_Sit_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_Desk_Type_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_Desk_Write_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_Meeting_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Life_Manager_StandLean_SL8": {
+   "from_local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     989.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     1930.0000000000005,
+     399.9999999999998,
+     991.2999999999986
+    ],
+    "q": [
+     0.0,
+     0.0,
+     1.2177051777973827e-18,
+     0.9999999999999999
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 1.3953873475803506e-16
+   }
+  },
+  "Sofa_Chesterfield_MO": {
+   "from_local": {
+    "t": [
+     2372.3748425577423,
+     163.3064471936632,
+     901.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 174.49999978946983
+   },
+   "to_local": {
+    "t": [
+     2110.0,
+     122.0,
+     900.8
+    ],
+    "q": [
+     0.0,
+     -0.0,
+     0.0,
+     1.0
+    ],
+    "s": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "yaw": 0.0
+   }
+  }
+ },
+ "plan_tmp": {
+  "TMP_Life_Manager_Desk_SL8": {
+   "t": [
+    2301.2874156786975,
+    364.0440314665593,
+    974.9999999999927
+   ],
+   "q": [
+    0.0,
+    0.0,
+    0.9988483863968043,
+    0.047978130356450516
+   ],
+   "s": [
+    1.1,
+    1.5,
+    0.1
+   ],
+   "yaw": 174.49999978946983
+  },
+  "TMP_Life_Manager_ChairSeat_SL8": {
+   "t": [
+    2390.873073500048,
+    355.4179134105616,
+    946.9999999999927
+   ],
+   "q": [
+    0.0,
+    0.0,
+    0.9988483863968043,
+    0.047978130356450516
+   ],
+   "s": [
+    0.5,
+    0.5,
+    0.1
+   ],
+   "yaw": 174.49999978946983
+  }
+ },
+ "forest_before": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "dirty_before": [],
+ "deleted": [
+  {
+   "label": "TMP_Life_Manager_Desk_SL8",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/D/WP/RBC59ZIQBTT8SBH98VGBT6",
+   "world": {
+    "t": [
+     4015.0,
+     -12560.0,
+     60140.0
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "s": [
+     1.1,
+     1.5,
+     0.1
+    ],
+    "yaw": 0.0
+   },
+   "local": {
+    "t": [
+     2301.2874156786975,
+     364.0440314665593,
+     974.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     1.1,
+     1.5,
+     0.1
+    ],
+    "yaw": 174.49999978946983
+   },
+   "mesh": "/Game/Whispers/Presentation/Environment/LifeTemp/TMP_Life_Block.TMP_Life_Block",
+   "scale": [
+    1.1,
+    1.5,
+    0.1
+   ],
+   "hidden_in_game": true,
+   "collision": "NoCollision"
+  },
+  {
+   "label": "TMP_Life_Manager_ChairSeat_SL8",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/E/31/EHHQOJQDIBGEJN3Y5OMF0B",
+   "world": {
+    "t": [
+     3925.0,
+     -12560.0,
+     60112.0
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "s": [
+     0.5,
+     0.5,
+     0.1
+    ],
+    "yaw": 0.0
+   },
+   "local": {
+    "t": [
+     2390.873073500048,
+     355.4179134105616,
+     946.9999999999927
+    ],
+    "q": [
+     0.0,
+     0.0,
+     0.9988483863968043,
+     0.047978130356450516
+    ],
+    "s": [
+     0.5,
+     0.5,
+     0.1
+    ],
+    "yaw": 174.49999978946983
+   },
+   "mesh": "/Game/Whispers/Presentation/Environment/LifeTemp/TMP_Life_Block.TMP_Life_Block",
+   "scale": [
+    0.5,
+    0.5,
+    0.1
+   ],
+   "hidden_in_game": true,
+   "collision": "NoCollision"
+  }
+ ],
+ "applied": true,
+ "moved": [
+  "Desk_Pedestal_MO",
+  "Chair_Swivel_MO",
+  "Life_Manager_Desk_Phone_SL8",
+  "Life_Manager_Desk_Read_SL8",
+  "Life_Manager_Desk_Sit_SL8",
+  "Life_Manager_Desk_Type_SL8",
+  "Life_Manager_Desk_Write_SL8",
+  "Life_Manager_Meeting_SL8",
+  "Life_Manager_StandLean_SL8",
+  "Sofa_Chesterfield_MO"
+ ],
+ "saved_packages": [
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/06/JGGFM74WATK6FDRF60FQI8",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/ST/BNIVR1X17F93NNW6ZYR52R",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/2/5W/W36M9C4H8A5NBDEPPXP2WC",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/2Y/8F4RP1YK1THERS3T0AARMD",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/GM/8ZO552FRXUV081YKG47BX9",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Y5/84FTV6R7M2REXVTDKSUNGX",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Z9/OTPFCUCEENQF2KDGTZNOUE",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/AX/PWLP58R0TEPMRWXRCQFLLD",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/D/WP/RBC59ZIQBTT8SBH98VGBT6",
+  "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/E/31/EHHQOJQDIBGEJN3Y5OMF0B"
+ ],
+ "forest_at_save": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "dirty_after": [],
+ "verify": {
+  "actors": {
+   "Desk_Pedestal_MO": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     2030.0,
+     400.0,
+     901.7
+    ],
+    "yaw": 180.0
+   },
+   "Chair_Swivel_MO": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     901.7
+    ],
+    "yaw": -90.0
+   },
+   "Life_Manager_Desk_Phone_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_Desk_Read_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_Desk_Sit_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_Desk_Type_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_Desk_Write_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_Meeting_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Life_Manager_StandLean_SL8": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     1930.0,
+     400.0,
+     991.3
+    ],
+    "yaw": 0.0
+   },
+   "Sofa_Chesterfield_MO": {
+    "err_cm": 0.0,
+    "yaw_err": 0.0,
+    "local": [
+     2110.0,
+     122.0,
+     900.8
+    ],
+    "yaw": 0.0
+   }
+  },
+  "tmp_still_present": [],
+  "tmp_files_on_disk": {
+   "TMP_Life_Manager_Desk_SL8": false,
+   "TMP_Life_Manager_ChairSeat_SL8": false
+  },
+  "dirty": [],
+  "forest": {
+   "graph": "PCG_E2K_Vegetation",
+   "cells": 64,
+   "to_delete": 0,
+   "at_origin": 0,
+   "ok": true
+  }
+ }
+}

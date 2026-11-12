@@ -1,0 +1,160 @@
+{
+ "backup_dir": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\_before_mo01_office_20261113",
+ "before": {
+  "directory": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames",
+  "files": {
+   "WhispersContinue.sav": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav",
+    "exists": true,
+    "size": 1136183,
+    "mtime_ns": 1794492618049774100,
+    "sha256": "e05b8235af74025b89acf3314a5dfbf410571b6c02895ec2ed2ae1a83d86af14"
+   },
+   "WhispersContinue.sav.bak1": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak1",
+    "exists": true,
+    "size": 1136183,
+    "mtime_ns": 1794492618056812900,
+    "sha256": "eef3cc9abba0f80389da8c7b23fdd3120d988d54ac4afcd9d98a95d37a51bcd7"
+   },
+   "WhispersContinue.sav.bak2": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak2",
+    "exists": true,
+    "size": 1137247,
+    "mtime_ns": 1794492583573762800,
+    "sha256": "42441f3194ea2bad48c8590ff549ed352d3d0e5eb8af4ed7a46b8aadbea14026"
+   },
+   "WhispersContinue.sav.bak3": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak3",
+    "exists": true,
+    "size": 1137175,
+    "mtime_ns": 1794492558350685300,
+    "sha256": "d3a88d20f363cb5e9a5f504b28b1720a191659c3accc183f2008044d4e7db181"
+   }
+  }
+ },
+ "before_meredith": {
+  "savedAtWorldTimeSeconds": 165.7,
+  "life_action": "",
+  "population": {
+   "currentRoom": "room.eden.l1_northwest",
+   "destination": "room.eden.mo",
+   "activity": "externally selected travel",
+   "outcome": "unreachable: no complete navigation path at movement start",
+   "materialization": "spawned at retained body place",
+   "locationProvenance": "live room containment",
+   "bodyPlace_local": [
+    1525.1,
+    787.9,
+    90.8
+   ]
+  }
+ },
+ "after": {
+  "directory": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames",
+  "files": {
+   "WhispersContinue.sav": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav",
+    "exists": true,
+    "size": 1138043,
+    "mtime_ns": 1794523732152738700,
+    "sha256": "ad7e7bf197b6fa818a686cf2a97c472f8d4354c781cd18290ba52e72f152b68e"
+   },
+   "WhispersContinue.sav.bak1": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak1",
+    "exists": true,
+    "size": 1138043,
+    "mtime_ns": 1794523732159886200,
+    "sha256": "42cbef7e3f41b597d41d07b2478a5cb7cd2033ffa9ed59f172ef08ab41519c9c"
+   },
+   "WhispersContinue.sav.bak2": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak2",
+    "exists": true,
+    "size": 1137615,
+    "mtime_ns": 1794523729544828600,
+    "sha256": "2da09c84d825da3e3950bd72bf84344cd38375581f922e23cd551a9dc3bd86b3"
+   },
+   "WhispersContinue.sav.bak3": {
+    "path": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\WhispersContinue.sav.bak3",
+    "exists": true,
+    "size": 1137587,
+    "mtime_ns": 1794523709378757100,
+    "sha256": "91f940debf0496e84ecb0fbc3529d72c8db4fb5642814c1e6ad7dea69f56e892"
+   }
+  }
+ },
+ "after_meredith": {
+  "WhispersContinue.sav": {
+   "savedAtWorldTimeSeconds": 116.9,
+   "life_action": "{\r\n\t\"version\": 1,\r\n\t\"object\": \"life.eden.manager.desk.type\",\r\n\t\"slot\": \"life.eden.manager.desk.type/0\",\r\n\t\"action\": \"6684629941BC18AA5C3CFCBC5F3215E8\",\r\n\t\"phase\": \"Loop\",\r\n\t\"remaining\": 0.058800777793294401,\r\n\t\"relief\":\r\n\t{\r\n\t\t\"Life.Need.Fun\": 5,\r\n\t\t\"Life.Need.Rest\": 10\r\n\t}\r\n}",
+   "population": {
+    "currentRoom": "room.eden.mo",
+    "destination": "room.eden.mo",
+    "activity": "externally selected travel",
+    "outcome": "arrived",
+    "materialization": "spawned at retained body place",
+    "locationProvenance": "live room containment",
+    "bodyPlace_local": [
+     1905.2,
+     403.1,
+     990.6
+    ]
+   }
+  },
+  "WhispersContinue.sav.bak1": {
+   "savedAtWorldTimeSeconds": 114.3,
+   "life_action": "{\r\n\t\"version\": 1,\r\n\t\"object\": \"life.eden.manager.desk.type\",\r\n\t\"slot\": \"life.eden.manager.desk.type/0\",\r\n\t\"action\": \"6684629941BC18AA5C3CFCBC5F3215E8\",\r\n\t\"phase\": \"Loop\",\r\n\t\"remaining\": 0.32005528286208573,\r\n\t\"relief\":\r\n\t{\r\n\t\t\"Life.Need.Fun\": 5,\r\n\t\t\"Life.Need.Rest\": 10\r\n\t}\r\n}",
+   "population": {
+    "currentRoom": "room.eden.mo",
+    "destination": "room.eden.mo",
+    "activity": "externally selected travel",
+    "outcome": "arrived",
+    "materialization": "spawned at retained body place",
+    "locationProvenance": "live room containment",
+    "bodyPlace_local": [
+     1905.2,
+     403.1,
+     990.6
+    ]
+   }
+  },
+  "WhispersContinue.sav.bak2": {
+   "savedAtWorldTimeSeconds": 94.2,
+   "life_action": "{\r\n\t\"version\": 1,\r\n\t\"object\": \"life.eden.manager.desk.type\",\r\n\t\"slot\": \"life.eden.manager.desk.type/0\",\r\n\t\"action\": \"6684629941BC18AA5C3CFCBC5F3215E8\",\r\n\t\"phase\": \"Loop\",\r\n\t\"remaining\": 2.3299605391912337,\r\n\t\"relief\":\r\n\t{\r\n\t\t\"Life.Need.Fun\": 5,\r\n\t\t\"Life.Need.Rest\": 10\r\n\t}\r\n}",
+   "population": {
+    "currentRoom": "room.eden.mo",
+    "destination": "room.eden.mo",
+    "activity": "externally selected travel",
+    "outcome": "arrived",
+    "materialization": "spawned at retained body place",
+    "locationProvenance": "live room containment",
+    "bodyPlace_local": [
+     1905.2,
+     403.1,
+     990.6
+    ]
+   }
+  },
+  "WhispersContinue.sav.bak3": {
+   "savedAtWorldTimeSeconds": 77.1,
+   "life_action": "{\r\n\t\"version\": 1,\r\n\t\"object\": \"life.eden.manager.desk.type\",\r\n\t\"slot\": \"life.eden.manager.desk.type/0\",\r\n\t\"action\": \"6684629941BC18AA5C3CFCBC5F3215E8\",\r\n\t\"phase\": \"Loop\",\r\n\t\"remaining\": 4.0305998779840593,\r\n\t\"relief\":\r\n\t{\r\n\t\t\"Life.Need.Fun\": 5,\r\n\t\t\"Life.Need.Rest\": 10\r\n\t}\r\n}",
+   "population": {
+    "currentRoom": "room.eden.mo",
+    "destination": "room.eden.mo",
+    "activity": "externally selected travel",
+    "outcome": "arrived",
+    "materialization": "spawned at retained body place",
+    "locationProvenance": "live room containment",
+    "bodyPlace_local": [
+     1905.2,
+     403.1,
+     990.6
+    ]
+   }
+  }
+ },
+ "check": {
+  "ok": true,
+  "changed": []
+ }
+}

@@ -1,0 +1,9830 @@
+{
+ "owner": "Sync the corridor lights in MS02 to match Unreal. Then port the Blender model of Meredith's office into the Unreal Hotel Edn 2k level. Beautiful game quality, moody lighting. Simple colliders. (12 Nov 2026)",
+ "master": "D:\\AI_Modelling\\hotel_eden\\working\\master_MS02\\Hotel_Eden_Master_MS02.blend",
+ "export_root": "D:\\Unreal Projects\\Whispers 5.8\\SourceAssets\\HotelEden\\MO01",
+ "destination_root": "/Game/Whispers/Presentation/Environment/HotelEden/MO01",
+ "destinations": {
+  "MO01": "/Game/Whispers/Presentation/Environment/HotelEden/MO01",
+  "P03": "/Game/Whispers/Presentation/Environment/HotelEden/P03",
+  "G01": "/Game/Whispers/Presentation/Environment/HotelEden/G01"
+ },
+ "frame": "Unreal hotel-local cm = (x, -y, z) x 100 of the Blender model",
+ "resources": {
+  "SM_MO01_CaseDoor": {
+   "id": "SM_MO01_CaseDoor",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_CaseDoor.fbx",
+   "note": "",
+   "fingerprint": "c1d597ab297048df48ab90edfd60b96677648121d4eb5fac48826eb1246bf0ca",
+   "triangles": 98,
+   "vertices": 80,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    18,
+    80
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -2.199999988079071,
+     0.0
+    ],
+    [
+     38.2833331823349,
+     -0.0,
+     75.40000081062317
+    ]
+   ],
+   "fbx_bytes": 34092
+  },
+  "SM_MO01_CaseKnob": {
+   "id": "SM_MO01_CaseKnob",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_CaseKnob.fbx",
+   "note": "",
+   "fingerprint": "175e54c529bf6d3eefea84493cb0e5da6f62249c65cba28e6b4c9ab4fa5ecb99",
+   "triangles": 128,
+   "vertices": 68,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_triangles": [
+    128
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.2363734655082226,
+     -4.560000076889992,
+     -1.3000000268220901
+    ],
+    [
+     1.2363734655082226,
+     -3.3527614018424856e-08,
+     1.3000000268220901
+    ]
+   ],
+   "fbx_bytes": 46796
+  },
+  "SM_MO01_CasePilaster": {
+   "id": "SM_MO01_CasePilaster",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_CasePilaster.fbx",
+   "note": "",
+   "fingerprint": "9316cc11c8914793318a2174cb5bc8d42e35de11afe8d1b84477f4d2c5c31e96",
+   "triangles": 108,
+   "vertices": 216,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_triangles": [
+    108
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -6.89999982714653,
+     -5.799999833106995,
+     95.49999833106995
+    ],
+    [
+     6.89999982714653,
+     -0.0,
+     320.0000047683716
+    ]
+   ],
+   "fbx_bytes": 31020
+  },
+  "SM_MO01_CaseShelf": {
+   "id": "SM_MO01_CaseShelf",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_CaseShelf.fbx",
+   "note": "",
+   "fingerprint": "913cdc5e8f68266834f7f84a1caaaa7b0d4af831024f8e80d9d72ae5e973f449",
+   "triangles": 10,
+   "vertices": 20,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany"
+   ],
+   "slot_triangles": [
+    10
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -33.50000083446503,
+     -1.2000000104308128
+    ],
+    [
+     100.0,
+     -0.0,
+     2.800000086426735
+    ]
+   ],
+   "fbx_bytes": 22940
+  },
+  "SM_MO01_BookRow_Alcove_low_01": {
+   "id": "SM_MO01_BookRow_Alcove_low_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_low_01.fbx",
+   "note": "",
+   "fingerprint": "9fbdb38b195906b828b5d44beee7c351bc80c88ab34637c73745c93929c7bf4f",
+   "triangles": 605,
+   "vertices": 476,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    605
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.9999988600611687,
+     0.00015320733837143052,
+     -9.830691816148374e-07
+    ],
+    [
+     81.7008912563324,
+     16.716109216213226,
+     25.020000338554382
+    ]
+   ],
+   "fbx_bytes": 45212
+  },
+  "SM_MO01_BookRow_Alcove_mid_02": {
+   "id": "SM_MO01_BookRow_Alcove_mid_02",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_mid_02.fbx",
+   "note": "",
+   "fingerprint": "ddf2d893f3d7dbde9946e7f015f249f57c32205036fc6531fd8dd8fea98e8630",
+   "triangles": 717,
+   "vertices": 544,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    717
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     -0.4263466689735651,
+     -9.93122739600949e-07
+    ],
+    [
+     82.85542130470276,
+     16.575665771961212,
+     24.950000643730164
+    ]
+   ],
+   "fbx_bytes": 51196
+  },
+  "SM_MO01_BookRow_Alcove_mid_03": {
+   "id": "SM_MO01_BookRow_Alcove_mid_03",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_mid_03.fbx",
+   "note": "",
+   "fingerprint": "39fd6ba9416f05599f80b74a580305e2a39bf64e47063ab84ad87855c14e95a7",
+   "triangles": 603,
+   "vertices": 462,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    603
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     -0.5632807966321707,
+     -9.791350841226176e-07
+    ],
+    [
+     82.61619210243225,
+     22.815142571926117,
+     28.720000386238098
+    ]
+   ],
+   "fbx_bytes": 45532
+  },
+  "SM_MO01_BookRow_Alcove_mid_01": {
+   "id": "SM_MO01_BookRow_Alcove_mid_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_mid_01.fbx",
+   "note": "",
+   "fingerprint": "73931e843e5067d5bf11bc6bf0c4e8f1ee0895f9cd4f3a9193c7fabe37b273e9",
+   "triangles": 696,
+   "vertices": 576,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    696
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.15216510510072112,
+     0.0
+    ],
+    [
+     82.01180100440979,
+     15.366782248020172,
+     22.81000018119812
+    ]
+   ],
+   "fbx_bytes": 45916
+  },
+  "SM_MO01_BookRow_Alcove_mid_00": {
+   "id": "SM_MO01_BookRow_Alcove_mid_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_mid_00.fbx",
+   "note": "",
+   "fingerprint": "b2ed1f86fa43beca787433da95605c43127e64c8a1b9359bf9b4f71079eab6de",
+   "triangles": 659,
+   "vertices": 496,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    659
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     -0.4561555106192827,
+     -9.821949475963265e-07
+    ],
+    [
+     82.69859552383423,
+     15.396150946617126,
+     22.80000001192093
+    ]
+   ],
+   "fbx_bytes": 48252
+  },
+  "SM_MO01_BookRow_Alcove_top_01": {
+   "id": "SM_MO01_BookRow_Alcove_top_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_top_01.fbx",
+   "note": "",
+   "fingerprint": "4e5d5a2c1a7500fa1710ccbf2ca5119eed0fc5e6d7b278599f2763ef98bad19b",
+   "triangles": 348,
+   "vertices": 288,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    348
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.011698508023982868,
+     0.0
+    ],
+    [
+     81.32444024085999,
+     26.298412680625916,
+     38.210782408714294
+    ]
+   ],
+   "fbx_bytes": 34444
+  },
+  "SM_MO01_BookRow_Alcove_low_00": {
+   "id": "SM_MO01_BookRow_Alcove_low_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_low_00.fbx",
+   "note": "",
+   "fingerprint": "38ac936c7aa9a23791a5a6d653edf687085af917947f75136d55250498a81d35",
+   "triangles": 547,
+   "vertices": 428,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    547
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     -0.5567410495132208,
+     -1.083168132964829e-06
+    ],
+    [
+     81.85487985610962,
+     22.86640703678131,
+     28.67000102996826
+    ]
+   ],
+   "fbx_bytes": 43148
+  },
+  "SM_MO01_BookRow_Alcove_top_00": {
+   "id": "SM_MO01_BookRow_Alcove_top_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_Alcove_top_00.fbx",
+   "note": "",
+   "fingerprint": "7badae83e924e8af19ef54f2fa8c081d61b0955bbe2ec2b6aaa9379bc19ec6db",
+   "triangles": 464,
+   "vertices": 384,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    464
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.06543315248563886,
+     0.0
+    ],
+    [
+     80.73086738586426,
+     26.14823877811432,
+     37.76000142097473
+    ]
+   ],
+   "fbx_bytes": 38428
+  },
+  "SM_MO01_BookRow_South_low_00": {
+   "id": "SM_MO01_BookRow_South_low_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_low_00.fbx",
+   "note": "",
+   "fingerprint": "b64f788be1c1e8f5923050e0b26e82c69ab395d9104a348093aa0d94b2abf750",
+   "triangles": 580,
+   "vertices": 480,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    580
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.02957879623863846,
+     0.0
+    ],
+    [
+     75.37043690681458,
+     22.346898913383484,
+     28.65999937057495
+    ]
+   ],
+   "fbx_bytes": 42620
+  },
+  "SM_MO01_BookRow_South_mid_04": {
+   "id": "SM_MO01_BookRow_South_mid_04",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_04.fbx",
+   "note": "",
+   "fingerprint": "29a2586554eeec0b345e20a27292d1f6a7633138ee6da03bebe718a4bfaf575b",
+   "triangles": 522,
+   "vertices": 432,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    522
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.02842083340510726,
+     0.0
+    ],
+    [
+     74.7931182384491,
+     22.77853637933731,
+     28.780001401901245
+    ]
+   ],
+   "fbx_bytes": 40892
+  },
+  "SM_MO01_BookRow_South_mid_03": {
+   "id": "SM_MO01_BookRow_South_mid_03",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_03.fbx",
+   "note": "",
+   "fingerprint": "e23ecf8ef9024b7bb88a060d913d45119dbd9db3b5ef8c1391adca71a6e8fce9",
+   "triangles": 609,
+   "vertices": 504,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    609
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.06761066615581512,
+     0.0
+    ],
+    [
+     76.21127367019653,
+     15.34116268157959,
+     22.975650429725647
+    ]
+   ],
+   "fbx_bytes": 44844
+  },
+  "SM_MO01_BookRow_South_mid_02": {
+   "id": "SM_MO01_BookRow_South_mid_02",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_02.fbx",
+   "note": "",
+   "fingerprint": "b2486a1dff41cfa91e843b930ba9e141b64d25b9cbd200ede590c28e67bc28f6",
+   "triangles": 667,
+   "vertices": 552,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    667
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.007272077345987782,
+     0.0
+    ],
+    [
+     75.99156498908997,
+     22.83705621957779,
+     28.769999742507935
+    ]
+   ],
+   "fbx_bytes": 45564
+  },
+  "SM_MO01_BookRow_South_mid_05": {
+   "id": "SM_MO01_BookRow_South_mid_05",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_05.fbx",
+   "note": "",
+   "fingerprint": "fe095e23140e37ec2d65ff8fba2e4e876dd24236365777ad8463dc3e72eca255",
+   "triangles": 601,
+   "vertices": 448,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    601
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.9999988600611687,
+     -0.5398035049438477,
+     -9.856917948525279e-07
+    ],
+    [
+     75.8770227432251,
+     22.54002094268799,
+     28.67000102996826
+    ]
+   ],
+   "fbx_bytes": 48044
+  },
+  "SM_MO01_BookRow_South_top_00": {
+   "id": "SM_MO01_BookRow_South_top_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_top_00.fbx",
+   "note": "",
+   "fingerprint": "64a748d99daf6ff5326efd84f950209ea7bcf5809f5ab7c3968baa3a933d5510",
+   "triangles": 406,
+   "vertices": 336,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    406
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.05517644458450377,
+     0.0
+    ],
+    [
+     75.19006729125977,
+     26.243707537651062,
+     37.85000145435333
+    ]
+   ],
+   "fbx_bytes": 36188
+  },
+  "SM_MO01_BookRow_South_low_02": {
+   "id": "SM_MO01_BookRow_South_low_02",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_low_02.fbx",
+   "note": "",
+   "fingerprint": "b3908f103e3fb969f684ef87c2353286e7c665c92f0edf23f52674f461605591",
+   "triangles": 551,
+   "vertices": 456,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    551
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.04933337331749499,
+     0.0
+    ],
+    [
+     75.17452836036682,
+     22.878627479076385,
+     28.65999937057495
+    ]
+   ],
+   "fbx_bytes": 40524
+  },
+  "SM_MO01_BookRow_South_mid_00": {
+   "id": "SM_MO01_BookRow_South_mid_00",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_00.fbx",
+   "note": "",
+   "fingerprint": "655ad5ae7fc241f4f94c453fb034c5d0c9a375c5a1d05997b28b7f26f37511c1",
+   "triangles": 667,
+   "vertices": 552,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    667
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.07147991564124823,
+     0.0
+    ],
+    [
+     74.47572946548462,
+     15.379714965820312,
+     22.87127524614334
+    ]
+   ],
+   "fbx_bytes": 46828
+  },
+  "SM_MO01_BookRow_South_mid_01": {
+   "id": "SM_MO01_BookRow_South_mid_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_mid_01.fbx",
+   "note": "",
+   "fingerprint": "9b6d957beab8e6c2630515a5a6e38f32d539d8556f1f4b16b29d3056b3695e78",
+   "triangles": 609,
+   "vertices": 504,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    609
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.011666954378597438,
+     0.0
+    ],
+    [
+     75.6883442401886,
+     22.682981193065643,
+     28.720000386238098
+    ]
+   ],
+   "fbx_bytes": 44332
+  },
+  "SM_MO01_BookRow_South_top_02": {
+   "id": "SM_MO01_BookRow_South_top_02",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_top_02.fbx",
+   "note": "",
+   "fingerprint": "72743fd4a6450d1701bac36887c5cf0a89dd7c741d7c9af8e47fc0dd4ca3486e",
+   "triangles": 493,
+   "vertices": 408,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    493
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.04967730492353439,
+     0.0
+    ],
+    [
+     75.9367287158966,
+     26.290258765220642,
+     37.85000145435333
+    ]
+   ],
+   "fbx_bytes": 39404
+  },
+  "SM_MO01_BookRow_South_low_01": {
+   "id": "SM_MO01_BookRow_South_low_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_low_01.fbx",
+   "note": "",
+   "fingerprint": "88837e653d6850645053a4051984b6b670d808b56c43b1c802f2a4060d0eeee7",
+   "triangles": 493,
+   "vertices": 408,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    493
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.019944278756156564,
+     0.0
+    ],
+    [
+     75.07297396659851,
+     22.929416596889496,
+     28.630000352859497
+    ]
+   ],
+   "fbx_bytes": 39948
+  },
+  "SM_MO01_BookRow_South_top_01": {
+   "id": "SM_MO01_BookRow_South_top_01",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_BookRow_South_top_01.fbx",
+   "note": "",
+   "fingerprint": "d5cbfe76ef390c27cfc13297140991db0d8b77f2c925a3ae1758f6d835233845",
+   "triangles": 406,
+   "vertices": 336,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    406
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.4000000189989805,
+     0.06587154930457473,
+     0.0
+    ],
+    [
+     74.05365109443665,
+     25.822684168815613,
+     37.85000145435333
+    ]
+   ],
+   "fbx_bytes": 35404
+  },
+  "SM_MO01_DrapeSide_L": {
+   "id": "SM_MO01_DrapeSide_L",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_DrapeSide_L.fbx",
+   "note": "",
+   "fingerprint": "7a4fd78e5653eb8e3e207c4ff0e63ced26f15cbe59f604bd5dc8754474136467",
+   "triangles": 1400,
+   "vertices": 754,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_DrapeSide_L"
+   ],
+   "slot_triangles": [
+    1400
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -108.19849967956543,
+     -33.41439664363861,
+     0.5090014543384314
+    ],
+    [
+     -25.58460533618927,
+     -16.822317242622375,
+     360.40823459625244
+    ]
+   ],
+   "fbx_bytes": 237324
+  },
+  "SM_MO01_DrapeSide_R": {
+   "id": "SM_MO01_DrapeSide_R",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_DrapeSide_R.fbx",
+   "note": "",
+   "fingerprint": "17d2f62b95544dc968988138fa9806177ee28093321081d4203e457e73217731",
+   "triangles": 1400,
+   "vertices": 754,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_DrapeSide_R"
+   ],
+   "slot_triangles": [
+    1400
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     24.516157805919647,
+     -30.818581581115723,
+     0.5124179180711508
+    ],
+    [
+     107.57410526275635,
+     -16.09695702791214,
+     360.40823459625244
+    ]
+   ],
+   "fbx_bytes": 237916
+  },
+  "SM_MO01_Fringe_Swag_E": {
+   "id": "SM_MO01_Fringe_Swag_E",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Swag_E.fbx",
+   "note": "",
+   "fingerprint": "ca86a4275136d332a46d1c685501e0523684531fb6b36d510a9c6a5731575123",
+   "triangles": 88,
+   "vertices": 90,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    88
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -64.57541584968567,
+     -34.666991233825684,
+     253.74000072479248
+    ],
+    [
+     64.57541584968567,
+     -30.399999022483826,
+     301.24216079711914
+    ]
+   ],
+   "fbx_bytes": 38540
+  },
+  "SM_MO01_Fringe_Tail_E_L": {
+   "id": "SM_MO01_Fringe_Tail_E_L",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Tail_E_L.fbx",
+   "note": "",
+   "fingerprint": "e5f1e87ece6b23f1159771b34d1601c4ff8483e2094c7de69c7894412db3f7e2",
+   "triangles": 54,
+   "vertices": 56,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    54
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -106.46394491195679,
+     -40.59999883174896,
+     199.10000562667847
+    ],
+    [
+     -55.5250346660614,
+     -34.59999859333038,
+     276.6000032424927
+    ]
+   ],
+   "fbx_bytes": 33004
+  },
+  "SM_MO01_Fringe_Tail_E_R": {
+   "id": "SM_MO01_Fringe_Tail_E_R",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Tail_E_R.fbx",
+   "note": "",
+   "fingerprint": "c01cfc522dcc5e8634330853267cbdd52c479ec141b41861f4dc14ad515fa32f",
+   "triangles": 54,
+   "vertices": 56,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    54
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     55.5250346660614,
+     -40.59999883174896,
+     199.10000562667847
+    ],
+    [
+     106.46394491195679,
+     -34.59999859333038,
+     276.6000032424927
+    ]
+   ],
+   "fbx_bytes": 33052
+  },
+  "SM_MO01_Sheer": {
+   "id": "SM_MO01_Sheer",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Sheer.fbx",
+   "note": "",
+   "fingerprint": "fa7222bc26e8171bd4e23df8cd098c1079eb7e4a7141f38d221f3738be8a20e4",
+   "triangles": 1900,
+   "vertices": 1020,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Sheer"
+   ],
+   "slot_triangles": [
+    1900
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -131.54027462005615,
+     -33.21952819824219,
+     3.215465322136879
+    ],
+    [
+     128.4151315689087,
+     -8.548155426979065,
+     370.5437660217285
+    ]
+   ],
+   "fbx_bytes": 320060
+  },
+  "SM_MO01_Swag_E": {
+   "id": "SM_MO01_Swag_E",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Swag_E.fbx",
+   "note": "",
+   "fingerprint": "09e80c9fb9593b15478121eb38eef4f620de26d2b66405330de27492abad8608",
+   "triangles": 2640,
+   "vertices": 1395,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Swag_E"
+   ],
+   "slot_triangles": [
+    2640
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -67.57541298866272,
+     -39.847394824028015,
+     259.2400074005127
+    ],
+    [
+     67.57541298866272,
+     -30.000001192092896,
+     347.0935821533203
+    ]
+   ],
+   "fbx_bytes": 428028
+  },
+  "SM_MO01_Tail_E_L": {
+   "id": "SM_MO01_Tail_E_L",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Tail_E_L.fbx",
+   "note": "",
+   "fingerprint": "83c457008e7aba9b05f4172078482b7b2057de77d28fefa30d217446909c4874",
+   "triangles": 756,
+   "vertices": 420,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "slot_triangles": [
+    756
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -106.46394491195679,
+     -40.20000100135803,
+     204.60000038146973
+    ],
+    [
+     -55.5250346660614,
+     -32.19999969005585,
+     325.90670585632324
+    ]
+   ],
+   "fbx_bytes": 106588
+  },
+  "SM_MO01_Tail_E_R": {
+   "id": "SM_MO01_Tail_E_R",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Tail_E_R.fbx",
+   "note": "",
+   "fingerprint": "be44262db9fe8bfc0f4e8af4a4bfd1753cd156c1bc5e9267ed8a6b62410a7557",
+   "triangles": 756,
+   "vertices": 420,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Tail_E"
+   ],
+   "slot_triangles": [
+    756
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     55.5250346660614,
+     -40.20000100135803,
+     204.60000038146973
+    ],
+    [
+     106.46394491195679,
+     -32.19999969005585,
+     325.90670585632324
+    ]
+   ],
+   "fbx_bytes": 106524
+  },
+  "SM_MO01_Books_Mantel": {
+   "id": "SM_MO01_Books_Mantel",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Books_Mantel.fbx",
+   "note": "",
+   "fingerprint": "af8b5d42ccde29552d5186e7d308d229a9d3824e2abb37c59fcf5682dcf2de58",
+   "triangles": 145,
+   "vertices": 120,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Books"
+   ],
+   "slot_triangles": [
+    145
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     21.10999971628189,
+     15.999999642372131,
+     24.950000643730164
+    ]
+   ],
+   "fbx_bytes": 25644
+  },
+  "SM_MO01_Candelabra": {
+   "id": "SM_MO01_Candelabra",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Candelabra.fbx",
+   "note": "",
+   "fingerprint": "aab210eb440195d1ead6ace6aeb8d09951480791b12a7a87b6e762f8138c1853",
+   "triangles": 7616,
+   "vertices": 3854,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Candelabra"
+   ],
+   "slot_triangles": [
+    7616
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -12.550969421863556,
+     -12.550967931747437,
+     0.0
+    ],
+    [
+     12.550966441631317,
+     12.550972402095795,
+     56.90265893936157
+    ]
+   ],
+   "fbx_bytes": 708556
+  },
+  "SM_MO01_Clock": {
+   "id": "SM_MO01_Clock",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Clock.fbx",
+   "note": "",
+   "fingerprint": "f7b0ccc1d375c6d00aff759cddd9f8fad6ddd1ee0c4a348ad96dc71c003ea8cf",
+   "triangles": 2478,
+   "vertices": 1267,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Clock",
+    "M_MO01_ClockDial",
+    "M_MO01_ClockGlass"
+   ],
+   "slot_triangles": [
+    1806,
+    192,
+    480
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -12.749999761581421,
+     -7.0500001311302185,
+     0.0
+    ],
+    [
+     12.749999761581421,
+     6.7500002682209015,
+     30.550000071525574
+    ]
+   ],
+   "fbx_bytes": 217084
+  },
+  "SM_MO01_Canvas_AlcoveCase": {
+   "id": "SM_MO01_Canvas_AlcoveCase",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Canvas_AlcoveCase.fbx",
+   "note": "",
+   "fingerprint": "90aeb7fe2931c17416b367b3185fbad0d4f6b0be234593529ff0eda62049ccfe",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -28.850001096725464,
+     -36.44999861717224,
+     -4.629736393690109
+    ],
+    [
+     28.850001096725464,
+     36.44999861717224,
+     -4.629736393690109
+    ]
+   ],
+   "fbx_bytes": 23532
+  },
+  "SM_MO01_Canvas_BetweenWindows": {
+   "id": "SM_MO01_Canvas_BetweenWindows",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Canvas_BetweenWindows.fbx",
+   "note": "",
+   "fingerprint": "dbde957a7ba64cac2fe87abbf3141a3aba20e70a2414030362dbc8a1b991be8d",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -28.850001096725464,
+     -36.44999861717224,
+     -4.629736393690109
+    ],
+    [
+     28.850001096725464,
+     36.44999861717224,
+     -4.629736393690109
+    ]
+   ],
+   "fbx_bytes": 23532
+  },
+  "SM_MO01_Canvas_OverMantel": {
+   "id": "SM_MO01_Canvas_OverMantel",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Canvas_OverMantel.fbx",
+   "note": "",
+   "fingerprint": "137d929e6185b998d33296dd819fa386d929c0d65ace45fef8eabe26881711cf",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Portraits"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -28.850001096725464,
+     -36.44999861717224,
+     -4.629736393690109
+    ],
+    [
+     28.850001096725464,
+     36.44999861717224,
+     -4.629736393690109
+    ]
+   ],
+   "fbx_bytes": 23532
+  },
+  "SM_MO01_Fringe_Swag_N": {
+   "id": "SM_MO01_Fringe_Swag_N",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Swag_N.fbx",
+   "note": "",
+   "fingerprint": "4bbfbd815e2370102493f74b59ab5af74000fdc5df8404d5f0ec67a6d3d9514c",
+   "triangles": 88,
+   "vertices": 90,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    88
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -64.79794979095459,
+     -34.666991233825684,
+     280.62000274658203
+    ],
+    [
+     64.79794979095459,
+     -30.399999022483826,
+     328.8595199584961
+    ]
+   ],
+   "fbx_bytes": 38492
+  },
+  "SM_MO01_Fringe_Tail_N_L": {
+   "id": "SM_MO01_Fringe_Tail_N_L",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Tail_N_L.fbx",
+   "note": "",
+   "fingerprint": "802f46d80f61f96b382b0799754933e8a49d4d88a4108013ece806e13bb4d44a",
+   "triangles": 54,
+   "vertices": 56,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    54
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -106.47507905960083,
+     -40.59999883174896,
+     225.0999927520752
+    ],
+    [
+     -55.7763934135437,
+     -34.59999859333038,
+     302.60000228881836
+    ]
+   ],
+   "fbx_bytes": 33004
+  },
+  "SM_MO01_Fringe_Tail_N_R": {
+   "id": "SM_MO01_Fringe_Tail_N_R",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Fringe_Tail_N_R.fbx",
+   "note": "",
+   "fingerprint": "56176bb4e64245e9115ab2b4b28857dc5addfc56e1c71adaa0a55e11f1e1daed",
+   "triangles": 54,
+   "vertices": 56,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Fringe"
+   ],
+   "slot_triangles": [
+    54
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     55.7763934135437,
+     -40.59999883174896,
+     225.0999927520752
+    ],
+    [
+     106.47507905960083,
+     -34.59999859333038,
+     302.60000228881836
+    ]
+   ],
+   "fbx_bytes": 33036
+  },
+  "SM_MO01_Swag_N": {
+   "id": "SM_MO01_Swag_N",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Swag_N.fbx",
+   "note": "",
+   "fingerprint": "d84a98bcdb62df57818050a4eec7563fb82b4c8ddde438880f9b2f554012b5c8",
+   "triangles": 2640,
+   "vertices": 1395,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Swag_N"
+   ],
+   "slot_triangles": [
+    2640
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -67.79794692993164,
+     -39.847394824028015,
+     286.12000942230225
+    ],
+    [
+     67.79794692993164,
+     -30.000001192092896,
+     377.0888328552246
+    ]
+   ],
+   "fbx_bytes": 427964
+  },
+  "SM_MO01_Tail_N_L": {
+   "id": "SM_MO01_Tail_N_L",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Tail_N_L.fbx",
+   "note": "",
+   "fingerprint": "4ae5c20a9f9dcc96d343732be22136f7f803258d6ffadc97377548f9db477441",
+   "triangles": 756,
+   "vertices": 420,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "slot_triangles": [
+    756
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -106.47507905960083,
+     -40.20000100135803,
+     230.5999994277954
+    ],
+    [
+     -55.7763934135437,
+     -32.19999969005585,
+     353.8630247116089
+    ]
+   ],
+   "fbx_bytes": 106572
+  },
+  "SM_MO01_Tail_N_R": {
+   "id": "SM_MO01_Tail_N_R",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Tail_N_R.fbx",
+   "note": "",
+   "fingerprint": "1b394083ddc5abcc5869b723a7fccdf835eeabbebec9f1bf3debfc8d706e4c73",
+   "triangles": 756,
+   "vertices": 420,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Tail_N"
+   ],
+   "slot_triangles": [
+    756
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     55.7763934135437,
+     -40.20000100135803,
+     230.5999994277954
+    ],
+    [
+     106.47507905960083,
+     -32.19999969005585,
+     353.8630247116089
+    ]
+   ],
+   "fbx_bytes": 106508
+  },
+  "SM_MO01_Bookcase_Alcove": {
+   "id": "SM_MO01_Bookcase_Alcove",
+   "kind": "collider_part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Bookcase_Alcove.fbx",
+   "note": "",
+   "fingerprint": "beb8c3a4563d6a76527fddeaef538490ef0422f76feb3bf7c7a948659610663d",
+   "triangles": 110,
+   "vertices": 194,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    82,
+    0,
+    28
+   ],
+   "ucx": 1,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -24.250030517578125,
+     -147.49999046325684,
+     0.0
+    ],
+    [
+     24.250030517578125,
+     147.5000023841858,
+     342.00000762939453
+    ]
+   ],
+   "fbx_bytes": 35740
+  },
+  "SM_MO01_Bookcase_South": {
+   "id": "SM_MO01_Bookcase_South",
+   "kind": "collider_part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Bookcase_South.fbx",
+   "note": "",
+   "fingerprint": "952a1edabe0e8bb3170fc6847717d5f41fbe5fae86dff9ab722e73d6056a57b4",
+   "triangles": 206,
+   "vertices": 345,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    150,
+    0,
+    56
+   ],
+   "ucx": 1,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -273.25000762939453,
+     -24.249982833862305,
+     0.0
+    ],
+    [
+     273.25000762939453,
+     24.250030517578125,
+     342.00000762939453
+    ]
+   ],
+   "fbx_bytes": 43276
+  },
+  "SM_MO01_Ceiling": {
+   "id": "SM_MO01_Ceiling",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Ceiling.fbx",
+   "note": "",
+   "fingerprint": "706f9970da2640a8ef817661ce72a387bda377e5f40a25a4a71403a0d9cee255",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Ceiling"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     319.9999809265137,
+     0.0
+    ]
+   ],
+   "fbx_bytes": 18732
+  },
+  "SM_MO01_ChimneyBreast": {
+   "id": "SM_MO01_ChimneyBreast",
+   "kind": "collider_part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_ChimneyBreast.fbx",
+   "note": "",
+   "fingerprint": "11d1c70f290906021f8b61050a50d79438da76dafe97a1e1310a1d41c7bb994c",
+   "triangles": 14,
+   "vertices": 28,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_BreastPlaster"
+   ],
+   "slot_triangles": [
+    14
+   ],
+   "ucx": 1,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -26.000022888183594,
+     -125.0,
+     0.0
+    ],
+    [
+     26.000022888183594,
+     125.0,
+     419.6000099182129
+    ]
+   ],
+   "fbx_bytes": 21260
+  },
+  "SM_MO01_Cornice": {
+   "id": "SM_MO01_Cornice",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Cornice.fbx",
+   "note": "",
+   "fingerprint": "42aed368879f2112882b6a7c075207911ee49ca95fbca4b0d823d6d6d0602903",
+   "triangles": 576,
+   "vertices": 296,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_triangles": [
+    576
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     319.9999809265137,
+     30.015945434570312
+    ]
+   ],
+   "fbx_bytes": 84460
+  },
+  "SM_MO01_DadoRail": {
+   "id": "SM_MO01_DadoRail",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_DadoRail.fbx",
+   "note": "",
+   "fingerprint": "279d65740a6ddd25bbffec2d9da3e59acd31007db922bc359636f10b5e05c8ed",
+   "triangles": 726,
+   "vertices": 662,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    726
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     319.9999809265137,
+     9.000015258789062
+    ]
+   ],
+   "fbx_bytes": 93068
+  },
+  "SM_MO01_Dado_BF": {
+   "id": "SM_MO01_Dado_BF",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_BF.fbx",
+   "note": "",
+   "fingerprint": "cabcf39c32bf08456983e32e4dcf0bfc4d5a0bb9fed1849178280909fe1bb04b",
+   "triangles": 12,
+   "vertices": 24,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    12,
+    0,
+    0
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.0999679565429688,
+     -125.0,
+     0.0
+    ],
+    [
+     1.0999679565429688,
+     125.0,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 26524
+  },
+  "SM_MO01_Dado_BN": {
+   "id": "SM_MO01_Dado_BN",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_BN.fbx",
+   "note": "",
+   "fingerprint": "8f934e04d5e668c341d9a7e7e9bb619dc18da53a038b7d0f9ebef0e752350fa0",
+   "triangles": 6,
+   "vertices": 12,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    6,
+    0,
+    0
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -3.0000686645507812,
+     -1.099991798400879,
+     0.0
+    ],
+    [
+     3.0000686645507812,
+     1.100015640258789,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 25980
+  },
+  "SM_MO01_Dado_BS": {
+   "id": "SM_MO01_Dado_BS",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_BS.fbx",
+   "note": "",
+   "fingerprint": "77f1bd5cd2344aef8db5b2b6a59e596ea092f3904112b13e02055d31461051e7",
+   "triangles": 94,
+   "vertices": 72,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    12,
+    2,
+    80
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -26.000022888183594,
+     -1.0999679565429688,
+     0.0
+    ],
+    [
+     26.000022888183594,
+     1.100015640258789,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 36364
+  },
+  "SM_MO01_Dado_E": {
+   "id": "SM_MO01_Dado_E",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_E.fbx",
+   "note": "",
+   "fingerprint": "a08eab857c7bf88e1f4d5b9e6571ef239162b2fbc7b8557c7c5d6489d825ff96",
+   "triangles": 798,
+   "vertices": 552,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    60,
+    18,
+    720
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.0999679565429688,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     1.0999679565429688,
+     320.0000047683716,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 98924
+  },
+  "SM_MO01_Dado_N": {
+   "id": "SM_MO01_Dado_N",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_N.fbx",
+   "note": "",
+   "fingerprint": "881da03567a8bd527843037954539a8ebb640bfef1ef1c5f7287d66e54a15b5d",
+   "triangles": 974,
+   "vertices": 672,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    72,
+    22,
+    880
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -406.9999694824219,
+     -1.1000007390975952,
+     0.0
+    ],
+    [
+     406.9999694824219,
+     1.1000007390975952,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 143068
+  },
+  "SM_MO01_Dado_S": {
+   "id": "SM_MO01_Dado_S",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_S.fbx",
+   "note": "",
+   "fingerprint": "2850973242a7d333a973d6a37c3635f71e4c8f1f39f5af9d379977022306d234",
+   "triangles": 188,
+   "vertices": 144,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    24,
+    4,
+    160
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -160.00003814697266,
+     -1.100015640258789,
+     0.0
+    ],
+    [
+     160.00003814697266,
+     1.0999679565429688,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 46220
+  },
+  "SM_MO01_Dado_WS": {
+   "id": "SM_MO01_Dado_WS",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Dado_WS.fbx",
+   "note": "",
+   "fingerprint": "2b6adb119221c551188679253d088b42d2708d395a93c6916277b6c23842fc66",
+   "triangles": 94,
+   "vertices": 72,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_FiguredVeneer",
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    12,
+    2,
+    80
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.0999679565429688,
+     -24.499988555908203,
+     0.0
+    ],
+    [
+     1.0999679565429688,
+     24.499988555908203,
+     68.00003051757812
+    ]
+   ],
+   "fbx_bytes": 36124
+  },
+  "SM_MO01_DoorArchitrave_D-MO-24": {
+   "id": "SM_MO01_DoorArchitrave_D-MO-24",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_DoorArchitrave_D-MO-24.fbx",
+   "note": "",
+   "fingerprint": "aa27eeee143c622502b427c39a3675058d1ffe39c2b65f4eda1e0e1c72025cab",
+   "triangles": 84,
+   "vertices": 60,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    84
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -90.00015258789062,
+     -2.337503433227539,
+     0.0
+    ],
+    [
+     89.99996185302734,
+     2.337503433227539,
+     251.0000228881836
+    ]
+   ],
+   "fbx_bytes": 28300
+  },
+  "SM_MO01_Firebox": {
+   "id": "SM_MO01_Firebox",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Firebox.fbx",
+   "note": "",
+   "fingerprint": "35db82c4f00720c3d06050b230e333fa769638a80c1b5dc0a8a17820e382c8b6",
+   "triangles": 288,
+   "vertices": 203,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_FireBrick",
+    "M_MO01_FireboxIron"
+   ],
+   "slot_triangles": [
+    272,
+    16
+   ],
+   "ucx": 0,
+   "vertex_colors": [
+    "Soot"
+   ],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -20.999908447265625,
+     -46.000003814697266,
+     0.0
+    ],
+    [
+     21.000099182128906,
+     46.000003814697266,
+     94.00005340576172
+    ]
+   ],
+   "fbx_bytes": 38732
+  },
+  "SM_MO01_Hearth": {
+   "id": "SM_MO01_Hearth",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Hearth.fbx",
+   "note": "",
+   "fingerprint": "e398f728342dc57a91de7d94ebf9d54d66cb98fa13c65a75b4258bafe80edc32",
+   "triangles": 8,
+   "vertices": 16,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_MarbleHearth"
+   ],
+   "slot_triangles": [
+    8
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -27.499961853027344,
+     -109.99999046325684,
+     0.0
+    ],
+    [
+     27.499961853027344,
+     109.99999046325684,
+     3.4999847412109375
+    ]
+   ],
+   "fbx_bytes": 22732
+  },
+  "SM_MO01_LadderRail": {
+   "id": "SM_MO01_LadderRail",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_LadderRail.fbx",
+   "note": "",
+   "fingerprint": "5f6079bd7dbf82d356381f0c1a48f79bbb1f8bfc9e0414ca66147141dfba8eb1",
+   "triangles": 136,
+   "vertices": 272,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_triangles": [
+    136
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -265.3999328613281,
+     -5.699968338012695,
+     0.0
+    ],
+    [
+     265.4001235961914,
+     5.700016021728516,
+     2.79998779296875
+    ]
+   ],
+   "fbx_bytes": 32284
+  },
+  "SM_MO01_LibraryLadder": {
+   "id": "SM_MO01_LibraryLadder",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_LibraryLadder.fbx",
+   "note": "",
+   "fingerprint": "ab4982968596f4d05a921e84346ebbd5804e1445a2d1d7534fea9b5f216676c3",
+   "triangles": 160,
+   "vertices": 320,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_Mahogany",
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_triangles": [
+    104,
+    56
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -25.799942016601562,
+     -38.541460037231445,
+     0.0
+    ],
+    [
+     25.800132751464844,
+     38.541460037231445,
+     233.58631134033203
+    ]
+   ],
+   "fbx_bytes": 40188
+  },
+  "SM_MO01_Mantel": {
+   "id": "SM_MO01_Mantel",
+   "kind": "collider_part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Mantel.fbx",
+   "note": "",
+   "fingerprint": "54de190c317e71839b4939d82b226063bf9695bde0fb98b016141692cad2d368",
+   "triangles": 714,
+   "vertices": 662,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_MO01_Mantel"
+   ],
+   "slot_triangles": [
+    714
+   ],
+   "ucx": 1,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -100.15000104904175,
+     -35.600000619888306,
+     0.0
+    ],
+    [
+     100.15000104904175,
+     -0.0,
+     132.00000524520874
+    ]
+   ],
+   "fbx_bytes": 67564
+  },
+  "SM_MO01_Paper_BF": {
+   "id": "SM_MO01_Paper_BF",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_BF.fbx",
+   "note": "",
+   "fingerprint": "f2726a2f9071e0a7cd5ba808f38e6dd8f926ce5180f35b2159d532adbcf0d996",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -125.0,
+     0.0
+    ],
+    [
+     0.0,
+     125.0,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 22332
+  },
+  "SM_MO01_Paper_BN": {
+   "id": "SM_MO01_Paper_BN",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_BN.fbx",
+   "note": "",
+   "fingerprint": "a08e10a5ba7fafd03860e4edbc05ff7e29928f76ab4dd5670269bde7853c48e5",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -26.000022888183594,
+     -0.0,
+     0.0
+    ],
+    [
+     26.000022888183594,
+     -0.0,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 22316
+  },
+  "SM_MO01_Paper_BS": {
+   "id": "SM_MO01_Paper_BS",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_BS.fbx",
+   "note": "",
+   "fingerprint": "af68d3054d383db96cc7d58aaedfb1edebec3410fc784e3dd59e200fc83f3d0d",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -26.000022888183594,
+     -0.0,
+     0.0
+    ],
+    [
+     26.000022888183594,
+     -0.0,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 22316
+  },
+  "SM_MO01_Paper_E": {
+   "id": "SM_MO01_Paper_E",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_E.fbx",
+   "note": "",
+   "fingerprint": "5fc93e2a6f155d695221525daa94e2a9944a5c8a25d274f0ecb7082abe513a8f",
+   "triangles": 92,
+   "vertices": 90,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    92
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     0.0,
+     320.0000047683716,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 29596
+  },
+  "SM_MO01_Paper_N": {
+   "id": "SM_MO01_Paper_N",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_N.fbx",
+   "note": "",
+   "fingerprint": "9d02c36efe5f5dcee56d2e5f2e055f6d69a96f5d220202da747c6c4ec852a7bc",
+   "triangles": 92,
+   "vertices": 90,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    92
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -0.0,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     -0.0,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 29212
+  },
+  "SM_MO01_Paper_S": {
+   "id": "SM_MO01_Paper_S",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_S.fbx",
+   "note": "",
+   "fingerprint": "87d53bc35c43d3b0544257af0b9dc7b0fdb8b7caf4ebb211fd6005136f38b837",
+   "triangles": 14,
+   "vertices": 12,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    14
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -0.0,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     -0.0,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 23340
+  },
+  "SM_MO01_Paper_WN": {
+   "id": "SM_MO01_Paper_WN",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_WN.fbx",
+   "note": "",
+   "fingerprint": "f0b77482374fadb82e0d6621342b87b36653057fc3cc46ae4999bb6b94cda931",
+   "triangles": 8,
+   "vertices": 8,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    8
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -147.49999046325684,
+     0.0
+    ],
+    [
+     0.0,
+     147.5000023841858,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 23324
+  },
+  "SM_MO01_Paper_WS": {
+   "id": "SM_MO01_Paper_WS",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Paper_WS.fbx",
+   "note": "",
+   "fingerprint": "0f7f493c99b7b3580a7d2e7bb8606a5d24c37de56e3bc80ef9464794fcec6d4e",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Wallpaper"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     0.0,
+     -47.499990463256836,
+     0.0
+    ],
+    [
+     0.0,
+     47.499990463256836,
+     294.58398818969727
+    ]
+   ],
+   "fbx_bytes": 22364
+  },
+  "SM_MO01_Parquet": {
+   "id": "SM_MO01_Parquet",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Parquet.fbx",
+   "note": "",
+   "fingerprint": "fbbb714ea83fc38d440d0df1cb5ac9d94a414ab80f1f168cfd0825b5d8cd9e36",
+   "triangles": 2,
+   "vertices": 4,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Parquet"
+   ],
+   "slot_triangles": [
+    2
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     319.9999809265137,
+     0.0
+    ]
+   ],
+   "fbx_bytes": 22284
+  },
+  "SM_MO01_Pelmet_E13-W-0": {
+   "id": "SM_MO01_Pelmet_E13-W-0",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Pelmet_E13-W-0.fbx",
+   "note": "",
+   "fingerprint": "511c2d12fb42a86bd1d1c7cbb3c912fe671a00efe6c7c7aba4d94cbfcba0c4b5",
+   "triangles": 292,
+   "vertices": 584,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_triangles": [
+    292
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -14.500045776367188,
+     -101.69999599456787,
+     0.0
+    ],
+    [
+     14.500045776367188,
+     101.69999599456787,
+     116.49999618530273
+    ]
+   ],
+   "fbx_bytes": 52828
+  },
+  "SM_MO01_Pelmet_E13-W-1": {
+   "id": "SM_MO01_Pelmet_E13-W-1",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Pelmet_E13-W-1.fbx",
+   "note": "",
+   "fingerprint": "42acf78013e8856f99b236ba56a2ce972823528ecade359958aa0d65566f6b7c",
+   "triangles": 292,
+   "vertices": 584,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_triangles": [
+    292
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -14.500045776367188,
+     -101.70001983642578,
+     0.0
+    ],
+    [
+     14.500045776367188,
+     101.70001983642578,
+     116.49999618530273
+    ]
+   ],
+   "fbx_bytes": 53068
+  },
+  "SM_MO01_Pelmet_W3-06": {
+   "id": "SM_MO01_Pelmet_W3-06",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Pelmet_W3-06.fbx",
+   "note": "",
+   "fingerprint": "971c2e998ef9bf4dbc8a5ffa7613d167311c4dfe359045bee7cc89fda06b5227",
+   "triangles": 292,
+   "vertices": 584,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_triangles": [
+    292
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -101.70001983642578,
+     -14.500001072883606,
+     0.0
+    ],
+    [
+     101.70001983642578,
+     14.500001072883606,
+     120.49999237060547
+    ]
+   ],
+   "fbx_bytes": 49532
+  },
+  "SM_MO01_Pelmet_W3-07": {
+   "id": "SM_MO01_Pelmet_W3-07",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Pelmet_W3-07.fbx",
+   "note": "",
+   "fingerprint": "e6ca95e9e0fb8888e7cb1e9abe35c9e35fe957e7b816f7769e06112f6b24d377",
+   "triangles": 292,
+   "vertices": 584,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PelmetVelvet"
+   ],
+   "slot_triangles": [
+    292
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -101.70001983642578,
+     -14.500001072883606,
+     0.0
+    ],
+    [
+     101.70001983642578,
+     14.500001072883606,
+     120.49999237060547
+    ]
+   ],
+   "fbx_bytes": 49596
+  },
+  "SM_MO01_PictureLight": {
+   "id": "SM_MO01_PictureLight",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_PictureLight.fbx",
+   "note": "",
+   "fingerprint": "8b918bdd844a57da67037fab8f529c1e5bc0458c67d7aaa0f0cf8e17c3536ddc",
+   "triangles": 68,
+   "vertices": 136,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_HardwareBrass"
+   ],
+   "slot_triangles": [
+    68
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -11.199951171875,
+     -26.000022888183594,
+     0.0
+    ],
+    [
+     11.200141906738281,
+     26.000022888183594,
+     11.339855194091797
+    ]
+   ],
+   "fbx_bytes": 29020
+  },
+  "SM_MO01_Rug": {
+   "id": "SM_MO01_Rug",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Rug.fbx",
+   "note": "",
+   "fingerprint": "92e5ed35442e21cdca55ab949c0afa503ef8c090dd18a961c1ec39bcf9757aa7",
+   "triangles": 10,
+   "vertices": 20,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_Rug"
+   ],
+   "slot_triangles": [
+    10
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -264.99996185302734,
+     -176.62250995635986,
+     0.0
+    ],
+    [
+     265.0001525878906,
+     176.62250995635986,
+     0.8999824523925781
+    ]
+   ],
+   "fbx_bytes": 24524
+  },
+  "SM_MO01_Skirting": {
+   "id": "SM_MO01_Skirting",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_Skirting.fbx",
+   "note": "",
+   "fingerprint": "8d9ad9bd95964fea95973a4d126f76a38443451114c0aa96070715d6ab40ec1b",
+   "triangles": 460,
+   "vertices": 399,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_EC01_MahoganyTrim"
+   ],
+   "slot_triangles": [
+    460
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -430.00011444091797,
+     -320.0000047683716,
+     0.0
+    ],
+    [
+     429.9999237060547,
+     320.0000047683716,
+     20.000076293945312
+    ]
+   ],
+   "fbx_bytes": 67292
+  },
+  "SM_MO01_WindowArchitrave_E13-W-0": {
+   "id": "SM_MO01_WindowArchitrave_E13-W-0",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_WindowArchitrave_E13-W-0.fbx",
+   "note": "",
+   "fingerprint": "a211ae728976ceca8ee044d778c06bc39ed870286b1b0dfba85272def1e0ad65",
+   "triangles": 1180,
+   "vertices": 653,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_triangles": [
+    1180
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.6363143920898438,
+     -114.09997940063477,
+     0.0
+    ],
+    [
+     1.6361236572265625,
+     114.10000324249268,
+     274.0262031555176
+    ]
+   ],
+   "fbx_bytes": 197932
+  },
+  "SM_MO01_WindowArchitrave_E13-W-1": {
+   "id": "SM_MO01_WindowArchitrave_E13-W-1",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_WindowArchitrave_E13-W-1.fbx",
+   "note": "",
+   "fingerprint": "77828e90abda35d0a4434439f366f98f28be3197511a6dbb81fd239511f0aab1",
+   "triangles": 1180,
+   "vertices": 653,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_triangles": [
+    1180
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -1.6363143920898438,
+     -114.09997940063477,
+     0.0
+    ],
+    [
+     1.6361236572265625,
+     114.09997940063477,
+     274.0262031555176
+    ]
+   ],
+   "fbx_bytes": 197932
+  },
+  "SM_MO01_WindowArchitrave_W3-06": {
+   "id": "SM_MO01_WindowArchitrave_W3-06",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_WindowArchitrave_W3-06.fbx",
+   "note": "",
+   "fingerprint": "36c2b775de59245d2ffce340dc2dac84cff935c9a14bb3b10870cd3cabb1f3e1",
+   "triangles": 1180,
+   "vertices": 653,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_triangles": [
+    1180
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -114.1000747680664,
+     -1.6362488269805908,
+     0.0
+    ],
+    [
+     114.09988403320312,
+     1.6362518072128296,
+     289.0510559082031
+    ]
+   ],
+   "fbx_bytes": 205964
+  },
+  "SM_MO01_WindowArchitrave_W3-07": {
+   "id": "SM_MO01_WindowArchitrave_W3-07",
+   "kind": "part",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_WindowArchitrave_W3-07.fbx",
+   "note": "",
+   "fingerprint": "56ba8d7126ca0c80fb5fe41f72d6f3410fae623a0b277b2a69eae21084531f82",
+   "triangles": 1180,
+   "vertices": 653,
+   "uv_layers": [
+    "UVT",
+    "UV0_Bake",
+    "UV1_Wood"
+   ],
+   "slots": [
+    "M_MO01_PaintedPlaster"
+   ],
+   "slot_triangles": [
+    1180
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -114.1000747680664,
+     -1.6362488269805908,
+     0.0
+    ],
+    [
+     114.1000747680664,
+     1.6362518072128296,
+     289.0510559082031
+    ]
+   ],
+   "fbx_bytes": 206108
+  },
+  "SM_HE_Palm_P03": {
+   "id": "SM_HE_Palm_P03",
+   "kind": "palm",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Meshes",
+   "file": "meshes/SM_HE_Palm_P03.fbx",
+   "note": "FUR-024 P03 approved game mesh (the lobby LP01 palms' own meshes in MS02): planter, soil, canes, frond midribs, leaflets; one UCX box round the planter",
+   "fingerprint": "82dfd8209032ca9d94116fd21995f48894584f4688faa56670552b0210e5bc0d",
+   "triangles": 38464,
+   "vertices": 40776,
+   "uv_layers": [
+    "UVMap"
+   ],
+   "slots": [
+    "M_HE_Palm_P03 | slender olive green cane",
+    "M_HE_Palm_P03 | tapered frond rachis",
+    "M_HE_Palm_P03 | pinnate leaflets",
+    "M_HE_Palm_P03 | matte aged ivory ceramic",
+    "M_HE_Palm_P03 | soil"
+   ],
+   "slot_triangles": [
+    1344,
+    10368,
+    25344,
+    1344,
+    64
+   ],
+   "ucx": 1,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -95.75521945953369,
+     -62.17760443687439,
+     0.8299999870359898
+    ],
+    [
+     76.2939989566803,
+     66.04606509208679,
+     256.6316604614258
+    ]
+   ],
+   "fbx_bytes": 3498332
+  },
+  "SM_HE_Grate_G01": {
+   "id": "SM_HE_Grate_G01",
+   "kind": "part",
+   "group": "G01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Meshes",
+   "file": "meshes/SM_HE_Grate_G01.fbx",
+   "note": "approved G01 grate game mesh",
+   "fingerprint": "74cfb17100ab35b1f375dc908084f733ea5d3e22c1521f2f1bb49cea8a3191b7",
+   "triangles": 2718,
+   "vertices": 1401,
+   "uv_layers": [
+    "UV0_Baked"
+   ],
+   "slots": [
+    "M_HE_Grate_G01_BAKED.002"
+   ],
+   "slot_triangles": [
+    2718
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -50.28634071350098,
+     -21.562957763671875,
+     14.658311009407043
+    ],
+    [
+     50.299072265625,
+     22.805023193359375,
+     46.20000123977661
+    ]
+   ],
+   "fbx_bytes": 240428
+  },
+  "SM_HE_Fuel_G01": {
+   "id": "SM_HE_Fuel_G01",
+   "kind": "part",
+   "group": "G01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Meshes",
+   "file": "meshes/SM_HE_Fuel_G01.fbx",
+   "note": "approved G01 fuel game mesh",
+   "fingerprint": "463bbbb708860ac684b8f61e10e930d165f3eebfba36746a13c48ac0398d54c2",
+   "triangles": 2644,
+   "vertices": 1476,
+   "uv_layers": [
+    "UV0_Baked"
+   ],
+   "slots": [
+    "M_HE_Grate_G01_BAKED.002"
+   ],
+   "slot_triangles": [
+    2644
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -52.060192823410034,
+     -21.254730224609375,
+     14.699999988079071
+    ],
+    [
+     50.81520080566406,
+     22.93243408203125,
+     53.544217348098755
+    ]
+   ],
+   "fbx_bytes": 249852
+  },
+  "SM_MO01_FireCards": {
+   "id": "SM_MO01_FireCards",
+   "kind": "fire",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
+   "file": "meshes/SM_MO01_FireCards.fbx",
+   "note": "three crossed flame cards for the hotel's M_HE_FireplaceFlame (as the lobby fireplace)",
+   "fingerprint": "1899d06063f9723e8fff40df0a6433a2bb3b51230efb4e51a92acb3e32eeb2b4",
+   "triangles": 6,
+   "vertices": 12,
+   "uv_layers": [
+    "UV0_Bake"
+   ],
+   "slots": [
+    "M_HE_FireplaceFlame"
+   ],
+   "slot_triangles": [
+    6
+   ],
+   "ucx": 0,
+   "vertex_colors": [],
+   "degenerate_triangles": 0,
+   "bounds_cm_ue": [
+    [
+     -17.296303808689117,
+     -32.2514533996582,
+     0.0
+    ],
+    [
+     11.296303570270538,
+     32.2514533996582,
+     36.000001430511475
+    ]
+   ],
+   "fbx_bytes": 16492
+  }
+ },
+ "reuse": {
+  "SM_HE_AF02_Frame": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Meshes/SM_HE_AF02_Frame",
+   "fingerprint_match": true,
+   "triangles": 5615
+  },
+  "SM_EC01_Sconce_S06": {
+   "path": "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Meshes/SM_EC01_Sconce_S06",
+   "fingerprint_match": true,
+   "triangles": 4056
+  }
+ },
+ "placements": [
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 00a",
+   "translation_cm": [
+    1755.9999465942383,
+    41.200000047683716,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 00b",
+   "translation_cm": [
+    1755.9999465942383,
+    82.93333649635315,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 01a",
+   "translation_cm": [
+    1755.9999465942383,
+    135.86666584014893,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 01b",
+   "translation_cm": [
+    1755.9999465942383,
+    177.60000228881836,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 02a",
+   "translation_cm": [
+    1755.9999465942383,
+    230.5333375930786,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | Alcove | Door | 02b",
+   "translation_cm": [
+    1755.9999465942383,
+    272.26665019989014,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0848933458328247,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 00a",
+   "translation_cm": [
+    1758.2000732421875,
+    78.73333692550659,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 00b",
+   "translation_cm": [
+    1758.2000732421875,
+    86.93333268165588,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 01a",
+   "translation_cm": [
+    1758.2000732421875,
+    173.39999675750732,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 01b",
+   "translation_cm": [
+    1758.2000732421875,
+    181.5999984741211,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 02a",
+   "translation_cm": [
+    1758.2000732421875,
+    268.066668510437,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | Alcove | Knob | 02b",
+   "translation_cm": [
+    1758.2000732421875,
+    276.2666702270508,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | Alcove | Pilaster | 00",
+   "translation_cm": [
+    1743.0000305175781,
+    35.50000190734863,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | Alcove | Pilaster | 01",
+   "translation_cm": [
+    1743.0000305175781,
+    130.16667366027832,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | Alcove | Pilaster | 02",
+   "translation_cm": [
+    1743.0000305175781,
+    224.833345413208,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | Alcove | Pilaster | 03",
+   "translation_cm": [
+    1743.0000305175781,
+    319.4999933242798,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 00 | 1.31",
+   "translation_cm": [
+    1710.6000900268555,
+    41.00000262260437,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 00 | 1.68",
+   "translation_cm": [
+    1710.6000900268555,
+    41.00000262260437,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 00 | 2.04",
+   "translation_cm": [
+    1710.6000900268555,
+    41.00000262260437,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 00 | 2.40",
+   "translation_cm": [
+    1710.6000900268555,
+    41.00000262260437,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 00 | 2.75",
+   "translation_cm": [
+    1710.6000900268555,
+    41.00000262260437,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 01 | 1.31",
+   "translation_cm": [
+    1710.6000900268555,
+    135.66665649414062,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 01 | 1.68",
+   "translation_cm": [
+    1710.6000900268555,
+    135.66665649414062,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 01 | 2.04",
+   "translation_cm": [
+    1710.6000900268555,
+    135.66665649414062,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 01 | 2.40",
+   "translation_cm": [
+    1710.6000900268555,
+    135.66665649414062,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 01 | 2.75",
+   "translation_cm": [
+    1710.6000900268555,
+    135.66665649414062,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 02 | 1.31",
+   "translation_cm": [
+    1710.6000900268555,
+    230.3333282470703,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 02 | 1.68",
+   "translation_cm": [
+    1710.6000900268555,
+    230.3333282470703,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 02 | 2.04",
+   "translation_cm": [
+    1710.6000900268555,
+    230.3333282470703,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 02 | 2.40",
+   "translation_cm": [
+    1710.6000900268555,
+    230.3333282470703,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | Alcove | Shelf | 02 | 2.75",
+   "translation_cm": [
+    1710.6000900268555,
+    230.3333282470703,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    0.8366666436195374,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_low_01",
+   "name": "MO01 | Books | Alcove | bay 0 | row 0",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_02",
+   "name": "MO01 | Books | Alcove | bay 0 | row 1",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_03",
+   "name": "MO01 | Books | Alcove | bay 0 | row 2",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_01",
+   "name": "MO01 | Books | Alcove | bay 0 | row 3",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_00",
+   "name": "MO01 | Books | Alcove | bay 0 | row 4",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_top_01",
+   "name": "MO01 | Books | Alcove | bay 0 | row 5",
+   "translation_cm": [
+    1740.999984741211,
+    41.00000262260437,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_low_00",
+   "name": "MO01 | Books | Alcove | bay 1 | row 0",
+   "translation_cm": [
+    1740.999984741211,
+    135.66665649414062,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_01",
+   "name": "MO01 | Books | Alcove | bay 1 | row 1",
+   "translation_cm": [
+    1740.999984741211,
+    135.66665649414062,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_03",
+   "name": "MO01 | Books | Alcove | bay 1 | row 4",
+   "translation_cm": [
+    1740.999984741211,
+    135.66665649414062,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_top_00",
+   "name": "MO01 | Books | Alcove | bay 1 | row 5",
+   "translation_cm": [
+    1740.999984741211,
+    135.66665649414062,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_low_01",
+   "name": "MO01 | Books | Alcove | bay 2 | row 0",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_00",
+   "name": "MO01 | Books | Alcove | bay 2 | row 1",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_02",
+   "name": "MO01 | Books | Alcove | bay 2 | row 2",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_03",
+   "name": "MO01 | Books | Alcove | bay 2 | row 3",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_mid_00",
+   "name": "MO01 | Books | Alcove | bay 2 | row 4",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_Alcove_top_01",
+   "name": "MO01 | Books | Alcove | bay 2 | row 5",
+   "translation_cm": [
+    1740.999984741211,
+    230.3333282470703,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_00",
+   "name": "MO01 | Books | South | bay 0 | row 0",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_04",
+   "name": "MO01 | Books | South | bay 0 | row 1",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_03",
+   "name": "MO01 | Books | South | bay 0 | row 2",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_02",
+   "name": "MO01 | Books | South | bay 0 | row 3",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_05",
+   "name": "MO01 | Books | South | bay 0 | row 4",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_00",
+   "name": "MO01 | Books | South | bay 0 | row 5",
+   "translation_cm": [
+    1721.000099182129,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_02",
+   "name": "MO01 | Books | South | bay 1 | row 0",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_00",
+   "name": "MO01 | Books | South | bay 1 | row 1",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_01",
+   "name": "MO01 | Books | South | bay 1 | row 2",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_05",
+   "name": "MO01 | Books | South | bay 1 | row 3",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_01",
+   "name": "MO01 | Books | South | bay 1 | row 4",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_02",
+   "name": "MO01 | Books | South | bay 1 | row 5",
+   "translation_cm": [
+    1809.1667175292969,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_01",
+   "name": "MO01 | Books | South | bay 2 | row 0",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_03",
+   "name": "MO01 | Books | South | bay 2 | row 1",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_02",
+   "name": "MO01 | Books | South | bay 2 | row 2",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_00",
+   "name": "MO01 | Books | South | bay 2 | row 3",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_04",
+   "name": "MO01 | Books | South | bay 2 | row 4",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_01",
+   "name": "MO01 | Books | South | bay 2 | row 5",
+   "translation_cm": [
+    1897.3333358764648,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_02",
+   "name": "MO01 | Books | South | bay 3 | row 0",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_00",
+   "name": "MO01 | Books | South | bay 3 | row 1",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_01",
+   "name": "MO01 | Books | South | bay 3 | row 2",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_05",
+   "name": "MO01 | Books | South | bay 3 | row 3",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_02",
+   "name": "MO01 | Books | South | bay 3 | row 4",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_00",
+   "name": "MO01 | Books | South | bay 3 | row 5",
+   "translation_cm": [
+    1985.4999542236328,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_00",
+   "name": "MO01 | Books | South | bay 4 | row 0",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_04",
+   "name": "MO01 | Books | South | bay 4 | row 1",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_03",
+   "name": "MO01 | Books | South | bay 4 | row 2",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_02",
+   "name": "MO01 | Books | South | bay 4 | row 3",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_04",
+   "name": "MO01 | Books | South | bay 4 | row 4",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_02",
+   "name": "MO01 | Books | South | bay 4 | row 5",
+   "translation_cm": [
+    2073.666763305664,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_low_01",
+   "name": "MO01 | Books | South | bay 5 | row 0",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    995.8999633789062
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_03",
+   "name": "MO01 | Books | South | bay 5 | row 1",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    1034.7000122070312
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_05",
+   "name": "MO01 | Books | South | bay 5 | row 2",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    1070.6999778747559
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_00",
+   "name": "MO01 | Books | South | bay 5 | row 3",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    1106.6999435424805
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_mid_01",
+   "name": "MO01 | Books | South | bay 5 | row 4",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    1142.7000045776367
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_BookRow_South_top_00",
+   "name": "MO01 | Books | South | bay 5 | row 5",
+   "translation_cm": [
+    2161.833381652832,
+    638.9999866485596,
+    1178.6999702453613
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_L",
+   "name": "MO01 | E13-W-0 | DrapeSide_L",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9034892320632935
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_R",
+   "name": "MO01 | E13-W-0 | DrapeSide_R",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9034892320632935
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Swag_E",
+   "name": "MO01 | E13-W-0 | Fringe_Swag_E",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_E_L",
+   "name": "MO01 | E13-W-0 | Fringe_Tail_E_L",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_E_R",
+   "name": "MO01 | E13-W-0 | Fringe_Tail_E_R",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Sheer",
+   "name": "MO01 | E13-W-0 | Sheer",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9003831148147583
+   ]
+  },
+  {
+   "resource": "SM_MO01_Swag_E",
+   "name": "MO01 | E13-W-0 | Swag_E",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_E_L",
+   "name": "MO01 | E13-W-0 | Tail_E_L",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_E_R",
+   "name": "MO01 | E13-W-0 | Tail_E_R",
+   "translation_cm": [
+    2570.0000762939453,
+    254.9999713897705,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_L",
+   "name": "MO01 | E13-W-1 | DrapeSide_L",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9034892320632935
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_R",
+   "name": "MO01 | E13-W-1 | DrapeSide_R",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9034892320632935
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Swag_E",
+   "name": "MO01 | E13-W-1 | Fringe_Swag_E",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_E_L",
+   "name": "MO01 | E13-W-1 | Fringe_Tail_E_L",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_E_R",
+   "name": "MO01 | E13-W-1 | Fringe_Tail_E_R",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Sheer",
+   "name": "MO01 | E13-W-1 | Sheer",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    0.9003831148147583
+   ]
+  },
+  {
+   "resource": "SM_MO01_Swag_E",
+   "name": "MO01 | E13-W-1 | Swag_E",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_E_L",
+   "name": "MO01 | E13-W-1 | Tail_E_L",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_E_R",
+   "name": "MO01 | E13-W-1 | Tail_E_R",
+   "translation_cm": [
+    2570.0000762939453,
+    544.9999809265137,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Books_Mantel",
+   "name": "MO01 | Mantel | Books",
+   "translation_cm": [
+    1783.500099182129,
+    474.4450092315674,
+    1032.3999404907227
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Candelabra",
+   "name": "MO01 | Mantel | Candelabra | 01",
+   "translation_cm": [
+    1779.0000915527344,
+    534.0000152587891,
+    1032.3999404907227
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Candelabra",
+   "name": "MO01 | Mantel | Candelabra | 02",
+   "translation_cm": [
+    1779.0000915527344,
+    366.00000858306885,
+    1032.3999404907227
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Clock",
+   "name": "MO01 | Mantel | Clock",
+   "translation_cm": [
+    1777.0000457763672,
+    436.00001335144043,
+    1032.3999404907227
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Canvas_AlcoveCase",
+   "name": "MO01 | Portrait canvas | AlcoveCase",
+   "translation_cm": [
+    1752.6296615600586,
+    177.50000953674316,
+    1112.399959564209
+   ],
+   "rotation_quat": [
+    -0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "scale": [
+    0.7799999713897705,
+    0.7799999713897705,
+    0.7799999713897705
+   ]
+  },
+  {
+   "resource": "SM_MO01_Canvas_BetweenWindows",
+   "name": "MO01 | Portrait canvas | BetweenWindows",
+   "translation_cm": [
+    2110.0000381469727,
+    38.200002908706665,
+    1105.399990081787
+   ],
+   "rotation_quat": [
+    -0.7071067690849304,
+    0.0,
+    0.0,
+    0.7071067690849304
+   ],
+   "scale": [
+    1.25,
+    1.25,
+    1.25
+   ]
+  },
+  {
+   "resource": "SM_MO01_Canvas_OverMantel",
+   "name": "MO01 | Portrait canvas | OverMantel",
+   "translation_cm": [
+    1771.4641571044922,
+    450.0,
+    1148.3999252319336
+   ],
+   "rotation_quat": [
+    -0.4999999403953552,
+    0.49999991059303284,
+    -0.4999999403953552,
+    0.5000000596046448
+   ],
+   "scale": [
+    1.4500000476837158,
+    1.4500000476837158,
+    1.4500000476837158
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 00a",
+   "translation_cm": [
+    1721.1999893188477,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 00b",
+   "translation_cm": [
+    1759.6834182739258,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 01a",
+   "translation_cm": [
+    1809.3666076660156,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 01b",
+   "translation_cm": [
+    1847.8500366210938,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 02a",
+   "translation_cm": [
+    1897.5334167480469,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 02b",
+   "translation_cm": [
+    1936.0166549682617,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 03a",
+   "translation_cm": [
+    1985.7000350952148,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 03b",
+   "translation_cm": [
+    2024.1832733154297,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 04a",
+   "translation_cm": [
+    2073.866653442383,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 04b",
+   "translation_cm": [
+    2112.350082397461,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 05a",
+   "translation_cm": [
+    2162.033462524414,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseDoor",
+   "name": "MO01 | South | Door | 05b",
+   "translation_cm": [
+    2200.516700744629,
+    623.9999771118164,
+    914.1999244689941
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 00a",
+   "translation_cm": [
+    1755.4834365844727,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 00b",
+   "translation_cm": [
+    1763.6833190917969,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 01a",
+   "translation_cm": [
+    1843.6500549316406,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 01b",
+   "translation_cm": [
+    1851.8501281738281,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 02a",
+   "translation_cm": [
+    1931.8166732788086,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 02b",
+   "translation_cm": [
+    1940.016746520996,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 03a",
+   "translation_cm": [
+    2019.9832916259766,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 03b",
+   "translation_cm": [
+    2028.183364868164,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 04a",
+   "translation_cm": [
+    2108.150100708008,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 04b",
+   "translation_cm": [
+    2116.349983215332,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 05a",
+   "translation_cm": [
+    2196.316719055176,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseKnob",
+   "name": "MO01 | South | Knob | 05b",
+   "translation_cm": [
+    2204.5166015625,
+    621.7999935150146,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 00",
+   "translation_cm": [
+    1715.5000686645508,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 01",
+   "translation_cm": [
+    1803.6666870117188,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 02",
+   "translation_cm": [
+    1891.8333053588867,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 03",
+   "translation_cm": [
+    1980.000114440918,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 04",
+   "translation_cm": [
+    2068.166732788086,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 05",
+   "translation_cm": [
+    2156.333351135254,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CasePilaster",
+   "name": "MO01 | South | Pilaster | 06",
+   "translation_cm": [
+    2244.499969482422,
+    636.9999885559082,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 00 | 1.31",
+   "translation_cm": [
+    1721.000099182129,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 00 | 1.68",
+   "translation_cm": [
+    1721.000099182129,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 00 | 2.04",
+   "translation_cm": [
+    1721.000099182129,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 00 | 2.40",
+   "translation_cm": [
+    1721.000099182129,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 00 | 2.75",
+   "translation_cm": [
+    1721.000099182129,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 01 | 1.31",
+   "translation_cm": [
+    1809.1667175292969,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 01 | 1.68",
+   "translation_cm": [
+    1809.1667175292969,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 01 | 2.04",
+   "translation_cm": [
+    1809.1667175292969,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 01 | 2.40",
+   "translation_cm": [
+    1809.1667175292969,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 01 | 2.75",
+   "translation_cm": [
+    1809.1667175292969,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 02 | 1.31",
+   "translation_cm": [
+    1897.3333358764648,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 02 | 1.68",
+   "translation_cm": [
+    1897.3333358764648,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 02 | 2.04",
+   "translation_cm": [
+    1897.3333358764648,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 02 | 2.40",
+   "translation_cm": [
+    1897.3333358764648,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 02 | 2.75",
+   "translation_cm": [
+    1897.3333358764648,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 03 | 1.31",
+   "translation_cm": [
+    1985.4999542236328,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 03 | 1.68",
+   "translation_cm": [
+    1985.4999542236328,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 03 | 2.04",
+   "translation_cm": [
+    1985.4999542236328,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 03 | 2.40",
+   "translation_cm": [
+    1985.4999542236328,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 03 | 2.75",
+   "translation_cm": [
+    1985.4999542236328,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 04 | 1.31",
+   "translation_cm": [
+    2073.666763305664,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 04 | 1.68",
+   "translation_cm": [
+    2073.666763305664,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 04 | 2.04",
+   "translation_cm": [
+    2073.666763305664,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 04 | 2.40",
+   "translation_cm": [
+    2073.666763305664,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 04 | 2.75",
+   "translation_cm": [
+    2073.666763305664,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 05 | 1.31",
+   "translation_cm": [
+    2161.833381652832,
+    669.3999767303467,
+    1031.9000244140625
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 05 | 1.68",
+   "translation_cm": [
+    2161.833381652832,
+    669.3999767303467,
+    1067.899990081787
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 05 | 2.04",
+   "translation_cm": [
+    2161.833381652832,
+    669.3999767303467,
+    1103.8999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 05 | 2.40",
+   "translation_cm": [
+    2161.833381652832,
+    669.3999767303467,
+    1139.900016784668
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_CaseShelf",
+   "name": "MO01 | South | Shelf | 05 | 2.75",
+   "translation_cm": [
+    2161.833381652832,
+    669.3999767303467,
+    1175.8999824523926
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    0.7716666460037231,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_L",
+   "name": "MO01 | W3-06 | DrapeSide_L",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_R",
+   "name": "MO01 | W3-06 | DrapeSide_R",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Swag_N",
+   "name": "MO01 | W3-06 | Fringe_Swag_N",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_N_L",
+   "name": "MO01 | W3-06 | Fringe_Tail_N_L",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_N_R",
+   "name": "MO01 | W3-06 | Fringe_Tail_N_R",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Sheer",
+   "name": "MO01 | W3-06 | Sheer",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Swag_N",
+   "name": "MO01 | W3-06 | Swag_N",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_N_L",
+   "name": "MO01 | W3-06 | Tail_N_L",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_N_R",
+   "name": "MO01 | W3-06 | Tail_N_R",
+   "translation_cm": [
+    2310.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_L",
+   "name": "MO01 | W3-07 | DrapeSide_L",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DrapeSide_R",
+   "name": "MO01 | W3-07 | DrapeSide_R",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Swag_N",
+   "name": "MO01 | W3-07 | Fringe_Swag_N",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_N_L",
+   "name": "MO01 | W3-07 | Fringe_Tail_N_L",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Fringe_Tail_N_R",
+   "name": "MO01 | W3-07 | Fringe_Tail_N_R",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Sheer",
+   "name": "MO01 | W3-07 | Sheer",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Swag_N",
+   "name": "MO01 | W3-07 | Swag_N",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_N_L",
+   "name": "MO01 | W3-07 | Tail_N_L",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Tail_N_R",
+   "name": "MO01 | W3-07 | Tail_N_R",
+   "translation_cm": [
+    1910.0000381469727,
+    30.000001192092896,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    1.0,
+    4.371138828673793e-08
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Bookcase_Alcove",
+   "name": "SM_MO01_Bookcase_Alcove__ms02",
+   "translation_cm": [
+    1734.2500686645508,
+    177.4999976158142,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Bookcase_South",
+   "name": "SM_MO01_Bookcase_South__ms02",
+   "translation_cm": [
+    1983.2500457763672,
+    645.7499504089355,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Ceiling",
+   "name": "SM_MO01_Ceiling__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    350.0,
+    1319.9000358581543
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_ChimneyBreast",
+   "name": "SM_MO01_ChimneyBreast__ms02",
+   "translation_cm": [
+    1736.0000610351562,
+    450.0,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Cornice",
+   "name": "SM_MO01_Cornice__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    350.0,
+    1289.9840354919434
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DadoRail",
+   "name": "SM_MO01_DadoRail__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    350.0,
+    986.400032043457
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_BF",
+   "name": "SM_MO01_Dado_BF__ms02",
+   "translation_cm": [
+    1763.1000518798828,
+    450.0,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_BN",
+   "name": "SM_MO01_Dado_BN__ms02",
+   "translation_cm": [
+    1759.000015258789,
+    323.8999843597412,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_BS",
+   "name": "SM_MO01_Dado_BS__ms02",
+   "translation_cm": [
+    1736.0000610351562,
+    576.099967956543,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_E",
+   "name": "SM_MO01_Dado_E__ms02",
+   "translation_cm": [
+    2568.9001083374023,
+    349.9999761581421,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_N",
+   "name": "SM_MO01_Dado_N__ms02",
+   "translation_cm": [
+    2163.0001068115234,
+    31.10000193119049,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_S",
+   "name": "SM_MO01_Dado_S__ms02",
+   "translation_cm": [
+    2410.0000381469727,
+    668.9000129699707,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Dado_WS",
+   "name": "SM_MO01_Dado_WS__ms02",
+   "translation_cm": [
+    1711.1000061035156,
+    599.4999885559082,
+    919.3999290466309
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_DoorArchitrave_D-MO-24",
+   "name": "SM_MO01_DoorArchitrave_D-MO-24__ms02",
+   "translation_cm": [
+    2395.0000762939453,
+    667.6624774932861,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Firebox",
+   "name": "SM_MO01_Firebox__ms02",
+   "translation_cm": [
+    1740.999984741211,
+    450.0,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Hearth",
+   "name": "SM_MO01_Hearth__ms02",
+   "translation_cm": [
+    1789.5000457763672,
+    450.0,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_LadderRail",
+   "name": "SM_MO01_LadderRail__ms02",
+   "translation_cm": [
+    1979.9999237060547,
+    627.299976348877,
+    1128.9999961853027
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_LibraryLadder",
+   "name": "SM_MO01_LibraryLadder__ms02",
+   "translation_cm": [
+    1829.9999237060547,
+    589.7414684295654,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Mantel",
+   "name": "SM_MO01_Mantel__ms02",
+   "translation_cm": [
+    1762.0000839233398,
+    450.0,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_BF",
+   "name": "SM_MO01_Paper_BF__ms02",
+   "translation_cm": [
+    1762.1000289916992,
+    450.0,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_BN",
+   "name": "SM_MO01_Paper_BN__ms02",
+   "translation_cm": [
+    1736.0000610351562,
+    324.9000072479248,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_BS",
+   "name": "SM_MO01_Paper_BS__ms02",
+   "translation_cm": [
+    1736.0000610351562,
+    575.0999927520752,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_E",
+   "name": "SM_MO01_Paper_E__ms02",
+   "translation_cm": [
+    2569.900131225586,
+    349.9999761581421,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_N",
+   "name": "SM_MO01_Paper_N__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    30.09999990463257,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_S",
+   "name": "SM_MO01_Paper_S__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    669.8999881744385,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_WN",
+   "name": "SM_MO01_Paper_WN__ms02",
+   "translation_cm": [
+    1710.099983215332,
+    177.4999976158142,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Paper_WS",
+   "name": "SM_MO01_Paper_WS__ms02",
+   "translation_cm": [
+    1710.099983215332,
+    622.4999904632568,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Parquet",
+   "name": "SM_MO01_Parquet__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    350.0,
+    900.8000373840332
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Pelmet_E13-W-0",
+   "name": "SM_MO01_Pelmet_E13-W-0__ms02",
+   "translation_cm": [
+    2555.500030517578,
+    254.99999523162842,
+    1131.9999694824219
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Pelmet_E13-W-1",
+   "name": "SM_MO01_Pelmet_E13-W-1__ms02",
+   "translation_cm": [
+    2555.500030517578,
+    544.9999809265137,
+    1131.9999694824219
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Pelmet_W3-06",
+   "name": "SM_MO01_Pelmet_W3-06__ms02",
+   "translation_cm": [
+    2310.0000381469727,
+    44.5000022649765,
+    1157.9999923706055
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Pelmet_W3-07",
+   "name": "SM_MO01_Pelmet_W3-07__ms02",
+   "translation_cm": [
+    1910.0000381469727,
+    44.5000022649765,
+    1157.9999923706055
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_PictureLight",
+   "name": "SM_MO01_PictureLight__ms02",
+   "translation_cm": [
+    1770.199966430664,
+    450.0,
+    1235.3751182556152
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Rug",
+   "name": "SM_MO01_Rug__ms02",
+   "translation_cm": [
+    2129.9999237060547,
+    395.0000047683716,
+    900.8000373840332
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_Skirting",
+   "name": "SM_MO01_Skirting__ms02",
+   "translation_cm": [
+    2140.0001525878906,
+    349.9999761581421,
+    900.3999710083008
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_WindowArchitrave_E13-W-0",
+   "name": "SM_MO01_WindowArchitrave_E13-W-0__ms02",
+   "translation_cm": [
+    2568.3639526367188,
+    254.9999713897705,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_WindowArchitrave_E13-W-1",
+   "name": "SM_MO01_WindowArchitrave_E13-W-1__ms02",
+   "translation_cm": [
+    2568.3639526367188,
+    544.9999809265137,
+    980.3999900817871
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_WindowArchitrave_W3-06",
+   "name": "SM_MO01_WindowArchitrave_W3-06__ms02",
+   "translation_cm": [
+    2310.000228881836,
+    31.636250019073486,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_MO01_WindowArchitrave_W3-07",
+   "name": "SM_MO01_WindowArchitrave_W3-07__ms02",
+   "translation_cm": [
+    1910.0000381469727,
+    31.636250019073486,
+    995.3999519348145
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_HE_AF02_Frame",
+   "name": "MO01 | Portrait frame | AlcoveCase",
+   "reuse": true,
+   "translation_cm": [
+    1752.6296615600586,
+    177.50000953674316,
+    1112.399959564209
+   ],
+   "rotation_quat": [
+    -0.5,
+    0.5,
+    -0.5,
+    0.5
+   ],
+   "scale": [
+    0.7799999713897705,
+    0.7799999713897705,
+    0.7799999713897705
+   ]
+  },
+  {
+   "resource": "SM_HE_AF02_Frame",
+   "name": "MO01 | Portrait frame | BetweenWindows",
+   "reuse": true,
+   "translation_cm": [
+    2110.0000381469727,
+    38.200002908706665,
+    1105.399990081787
+   ],
+   "rotation_quat": [
+    -0.7071067690849304,
+    0.0,
+    0.0,
+    0.7071067690849304
+   ],
+   "scale": [
+    1.25,
+    1.25,
+    1.25
+   ]
+  },
+  {
+   "resource": "SM_HE_AF02_Frame",
+   "name": "MO01 | Portrait frame | OverMantel",
+   "reuse": true,
+   "translation_cm": [
+    1771.4641571044922,
+    450.0,
+    1148.3999252319336
+   ],
+   "rotation_quat": [
+    -0.4999999403953552,
+    0.49999991059303284,
+    -0.4999999403953552,
+    0.5000000596046448
+   ],
+   "scale": [
+    1.4500000476837158,
+    1.4500000476837158,
+    1.4500000476837158
+   ]
+  },
+  {
+   "resource": "SM_HE_Palm_P03",
+   "name": "MO01 | Corner palm",
+   "translation_cm": [
+    2473.9999771118164,
+    113.99999856948853,
+    899.9699592590332
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.1088668555021286,
+    0.9940563440322876
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "resource": "SM_HE_Grate_G01",
+   "name": "MO01 | G01 grate (approved, placed)",
+   "translation_cm": [
+    1743.0000305175781,
+    450.0,
+    891.0980224609375
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071066498756409,
+    0.70710688829422
+   ],
+   "scale": [
+    0.6600000262260437,
+    0.6600000262260437,
+    0.6600000262260437
+   ]
+  },
+  {
+   "resource": "SM_HE_Fuel_G01",
+   "name": "MO01 | G01 fuel (approved, placed)",
+   "translation_cm": [
+    1743.0000305175781,
+    450.0,
+    891.0980224609375
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    -0.7071066498756409,
+    0.70710688829422
+   ],
+   "scale": [
+    0.6600000262260437,
+    0.6600000262260437,
+    0.6600000262260437
+   ]
+  },
+  {
+   "resource": "SM_MO01_FireCards",
+   "name": "MO01 | Fire cards",
+   "translation_cm": [
+    1743.5535430908203,
+    450.4108428955078,
+    920.4371452331543
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "sconces": [
+  {
+   "name": "MO01 | Sconce S06 | 01",
+   "light": "Light | Hotel.MeredithOffice.WallSconce.01",
+   "translation_cm": [
+    1762.0000839233398,
+    345.0000047683716,
+    1116.3999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WallSconce.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "WallSconce",
+    "mo01_Lumens": 1400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 520,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WallSconce_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 46.67,
+    "mo01_Profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce",
+    "mo01_SourceRadiusCm": 3,
+    "mo01_AllowMegaLights": true,
+    "mo01_Fitting": "SM_EC01_Sconce_S06 (EC01 S06, shared)",
+    "mo01_ShadeCastShadow": false,
+    "mo01_EmissiveParams": "EmissiveStrength / EmissiveColor on M_EC01_SconceGlass"
+   },
+   "light_world": {
+    "translation_cm": [
+     1785.500144958496,
+     345.0000047683716,
+     1124.899959564209
+    ],
+    "rotation_quat": [
+     0.0,
+     0.0,
+     -3.774895063202166e-08,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "light_rel_cm": [
+    -8.249628535850206e-06,
+    -23.50003570318222,
+    8.500003814697266
+   ]
+  },
+  {
+   "name": "MO01 | Sconce S06 | 02",
+   "light": "Light | Hotel.MeredithOffice.WallSconce.02",
+   "translation_cm": [
+    1762.0000839233398,
+    555.0000190734863,
+    1116.3999557495117
+   ],
+   "rotation_quat": [
+    0.0,
+    0.0,
+    0.7071067094802856,
+    0.7071068286895752
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WallSconce.02",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "WallSconce",
+    "mo01_Lumens": 1400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 520,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WallSconce_MeredithOffice_02",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 46.67,
+    "mo01_Profile": "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce",
+    "mo01_SourceRadiusCm": 3,
+    "mo01_AllowMegaLights": true,
+    "mo01_Fitting": "SM_EC01_Sconce_S06 (EC01 S06, shared)",
+    "mo01_ShadeCastShadow": false,
+    "mo01_EmissiveParams": "EmissiveStrength / EmissiveColor on M_EC01_SconceGlass"
+   },
+   "light_world": {
+    "translation_cm": [
+     1785.500144958496,
+     555.0000190734863,
+     1124.899959564209
+    ],
+    "rotation_quat": [
+     0.0,
+     0.0,
+     -3.774895063202166e-08,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "light_rel_cm": [
+    -8.249628535850206e-06,
+    -23.500019311904907,
+    8.500003814697266
+   ]
+  }
+ ],
+ "lights": [
+  {
+   "name": "Light | Hotel.MeredithOffice.Fireplace.01",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.Fireplace.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fire",
+    "mo01_Fixture": "Fireplace",
+    "mo01_Lumens": 1500,
+    "mo01_TemperatureK": 1900,
+    "mo01_AttenuationRadiusCm": 700,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "Fireplace_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "",
+    "mo01_BlenderPreviewW": 50.0,
+    "mo01_Flicker": "Candle",
+    "mo01_SourceRadiusCm": 25
+   },
+   "type": "POINT",
+   "location_ue": [
+    1739.9999618530273,
+    450.0,
+    930.3999900817871
+   ],
+   "blender": {
+    "energy_w": 50.0,
+    "radius_m": 0.25,
+    "color": [
+     1.0,
+     0.2339806854724884,
+     0.0
+    ],
+    "cutoff_m": 7.0
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.PictureLight.01",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.PictureLight.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Practical",
+    "mo01_Fixture": "PictureLight",
+    "mo01_Lumens": 400,
+    "mo01_TemperatureK": 2700,
+    "mo01_AttenuationRadiusCm": 400,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "PictureLight_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 13.33,
+    "mo01_Rule": "WallSconce",
+    "mo01_OuterConeDeg": 70,
+    "mo01_InnerConeDeg": 40,
+    "mo01_Direction": "down onto the portrait"
+   },
+   "type": "SPOT",
+   "location_ue": [
+    1778.0000686645508,
+    450.0,
+    1234.7149848937988
+   ],
+   "blender": {
+    "energy_w": 13.333333015441895,
+    "radius_m": 0.029999999329447746,
+    "color": [
+     1.0,
+     0.39263081550598145,
+     0.09484114497900009
+    ],
+    "cutoff_m": 4.0,
+    "spot_deg": 69.99999967119774,
+    "blend": 0.4285714328289032
+   },
+   "rotation": {
+    "yaw": -179.99997929700322,
+    "pitch": -75.52972219415419,
+    "roll": 0.0,
+    "dir_ue": [
+     -0.24987784028053284,
+     -9.028972414171221e-08,
+     -0.9682773947715759
+    ]
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.01",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.01",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_01",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "W3-06",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "type": "AREA",
+   "location_ue": [
+    2310.0000381469727,
+    -0.0,
+    1145.4999923706055
+   ],
+   "blender": {
+    "energy_w": 100.0,
+    "radius_m": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff_m": 6.400000095367432,
+    "size": 1.7000000476837158,
+    "size_y": 2.419600009918213,
+    "shape": "RECTANGLE"
+   },
+   "rotation": {
+    "yaw": 89.99999499104386,
+    "pitch": -4.325711104525089e-06,
+    "roll": 0.0,
+    "dir_ue": [
+     8.742277657347586e-08,
+     1.0,
+     -7.549790126404332e-08
+    ]
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.02",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.02",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_02",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "W3-07",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "type": "AREA",
+   "location_ue": [
+    1910.0000381469727,
+    -0.0,
+    1145.4999923706055
+   ],
+   "blender": {
+    "energy_w": 100.0,
+    "radius_m": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff_m": 6.400000095367432,
+    "size": 1.7000000476837158,
+    "size_y": 2.419600009918213,
+    "shape": "RECTANGLE"
+   },
+   "rotation": {
+    "yaw": 89.99999499104386,
+    "pitch": -4.325711104525089e-06,
+    "roll": 0.0,
+    "dir_ue": [
+     8.742277657347586e-08,
+     1.0,
+     -7.549790126404332e-08
+    ]
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.03",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.03",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_03",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "E13-W-1",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "type": "AREA",
+   "location_ue": [
+    2600.0,
+    544.9999809265137,
+    1120.4999923706055
+   ],
+   "blender": {
+    "energy_w": 100.0,
+    "radius_m": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff_m": 6.400000095367432,
+    "size": 1.7000000476837158,
+    "size_y": 2.3276000022888184,
+    "shape": "RECTANGLE"
+   },
+   "rotation": {
+    "yaw": 179.99999749552194,
+    "pitch": 2.5044780654876664e-06,
+    "roll": 0.0,
+    "dir_ue": [
+     -1.0,
+     4.371138828673793e-08,
+     4.371138828673793e-08
+    ]
+   }
+  },
+  {
+   "name": "Light | Hotel.MeredithOffice.WindowFill.04",
+   "identity": {
+    "mo01_LightId": "Hotel.MeredithOffice.WindowFill.04",
+    "mo01_Zone": "Light.Zone.Hotel.MeredithOffice",
+    "mo01_Role": "Light.Role.Fill",
+    "mo01_Fixture": "WindowFill",
+    "mo01_Lumens": 3000,
+    "mo01_TemperatureK": 5500,
+    "mo01_AttenuationRadiusCm": 640,
+    "mo01_Shadows": "Ray Tracing",
+    "mo01_ActorLabel": "WindowFill_MeredithOffice_04",
+    "mo01_OutlinerFolder": "Lighting/Hotel/MeredithOffice",
+    "mo01_Circuit": "Panel.Hotel.MeredithOffice.A (proposed; confirm at Unreal integration)",
+    "mo01_BlenderPreviewW": 100.0,
+    "mo01_Window": "E13-W-0",
+    "mo01_SizeCm": "<bpy id property array [2]>",
+    "mo01_Note": "just inside the glass, facing the room; time-of-day mood driven"
+   },
+   "type": "AREA",
+   "location_ue": [
+    2600.0,
+    254.9999713897705,
+    1120.4999923706055
+   ],
+   "blender": {
+    "energy_w": 100.0,
+    "radius_m": 0.0,
+    "color": [
+     1.0,
+     0.8551527857780457,
+     0.7389991879463196
+    ],
+    "cutoff_m": 6.400000095367432,
+    "size": 1.7000000476837158,
+    "size_y": 2.3276000022888184,
+    "shape": "RECTANGLE"
+   },
+   "rotation": {
+    "yaw": 179.99999749552194,
+    "pitch": 2.5044780654876664e-06,
+    "roll": 0.0,
+    "dir_ue": [
+     -1.0,
+     4.371138828673793e-08,
+     4.371138828673793e-08
+    ]
+   }
+  }
+ ],
+ "fire": {
+  "cards_centre_ue": [
+   1743.553638458252,
+   450.4108428955078,
+   920.4371871948242
+  ],
+  "card_width_cm": 64.5029067993164,
+  "card_height_cm": 36.0,
+  "sound_ue": [
+   1743.553638458252,
+   450.4108428955078,
+   930.4371871948241
+  ]
+ },
+ "textures": [
+  {
+   "id": "T_MO01_Books_BaseColor",
+   "file": "textures/T_MO01_Books_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "8bed034a2fbca90f4e67ff330e242e68518480a7133c55163e4604e73ac73899"
+  },
+  {
+   "id": "T_MO01_Books_NormalGL",
+   "file": "textures/T_MO01_Books_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "2eeb67d4d367f1ecf6826601ae94dae2fe8c75b828c090ea89b3356c5abe655f"
+  },
+  {
+   "id": "T_MO01_Books_ORM",
+   "file": "textures/T_MO01_Books_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "52f9f554acd63c48e5ba899e71ef599bbfc2dfc4a09339fc000b30a32f5dfaab"
+  },
+  {
+   "id": "T_MO01_Velvet_BaseColor",
+   "file": "textures/T_MO01_Velvet_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "b109025ed73975e2f9e236b0d3363d341104ba3fed8edeb949bc7536cbc037cc"
+  },
+  {
+   "id": "T_MO01_Velvet_ORM",
+   "file": "textures/T_MO01_Velvet_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "296f87f95e4c1647d755817e4eeaf9dcfa6176ae0098d89df25f4b807bc50c2e"
+  },
+  {
+   "id": "T_MO01_Velvet_NormalGL",
+   "file": "textures/T_MO01_Velvet_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "0a8da95cd4b738d54c3f88f0f60bcd65fd833f7917f9256609d8135f01ce94e6"
+  },
+  {
+   "id": "T_MO01_DrapeSide_L_AO",
+   "file": "textures/T_MO01_DrapeSide_L_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "41ab5988a9af9daf667641b70cb51a56a2cb1bc48d44c582dec49af21ac23348"
+  },
+  {
+   "id": "T_MO01_DrapeSide_L_NormalGL",
+   "file": "textures/T_MO01_DrapeSide_L_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "29725a4dd47895eb7998890f112639667b10d41899343e94e89f51aa6bb7b539"
+  },
+  {
+   "id": "T_MO01_DrapeSide_R_AO",
+   "file": "textures/T_MO01_DrapeSide_R_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "d40a074993c1c2406c25931f3247b400824802a4e5d44469dddc403fa206090e"
+  },
+  {
+   "id": "T_MO01_DrapeSide_R_NormalGL",
+   "file": "textures/T_MO01_DrapeSide_R_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "28f967d075cb47fef8f4539e55bbae933dbed6d6d4328af96832210653d5b31f"
+  },
+  {
+   "id": "T_MO01_Fringe_BaseColorAlpha",
+   "file": "textures/T_MO01_Fringe_BaseColorAlpha.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    128
+   ],
+   "alpha": true,
+   "sha256": "0f8240ebda52db2343a841216e78b703b72e88c484193bfad8c6832a3fe303cb"
+  },
+  {
+   "id": "T_MO01_Fringe_NormalGL",
+   "file": "textures/T_MO01_Fringe_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    128
+   ],
+   "alpha": false,
+   "sha256": "e7344486fe4cbc6a0157144a16eb0a738faa14e9f1605314a6e98fd75649790f"
+  },
+  {
+   "id": "T_MO01_Sheer_BaseColor",
+   "file": "textures/T_MO01_Sheer_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "9999d1b90205fdd9d2b5e7ae64d955d43f18b3ce21750cdc0095fd499091de69"
+  },
+  {
+   "id": "T_MO01_Sheer_ORM",
+   "file": "textures/T_MO01_Sheer_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "ce2ac6a448237d0b067f9766c23f2195d9aacd862fb80518c3d5955f7aa3e732"
+  },
+  {
+   "id": "T_MO01_Sheer_NormalGL",
+   "file": "textures/T_MO01_Sheer_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "b5dfdcf49d54a1687ed100a99c09dbb6717707a7d4f2a92ddc84883183f09b2e"
+  },
+  {
+   "id": "T_MO01_Sheer_AO",
+   "file": "textures/T_MO01_Sheer_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "6280da74d6420bf746fbd04c0274fb0e5feb4e041d786a1dc14e87472cbf5391"
+  },
+  {
+   "id": "T_MO01_SheerFolds_NormalGL",
+   "file": "textures/T_MO01_SheerFolds_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "c131e2f2e917ba7965beaeb3c574fa7800013267824cf905e1636ccdf6ee3740"
+  },
+  {
+   "id": "T_MO01_Swag_E_AO",
+   "file": "textures/T_MO01_Swag_E_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "81c49362a61036ad0f36b5f4b397fdf0ddf87c4ee21151ba8c54d7da317c582a"
+  },
+  {
+   "id": "T_MO01_Swag_E_NormalGL",
+   "file": "textures/T_MO01_Swag_E_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "c93ff4d9172698a09d0c4ebd7445583b40642fa2fae3c52eef66c7b5689bc881"
+  },
+  {
+   "id": "T_MO01_Tail_E_AO",
+   "file": "textures/T_MO01_Tail_E_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    256,
+    256
+   ],
+   "alpha": false,
+   "sha256": "43be2106fb9e476c4b4555893838048e1adebaacd7f8aa51fc86d05c3c0aff91"
+  },
+  {
+   "id": "T_MO01_Tail_E_NormalGL",
+   "file": "textures/T_MO01_Tail_E_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "fabcb0c9f8c8c972a6f341be53d076319d3d955ada18244447f4354f63528611"
+  },
+  {
+   "id": "T_MO01_Candelabra_BaseColor",
+   "file": "textures/T_MO01_Candelabra_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "55349d18dd904251fe6235b1b10ff81e39d66935a96b5fb65fab6c537f7f51a6"
+  },
+  {
+   "id": "T_MO01_Candelabra_NormalGL",
+   "file": "textures/T_MO01_Candelabra_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "889bb3c69d446abf363c33459d48e48b2d594db1c03ff68bef249924636f88e9"
+  },
+  {
+   "id": "T_MO01_Candelabra_ORM",
+   "file": "textures/T_MO01_Candelabra_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "4338613c2ebf841d993dee877895c4f606547bde95f48d192b74eed35cadcdce"
+  },
+  {
+   "id": "T_MO01_Clock_BaseColor",
+   "file": "textures/T_MO01_Clock_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "28b461e9f2e77fc568104753eb7fa9eb6dc2b77772279028fde9643eed5ee500"
+  },
+  {
+   "id": "T_MO01_Clock_NormalGL",
+   "file": "textures/T_MO01_Clock_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "2c358eb3a809d03d5fe7986702147e2e3ab252d4ddfec7803360b20c5a96f5d5"
+  },
+  {
+   "id": "T_MO01_Clock_ORM",
+   "file": "textures/T_MO01_Clock_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "e3c73253fb053854999d3c84c5e0ee26147207c9828fccb5436533b5d78e2b4a"
+  },
+  {
+   "id": "T_MO01_ClockDial_BaseColor",
+   "file": "textures/T_MO01_ClockDial_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "b384366876a41b039de5cd1b63a1e41f04df6f5ffa6d36c78d437dd22823f74c"
+  },
+  {
+   "id": "T_MO01_Portraits_BaseColor",
+   "file": "textures/T_MO01_Portraits_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "8412bc9f49a90f691140b8172e9f0f70c17f384f5fa09b4a1437aaa1de96d9a2"
+  },
+  {
+   "id": "T_MO01_Swag_N_AO",
+   "file": "textures/T_MO01_Swag_N_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "706890e52836e6613f00ad04b4a40aa2cfd8b41aceb3f75c8260425d9f0ed37b"
+  },
+  {
+   "id": "T_MO01_Swag_N_NormalGL",
+   "file": "textures/T_MO01_Swag_N_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "932bd0d226d0f01cd05b7344a9afd10d0af51db7207208d83f0c0a8d50a7e95e"
+  },
+  {
+   "id": "T_MO01_Tail_N_AO",
+   "file": "textures/T_MO01_Tail_N_AO.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    256,
+    256
+   ],
+   "alpha": false,
+   "sha256": "c3aded04692e4eda4029d0e3421405204cf1eebabde80251966fe9901d97e907"
+  },
+  {
+   "id": "T_MO01_Tail_N_NormalGL",
+   "file": "textures/T_MO01_Tail_N_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    512,
+    512
+   ],
+   "alpha": false,
+   "sha256": "de851a7e30b474cff2afba8144bc7cf0ebcc8e20657f33bdda7023ad4a60e136"
+  },
+  {
+   "id": "T_MO01_FireBrick_BaseColor",
+   "file": "textures/T_MO01_FireBrick_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "e55c4b3b5fd73ccb7cbe32a857d4ecbada363999a5331a1a2dca999125497950"
+  },
+  {
+   "id": "T_MO01_FireBrick_ORM",
+   "file": "textures/T_MO01_FireBrick_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "05641177a61c6528612b260887b51fb5c21dad82f1ea83607049156dbbbdf514"
+  },
+  {
+   "id": "T_MO01_FireBrick_NormalGL",
+   "file": "textures/T_MO01_FireBrick_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "9914b07c5a57bb5917abb8a6680258378311d2695d1c6126ee3e5afce6b2f89f"
+  },
+  {
+   "id": "T_MO01_Marble_BaseColor",
+   "file": "textures/T_MO01_Marble_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "ab0010f04dd3498789297e3e759bc0b65f5e3bd667626b1f83b2cf1213b5625d"
+  },
+  {
+   "id": "T_MO01_Marble_ORM",
+   "file": "textures/T_MO01_Marble_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "f603cdf497419325bf815d5e79e6d83d40fd0d407db450222ef1fd0ed3a070e1"
+  },
+  {
+   "id": "T_MO01_Marble_NormalGL",
+   "file": "textures/T_MO01_Marble_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "e7a5416f7ff6328ff1958549f9f16b1dcd94c3597d4f295adb703673ca48a2ff"
+  },
+  {
+   "id": "T_MO01_Mantel_BaseColor",
+   "file": "textures/T_MO01_Mantel_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    4096,
+    4096
+   ],
+   "alpha": false,
+   "sha256": "2f180db5cd86cbd75027664689d3cb3f6625616a7b381a2420f54fd4f81b6d1d"
+  },
+  {
+   "id": "T_MO01_Mantel_NormalGL",
+   "file": "textures/T_MO01_Mantel_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    4096,
+    4096
+   ],
+   "alpha": false,
+   "sha256": "a09c21929585544e418a9becc82ce91dd614f17ba160ad5f05ce25d21a99c1cb"
+  },
+  {
+   "id": "T_MO01_Mantel_ORM",
+   "file": "textures/T_MO01_Mantel_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "08d933370d367997712bc65e67b02a4ce9f1782a8b339e245fc08ae1431456f8"
+  },
+  {
+   "id": "T_MO01_Wallpaper_BaseColor",
+   "file": "textures/T_MO01_Wallpaper_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "fe60b98563e8e64da5fd50828e2b4694ed805c7b2858ea76ba00ef983368998f"
+  },
+  {
+   "id": "T_MO01_Wallpaper_ORM",
+   "file": "textures/T_MO01_Wallpaper_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "85201a5a2f468a3197b19677a05cf3ce3ee5958d53ca56814af0a527b8041216"
+  },
+  {
+   "id": "T_MO01_Wallpaper_NormalGL",
+   "file": "textures/T_MO01_Wallpaper_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "e37739ed1d6a7ef14f3f6c3a507e90294925be5ae64f83aefe19cd019cba36eb"
+  },
+  {
+   "id": "T_MO01_Parquet_BaseColor",
+   "file": "textures/T_MO01_Parquet_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "63fdacb16a28121e6b0db5c2676efab7c3d109dfd1c6a4e2e4b7a05d0c87c5ec"
+  },
+  {
+   "id": "T_MO01_Parquet_ORM",
+   "file": "textures/T_MO01_Parquet_ORM.png",
+   "kind": "masks",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "a573098e2488a737d2791e4dc1484bdf21f780c8a06a25e1e182be866e966072"
+  },
+  {
+   "id": "T_MO01_Parquet_NormalGL",
+   "file": "textures/T_MO01_Parquet_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "58ed401826e4c0ef5d77d120ad77bca59fbf0fd801a4979c22422f3f0440d3e8"
+  },
+  {
+   "id": "T_MO01_Rug_BaseColor",
+   "file": "textures/T_MO01_Rug_BaseColor.png",
+   "kind": "color",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "66549a48529667cb91ef6d977da29f4ac7c1c95cf7723b1b7a1194569bee40b6"
+  },
+  {
+   "id": "T_MO01_RugPile_NormalGL",
+   "file": "textures/T_MO01_RugPile_NormalGL.jpg",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    2048,
+    2048
+   ],
+   "alpha": false,
+   "sha256": "c878bfd9f571ba61864bca05eb3bfc7974708b8a48bf135b23aa2b4f3c33f7eb"
+  },
+  {
+   "id": "T_HE_Palm_P03_Leaf_BaseColor",
+   "file": "textures/T_HE_Palm_P03_Leaf_BaseColor.png",
+   "kind": "color",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "4a787d3b58e6e14cd766a5954d4c99b417404406cbd482457a2c1f97c2eff549"
+  },
+  {
+   "id": "T_HE_Palm_P03_Leaf_NormalGL",
+   "file": "textures/T_HE_Palm_P03_Leaf_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "d1bad63b6b71fdc90dbfbcb20d99cb503764854d42a78ec7379d2b327c3bb628"
+  },
+  {
+   "id": "T_HE_Palm_P03_Leaf_ORM",
+   "file": "textures/T_HE_Palm_P03_Leaf_ORM.png",
+   "kind": "masks",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "a99187c38045fdfae28c01b787d9591fac8c5661ca3dbecf55f75391c1e78f23"
+  },
+  {
+   "id": "T_HE_Palm_P03_Pot_BaseColor",
+   "file": "textures/T_HE_Palm_P03_Pot_BaseColor.png",
+   "kind": "color",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "95ef62cae5eaa8757c33df8a0bd4f4bd0ea26841b5bf1547b1214d61f0f5d5a0"
+  },
+  {
+   "id": "T_HE_Palm_P03_Pot_BakedNormalGL",
+   "file": "textures/T_HE_Palm_P03_Pot_BakedNormalGL.png",
+   "kind": "normal_gl",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "3fde95d945232c9412b51869e819e732be7e84b44813d6d2d50564af9b10311a"
+  },
+  {
+   "id": "T_HE_Palm_P03_Pot_ORM",
+   "file": "textures/T_HE_Palm_P03_Pot_ORM.png",
+   "kind": "masks",
+   "group": "P03",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/P03/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "d0521f4559d9dd94a655c3417adee742bf2880834087d9f8772af99fce7cf63a"
+  },
+  {
+   "id": "T_HE_Grate_G01_BaseColor",
+   "file": "textures/T_HE_Grate_G01_BaseColor.png",
+   "kind": "color",
+   "group": "G01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "d62b05b7f01d6848ecbeeb2582046849d1d4122c3ee0c6e3a7ed574a865a2fc0"
+  },
+  {
+   "id": "T_HE_Grate_G01_ORM",
+   "file": "textures/T_HE_Grate_G01_ORM.png",
+   "kind": "masks",
+   "group": "G01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "eca7bfe55dbd97562051409b781d149c8f332939eab702f91841221442db4491"
+  },
+  {
+   "id": "T_HE_Grate_G01_Normal_GL",
+   "file": "textures/T_HE_Grate_G01_Normal_GL.png",
+   "kind": "normal_gl",
+   "group": "G01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/G01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "sha256": "79edd98e6ec99e311b051c5ffa1fe21b79b010b0613f0f0fd68dbef57f819025"
+  },
+  {
+   "id": "T_MO01_VelvetBump_NormalGL",
+   "file": "textures/T_MO01_VelvetBump_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "baked_from": "T_MO01_Velvet_NormalGL.png",
+   "sha256": "04eb4d6b7f3383e8eddc32a29a63d0950bbeb87ee49ae74efe46a39070ce6b9d"
+  },
+  {
+   "id": "T_MO01_SheerBump_NormalGL",
+   "file": "textures/T_MO01_SheerBump_NormalGL.png",
+   "kind": "normal_gl",
+   "group": "MO01",
+   "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Textures",
+   "size": [
+    1024,
+    1024
+   ],
+   "alpha": false,
+   "baked_from": "T_MO01_Sheer_NormalGL.png",
+   "sha256": "51b372ed261427ad18b9ba108246de4860d2d60deafc3f48cdf63fa0806d5583"
+  }
+ ],
+ "materials": {
+  "M_EC01_Mahogany": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_EC01_Mahogany_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_Mahogany_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_EC01_Mahogany_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_EC01_MahoganyTrim": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_EC01_Mahogany_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_Mahogany_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_EC01_Mahogany_NormalGL",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.003": {
+     "texture": "T_EC01_Trim_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_EC01_Trim_ORM",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.005": {
+     "texture": "T_EC01_Mahogany_Height",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_EC01_HardwareBrass": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_EC01_Brass_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_Brass_ORM",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Books": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Books_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Books_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Books_ORM",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_DrapeSide_L": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_DrapeSide_L_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_DrapeSide_L_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_DrapeSide_R": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_DrapeSide_R_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_DrapeSide_R_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Fringe": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Fringe_BaseColorAlpha",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Fringe_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Sheer": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Sheer_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Sheer_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Sheer_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_Sheer_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_SheerFolds_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Swag_E": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_Swag_E_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_Swag_E_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Tail_E": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_Tail_E_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_Tail_E_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Candelabra": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Candelabra_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Candelabra_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Candelabra_ORM",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Clock": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Clock_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Clock_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Clock_ORM",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_ClockDial": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_ClockDial_BaseColor",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_ClockGlass": {
+   "group": "MO01",
+   "images": {}
+  },
+  "M_MO01_Portraits": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Portraits_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_Canvas_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Swag_N": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_Swag_N_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_Swag_N_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Tail_N": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Fabric"
+    },
+    "Image Texture.003": {
+     "texture": "T_MO01_Tail_N_AO",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.004": {
+     "texture": "T_MO01_Tail_N_NormalGL",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_EC01_FiguredVeneer": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_EC01_FiguredVeneer_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_FiguredVeneer_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_EC01_FiguredVeneer_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Ceiling": {
+   "group": "MO01",
+   "images": {}
+  },
+  "M_MO01_BreastPlaster": {
+   "group": "MO01",
+   "images": {}
+  },
+  "M_MO01_PaintedPlaster": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_EC01_Trim_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_EC01_Trim_ORM",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_FireBrick": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_FireBrick_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_FireBrick_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_FireBrick_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_FireboxIron": {
+   "group": "MO01",
+   "images": {}
+  },
+  "M_MO01_MarbleHearth": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Marble_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Marble_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Marble_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Mantel": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Mantel_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Mantel_NormalGL",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Mantel_ORM",
+     "uv": "UV0_Bake"
+    }
+   }
+  },
+  "M_MO01_Wallpaper": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Wallpaper_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Wallpaper_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Wallpaper_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Parquet": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Parquet_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Parquet_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Parquet_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_PelmetVelvet": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Velvet_BaseColor",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_Velvet_ORM",
+     "uv": "UV1_Wood"
+    },
+    "Image Texture.002": {
+     "texture": "T_MO01_Velvet_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_MO01_Rug": {
+   "group": "MO01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_MO01_Rug_BaseColor",
+     "uv": "UV0_Bake"
+    },
+    "Image Texture.001": {
+     "texture": "T_MO01_RugPile_NormalGL",
+     "uv": "UV1_Wood"
+    }
+   }
+  },
+  "M_HE_Palm_P03 | slender olive green cane": {
+   "group": "P03",
+   "images": {}
+  },
+  "M_HE_Palm_P03 | tapered frond rachis": {
+   "group": "P03",
+   "images": {}
+  },
+  "M_HE_Palm_P03 | pinnate leaflets": {
+   "group": "P03",
+   "images": {
+    "Image Texture": {
+     "texture": "T_HE_Palm_P03_Leaf_BaseColor",
+     "uv": null
+    },
+    "Image Texture.001": {
+     "texture": "T_HE_Palm_P03_Leaf_NormalGL",
+     "uv": null
+    },
+    "Image Texture.002": {
+     "texture": "T_HE_Palm_P03_Leaf_ORM",
+     "uv": null
+    }
+   }
+  },
+  "M_HE_Palm_P03 | matte aged ivory ceramic": {
+   "group": "P03",
+   "images": {
+    "Image Texture": {
+     "texture": "T_HE_Palm_P03_Pot_BaseColor",
+     "uv": null
+    },
+    "Image Texture.001": {
+     "texture": "T_HE_Palm_P03_Pot_BakedNormalGL",
+     "uv": null
+    },
+    "Image Texture.002": {
+     "texture": "T_HE_Palm_P03_Pot_ORM",
+     "uv": null
+    }
+   }
+  },
+  "M_HE_Palm_P03 | soil": {
+   "group": "P03",
+   "images": {}
+  },
+  "M_HE_Grate_G01_BAKED.002": {
+   "group": "G01",
+   "images": {
+    "Image Texture": {
+     "texture": "T_HE_Grate_G01_BaseColor",
+     "uv": null
+    },
+    "Image Texture.001": {
+     "texture": "T_HE_Grate_G01_ORM",
+     "uv": null
+    },
+    "Image Texture.002": {
+     "texture": "T_HE_Grate_G01_Normal_GL",
+     "uv": null
+    }
+   }
+  }
+ },
+ "fabric_bumps": {
+  "T_MO01_VelvetBump_NormalGL": {
+   "size": [
+    1024,
+    1024
+   ],
+   "k": 2.1633802816901406,
+   "slope_deg_mean": 0.19361519995776408,
+   "slope_deg_p99": 0.3437096971638284
+  },
+  "T_MO01_SheerBump_NormalGL": {
+   "size": [
+    1024,
+    1024
+   ],
+   "k": 2.3540229885057466,
+   "slope_deg_mean": 0.2087044235134249,
+   "slope_deg_p99": 0.37399462347318113
+  }
+ },
+ "counts": {
+  "resources": 88,
+  "placements": 233,
+  "sconces": 2,
+  "lights": 6,
+  "textures": 61,
+  "triangles_placed": 162355
+ }
+}

@@ -1,0 +1,2108 @@
+{
+ "world": "L_EdenE2K",
+ "fixtures": [
+  [
+   "BP_Light_TableLamp",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_TableLamp"
+  ],
+  [
+   "BP_Light_CeilingPanel",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_CeilingPanel"
+  ],
+  [
+   "BP_Light_Candle",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_Candle"
+  ],
+  [
+   "BP_Light_Chandelier",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_Chandelier"
+  ],
+  [
+   "BP_Light_ExitSign",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_ExitSign"
+  ],
+  [
+   "BP_Light_Fireplace",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_Fireplace"
+  ],
+  [
+   "BP_Light_FloorLamp",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_FloorLamp"
+  ],
+  [
+   "BP_Light_Lamppost",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_Lamppost"
+  ],
+  [
+   "BP_Light_TestPoint",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_TestPoint"
+  ],
+  [
+   "BP_Light_WallSconce",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_WallSconce"
+  ],
+  [
+   "BP_Light_WindowFill",
+   "Blueprint",
+   "/Game/Whispers/World/Lighting/Fixtures/BP_Light_WindowFill"
+  ]
+ ],
+ "profiles": [
+  [
+   "DA_LightProfile_PL01_Sconce",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_PL01_Sconce"
+  ],
+  [
+   "DA_LightProfile_EC01_Sconce",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_EC01_Sconce"
+  ],
+  [
+   "DA_LightProfile_OccupiedRoom",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom"
+  ],
+  [
+   "DA_LightProfile_LobbyFill_Backlight",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_LobbyFill_Backlight"
+  ],
+  [
+   "DA_LightProfile_LobbyFill",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_LobbyFill"
+  ],
+  [
+   "DA_LightProfile_Fireplace_Glow",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_Fireplace_Glow"
+  ],
+  [
+   "DA_LightProfile_CorridorDownlight",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_CorridorDownlight"
+  ],
+  [
+   "DA_LightProfile_TableLamp",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_TableLamp"
+  ],
+  [
+   "DA_LightProfile_CeilingPanel",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_CeilingPanel"
+  ],
+  [
+   "DA_LightProfile_Candle",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_Candle"
+  ],
+  [
+   "DA_LightProfile_Chandelier",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_Chandelier"
+  ],
+  [
+   "DA_LightProfile_ExitSign",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_ExitSign"
+  ],
+  [
+   "DA_LightProfile_Fireplace",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_Fireplace"
+  ],
+  [
+   "DA_LightProfile_FloorLamp",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_FloorLamp"
+  ],
+  [
+   "DA_LightProfile_Lamppost",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_Lamppost"
+  ],
+  [
+   "DA_LightProfile_RectSoftFill_Review",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_RectSoftFill_Review"
+  ],
+  [
+   "DA_LightProfile_TestPoint",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_TestPoint"
+  ],
+  [
+   "DA_LightProfile_WallSconce",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_WallSconce"
+  ],
+  [
+   "DA_LightProfile_WindowFill",
+   "WhispersLightProfile",
+   "/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_WindowFill"
+  ]
+ ],
+ "flicker": [
+  "DA_LightFlicker_Failing",
+  "DA_LightFlicker_Failing_Curve",
+  "DA_LightFlicker_Candle",
+  "DA_LightFlicker_Candle_Curve",
+  "DA_LightFlicker_Brownout",
+  "DA_LightFlicker_Brownout_Curve"
+ ],
+ "moods": [
+  "DA_LightMood_PowerCut",
+  "DA_LightMood_Night",
+  "DA_LightMood_LateEvening",
+  "DA_LightMood_Evening",
+  "DA_LightMood_Day",
+  "DA_LightMood_CandlelitDinner"
+ ],
+ "profile_values": {
+  "DA_LightProfile_PL01_Sconce": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "1680.0",
+   "TemperatureK": "3000.0",
+   "SourceRadiusCm": "5.5",
+   "AttenuationRadiusCm": "380.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[\"Failing\", \"Brownout\"]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=((TagName=\"Light.Fault.BulbBurnedOut\")))",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "70.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_EC01_Sconce": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "1400.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "3.0",
+   "AttenuationRadiusCm": "520.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[\"Failing\", \"Brownout\"]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=((TagName=\"Light.Fault.BulbBurnedOut\")))",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "70.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_OccupiedRoom": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "4000.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "8.0",
+   "AttenuationRadiusCm": "800.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_LobbyFill_Backlight": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "95000.0",
+   "TemperatureK": "3200.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "2000.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "500.0",
+   "SourceHeightCm": "460.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_LobbyFill": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "18000.0",
+   "TemperatureK": "3400.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "2000.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "False",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "500.0",
+   "SourceHeightCm": "250.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_Fireplace_Glow": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "6500.0",
+   "TemperatureK": "1900.0",
+   "SourceRadiusCm": "25.0",
+   "AttenuationRadiusCm": "1000.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_CorridorDownlight": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "1500.0",
+   "TemperatureK": "3000.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "900.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_TableLamp": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "450.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "450.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_CeilingPanel": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "1500.0",
+   "TemperatureK": "4000.0",
+   "SourceRadiusCm": "0.0",
+   "AttenuationRadiusCm": "600.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "60.0",
+   "SourceHeightCm": "60.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "60.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_Candle": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "12.0",
+   "TemperatureK": "1800.0",
+   "SourceRadiusCm": "1.0",
+   "AttenuationRadiusCm": "150.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.NONE: 2>",
+   "bCastShadows": "False",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[\"Candle\"]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_Chandelier": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "2400.0",
+   "TemperatureK": "2900.0",
+   "SourceRadiusCm": "15.0",
+   "AttenuationRadiusCm": "1200.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_ExitSign": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "30.0",
+   "TemperatureK": "6500.0",
+   "SourceRadiusCm": "0.0",
+   "AttenuationRadiusCm": "200.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.NONE: 2>",
+   "bCastShadows": "False",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "40.0",
+   "SourceHeightCm": "20.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_Fireplace": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "1500.0",
+   "TemperatureK": "1900.0",
+   "SourceRadiusCm": "25.0",
+   "AttenuationRadiusCm": "700.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[\"Candle\"]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_FloorLamp": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "800.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "5.0",
+   "AttenuationRadiusCm": "600.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_Lamppost": {
+   "FixtureType": "<WhispersLightFixtureType.SPOT: 1>",
+   "IntensityLumens": "1800.0",
+   "TemperatureK": "3000.0",
+   "SourceRadiusCm": "6.0",
+   "AttenuationRadiusCm": "1500.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "100.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_RectSoftFill_Review": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "22400.0",
+   "TemperatureK": "3200.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "2000.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "False",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "300.0",
+   "SourceHeightCm": "25.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_TestPoint": {
+   "FixtureType": "<WhispersLightFixtureType.POINT: 0>",
+   "IntensityLumens": "800.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "4.0",
+   "AttenuationRadiusCm": "600.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[\"Failing\", \"Candle\", \"Brownout\"]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=((TagName=\"Light.Fault.BulbBurnedOut\"),(TagName=\"Light.Fault.LooseConnection\"),(TagName=\"Light.Fault.WiringShort\")))",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "60.0",
+   "SourceHeightCm": "30.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_WallSconce": {
+   "FixtureType": "<WhispersLightFixtureType.SPOT: 1>",
+   "IntensityLumens": "400.0",
+   "TemperatureK": "2700.0",
+   "SourceRadiusCm": "3.0",
+   "AttenuationRadiusCm": "400.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "0.0",
+   "SourceHeightCm": "0.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "70.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  },
+  "DA_LightProfile_WindowFill": {
+   "FixtureType": "<WhispersLightFixtureType.RECT: 2>",
+   "IntensityLumens": "3000.0",
+   "TemperatureK": "5500.0",
+   "SourceRadiusCm": "0.0",
+   "AttenuationRadiusCm": "900.0",
+   "ShadowMethod": "<WhispersLightShadowMethod.RAY_TRACED: 0>",
+   "bCastShadows": "True",
+   "bAllowMegaLights": "True",
+   "bUseEmissive": "True",
+   "EmissiveScalarParam": "EmissiveStrength",
+   "EmissiveColorParam": "EmissiveColor",
+   "AllowedFlickerPatterns": "[]",
+   "DefaultFlicker": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SupportedFaults": "(GameplayTags=)",
+   "DefaultRole": "ERR WhispersLightProfile: Failed to find property 'Def",
+   "SourceWidthCm": "150.0",
+   "SourceHeightCm": "200.0",
+   "BarnDoorAngle": "ERR WhispersLightProfile: Failed to find property 'Bar",
+   "OuterConeAngleDegrees": "44.0",
+   "InnerConeAngleDegrees": "ERR WhispersLightProfile: Failed to find property 'Inn"
+  }
+ },
+ "fixture_components": {
+  "BP_Light_TableLamp": {
+   "DefaultSceneRoot": "SceneComponent",
+   "PointLight": "PointLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_TableLamp"
+  },
+  "BP_Light_CeilingPanel": {
+   "DefaultSceneRoot": "SceneComponent",
+   "RectLight": "RectLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_CeilingPanel"
+  },
+  "BP_Light_Candle": {
+   "DefaultSceneRoot": "SceneComponent",
+   "PointLight": "PointLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_Candle"
+  },
+  "BP_Light_Chandelier": {
+   "DefaultSceneRoot": "SceneComponent",
+   "PointLight": "PointLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_Chandelier"
+  },
+  "BP_Light_ExitSign": {
+   "DefaultSceneRoot": "SceneComponent",
+   "RectLight": "RectLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_ExitSign"
+  },
+  "BP_Light_Fireplace": {
+   "DefaultSceneRoot": "SceneComponent",
+   "PointLight": "PointLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_Fireplace"
+  },
+  "BP_Light_FloorLamp": {
+   "DefaultSceneRoot": "SceneComponent",
+   "PointLight": "PointLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_FloorLamp"
+  },
+  "BP_Light_Lamppost": {
+   "DefaultSceneRoot": "SceneComponent",
+   "SpotLight": "SpotLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_Lamppost"
+  },
+  "BP_Light_TestPoint": {
+   "InteractionBounds": "BoxComponent",
+   "PointLight": "PointLightComponent",
+   "ConditionLoopAudio": "ChildActorComponent",
+   "DefaultSceneRoot": "SceneComponent",
+   "PersistentId": "WhispersPersistentIdComponent",
+   "LightMaintenance": "WhispersLightMaintenanceComponent",
+   "AudioFeedback": "WhispersInteractionAudioFeedbackComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_TestPoint"
+  },
+  "BP_Light_WallSconce": {
+   "DefaultSceneRoot": "SceneComponent",
+   "SpotLight": "SpotLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_WallSconce"
+  },
+  "BP_Light_WindowFill": {
+   "DefaultSceneRoot": "SceneComponent",
+   "RectLight": "RectLightComponent",
+   "WhispersLight": "WhispersLightComponent profile=DA_LightProfile_WindowFill"
+  }
+ },
+ "meshes_named": {
+  "SM_HE_AF02_Frame": [
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Meshes/SM_HE_AF02_Frame"
+  ],
+  "SM_EC01_Sconce_S06": [
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Meshes/SM_EC01_Sconce_S06"
+  ]
+ },
+ "ec01_assets": [
+  [
+   "BP_EC01_WallSconce_S06",
+   "Blueprint",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/BP_EC01_WallSconce_S06"
+  ],
+  [
+   "MI_EC01_SconceGlass",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_SconceGlass"
+  ],
+  [
+   "MI_EC01_SconceFlame",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_SconceFlame"
+  ],
+  [
+   "M_EC01_Glow",
+   "Material",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/M_EC01_Glow"
+  ],
+  [
+   "MI_EC01_SconceBrass",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_SconceBrass"
+  ],
+  [
+   "MI_HE_AF02_Frame",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_HE_AF02_Frame"
+  ],
+  [
+   "MI_EC01_FiguredVeneer",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_FiguredVeneer"
+  ],
+  [
+   "MI_EC01_RunnerEnds",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_RunnerEnds"
+  ],
+  [
+   "MI_EC01_Runner",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Runner"
+  ],
+  [
+   "MI_EC01_Pilaster",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Pilaster"
+  ],
+  [
+   "MI_EC01_Medallion",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Medallion"
+  ],
+  [
+   "MI_EC01_FloorBoards",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_FloorBoards"
+  ],
+  [
+   "MI_EC01_Portraits",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Portraits"
+  ],
+  [
+   "MI_EC01_Mahogany",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_Mahogany"
+  ],
+  [
+   "MI_EC01_InfillPlaster",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_InfillPlaster"
+  ],
+  [
+   "MI_EC01_MahoganyTrim",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_MahoganyTrim"
+  ],
+  [
+   "MI_EC01_CeilingPlaster",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_CeilingPlaster"
+  ],
+  [
+   "MI_EC01_HardwareBrass",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_HardwareBrass"
+  ],
+  [
+   "MI_EC01_DoorSix",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_DoorSix"
+  ],
+  [
+   "MI_EC01_DoorExec",
+   "MaterialInstanceConstant",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/MI_EC01_DoorExec"
+  ],
+  [
+   "M_EC01_Surface",
+   "Material",
+   "/Game/Whispers/Presentation/Environment/HotelEden/EC01/Materials/M_EC01_Surface"
+  ]
+ ],
+ "hoteleden_folders": [
+  "A01",
+  "A02",
+  "BS01",
+  "DR01",
+  "DeskProps",
+  "EC01",
+  "FD01",
+  "FG02",
+  "Fireplace",
+  "Furniture",
+  "IV02",
+  "LW01",
+  "MM01",
+  "Mirror",
+  "OPT01",
+  "PF01",
+  "PL01",
+  "PW01",
+  "RearBays204",
+  "SD01",
+  "SG01",
+  "SH01",
+  "SR01",
+  "StaffFurniture",
+  "UI01",
+  "UR01",
+  "UR02",
+  "UR03"
+ ],
+ "tags": {
+  "Light.Zone.Hotel.MeredithOffice": false,
+  "Light.Zone.Hotel.ExecutiveCorridor": true,
+  "Light.Zone.Hotel.Level3Rooms": true,
+  "Light.Role.Fire": true,
+  "Light.Role.Fill": true,
+  "Light.Role.Practical": true,
+  "Light.Group.ExecutiveSconces": true
+ },
+ "level_instances": [
+  {
+   "label": "HotelEden",
+   "class": "LevelInstance",
+   "t": [
+    6270.800668628429,
+    -11977.063322630067,
+    59165.00000000001
+   ],
+   "r": [
+    0.0,
+    0.0,
+    -174.5
+   ],
+   "s": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "level": "<Object '/Game/Whispers/World/HotelEden/L_HotelEden_Building.L_HotelEden_Building' (0x00000239D4A3E000) Class 'World'>"
+  },
+  {
+   "label": "LevelInstanceEditorInstanceActor0",
+   "class": "LevelInstanceEditorInstanceActor",
+   "t": [
+    6270.800668628429,
+    -11977.063322630067,
+    59165.00000000001
+   ],
+   "r": [
+    0.0,
+    0.0,
+    -174.5
+   ],
+   "s": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "level": null
+  }
+ ],
+ "hotel_transform": {
+  "t": [
+   6270.800668628429,
+   -11977.063322630067,
+   59165.00000000001
+  ],
+  "r": "<Struct 'Rotator' (0x000002393614BD00) {pitch: 0.000000, yaw: -174.500000, roll: 0.000000}>",
+  "s": "<Struct 'Vector' (0x00000239E0771CC0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+ },
+ "inside_office": [
+  {
+   "label": "Meredith",
+   "class": "BP_Meredith_C",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2296.9,
+    2482.5,
+    198.4,
+    487.5,
+    902.0,
+    1082.8
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Meeting_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Desk_Read_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Desk_Write_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Desk_Type_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "WM22b_Level3Rooms_Lamp_04",
+   "class": "WhispersRoomVolume",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    1663.7,
+    2642.6,
+    -65.5,
+    741.8,
+    910.0,
+    1320.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Desk_Sit_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_Desk_Phone_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "Life_Manager_StandLean_SL8",
+   "class": "WhispersLifeObject",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2390.9,
+    2390.9,
+    355.4,
+    355.4,
+    990.0,
+    990.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "E2K_UltraDynamicWeather",
+   "class": "Ultra_Dynamic_Weather_C",
+   "level": "L_EdenE2K",
+   "folder": "Look",
+   "local_bounds": [
+    -2725634.6,
+    2730574.9,
+    -2726011.4,
+    2730198.3,
+    -2498931.7,
+    2501068.3
+   ],
+   "comps": [
+    {
+     "comp": "SelectionHide",
+     "mesh": "Nebula_Sphere",
+     "bounds": [
+      -2725635,
+      2730575,
+      -2726011,
+      2730198,
+      -2498932,
+      2501068
+     ],
+     "visible": false,
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "Room_MO_Office_166",
+   "class": "WhispersRoomVolume",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2181.6,
+    2608.4,
+    89.5,
+    710.5,
+    902.0,
+    1142.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "E2K_UltraDynamicSky",
+   "class": "Ultra_Dynamic_Sky_C",
+   "level": "L_EdenE2K",
+   "folder": "Look",
+   "local_bounds": [
+    -10224153842.3,
+    10224165537.2,
+    -10224175293.3,
+    10224146335.0,
+    -10538866352.5,
+    9390648647.5
+   ],
+   "comps": [
+    {
+     "comp": "Sky_Sphere",
+     "mesh": "Ultra_Dynamic_Sky_Sphere",
+     "bounds": [
+      -10224153842,
+      10224165537,
+      -10224175293,
+      10224146335,
+      -10538866352,
+      9390648648
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "TMP_Life_Manager_Desk_SL8",
+   "class": "StaticMeshActor",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2239.4,
+    2363.2,
+    284.1,
+    444.0,
+    970.0,
+    980.0
+   ],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "TMP_Life_Block",
+     "bounds": [
+      2239,
+      2363,
+      284,
+      444,
+      970,
+      980
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "TMP_Life_Manager_ChairSeat_SL8",
+   "class": "StaticMeshActor",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    2363.6,
+    2418.2,
+    328.1,
+    382.7,
+    942.0,
+    952.0
+   ],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "TMP_Life_Block",
+     "bounds": [
+      2364,
+      2418,
+      328,
+      383,
+      942,
+      952
+     ],
+     "visible": false,
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "PreviewSection6",
+   "class": "PreviewSection",
+   "level": "L_EdenE2K",
+   "folder": "None",
+   "local_bounds": [
+    -45885.4,
+    10016.3,
+    -12535.2,
+    43363.9,
+    -59165.0,
+    17886.6
+   ],
+   "comps": [
+    {
+     "comp": "MeshComponent_0",
+     "mesh": "MeshPartitionStaticMesh_0",
+     "bounds": [
+      -45885,
+      10016,
+      -12535,
+      43364,
+      -1019,
+      17887
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "VirtualTextureFallbackMeshComponent_0",
+     "mesh": "MeshPartitionStaticMesh_0",
+     "bounds": [
+      -45885,
+      10016,
+      -12535,
+      43364,
+      -1019,
+      17887
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "Sofa_Chesterfield_MO",
+   "class": "StaticMeshActor",
+   "level": "L_EdenE2K",
+   "folder": "Furniture/Office_MO",
+   "local_bounds": [
+    2271.0,
+    2474.7,
+    106.9,
+    229.6,
+    900.4,
+    976.4
+   ],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "SM_SofaChesterfield",
+     "bounds": [
+      2271,
+      2475,
+      107,
+      230,
+      900,
+      976
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+   ]
+  },
+  {
+   "label": "Chair_Swivel_MO",
+   "class": "BP_SwivelChair_C",
+   "level": "L_EdenE2K",
+   "folder": "Furniture/Office_MO",
+   "local_bounds": [
+    2251.2,
+    2530.6,
+    215.7,
+    495.1,
+    772.4,
+    1028.4
+   ],
+   "comps": [
+    {
+     "comp": "Base",
+     "mesh": "SM_ChairSwivel_Base",
+     "bounds": [
+      2351,
+      2430,
+      316,
+      395,
+      900,
+      925
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "Seat",
+     "mesh": "SM_ChairSwivel_Seat",
+     "bounds": [
+      2335,
+      2447,
+      299,
+      411,
+      925,
+      1001
+     ],
+     "visible": true,
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+   ]
+  },
+  {
+   "label": "UI01_ZONE_0_n1_0",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Hotel Eden/Architecture",
+   "local_bounds": [
+    -184.6,
+    2732.0,
+    -854.3,
+    292.6,
+    -128.0,
+    1388.5
+   ],
+   "comps": [
+    {
+     "comp": "I_45472b43a8149de4",
+     "mesh": "SM_HE_UR03_a9eb624bd57e306e",
+     "instances": 2,
+     "inside": 2,
+     "sample": [
+      [
+       0,
+       [
+        2184,
+        2437,
+        -82,
+        48,
+        38,
+        959
+       ]
+      ],
+      [
+       1,
+       [
+        1784,
+        2037,
+        -82,
+        48,
+        38,
+        959
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_539723253844af8e",
+     "mesh": "SM_HE_UR03_022a55e5a8d07d03",
+     "instances": 4,
+     "inside": 2,
+     "sample": [
+      [
+       0,
+       [
+        2181,
+        2438,
+        -90,
+        48,
+        992,
+        1298
+       ]
+      ],
+      [
+       1,
+       [
+        1781,
+        2038,
+        -90,
+        48,
+        992,
+        1298
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "UI01_ZONE_0_0_0",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Hotel Eden/Architecture",
+   "local_bounds": [
+    -290.9,
+    4602.8,
+    -531.7,
+    4228.5,
+    -128.0,
+    1747.3
+   ],
+   "comps": [
+    {
+     "comp": "I_03f913aa948126b4",
+     "mesh": "SM_HE_UR02_5ab79cf424b90ece",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2100,
+        2220,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_0a6056abf8b5f66e",
+     "mesh": "SM_HE_UR02_20d31d301455b289",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2000,
+        2100,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_11b062eeac2b7df8",
+     "mesh": "SM_HE_UR02_75bcd6d3fb0fd5db",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        1600,
+        1820,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_15ec10bea23619d7",
+     "mesh": "SM_HE_UR02_9d6df2d756c208c6",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        1820,
+        2000,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_17bb60d702571635",
+     "mesh": "SM_HE_OPT01_79c5aacb131d",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        1600,
+        1820,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_26cfc44af5c6ecd7",
+     "mesh": "SM_HE_UR02_44016c2d664d6f12",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2000,
+        2100,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_4cc6c81cd115f107",
+     "mesh": "SM_HE_UR02_5d84e53c9b11c602",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        1600,
+        1820,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_7123ca304108eebd",
+     "mesh": "SM_HE_UR02_89a358ca8c95f698",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        1820,
+        2000,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_7f7661153a04cd60",
+     "mesh": "SM_HE_UR02_c78fe9cd4435da37",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2220,
+        2400,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_a6d1bd82058fb16c",
+     "mesh": "SM_HE_OPT01_80a734f21e10",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2100,
+        2220,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_b9cf679090caccde",
+     "mesh": "SM_HE_OPT01_eca40380f57a",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2000,
+        2100,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_c41f424577cfe35f",
+     "mesh": "SM_HE_UR02_146ea9f2c326b2ba",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2220,
+        2400,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_e05f42dc78f19bf0",
+     "mesh": "SM_HE_UR02_93a2e3053bc178ee",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2100,
+        2220,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "UI01_ZONE_0_1_0",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Hotel Eden/Architecture",
+   "local_bounds": [
+    -610.9,
+    4501.2,
+    -511.5,
+    5381.4,
+    -128.0,
+    1388.5
+   ],
+   "comps": [
+    {
+     "comp": "I_6f7e42618c9b72f0",
+     "mesh": "SM_HE_OPT01_6f6286783a71",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        -88,
+        2688,
+        -88,
+        5088,
+        870,
+        940
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_b748788c3083a2b9",
+     "mesh": "SM_HE_OPT01_Host_c247696d3f",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        30,
+        2570,
+        30,
+        2610,
+        0,
+        900
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_eb75c1bda6fa6c7e",
+     "mesh": "SM_HE_OPT01_bacaa4712fae",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        -112,
+        2712,
+        -112,
+        5112,
+        1291,
+        1370
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+   ]
+  },
+  {
+   "label": "UI01_ZONE_1_0_0",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Hotel Eden/Architecture",
+   "local_bounds": [
+    -139.7,
+    5118.9,
+    -583.7,
+    3957.7,
+    -128.0,
+    1468.4
+   ],
+   "comps": [
+    {
+     "comp": "I_7513af83c39c3581",
+     "mesh": "SM_HE_UR02_0c8377a4bf843199",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2400,
+        2570,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_e3f7bdde1f4fed59",
+     "mesh": "SM_HE_UR02_f192f8b77e82407d",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2400,
+        2570,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+     "comp": "I_ed0889bc071ebde9",
+     "mesh": "SM_HE_OPT01_f66de6850e93",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2400,
+        2570,
+        -30,
+        30,
+        1260,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+   ]
+  },
+  {
+   "label": "UI01_ZONE_1_1_0",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Hotel Eden/Architecture",
+   "local_bounds": [
+    -543.9,
+    7574.3,
+    -858.2,
+    5764.7,
+    -181.7,
+    1990.4
+   ],
+   "comps": [
+    {
+     "comp": "I_b0c255b364bb36aa",
+     "mesh": "SM_HE_UI01_6ba50eb2738df95e",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        -41,
+        7072,
+        -180,
+        5086,
+        -182,
+        1375
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    },
+    {
+     "comp": "I_ecec99c0f2eb598a",
+     "mesh": "SM_HE_RB204_CourtyardHost",
+     "instances": 1,
+     "inside": 1,
+     "sample": [
+      [
+       0,
+       [
+        2570,
+        4430,
+        -30,
+        833,
+        0,
+        1320
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_04",
+   "class": "WhispersLightZoneVolume",
+   "level": "L_HotelEden_Building",
+   "folder": "Lighting/Zones/Hotel",
+   "local_bounds": [
+    1664.6,
+    2643.4,
+    -62.7,
+    744.7,
+    905.0,
+    1315.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_04",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "Lighting/OccupiedRooms",
+   "local_bounds": [
+    2014.3,
+    2293.7,
+    201.3,
+    480.7,
+    1152.0,
+    1408.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "StaticDoorSource_L3_D-MO-24_0",
+   "class": "StaticMeshActor",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2313.2,
+    2396.8,
+    666.9,
+    701.1,
+    901.2,
+    1141.2
+   ],
+   "comps": []
+  },
+  {
+   "label": "StaticDoorSource_L3_D-MO-24_1",
+   "class": "StaticMeshActor",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2393.2,
+    2476.8,
+    666.9,
+    701.1,
+    901.2,
+    1141.2
+   ],
+   "comps": []
+  },
+  {
+   "label": "DR01_Door_L3_D-MO-24",
+   "class": "BP_DoorKit_Double_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2255.3,
+    2534.7,
+    541.3,
+    820.7,
+    774.0,
+    1030.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "DoorKitLeaf",
+   "class": "BP_DoorLeaf_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2313.2,
+    2396.8,
+    666.9,
+    701.1,
+    901.2,
+    1141.2
+   ],
+   "comps": []
+  },
+  {
+   "label": "DoorKitLeaf_1",
+   "class": "BP_DoorLeaf_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2393.2,
+    2476.8,
+    666.9,
+    701.1,
+    901.2,
+    1141.2
+   ],
+   "comps": []
+  },
+  {
+   "label": "RB205_Return_W",
+   "class": "BP_HE_RB204_ReturnSide_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2475.8,
+    2784.0,
+    109.3,
+    688.8,
+    -128.0,
+    1301.0
+   ],
+   "comps": [
+    {
+     "comp": "Windows",
+     "mesh": "SM_HE_RB204_ArchedWindow",
+     "instances": 2,
+     "inside": 2,
+     "sample": [
+      [
+       0,
+       [
+        2557,
+        2683,
+        126,
+        384,
+        980,
+        1260
+       ]
+      ],
+      [
+       1,
+       [
+        2557,
+        2683,
+        416,
+        674,
+        980,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+   ]
+  },
+  {
+   "label": "HE_CollisionBoxes",
+   "class": "Actor",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    -636.3,
+    7589.0,
+    -1271.5,
+    5779.8,
+    -128.0,
+    1291.0
+   ],
+   "comps": [
+    {
+     "comp": "InstancedStaticMesh",
+     "mesh": "Cube",
+     "instances": 6534,
+     "inside": 28,
+     "sample": [
+      [
+       372,
+       [
+        2100,
+        2220,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ],
+      [
+       430,
+       [
+        2000,
+        2100,
+        -30,
+        30,
+        900,
+        1010
+       ]
+      ],
+      [
+       432,
+       [
+        1600,
+        1820,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ],
+      [
+       438,
+       [
+        2000,
+        2100,
+        -30,
+        30,
+        1010,
+        1260
+       ]
+      ]
+     ],
+     "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+    }
+   ]
+  },
+  {
+   "label": "EC01_Zone_Connector",
+   "class": "WhispersLightZoneVolume",
+   "level": "L_HotelEden_Building",
+   "folder": "Lighting/Zones/Hotel",
+   "local_bounds": [
+    2135.1,
+    2654.9,
+    656.6,
+    1613.4,
+    896.0,
+    1600.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "WallSconce_ExecutiveCorridor_01",
+   "class": "BP_EC01_WallSconce_S06_C",
+   "level": "L_HotelEden_Building",
+   "folder": "Lighting/Hotel/ExecutiveCorridor",
+   "local_bounds": [
+    2359.1,
+    2642.9,
+    554.8,
+    857.7,
+    978.4,
+    1242.9
+   ],
+   "comps": []
+  },
+  {
+   "label": "WallSconce_ExecutiveCorridor_02",
+   "class": "BP_EC01_WallSconce_S06_C",
+   "level": "L_HotelEden_Building",
+   "folder": "Lighting/Hotel/ExecutiveCorridor",
+   "local_bounds": [
+    2147.1,
+    2430.9,
+    554.8,
+    857.7,
+    978.4,
+    1242.9
+   ],
+   "comps": []
+  },
+  {
+   "label": "DoorKitController_Double",
+   "class": "BP_DoubleHingedDoor_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2207.8,
+    2582.2,
+    356.2,
+    1005.8,
+    882.0,
+    1142.0
+   ],
+   "comps": []
+  },
+  {
+   "label": "DoorKitPresentation_Double",
+   "class": "BP_DoorPresentationAdapter_C",
+   "level": "L_HotelEden_Building",
+   "folder": "None",
+   "local_bounds": [
+    2255.3,
+    2534.7,
+    541.3,
+    820.7,
+    774.0,
+    1030.0
+   ],
+   "comps": []
+  }
+ ]
+}

@@ -134,7 +134,7 @@
       "type": "group",
       "category": "dev",
       "created": "2026-09-27",
-      "updated": "2026-10-25",
+      "updated": "2026-11-13",
       "folder": "2026-09-27_whispers",
       "steps": [
         {
@@ -144,6 +144,10 @@
         {
           "name": "Ivy - Nanite IV02",
           "path": "ivy-nanite-iv02-review.html"
+        },
+        {
+          "name": "Meredith's Office - MO01",
+          "path": "meredith-office-mo01-review.html"
         },
         {
           "name": "Working notes",

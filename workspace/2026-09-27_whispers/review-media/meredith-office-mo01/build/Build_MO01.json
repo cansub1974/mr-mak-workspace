@@ -1,0 +1,423 @@
+{
+ "revision": "MO01",
+ "date": "2026-11-12",
+ "items": {
+  "ec01_trim_ao_refilled": {
+   "image": "T_EC01_Trim_ORM.png",
+   "source": "D:/AI_Modelling/hotel_eden/working/executive_EC01/textures\\T_EC01_Trim_ORM.png",
+   "note": "AO constant along u; was 0 in columns 82-255"
+  },
+  "grate": {
+   "source": "approved-media\\furnishings-g01\\Hotel_Eden_Fireplace_G01_Game.blend",
+   "scale": 0.66,
+   "note": "approved G01 grate and fuel, uniform scale 0.66 into the brick firebox"
+  },
+  "bookcase_South": {
+   "run": "S",
+   "s": [
+    0.0,
+    5.4
+   ],
+   "bays": 6,
+   "bay_w": 0.7717
+  },
+  "ladder": {
+   "rail_z": 2.3,
+   "rail_out": 0.47,
+   "ladder_at_s": 1.2
+  },
+  "bookcase_Alcove": {
+   "run": "WN",
+   "s": [
+    0.0,
+    2.95
+   ],
+   "bays": 3,
+   "bay_w": 0.8367
+  },
+  "windows": [
+   {
+    "id": "W3-06",
+    "run": "N",
+    "s": 2.6,
+    "kind": "N"
+   },
+   {
+    "id": "W3-07",
+    "run": "N",
+    "s": 6.6,
+    "kind": "N"
+   },
+   {
+    "id": "E13-W-1",
+    "run": "E",
+    "s": 1.25,
+    "kind": "E"
+   },
+   {
+    "id": "E13-W-0",
+    "run": "E",
+    "s": 4.15,
+    "kind": "E"
+   }
+  ],
+  "rug": {
+   "size": [
+    5.3,
+    3.532
+   ],
+   "centre": [
+    21.3,
+    3.95
+   ],
+   "x": [
+    18.65,
+    23.95
+   ],
+   "y": [
+    2.184,
+    5.716
+   ],
+   "source": "AIC 22030 (CC0), full image, restored (Material_Recipes.json)",
+   "texture": [
+    1024,
+    2048
+   ]
+  },
+  "af02_mesh": "Plane.001 (the master's own approved AF02 mesh)",
+  "books": {
+   "row_modules": 20,
+   "rows_placed": 52,
+   "volumes_placed": 995,
+   "per_module_use": {
+    "SM_MO01_BookRow_South_low_00": 2,
+    "SM_MO01_BookRow_South_mid_04": 4,
+    "SM_MO01_BookRow_South_mid_03": 4,
+    "SM_MO01_BookRow_South_mid_02": 4,
+    "SM_MO01_BookRow_South_mid_05": 4,
+    "SM_MO01_BookRow_South_top_00": 3,
+    "SM_MO01_BookRow_South_low_02": 2,
+    "SM_MO01_BookRow_South_mid_00": 4,
+    "SM_MO01_BookRow_South_mid_01": 4,
+    "SM_MO01_BookRow_South_top_02": 2,
+    "SM_MO01_BookRow_South_low_01": 2,
+    "SM_MO01_BookRow_South_top_01": 1,
+    "SM_MO01_BookRow_Alcove_low_01": 2,
+    "SM_MO01_BookRow_Alcove_mid_02": 2,
+    "SM_MO01_BookRow_Alcove_mid_03": 3,
+    "SM_MO01_BookRow_Alcove_mid_01": 2,
+    "SM_MO01_BookRow_Alcove_mid_00": 3,
+    "SM_MO01_BookRow_Alcove_top_01": 2,
+    "SM_MO01_BookRow_Alcove_low_00": 1,
+    "SM_MO01_BookRow_Alcove_top_00": 1
+   },
+   "atlas": "T_MO01_Books 2048 (BaseColor, NormalGL, ORM)",
+   "mantel": {
+    "set": "Rome",
+    "books": 5,
+    "width": 0.2119,
+    "tris": 145
+   }
+  },
+  "mantel": {
+   "candelabra": [
+    5.34,
+    3.66
+   ],
+   "clock": 4.36,
+   "books": 4.85,
+   "shelf_top": 1.32
+  },
+  "sconces": [
+   {
+    "along": 3.45,
+    "flame_z": 2.2
+   },
+   {
+    "along": 5.55,
+    "flame_z": 2.2
+   }
+  ],
+  "corner_palm": {
+   "asset": "FUR-024",
+   "revision": "P03",
+   "copy_of": "LP01 | East stair palm | placement",
+   "plan": [
+    24.74,
+    1.14
+   ],
+   "yaw_deg": 12.5,
+   "scale": 1.0,
+   "lobby_scale": 2.0,
+   "height_m": 2.562,
+   "canopy_plan_x": [
+    23.791,
+    25.474
+   ],
+   "canopy_plan_y": [
+    0.477,
+    1.773
+   ],
+   "clearance_m": {
+    "east_wall": 0.226,
+    "north_wall": 0.177,
+    "cornice": 1.334
+   },
+   "window_dressing_hits": {},
+   "meshes": [
+    "P03 | individual palm leaflets",
+    "SM_HE_Palm_P03_Cane_01",
+    "SM_HE_Palm_P03_Planter",
+    "SM_HE_Palm_P03_Rachis_01",
+    "SM_HE_Palm_P03_Soil"
+   ]
+  },
+  "furniture": {
+   "spec": {
+    "desk": {
+     "fur": "FUR-107",
+     "blend": "approved-media/desk-pedestal-pd01/PD01_Game.blend",
+     "cm": [
+      2030.0,
+      400.0,
+      901.7
+     ],
+     "yaw": 180.0,
+     "unreal": "Desk_Pedestal_MO"
+    },
+    "chair": {
+     "fur": "FUR-108",
+     "blend": "approved-media/chair-swivel-sw01/SW01_Game.blend",
+     "rel_desk_cm": [
+      100.0,
+      0.0,
+      0.0
+     ],
+     "rel_yaw": 90.0,
+     "seat_z_cm": 24.2,
+     "unreal": "Chair_Swivel_MO (BP_SwivelChair)"
+    },
+    "sofa": {
+     "fur": "FUR-106",
+     "blend": "approved-media/sofa-chesterfield-cf01/CF01_Game.blend",
+     "cm": [
+      2110.0,
+      122.0,
+      900.8
+     ],
+     "yaw": 0.0,
+     "unreal": "Sofa_Chesterfield_MO"
+    }
+   },
+   "placed": {
+    "MO01 | Furniture | Desk (FUR-107)": {
+     "mesh": "SM_DeskPedestal",
+     "x": [
+      19.793,
+      20.807
+     ],
+     "y": [
+      3.04,
+      4.96
+     ],
+     "z": [
+      0.013,
+      0.783
+     ]
+    },
+    "MO01 | Furniture | Chair base (FUR-108)": {
+     "mesh": "SM_ChairSwivel_Base",
+     "x": [
+      18.939,
+      19.661
+     ],
+     "y": [
+      3.64,
+      4.361
+     ],
+     "z": [
+      0.013,
+      0.255
+     ]
+    },
+    "MO01 | Furniture | Chair seat (FUR-108)": {
+     "mesh": "SM_ChairSwivel_Seat",
+     "x": [
+      18.9,
+      19.7
+     ],
+     "y": [
+      3.597,
+      4.404
+     ],
+     "z": [
+      0.255,
+      1.022
+     ]
+    },
+    "MO01 | Furniture | Sofa (FUR-106)": {
+     "mesh": "SM_SofaChesterfield",
+     "x": [
+      20.127,
+      22.073
+     ],
+     "y": [
+      0.697,
+      1.743
+     ],
+     "z": [
+      0.004,
+      0.764
+     ]
+    }
+   }
+  }
+ },
+ "portraits": [
+  {
+   "name": "OverMantel",
+   "run": "BF",
+   "s": 1.25,
+   "z": 2.48,
+   "scale": 1.45,
+   "aic": 102777,
+   "title": "Abigail Chesebrough (Mrs. Alexander Grant)",
+   "artist": "Joseph Blackburn (English, active in British colonies in North America and Bermuda, 1752\u201364)"
+  },
+  {
+   "name": "BetweenWindows",
+   "run": "N",
+   "s": 4.6,
+   "z": 2.05,
+   "scale": 1.25,
+   "aic": 59787,
+   "title": "Mrs. Daniel Hubbard (Mary Greene)",
+   "artist": "John Singleton Copley (American, 1738\u20131815)"
+  },
+  {
+   "name": "AlcoveCase",
+   "run": "WN",
+   "s": 1.475,
+   "z": 2.12,
+   "scale": 0.78,
+   "aic": 72375,
+   "title": "Mrs. Klapp (Anna Milnor)",
+   "artist": "Thomas Sully (American, born England, 1783\u20131872)"
+  }
+ ],
+ "lights": [
+  {
+   "id": "Hotel.MeredithOffice.PictureLight.01",
+   "plan": [
+    17.78,
+    4.5
+   ],
+   "z": 3.343,
+   "type": "SPOT"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WallSconce.01",
+   "plan": [
+    17.855,
+    3.45
+   ],
+   "z": 2.245,
+   "type": "POINT"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WallSconce.02",
+   "plan": [
+    17.855,
+    5.55
+   ],
+   "z": 2.245,
+   "type": "POINT"
+  },
+  {
+   "id": "Hotel.MeredithOffice.Fireplace.01",
+   "plan": [
+    17.4,
+    4.5
+   ],
+   "z": 0.3,
+   "type": "POINT"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WindowFill.01",
+   "plan": [
+    23.1,
+    -0.0
+   ],
+   "z": 2.451,
+   "type": "AREA"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WindowFill.02",
+   "plan": [
+    19.1,
+    -0.0
+   ],
+   "z": 2.451,
+   "type": "AREA"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WindowFill.03",
+   "plan": [
+    26.0,
+    5.45
+   ],
+   "z": 2.201,
+   "type": "AREA"
+  },
+  {
+   "id": "Hotel.MeredithOffice.WindowFill.04",
+   "plan": [
+    26.0,
+    2.55
+   ],
+   "z": 2.201,
+   "type": "AREA"
+  }
+ ],
+ "triangles": {
+  "mouldings": 1762,
+  "dado": 2166,
+  "paper": 214,
+  "fireplace": 6386,
+  "bookcases": 6318,
+  "windows": 42080,
+  "door": 84,
+  "floor": 14,
+  "portraits": 16919,
+  "books_mantel": 47942,
+  "sconces": 8112,
+  "palm": 38464,
+  "furniture": 67466,
+  "lights": 0,
+  "colliders": 48
+ },
+ "sconce_mesh": "SM_EC01_Sconce_S06, EC01's own mesh shared by the two placements (counted under sconces)",
+ "palm_meshes": "FUR-024 P03, the master's own five meshes shared with the lobby's LP01 palms (counted under palm)",
+ "unique_meshes": 97,
+ "objects": {
+  "mouldings": 3,
+  "dado": 7,
+  "paper": 8,
+  "fireplace": 6,
+  "bookcases": 96,
+  "windows": 44,
+  "door": 1,
+  "floor": 3,
+  "portraits": 7,
+  "books_mantel": 56,
+  "sconces": 2,
+  "palm": 5,
+  "furniture": 4,
+  "lights": 5,
+  "colliders": 4
+ },
+ "visible_triangles": 237927,
+ "other_objects_changed": [],
+ "other_meshes_changed": [],
+ "packed_images": 60
+}

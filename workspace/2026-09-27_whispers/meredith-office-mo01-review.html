@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" data-mak-report="document">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meredith's Office · MO01</title>
+<link rel="stylesheet" href="../_shared/report.css">
+<link rel="stylesheet" href="../_shared/examples.css">
+<script defer src="../_shared/report.js"></script>
+<style>
+figure img{width:100%;height:auto;display:block;border-radius:7px;background:#1b1a18}figcaption{padding:.6rem 0}section.mak-card{margin:24px 0}a{overflow-wrap:anywhere}.table-scroll{overflow-x:auto}html[data-mak-report=document] .table-scroll :is(th,td){min-width:9rem}html[data-mak-report=document] .table-scroll :is(th,td):first-child{min-width:8rem}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.pair figure{margin:0}@media(max-width:720px){.pair{grid-template-columns:1fr}}
+</style>
+</head>
+<body><main class="container">
+<p class="eyebrow">Hotel Eden · Level 3 · Meredith's office · MO01 · 12 November 2026, revised twice the same day, in Unreal and furnished the same evening</p>
+<h1>Meredith's Office</h1>
+<p class="lead">Meredith's lake office, built in the MS02 master after your reference, behind the Executive Corridor's carved doors.</p>
+<ul>
+<li><strong>Fireplace:</strong> a white marble chimneypiece in a herringbone-brick firebox. Above it hang the large portrait, a brass picture light and two of the corridor's sconces. On the mantel are a pair of candelabra, five books and a clock.</li>
+<li><strong>Bookcases:</strong> one in the alcove beside the fireplace, and a full mahogany bookcase wall with a library ladder. Both are filled with period books.</li>
+<li><strong>Windows:</strong> each has an arched architrave, a single velvet swag with pleated tails and a gold fringe, sage curtains and ivory sheers.</li>
+<li><strong>Walls and floor:</strong> a mahogany dado, olive-grey damask paper and a deep cornice; herringbone parquet with a large Turkish rug.</li>
+<li><strong>Corner:</strong> the lobby's stair palm, at its own size, in the corner across from the door.</li>
+</ul>
+<p class="lead">Everything is a game mesh. The carved mantel, the drapery, the candelabra and the clock are high-poly sources baked into low-poly meshes.</p>
+<p class="callout"><strong>Finished and in the game.</strong> The office is installed in Unreal (<code>L_EdenE2K</code>, through the hotel level), with its lights, fire and simple colliders, and furnished with your approved desk, chair and chesterfield. Meredith sits and works at the desk. See <a href="#furniture">Furniture</a> and <a href="#unreal">In the game</a>. The later sections are the Blender renders of the same game meshes.</p>
+
+<section class="mak-card" id="furniture">
+<h2>Furniture, and Meredith at her desk</h2>
+<p>You asked: “there are blender files in there for the sofa, the desk and the chair. Copy them over to where you keep all the other models and add them to the approved furniture list. Add them to Meredith's office Blender file and place them like in the reference image. Then check to see that they are placed in the right spot in the Unreal file. Get rid of the textureless desk thing. The office needs to be finished.” Then: “yes I do want Meredith to sit and use the new desk and chair”.</p>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Unreal.png"><img src="review-media/meredith-office-mo01/build/MO01_Reference_vs_Unreal.png" alt="Side by side: the owner's reference office on the left; on the right the game in Play, with Meredith seated at the mahogany desk in front of the fire and the chestnut chesterfield under the portrait between the lake windows" loading="lazy"></a>
+<figcaption>Your reference beside the game, in Play: Meredith at her desk in front of the fire, the chesterfield under the portrait between the windows. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Unreal.png" download>Download</a></figcaption></figure>
+<div class="pair">
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_At_Desk_Side.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_At_Desk_Side.png" alt="In-game side view: Meredith seated in the tufted leather swivel chair, knees under the mahogany desk, hands at the writing surface, the fire beside her" loading="lazy"></a>
+<figcaption>Seated on the cushion, knees under the desk top, writing. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_At_Desk_Side.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png"><img src="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png" alt="Side by side: the owner's reference and the MS02 Blender render from the same viewpoint with the desk, swivel chair and chesterfield placed" loading="lazy"></a>
+<figcaption>The MS02 master with the same three pieces, from your reference viewpoint. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png" download>Download</a></figcaption></figure>
+</div>
+<ul>
+<li><strong>Approved list:</strong> the chesterfield (FUR-106, CF01), the pedestal desk (FUR-107, PD01) and the swivel chair (FUR-108, SW01) are in the approved library (<code>approved-media/</code>), each with its game Blender file, bake source, the export it was imported from, previews and an approval receipt with file hashes. They appear on the <a href="approved-furnishings.html">Approved Furnishings</a> tab under Meredith's Office.</li>
+<li><strong>Placed after your reference:</strong> the desk in front of the fire, its drawers and kneehole towards the fire; the chair between the desk and the fire; the chesterfield centred under the portrait between the lake windows, its back to the wall. The MS02 master and the game use the same numbers.</li>
+<li><strong>Scale:</strong> both use the meshes Unreal imported: sofa 194.5 × 104.5 × 76 cm, desk 101.4 × 191.9 × 77 cm, chair 81 × 80 × 101 cm (the seat swivels 24 cm up). They were already sound in the game (pivots at the base, one box collider each, textured), so nothing was deleted or reimported.</li>
+<li><strong>The textureless desk is gone:</strong> the two grey Life blocks (<code>TMP_Life_Manager_Desk_SL8</code>, <code>TMP_Life_Manager_ChairSeat_SL8</code>) are deleted. Meredith's seven desk activities moved with the desk and chair.</li>
+<li><strong>What it took for Meredith to sit:</strong>
+  <ul>
+  <li><em>The chair:</em> her seat point is the chair's centre, as it was for the grey block, and the solid chair kept her out. The chair now lets characters pass through. It still blocks the camera and physics. You can also walk through it, as through the old block.</li>
+  <li><em>The office's room:</em> the game's office room (<code>room.eden.mo</code>) covered only the east third of the office, where the grey desk stood. In front of the fire the game thought she was in another room, so she never chose her desk. The room now covers the whole office (its volume and its one record in the world registry; no other room or route changed).</li>
+  <li><em>Tested in Play,</em> on a test save slot so your Continue save was not written: she walked to the desk, sat, and worked through writing, typing and reading without getting up.</li>
+  <li><em>Your Continue save (13 Nov):</em> you chose to walk her back. My earlier Play tests, run without the test slot, had saved her at the kitchen's north-west end, where she has no route anywhere. In one Play on your save I moved her onto the office floor and changed nothing else; she went to the desk and sat by herself, and quitting saved her there. A second Play on a test slot continued from your save: she was back in her chair, working, and your save was left alone. Your save from before is kept in <code>Saved/SaveGames/_before_mo01_office_20261113/</code>.</li>
+  </ul></li>
+</ul>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_After_Continue_Side.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_After_Continue_Side.png" alt="In-game side view after Continue from the owner's save: Meredith seated in the tufted leather swivel chair at the mahogany desk, beside the fire" loading="lazy"></a>
+<figcaption>After Continue from your save: back in her chair at the desk, working. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Meredith_After_Continue_Side.png" download>Download</a></figcaption></figure>
+<p>Records: <code>hotel-unreal-mo01/README.md</code>; <code>Furniture_E2K.json</code>, <code>Chair_Collision_E2K.json</code>, <code>Room_MO_E2K.json</code>, <code>Continue_Meredith_Office.json</code> and <code>PIE_Meredith.jsonl</code> in <code>review-media/hotel-unreal-mo01/</code>.</p>
+</section>
+
+<section class="mak-card" id="unreal">
+<h2>In the game · Unreal (L_EdenE2K)</h2>
+<p>You asked: “Sync the corridor lights in MS02 to match Unreal. Then port the Blender model of Meredith's office into the Unreal Hotel Edn 2k level. Beautiful game quality, moody lighting. Simple colliders.”</p>
+<p>These are captures in Play, with the game's lighting system, at dusk and after dark (the game clock ran on between captures).</p>
+<div class="pair">
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_RefMatch.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_RefMatch.png" alt="In-game view from the door corner looking west: the bookcase wall, the lit fireplace with candelabra and clock, the portrait between two glowing sconces, the alcove bookcase, the lake windows with swags and the large red rug" loading="lazy"></a>
+<figcaption>From your reference viewpoint, in Play: the fire, the sconces and the picture light carry the room. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_RefMatch.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Fireplace.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Fireplace.png" alt="In-game view of the fireplace wall: white marble mantel with a live fire, candelabra, books and clock, the gilt-framed portrait between two lit brass sconces, bookcases on both sides and the ladder" loading="lazy"></a>
+<figcaption>The fireplace wall, with the fire burning (the hotel's flame and crackle). · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Fireplace.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Mantel.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Mantel.png" alt="Close in-game view of the mantel: two brass candelabra, five leather-bound volumes and the mahogany clock under the gilt frame and sconces" loading="lazy"></a>
+<figcaption>The mantel up close. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Mantel.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Rug.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Rug.png" alt="In-game view across the large red Ushak rug towards the fireplace and the bookcase wall" loading="lazy"></a>
+<figcaption>The rug, the bookcases and the fire. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Rug.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Books.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Books.png" alt="In-game view of the bookcase wall: rows of leather and cloth sets, the brass ladder rail and the rolling ladder" loading="lazy"></a>
+<figcaption>The bookcase wall. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Books.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Windows.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Windows.png" alt="In-game view of the north wall after dark: the two lake windows with velvet swags, curtains and sheers, the portrait between them, the corner palm, the sofa" loading="lazy"></a>
+<figcaption>The lake windows after dark: a faint cool fill through the sheers. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Windows.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_CornerPalm.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_CornerPalm.png" alt="In-game view of the north-east corner: the lobby's palm in its ivory planter between the windows, behind the end of the chesterfield" loading="lazy"></a>
+<figcaption>The palm in the corner across from the door. The sofa's arm reaches its planter (see below). · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_CornerPalm.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Door.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Door.png" alt="In-game view from the windows towards the carved double door and the bookcase wall, the rug in front" loading="lazy"></a>
+<figcaption>Looking towards your carved door. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Door.png" download>Download</a></figcaption></figure>
+</div>
+<ul>
+<li><strong>The corridor lights in MS02:</strong> the master's twelve corridor sconce lights were still the old downward spots (400 lm). They are now the same point lights as in Unreal (1,400 lm, 2,700 K, 5.2 m), in the same places. Nothing else in the hotel model changed.</li>
+<li><strong>Materials:</strong> rebuilt from the Blender node graphs, as for the corridor. The tiling scales, the brick's soot, the drapery's fold maps with the velvet weave, the sheers' transparency and the fringe's cut-out all carry over. The corridor's mahogany, veneer, moulding and brass are the same game materials.</li>
+<li><strong>Reused, not copied:</strong> the corridor's portrait frame and sconces, the lobby's flame and crackle. Your approved stair palm (P03) and the G01 grate are in the game for the first time, as hotel-wide assets.</li>
+<li><strong>Simple colliders:</strong> five boxes in all: the chimney breast, the mantel, the two bookcases and the palm's planter. Books, ornaments, trim, drapery and the rug have none. The hotel's collision check passes.</li>
+<li><strong>Moody lighting:</strong>
+  <ul>
+  <li>The two sconces, the fire and the picture light carry the room in warm light.</li>
+  <li>The four window lights are now a faint cool fill (500 lm each; the standard is 3,000). Nothing dims them by time of day, so at full strength they flattened the room at night.</li>
+  <li>The window lights cast no shadows, as the lobby's fills don't: their shadows speckled the ceiling.</li>
+  <li>A room look over the office keeps the exposure half a stop down and the shadows deeper, so the game's auto exposure doesn't brighten the mood away.</li>
+  <li>The hotel's generic 4,000 lm room lamp for this office was retired; the office now has its own light zone, which still glows from outside like the hotel's other lit rooms.</li>
+  </ul></li>
+<li><strong>Fixed in the master on the way:</strong>
+  <ul>
+  <li>The sheers had been tiling their own fold map instead of the crepe weave (a bake had overwritten the weave's file).</li>
+  <li>The office ceiling now sits 1 cm under the hotel's own ceiling, and the wallpaper 3 mm off the walls; they were 1 mm.</li>
+  <li>The master's window lights match the game's.</li>
+  </ul></li>
+</ul>
+<h3>Found in the level at the time; since resolved by the furniture</h3>
+<ul>
+<li><strong>The chesterfield and the palm:</strong> the chesterfield ended 19 cm into the palm's planter and stood 5.5° off the walls. It is now square to the walls under the portrait, about 2.5 m from the palm.</li>
+<li><strong>Meredith's placed spot</strong> was under the chesterfield; that floor is clear now.</li>
+<li><strong>Desk block:</strong> the grey Life block is deleted; the real desk stands in front of the fire.</li>
+<li><strong>Fire flicker:</strong> the fire light is steady unless a mood or the GM sets its flicker; the flames themselves move.</li>
+</ul>
+<p>Install records: <code>hotel-unreal-mo01/README.md</code>; receipts in <code>review-media/hotel-unreal-mo01/</code>.</p>
+</section>
+
+<section class="mak-card" id="revised3">
+<h2>Revised after your third review</h2>
+<p>You asked: “Just make the area rug larger and a bit more vibrant/less worn. Remove the temporary furniture. In the corner straight across from the door, remove the temp stuff and add in a copy of the ferns from the lobby, scaled down to fit the room.”</p>
+<ul>
+<li><strong>Rug:</strong> now 5.30 × 3.53 m (it was 3.88 × 2.59 m), reaching from half a metre in front of the hearth almost to the door. It clears the ladder's feet and the door leaves.</li>
+<li><strong>Brighter, less worn:</strong> I used the museum's full-size photograph and restored it a little. Worn specks in the red field and the navy ground are repaired, the patchy fading is evened out, and the colours are about a third richer. The pattern, the medallion and the thin guard lines are unchanged.</li>
+<li><strong>Temporary furniture:</strong> all gone: the desk, chairs, chesterfield, lamp, and the palm and pedestal blocks.</li>
+<li><strong>Corner across from the door:</strong> a copy of the lobby's stair palm (your approved P03), at its own size: 2.56 m tall, where the lobby pair stands at twice that. It uses the lobby palms' own meshes, so nothing new is added to the game. Every frond stays at least 3 cm clear of the walls, curtains, sheers and pelmets; the build measures this and stops if it fails.</li>
+</ul>
+<div class="pair">
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Corner_Palm.png"><img src="review-media/meredith-office-mo01/build/MO01_Corner_Palm.png" alt="The north-east corner seen from the door: the lobby's palm in its ivory planter with arching fronds, between the lake window and the east window with their curtains and swags" loading="lazy"></a>
+<figcaption>The corner across from the door, seen from the doorway. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Corner_Palm.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Rug.png"><img src="review-media/meredith-office-mo01/build/MO01_Rug.png" alt="The larger restored Turkish rug on the herringbone parquet: a rich red field with a pale blue-green medallion and green corner pieces inside a navy border of red and gold flowers" loading="lazy"></a>
+<figcaption>The larger rug: red field, medallion and navy border, cleaner and richer. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Rug.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/kit/MO01_Rug_Texture_Before_After.png"><img src="review-media/meredith-office-mo01/kit/MO01_Rug_Texture_Before_After.png" alt="The rug texture before and after: on the left the worn museum photograph, on the right the same rug with the specks repaired and richer red, navy and gold" loading="lazy"></a>
+<figcaption>The rug texture before (left) and after (right). · <a class="media-download" href="review-media/meredith-office-mo01/kit/MO01_Rug_Texture_Before_After.png" download>Download</a></figcaption></figure>
+</div>
+</section>
+
+<section class="mak-card" id="revised">
+<h2>Revised after your second review</h2>
+<p>You asked: “Add a couple of the Executive Corridor's sconces into the room for lighting. Let's see the single swag. Keep the wallpaper colour. Model the books, candelabra and the clock in final game model quality and deliver them with the room. Keep the windows.”</p>
+<ul>
+<li><strong>Sconces:</strong> two of the corridor's S06 brass oil-lamp sconces, one each side of the portrait over the mantel. They use the light the corridor now has in Unreal: a point light, 1,400 lm, 2,700 K. That is the profile you approved when the downward spots were too dark.</li>
+<li><strong>The single swag:</strong> one velvet swag per window, hung from the arched pelmet, with four soft folds falling to a fringed hem, as in your reference. Pleated tails hang over its ends. The curtains and sheers now hang inside the arch behind it, so their tops never show.</li>
+<li><strong>Books:</strong> 192 different period volumes in 36 sets: calf and morocco with raised bands, gilt tooling and lettering pieces, half bindings with marbled sides, Victorian cloth, vellum and plain worn calf. 995 books fill all 52 open shelves, and five more stand on the mantel.</li>
+<li><strong>Candelabra:</strong> a pair of five-light brass candelabra with gadrooned feet and scroll arms. They hold part-burnt candles.</li>
+<li><strong>Clock:</strong> an arch-top mahogany mantel clock with a brass bezel and feet and an enamel dial.</li>
+<li><strong>Kept:</strong> the olive-grey wallpaper and the hotel's Gothic windows.</li>
+<li><strong>Moved:</strong> the portrait over the mantel is 6 cm higher, to clear the clock.</li>
+</ul>
+</section>
+
+<section class="mak-card" id="reference">
+<h2>Reference and build</h2>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png"><img src="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png" alt="The owner's reference image of a green damask study with a white marble fireplace, bookcases and arched curtained windows, beside a render of the built office from a similar viewpoint, with sconces, candelabra, books, a clock, swags and the larger restored rug, and no furniture yet" loading="lazy"></a>
+<figcaption>Your reference (left) and the build (right), from the room's south-east corner looking west. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Reference_vs_Build.png" download>Download</a></figcaption></figure>
+<ul>
+<li><strong>Matches the reference:</strong>
+  <ul>
+  <li><strong>Fireplace wall:</strong> a white marble chimneypiece with scrolled consoles and carving and a herringbone-brick firebox. A large portrait hangs above it under a brass picture light. On the mantel, from left to right: a candelabrum, books, the clock and the second candelabrum.</li>
+  <li><strong>Bookcases:</strong> one beside the fireplace with a small portrait hung on it, and a bookcase wall with a ladder on its rail, all full of leather-bound books.</li>
+  <li><strong>Windows:</strong> tall arched windows, each with a single fringed swag, green velvet curtains and white sheers, and a portrait between them.</li>
+  <li><strong>Walls and floor:</strong> green damask paper over a dark wood dado, a deep cream cornice, herringbone parquet and a red-and-navy rug.</li>
+  </ul></li>
+<li><strong>Differs, and why:</strong>
+  <ul>
+  <li>The windows are the hotel's Gothic windows, kept as you asked: slightly pointed arches with tracery. The swag follows their arch.</li>
+  <li>The sconces are your addition; the reference has none.</li>
+  <li>The room is 8.6 × 6.4 m, wider than the reference room, so the bookcase wall reads longer.</li>
+  <li>There is no furniture yet: the desk, chairs and chesterfield come separately. The palm is the lobby's, in the corner across from the door.</li>
+  </ul></li>
+</ul>
+</section>
+
+<section class="mak-card" id="views">
+<h2>Views</h2>
+<p>Daylight: only the office's own game-rule lights (Fireplace, four WindowFill, the PictureLight and the two sconces) plus the sky through the windows. Every other light in the hotel model is off for these renders.</p>
+<div class="pair">
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Fireplace.png"><img src="review-media/meredith-office-mo01/build/MO01_Fireplace.png" alt="The west wall: the white marble mantel with candelabra, books and clock, the large portrait under its picture light flanked by two lit brass sconces, the alcove bookcase full of books and the ladder" loading="lazy"></a>
+<figcaption>The fireplace wall: the mantel garniture, Blackburn's lady in white (AIC, public domain), the picture light and the two sconces. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Fireplace.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Mantel_Props.png"><img src="review-media/meredith-office-mo01/build/MO01_Mantel_Props.png" alt="Close view of the mantel shelf: five volumes of History of Rome, the arch-top mahogany clock with its enamel dial, and the candles of the candelabra at each end under the gilt frame" loading="lazy"></a>
+<figcaption>On the mantel: <em>History of Rome</em> I–V and the clock at 10:09, with the candelabra at the ends. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Mantel_Props.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Candelabra_Close.png"><img src="review-media/meredith-office-mo01/build/MO01_Candelabra_Close.png" alt="Close view of a five-light brass candelabrum on the marble mantel: gadrooned foot, vase stem, scroll arms with curled brackets, drip pans and part-burnt candles, beside the alcove bookcase" loading="lazy"></a>
+<figcaption>A candelabrum on the mantel, close up. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Candelabra_Close.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Books_Close.png"><img src="review-media/meredith-office-mo01/build/MO01_Books_Close.png" alt="Close view of the bookcase wall: rows of leather-bound sets in volume order with gilt bands and red and black lettering pieces, cloth sets, a leaning volume, small flat stacks, the ladder on its brass rail" loading="lazy"></a>
+<figcaption>The bookcase wall up close: sets in volume order, a leaning volume, small stacks, the ladder. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Books_Close.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Windows_North.png"><img src="review-media/meredith-office-mo01/build/MO01_Windows_North.png" alt="The north wall: two arched Gothic lake windows, each with a single fringed velvet swag and pleated tails, sage curtains and ivory sheers, a portrait between them, and the palm in the corner at the right" loading="lazy"></a>
+<figcaption>The lake windows with their swags; Copley's Mrs Hubbard between them, the palm at the right. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Windows_North.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Swag_N.png"><img src="review-media/meredith-office-mo01/build/MO01_Swag_N.png" alt="Looking up at a lake window: the single velvet swag in four soft folds with a gold bullion fringe, knife-pleated tails over its ends, the curtains and the sheer" loading="lazy"></a>
+<figcaption>The single swag: four folds to a fringed hem, knife-pleated tails with a stepped hem. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Swag_N.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Bookcase_South.png"><img src="review-media/meredith-office-mo01/build/MO01_Bookcase_South.png" alt="The south wall: a six-bay mahogany bookcase full of books, with fluted pilasters, panelled cupboards, a brass ladder rail and a rolling ladder; Meredith's carved door at the left" loading="lazy"></a>
+<figcaption>The bookcase wall; your carved door at the left. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Bookcase_South.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Door_East.png"><img src="review-media/meredith-office-mo01/build/MO01_Door_East.png" alt="Looking east: the two east windows dressed with swags like the lake windows, the carved double door with its office-side architrave, and the bookcase wall" loading="lazy"></a>
+<figcaption>Looking east: the east windows and the door. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Door_East.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Window_Close.png"><img src="review-media/meredith-office-mo01/build/MO01_Window_Close.png" alt="Close view up into a window arch: the swag and a pleated tail with bullion fringe, the painted arched architrave, the stone tracery and the sheer" loading="lazy"></a>
+<figcaption>Window close-up: swag, tail, fringe and the approved stone tracery. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Window_Close.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Mantel_Close.png"><img src="review-media/meredith-office-mo01/build/MO01_Mantel_Close.png" alt="Close view of the marble mantel: a scrolled console with carved acanthus, a frieze rosette and the black marble slip, with firelight on the brick" loading="lazy"></a>
+<figcaption>Mantel carving at about a metre. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Mantel_Close.png" download>Download</a></figcaption></figure>
+</div>
+<h3>Evening</h3>
+<p>The fire, the picture light and the two sconces. The window lights are off; the desk lamp will come with the furniture.</p>
+<div class="pair">
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Ref_Match_Night.png"><img src="review-media/meredith-office-mo01/build/MO01_Ref_Match_Night.png" alt="The office at night lit by the fire, the two sconces and the picture light, the rug in front of the hearth" loading="lazy"></a>
+<figcaption>Evening, from the reference viewpoint. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Ref_Match_Night.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Fireplace_Night.png"><img src="review-media/meredith-office-mo01/build/MO01_Fireplace_Night.png" alt="The fireplace wall at night: the sconces either side of the portrait, the picture light, the candelabra and the fire" loading="lazy"></a>
+<figcaption>Evening, the fireplace wall. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Fireplace_Night.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Mantel_Props_Night.png"><img src="review-media/meredith-office-mo01/build/MO01_Mantel_Props_Night.png" alt="The mantel shelf at night under the sconces: books, clock and candelabra" loading="lazy"></a>
+<figcaption>Evening, the mantel under the sconces. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Mantel_Props_Night.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Bookcase_South_Night.png"><img src="review-media/meredith-office-mo01/build/MO01_Bookcase_South_Night.png" alt="The bookcase wall at night, lit from the fireplace end" loading="lazy"></a>
+<figcaption>Evening, the bookcase wall. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Bookcase_South_Night.png" download>Download</a></figcaption></figure>
+</div>
+</section>
+
+<section class="mak-card" id="layout">
+<h2>Layout</h2>
+<figure><a href="review-media/meredith-office-mo01/build/MO01_Plan_Top.png"><img src="review-media/meredith-office-mo01/build/MO01_Plan_Top.png" alt="Overhead view of the office with the ceiling removed: lake windows at the top, east windows at the right, the fireplace on the left wall with the alcove bookcase above it, the bookcase wall along the bottom, the large rug in the middle and the palm in the top-right corner" loading="lazy"></a>
+<figcaption>From above, north at the top. The chimney breast reads black from above because its top is open. · <a class="media-download" href="review-media/meredith-office-mo01/build/MO01_Plan_Top.png" download>Download</a></figcaption></figure>
+<ul>
+<li><strong>Room</strong> (surveyed in the master): 8.6 × 6.4 m and 4.2 m high, with two lake windows on the north wall, two on the east, your carved double door at the east end of the south wall, and a solid west wall.</li>
+<li><strong>After the reference</strong>, seen from the east:
+  <ul>
+  <li>the fireplace on a new chimney breast on the west wall (0.52 m deep, 2.5 m wide), with an alcove bookcase on its right;</li>
+  <li>the lake windows on the right, with a portrait between them;</li>
+  <li>the bookcase wall with the ladder on the left. It stops 15 cm short of the door so the door opens fully.</li>
+  </ul></li>
+<li><strong>Sconces:</strong> on the chimney breast, 20 cm in from its corners, with their flames at 2.20 m. That is 0.37 m clear of the frame and above the candelabra.</li>
+<li><strong>Rug:</strong> 5.30 × 3.53 m, its long side towards the fireplace, 0.48 m in front of the hearth. It stops short of the library ladder's feet and of the door leaves' swing.</li>
+<li><strong>Palm:</strong> in the north-east corner, straight across from the door. The planter stands at about 0.9 m from each wall: a 1.7 m spread of fronds needs that room between the lake window's and the east window's curtains.</li>
+</ul>
+</section>
+
+<section class="mak-card" id="kit">
+<h2>The game pieces</h2>
+<div class="pair">
+<figure><a href="review-media/meredith-office-mo01/kit/MO01_Kit_Props.png"><img src="review-media/meredith-office-mo01/kit/MO01_Kit_Props.png" alt="The game clock and candelabrum on a plain ledge: an arch-top mahogany clock with a brass bezel and finial, and a five-light brass candelabrum with scroll arms and white candles" loading="lazy"></a>
+<figcaption>The clock and a candelabrum on a plain ledge. · <a class="media-download" href="review-media/meredith-office-mo01/kit/MO01_Kit_Props.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/kit/MO01_Kit_Clock.png"><img src="review-media/meredith-office-mo01/kit/MO01_Kit_Clock.png" alt="Close view of the game clock: the enamel dial with Roman hours, EDEN &amp; SON LONDON, blued hands, the brass bezel, the mahogany case and brass bun feet" loading="lazy"></a>
+<figcaption>The clock: enamel dial with the maker's line “Eden &amp; Son, London”. · <a class="media-download" href="review-media/meredith-office-mo01/kit/MO01_Kit_Clock.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/kit/MO01_Books_Atlas.png"><img src="review-media/meredith-office-mo01/kit/MO01_Books_Atlas.png" alt="The book texture atlas: rows of spines in calf, morocco, cloth and vellum with gilt bands, fleurons, red and black lettering pieces and titles, and cover and page-edge swatches along the bottom" loading="lazy"></a>
+<figcaption>The book atlas (2K): every spine, the cover swatches and the page edges. · <a class="media-download" href="review-media/meredith-office-mo01/kit/MO01_Books_Atlas.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/meredith-office-mo01/kit/MO01_Kit_Mantel_Front.png"><img src="review-media/meredith-office-mo01/kit/MO01_Kit_Mantel_Front.png" alt="The game mantel from the front: warm white marble with scrolled consoles, a carved crest and rosettes on the frieze, and a black marble slip" loading="lazy"></a>
+<figcaption>The game mantel: 714 triangles carrying a 5.7 million-triangle source in 4K maps. · <a class="media-download" href="review-media/meredith-office-mo01/kit/MO01_Kit_Mantel_Front.png" download>Download</a></figcaption></figure>
+</div>
+<ul>
+<li><strong>Books</strong> (<code>SM_MO01_BookRow_*</code>, <code>SM_MO01_Books_Mantel</code>):
+  <ul>
+  <li><strong>The book:</strong> about 29 triangles: a rounded spine, the boards, and a page block set 3 mm down at the head. Bands, tooling, gilt and leather grain are in the maps.</li>
+  <li><strong>The atlas:</strong> one 2K set (colour, normal, and AO/roughness/metal, where the gilt is metal) shared by every book. The leather is ambientCG Leather021 (CC0). The lettering is set in Garamond and Baskerville, and the titles are public-domain works.</li>
+  <li><strong>On the shelves:</strong> 20 row modules, 12 for the wall and 8 for the alcove, placed 52 times so that no row repeats beside or above itself. Each row holds sets in volume order, with gaps, a leaning volume or a small flat stack.</li>
+  </ul></li>
+<li><strong>Candelabra</strong> (<code>SM_MO01_Candelabra</code>, placed twice): 7,616 triangles from a 533,000-triangle source with gadroons, beading and wax drips. 1K baked set; the brass is darker and duller in the recesses.</li>
+<li><strong>Clock</strong> (<code>SM_MO01_Clock</code>): 2,478 triangles. It has three sections: the baked case (1K), the dial (1K) and the glass (translucent).</li>
+<li><strong>Swag and tails:</strong> shaped surfaces, not cloth simulation. A simulated swag hangs as a flat sheet, while yours needs regular folds gathered into its ends. Each is baked to a 1K normal map (512 for the tails), with the velvet on top. One swag shape per window type (north and east); the right tail mirrors the left and shares its maps.</li>
+<li><strong>Curtains and sheers:</strong> cloth simulation. Each starts as flat cloth cut so its top follows the arch; the heading is drawn into pleats, then it hangs against the wall, the stone sill and the floor. One set serves all four windows.</li>
+<li><strong>Corner palm:</strong> your approved stair palm (FUR-024 P03), 38,464 triangles: the lobby palms' own five meshes and 1K maps, with two-sided leaves. No new mesh or texture.</li>
+<li><strong>Bookcases, dado, cornice and architraves:</strong> geometry with the corridor's mahogany, veneer and trim-sheet relief. The pilasters, cupboard doors, shelves and knobs are shared meshes.</li>
+</ul>
+</section>
+
+<section class="mak-card" id="materials">
+<h2>Materials and sources</h2>
+<div class="table-scroll"><table>
+<thead><tr><th>Surface</th><th>Source (licence)</th><th>Runtime maps</th></tr></thead>
+<tbody>
+<tr><td>Books</td><td>ambientCG Leather021 (CC0) grain and wear; spines drawn per volume; Garamond and Baskerville lettering</td><td>One 2K atlas: BaseColor, NormalGL, ORM</td></tr>
+<tr><td>Candelabra</td><td>The corridor's aged brass (EC01), baked with AO-driven tarnish; ivory wax</td><td>1K BaseColor, NormalGL, ORM</td></tr>
+<tr><td>Clock</td><td>The corridor's mahogany and brass (EC01), darkened as French polish; dial drawn for the room</td><td>1K case set, 1K dial, glass</td></tr>
+<tr><td>Sconces</td><td>The corridor's S06 sconce, its own mesh and maps</td><td>Reused</td></tr>
+<tr><td>Herringbone parquet</td><td>Poly Haven <em>herringbone_parquet</em> (CC0), graded to a waxed mid-dark brown</td><td>2K set, 3.4 m tile</td></tr>
+<tr><td>Wallpaper (kept)</td><td>Your corridor damask (PW01), recoloured tone-on-tone olive-grey after the reference, at 70% scale</td><td>1K set</td></tr>
+<tr><td>Dado, bookcases, architraves</td><td>The corridor's mahogany, figured veneer and trim sheet (EC01)</td><td>Reused</td></tr>
+<tr><td>Mantel and hearth</td><td>ambientCG Marble018 and Marble016 (CC0)</td><td>Mantel: 4K BaseColor/Normal, 2K ORM. Hearth: 2K tiling</td></tr>
+<tr><td>Firebox</td><td>Poly Haven <em>herringbone_brick</em> (CC0), sooted towards the throat</td><td>1K set</td></tr>
+<tr><td>Swag, tails, curtains</td><td>Poly Haven <em>velour_velvet</em> (CC0), regraded to sage; procedural gold bullion fringe</td><td>1K tiling, plus a baked normal and AO per piece</td></tr>
+<tr><td>Sheers</td><td>Poly Haven <em>crepe_georgette</em> (CC0), ivory, 55% opacity</td><td>1K tiling</td></tr>
+<tr><td>Rug (5.30 × 3.53 m)</td><td>Art Institute of Chicago 22030, a 17th-century Ushak double-ended prayer rug (CC0 image, full size), restored a little, with your approved Carpet001 pile</td><td>1024 × 2048 (power of two, so Unreal builds mipmaps), plus the pile normal</td></tr>
+<tr><td>Corner palm</td><td>Your approved stair palm FUR-024 P03, from the lobby</td><td>Reused</td></tr>
+<tr><td>Portraits</td><td>AIC 102777 (Blackburn), 59787 (Copley) and 72375 (Sully), public domain, in the approved AF02 frame</td><td>2K atlas</td></tr>
+<tr><td>Grate and logs</td><td>Your approved G01 fireplace grate and fuel</td><td>Reused, uniform scale 0.66</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="mak-card" id="lighting">
+<h2>Lighting (game rules)</h2>
+<div class="table-scroll"><table>
+<thead><tr><th>Fixture</th><th>Rule</th><th>Where</th></tr></thead>
+<tbody>
+<tr><td><code>Hotel.MeredithOffice.WallSconce.01–02</code></td><td>The corridor's sconce profile <code>DA_LightProfile_EC01_Sconce</code>: Point, 1,400 lm, 2,700 K, 3 cm source, 5.2 m reach, ray-traced shadows, MegaLights, role Practical. The fitting casts no shadow on its own light.</td><td>Two EC01 S06 sconces on the chimney breast, either side of the portrait</td></tr>
+<tr><td><code>…Fireplace.01</code></td><td>Fireplace: Point, 1,500 lm, 1,900 K, 25 cm source, 7 m reach, ray-traced shadows, Candle flicker, role Fire</td><td>In the firebox, above the grate</td></tr>
+<tr><td><code>…WindowFill.01–04</code></td><td>The office's own profile <code>DA_LightProfile_MO01_WindowFill</code>: Rect, 500 lm, 6,200 K, shadowless, role Fill (the catalog's 3,000 lm flattened the room)</td><td>Just inside the glass of each window, facing the room</td></tr>
+<tr><td><code>…PictureLight.01</code></td><td>The WallSconce rule: Spot, 400 lm, 2,700 K, 70° outer cone, pointing down, role Practical</td><td>The brass picture light over the mantel portrait</td></tr>
+</tbody></table></div>
+<p>Every light carries its id, the zone <code>Light.Zone.Hotel.MeredithOffice</code>, its role, a proposed circuit and its rule values, ready for the Unreal port. The desk lamp will come with the furniture (TableLamp, 450 lm).</p>
+</section>
+
+<section class="mak-card" id="checks">
+<h2>Budgets and checks</h2>
+<ul>
+<li><strong>Triangles</strong> (realised counts, every repeat counted): 170,461 visible game triangles.
+  <ul>
+  <li><strong>Windows:</strong> about 42,000 across the four (architraves, pelmets, swags, tails, curtains, sheers, fringe).</li>
+  <li><strong>Books and mantel:</strong> about 48,000: about 30,000 for the 995 shelf books, 15,200 for the two candelabra, 2,478 for the clock.</li>
+  <li><strong>Palm:</strong> 38,464. <strong>Gilt frames:</strong> about 17,000. <strong>Sconces:</strong> 8,112.</li>
+  </ul></li>
+<li><strong>Unique meshes:</strong> 93, five of them the lobby palm's own. Repeated pieces are shared meshes: the book rows, candelabra, sconces, palm, drapery and bookcase parts.</li>
+<li><strong>Collision:</strong> plain boxes for the chimney breast, the mantel and both bookcases. Books, ornaments, trim, curtains, the palm and the rug have none.</li>
+<li><strong>Master:</strong> saved in place.
+  <ul>
+  <li>Every other object and mesh in the hotel model was checked before and after the build: none changed. The sconces reuse the corridor's own mesh and the palm the lobby's; neither was changed.</li>
+  <li>The new textures are packed into the master.</li>
+  <li><strong>Reopened:</strong> 251 office objects and 93 unique meshes; 52 book rows from 20 modules; the candelabra pair, the clock and the mantel books; both sconces on the corridor's own mesh with their lights; identity on all 8 lights; 79 images, all packed, none missing; UVs on every mesh; no duplicated materials. The rug measures 5.30 × 3.53 m with its 1024 × 2048 texture; the palm's 5 parts all use the lobby palms' meshes; no TEMP collection, objects, meshes or materials remain (<code>build/Checks_MO01.json</code>).</li>
+  </ul></li>
+<li><strong>In Unreal:</strong> 233 placements at 0.0 cm in the hotel level and in <code>L_EdenE2K</code>; eight lights with their ids, Active in Play; the hotel collision check passes (<code>review-media/hotel-unreal-mo01/MO01_Install_State.json</code>).</li>
+</ul>
+</section>
+
+<section class="mak-card" id="open">
+<h2>Open questions</h2>
+<ol>
+<li><strong>Candles.</strong> They are unlit. Should they burn in the game, with a small flame and a candle light, perhaps only in the evening?</li>
+<li><strong>Desk books.</strong> The reference has books on the desk. Shall I add a stack to the room's book set, or will they come with the desk?</li>
+<li><strong>The small figure.</strong> The reference shows a small figurine to the right of the clock. Add one, or leave the mantel as it is?</li>
+</ol>
+<p>Scripts and run order: <code>furnishings/meredith_office_mo01/README.md</code>. Records: <code>review-media/meredith-office-mo01/</code>. Working files: <code>D:/AI_Modelling/hotel_eden/working/meredith_office_MO01/</code>.</p>
+</section>
+</main></body>
+</html>

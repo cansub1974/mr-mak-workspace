@@ -1,0 +1,1320 @@
+{
+ "e2k_office_furniture": [
+  {
+   "label": "TMP_Life_Manager_Desk_SL8",
+   "class": "StaticMeshActor",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/D/WP/RBC59ZIQBTT8SBH98VGBT6",
+   "folder": "None",
+   "local_loc": [
+    2301.3,
+    364.0,
+    975.0
+   ],
+   "world_rot": "<Struct 'Rotator' (0x00000239E076ACC0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+   "tags": [],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "/Game/Whispers/Presentation/Environment/LifeTemp/TMP_Life_Block.TMP_Life_Block",
+     "corners_local": [
+      [
+       2363.2,
+       433.4,
+       970.0
+      ],
+      [
+       2363.2,
+       433.4,
+       980.0
+      ],
+      [
+       2348.8,
+       284.1,
+       970.0
+      ],
+      [
+       2348.8,
+       284.1,
+       980.0
+      ],
+      [
+       2253.7,
+       444.0,
+       970.0
+      ],
+      [
+       2253.7,
+       444.0,
+       980.0
+      ],
+      [
+       2239.4,
+       294.7,
+       970.0
+      ],
+      [
+       2239.4,
+       294.7,
+       980.0
+      ]
+     ],
+     "visible": true,
+     "hidden_in_game": false
+    }
+   ]
+  },
+  {
+   "label": "TMP_Life_Manager_ChairSeat_SL8",
+   "class": "StaticMeshActor",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/E/31/EHHQOJQDIBGEJN3Y5OMF0B",
+   "folder": "None",
+   "local_loc": [
+    2390.9,
+    355.4,
+    947.0
+   ],
+   "world_rot": "<Struct 'Rotator' (0x00000239E076A7C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+   "tags": [],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "/Game/Whispers/Presentation/Environment/LifeTemp/TMP_Life_Block.TMP_Life_Block",
+     "corners_local": [
+      [
+       2418.2,
+       377.9,
+       942.0
+      ],
+      [
+       2418.2,
+       377.9,
+       952.0
+      ],
+      [
+       2413.4,
+       328.1,
+       942.0
+      ],
+      [
+       2413.4,
+       328.1,
+       952.0
+      ],
+      [
+       2368.4,
+       382.7,
+       942.0
+      ],
+      [
+       2368.4,
+       382.7,
+       952.0
+      ],
+      [
+       2363.6,
+       332.9,
+       942.0
+      ],
+      [
+       2363.6,
+       332.9,
+       952.0
+      ]
+     ],
+     "visible": false,
+     "hidden_in_game": false
+    }
+   ]
+  },
+  {
+   "label": "Sofa_Chesterfield_MO",
+   "class": "StaticMeshActor",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG",
+   "folder": "Furniture/Office_MO",
+   "local_loc": [
+    2372.9,
+    168.3,
+    900.4
+   ],
+   "world_rot": "<Struct 'Rotator' (0x00000239E0769460) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+   "tags": [],
+   "comps": [
+    {
+     "comp": "StaticMeshComponent0",
+     "mesh": "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/SofaChesterfield/SM_SofaChesterfield.SM_SofaChesterfield",
+     "corners_local": [
+      [
+       2271.0,
+       125.6,
+       900.4
+      ],
+      [
+       2271.0,
+       125.6,
+       976.4
+      ],
+      [
+       2281.1,
+       229.6,
+       900.4
+      ],
+      [
+       2281.1,
+       229.6,
+       976.4
+      ],
+      [
+       2464.7,
+       106.9,
+       900.4
+      ],
+      [
+       2464.7,
+       106.9,
+       976.4
+      ],
+      [
+       2474.7,
+       211.0,
+       900.4
+      ],
+      [
+       2474.7,
+       211.0,
+       976.4
+      ]
+     ],
+     "visible": true,
+     "hidden_in_game": false
+    }
+   ]
+  },
+  {
+   "label": "Chair_Swivel_MO",
+   "class": "BP_SwivelChair_C",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+   "folder": "Furniture/Office_MO",
+   "local_loc": [
+    2390.9,
+    355.4,
+    900.4
+   ],
+   "world_rot": "<Struct 'Rotator' (0x00000239E0769320) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+   "tags": [],
+   "comps": [
+    {
+     "comp": "Base",
+     "mesh": "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/SM_ChairSwivel_Base.SM_ChairSwivel_Base",
+     "corners_local": [
+      [
+       2423.3,
+       316.0,
+       900.4
+      ],
+      [
+       2423.3,
+       316.0,
+       924.6
+      ],
+      [
+       2351.5,
+       322.9,
+       900.4
+      ],
+      [
+       2351.5,
+       322.9,
+       924.6
+      ],
+      [
+       2430.2,
+       387.8,
+       900.4
+      ],
+      [
+       2430.2,
+       387.8,
+       924.6
+      ],
+      [
+       2358.4,
+       394.7,
+       900.4
+      ],
+      [
+       2358.4,
+       394.7,
+       924.6
+      ]
+     ],
+     "visible": true,
+     "hidden_in_game": false
+    },
+    {
+     "comp": "Seat",
+     "mesh": "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/SM_ChairSwivel_Seat.SM_ChairSwivel_Seat",
+     "corners_local": [
+      [
+       2446.7,
+       344.8,
+       924.6
+      ],
+      [
+       2446.7,
+       344.8,
+       1001.3
+      ],
+      [
+       2380.8,
+       299.5,
+       924.6
+      ],
+      [
+       2380.8,
+       299.5,
+       1001.3
+      ],
+      [
+       2401.0,
+       411.3,
+       924.6
+      ],
+      [
+       2401.0,
+       411.3,
+       1001.3
+      ],
+      [
+       2335.1,
+       366.0,
+       924.6
+      ],
+      [
+       2335.1,
+       366.0,
+       1001.3
+      ]
+     ],
+     "visible": true,
+     "hidden_in_game": false
+    }
+   ]
+  }
+ ],
+ "lighting_actors": [
+  {
+   "label": "WM22b_Level3Rooms_Lamp_04",
+   "class": "WhispersRoomVolume",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/WI/Y5L0F9IE4FWTXINX8J2BY8",
+   "folder": "None",
+   "local_loc": [
+    2153.1,
+    338.1,
+    1115.0
+   ]
+  },
+  {
+   "label": "WM22b_Level2Rooms_Lamp_04",
+   "class": "WhispersRoomVolume",
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/7V/8U2V9R1MPF8CVYMX5S6QV8",
+   "folder": "None",
+   "local_loc": [
+    222.3,
+    3969.9,
+    675.0
+   ]
+  },
+  {
+   "label": "LM01_Zone_Level2Rooms_Lamp_04",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    222.0,
+    3970.0,
+    676.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level2Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266B8C0) {x: 202.000000, y: 225.000000, z: 191.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_01",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266BDC0) {x: 202.000000, y: 225.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_02",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    5696.0,
+    4636.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266C2C0) {x: 360.000000, y: 344.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_03",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6652.0,
+    4820.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266C7C0) {x: 299.000000, y: 160.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_04",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2154.0,
+    341.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266CCC0) {x: 428.000000, y: 322.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_05",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    3436.0,
+    1152.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266D1C0) {x: 140.000000, y: 333.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_06",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    5151.0,
+    351.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266D6C0) {x: 205.000000, y: 332.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_07",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    5799.0,
+    337.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266E0C0) {x: 393.000000, y: 318.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_08",
+   "class": "WhispersLightZoneVolume",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    353.0,
+    3665.0,
+    1110.0
+   ],
+   "zone": {
+    "tag": "Light.Zone.Hotel.Level3Rooms",
+    "extent": "<Struct 'Vector' (0x0000023E0266E5C0) {x: 333.000000, y: 130.000000, z: 205.000000}>",
+    "never_dormant": false
+   }
+  },
+  {
+   "label": "LM01_Portal_Lobby_L1",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2470.0,
+    2700.0,
+    185.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Lobby",
+    "b": "Light.Zone.Hotel.Level1Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Lobby_L2",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2470.0,
+    2700.0,
+    700.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Lobby",
+    "b": "Light.Zone.Hotel.Level2Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Lobby_L3",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2470.0,
+    2700.0,
+    1120.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Lobby",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsWest_Staff",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    1845.0,
+    3600.0,
+    100.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsWest",
+    "b": "Light.Zone.Hotel.Corridor",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsWest_L2",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2235.0,
+    3600.0,
+    480.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsWest",
+    "b": "Light.Zone.Hotel.Level2Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsWest_L3",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2235.0,
+    3600.0,
+    900.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsWest",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsEast_L1",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    4765.0,
+    3600.0,
+    100.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsEast",
+    "b": "Light.Zone.Hotel.Level1Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsEast_L2",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    5155.0,
+    3600.0,
+    480.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsEast",
+    "b": "Light.Zone.Hotel.Level2Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_StairsEast_L3",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    5155.0,
+    3600.0,
+    900.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.StairsEast",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_L1_StaffSouth",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2250.0,
+    4000.0,
+    185.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level1Passages",
+    "b": "Light.Zone.Hotel.Corridor",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_L1_StaffNorth",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2250.0,
+    2150.0,
+    185.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level1Passages",
+    "b": "Light.Zone.Hotel.WestWing",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Estate_Lobby",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    3500.0,
+    4000.0,
+    185.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Eden.Exterior",
+    "b": "Light.Zone.Hotel.Lobby",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level1Rooms_Exterior",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    641.0,
+    4742.0,
+    226.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level1Rooms",
+    "b": "Light.Zone.Eden.Exterior",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level1Rooms_Corridor",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    641.0,
+    4742.0,
+    226.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level1Rooms",
+    "b": "Light.Zone.Hotel.Corridor",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level1Rooms_Level1Passages",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    4961.0,
+    4824.0,
+    226.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level1Rooms",
+    "b": "Light.Zone.Hotel.Level1Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level2Rooms_Exterior",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    676.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level2Rooms",
+    "b": "Light.Zone.Eden.Exterior",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level2Rooms_Level2Passages",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    676.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level2Rooms",
+    "b": "Light.Zone.Hotel.Level2Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level3Rooms_Exterior",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    1110.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level3Rooms",
+    "b": "Light.Zone.Eden.Exterior",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Level3Rooms_Level3Passages",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    1110.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Level3Rooms",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_Portal_Staff_Inner",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    1600.0,
+    3050.0,
+    185.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.Corridor",
+    "b": "Light.Zone.Hotel.WestWing",
+    "sight": false,
+    "open": true
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level2Rooms_Lamp_04",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    222.0,
+    3970.0,
+    832.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level2Rooms.Lamp.04",
+    "ZoneTag": "Light.Zone.Hotel.Level2Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD6518) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_01",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    6780.0,
+    3970.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.01",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD6918) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_02",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    5696.0,
+    4636.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.02",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD6D18) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_03",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    6652.0,
+    4820.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.03",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD7118) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_04",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    2154.0,
+    341.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.04",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD7518) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_05",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    3436.0,
+    1152.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.05",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD7918) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_06",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    5151.0,
+    351.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.06",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD7D18) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_07",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    5799.0,
+    337.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.07",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD8118) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "LM01_RoomLamp_Level3Rooms_Lamp_08",
+   "class": "Actor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/OccupiedRooms",
+   "local_loc": [
+    353.0,
+    3665.0,
+    1280.0
+   ],
+   "light": {
+    "LightId": "Hotel.Level3Rooms.Lamp.08",
+    "ZoneTag": "Light.Zone.Hotel.Level3Rooms",
+    "RoleTag": "Light.Role.Practical",
+    "GroupTags": "<Struct 'GameplayTagContainer' (0x0000023E8CCD8518) {gameplay_tags: ((TagName=\"Light.Group.OccupiedRooms\"))}>",
+    "Profile": "<Object '/Game/Whispers/World/Lighting/Profiles/DA_LightProfile_OccupiedRoom.DA_LightProfile_OccupiedRoom' (0x0000023EA57F2220) Class 'WhispersLightProfile'>",
+    "CircuitId": "None"
+   }
+  },
+  {
+   "label": "EC01_Portal_Gate_Lobby",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2470.0,
+    1810.0,
+    1120.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.ExecutiveCorridor",
+    "b": "Light.Zone.Hotel.Lobby",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "EC01_Portal_Gate_Level3Passages",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2440.0,
+    1810.0,
+    1120.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.ExecutiveCorridor",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "EC01_Portal_Office_Level3Rooms",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2395.0,
+    681.0,
+    1120.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.ExecutiveCorridor",
+    "b": "Light.Zone.Hotel.Level3Rooms",
+    "sight": true,
+    "open": true
+   }
+  },
+  {
+   "label": "EC01_Portal_SideDoor_Level3Passages",
+   "class": "WhispersLightPortalActor",
+   "package": "/Temp/Game/Whispers/World/HotelEden/L_HotelEden_Building_LevelInstance_aecd2d98c8883154_0",
+   "folder": "Lighting/Zones/Hotel",
+   "local_loc": [
+    2199.0,
+    1460.0,
+    1120.0
+   ],
+   "portal": {
+    "a": "Light.Zone.Hotel.ExecutiveCorridor",
+    "b": "Light.Zone.Hotel.Level3Passages",
+    "sight": true,
+    "open": true
+   }
+  }
+ ],
+ "zones_containing_office_centre": [
+  {
+   "label": "LM01_Zone_L3_NorthWest",
+   "tag": "Light.Zone.Hotel.Level3Passages",
+   "origin": [
+    1185.0,
+    450.0,
+    1248.0
+   ],
+   "extent": [
+    1285.0,
+    550.0,
+    352.0
+   ]
+  },
+  {
+   "label": "LM01_Zone_Estate",
+   "tag": "Light.Zone.Eden.Exterior",
+   "origin": [
+    3500.0,
+    2500.0,
+    -20000.0
+   ],
+   "extent": [
+    60000.0,
+    60000.0,
+    26000.0
+   ]
+  },
+  {
+   "label": "LM01_Zone_Level3Rooms_Lamp_04",
+   "tag": "Light.Zone.Hotel.Level3Rooms",
+   "origin": [
+    2154.0,
+    341.0,
+    1110.0
+   ],
+   "extent": [
+    428.0,
+    322.0,
+    205.0
+   ]
+  }
+ ],
+ "post_process": [
+  {
+   "label": "E2K_Mist_06_valley",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "HotelEden_InteriorLook",
+   "class": "PostProcessVolume",
+   "folder": "Hotel Eden/Lighting",
+   "level": "L_EdenE2K",
+   "unbound": false,
+   "priority": 2.0,
+   "exposure": {
+    "override_auto_exposure_bias": "False",
+    "auto_exposure_bias": "-0.5",
+    "override_auto_exposure_method": "False",
+    "auto_exposure_method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>",
+    "override_auto_exposure_min_brightness": "True",
+    "auto_exposure_min_brightness": "-10.0",
+    "override_auto_exposure_max_brightness": "True",
+    "auto_exposure_max_brightness": "20.0"
+   },
+   "bounds_world": [
+    "<Struct 'Vector' (0x0000023AB76D1820) {x: 3005.000000, y: -14567.000000, z: 60485.000000}>",
+    "<Struct 'Vector' (0x0000023AB76D26D0) {x: 3775.680052, y: 3089.323061, z: 1670.000000}>"
+   ]
+  },
+  {
+   "label": "E2K_Mist_02_lake",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_Mist_04_valley",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_Mist_00_lake",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_Mist_09_flank",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_Mist_05_valley",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_LookPost",
+   "class": "PostProcessVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "unbound": true,
+   "priority": 1.0,
+   "exposure": {
+    "override_auto_exposure_bias": "False",
+    "auto_exposure_bias": "1.0",
+    "override_auto_exposure_method": "False",
+    "auto_exposure_method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>",
+    "override_auto_exposure_min_brightness": "True",
+    "auto_exposure_min_brightness": "8.0",
+    "override_auto_exposure_max_brightness": "True",
+    "auto_exposure_max_brightness": "13.0"
+   },
+   "bounds_world": [
+    "<Struct 'Vector' (0x0000023AB76D34E0) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+    "<Struct 'Vector' (0x0000023AB76D35D0) {x: 100.000000, y: 100.000000, z: 100.000000}>"
+   ]
+  },
+  {
+   "label": "E2K_Mist_07_flank",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_NoMotionBlur",
+   "class": "PostProcessVolume",
+   "folder": "None",
+   "level": "L_EdenE2K",
+   "unbound": true,
+   "priority": 100.0,
+   "exposure": {
+    "override_auto_exposure_bias": "False",
+    "auto_exposure_bias": "1.0",
+    "override_auto_exposure_method": "False",
+    "auto_exposure_method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>",
+    "override_auto_exposure_min_brightness": "False",
+    "auto_exposure_min_brightness": "-10.0",
+    "override_auto_exposure_max_brightness": "False",
+    "auto_exposure_max_brightness": "20.0"
+   },
+   "bounds_world": [
+    "<Struct 'Vector' (0x0000023AB76D3710) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+    "<Struct 'Vector' (0x0000023AB76D37B0) {x: 100.000000, y: 100.000000, z: 100.000000}>"
+   ]
+  },
+  {
+   "label": "E2K_UltraDynamicWeather",
+   "class": "Ultra_Dynamic_Weather_C",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "Actor: Failed to find property 'unbound' for attribute 'unbound' on 'Ultra_Dynam"
+  },
+  {
+   "label": "E2K_Mist_08_flank",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_Mist_03_lake",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "E2K_UltraDynamicSky",
+   "class": "Ultra_Dynamic_Sky_C",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "Actor: Failed to find property 'unbound' for attribute 'unbound' on 'Ultra_Dynam"
+  },
+  {
+   "label": "E2K_Mist_01_lake",
+   "class": "LocalFogVolume",
+   "folder": "Look",
+   "level": "L_EdenE2K",
+   "err": "LocalFogVolume: Failed to find property 'unbound' for attribute 'unbound' on 'Lo"
+  },
+  {
+   "label": "SH01_StaffWing_Reflections",
+   "class": "PostProcessVolume",
+   "folder": "Hotel Eden/Staff wing SH01",
+   "level": "L_HotelEden_Building",
+   "unbound": false,
+   "priority": 1.0,
+   "exposure": {
+    "override_auto_exposure_bias": "False",
+    "auto_exposure_bias": "1.0",
+    "override_auto_exposure_method": "False",
+    "auto_exposure_method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>",
+    "override_auto_exposure_min_brightness": "False",
+    "auto_exposure_min_brightness": "-10.0",
+    "override_auto_exposure_max_brightness": "False",
+    "auto_exposure_max_brightness": "20.0"
+   },
+   "bounds_world": [
+    "<Struct 'Vector' (0x0000023AB76D1730) {x: 5411.879945, y: -15238.904140, z: 59350.050002}>",
+    "<Struct 'Vector' (0x0000023AB76D1640) {x: 1405.563480, y: 1965.173829, z: 234.950002}>"
+   ]
+  },
+  {
+   "label": "UI01_Lobby_MirrorReflections",
+   "class": "PostProcessVolume",
+   "folder": "None",
+   "level": "L_HotelEden_Building",
+   "unbound": false,
+   "priority": 1.0,
+   "exposure": {
+    "override_auto_exposure_bias": "False",
+    "auto_exposure_bias": "1.0",
+    "override_auto_exposure_method": "False",
+    "auto_exposure_method": "<AutoExposureMethod.AEM_HISTOGRAM: 0>",
+    "override_auto_exposure_min_brightness": "False",
+    "auto_exposure_min_brightness": "-10.0",
+    "override_auto_exposure_max_brightness": "False",
+    "auto_exposure_max_brightness": "20.0"
+   },
+   "bounds_world": [
+    "<Struct 'Vector' (0x0000023AB76D1870) {x: 2960.130372, y: -14998.286119, z: 59890.000000}>",
+    "<Struct 'Vector' (0x0000023AB76D18C0) {x: 1225.840122, y: 1311.297414, z: 875.000000}>"
+   ]
+  }
+ ],
+ "fireplace_folder": [
+  [
+   "M_HE_FireplaceFlame",
+   "Material"
+  ],
+  [
+   "SA_HE_Fireplace",
+   "SoundAttenuation"
+  ],
+  [
+   "S_HE_FireplaceCrackle_Loop",
+   "SoundWave"
+  ]
+ ],
+ "furniture_folder_meshes": [
+  [
+   "SM_ChairSwivel_Seat",
+   "StaticMesh"
+  ],
+  [
+   "SM_ChairSwivel_Base",
+   "StaticMesh"
+  ],
+  [
+   "SM_SofaChesterfield",
+   "StaticMesh"
+  ]
+ ],
+ "fireplace_profile_all": {}
+}
