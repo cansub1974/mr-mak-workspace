@@ -203,6 +203,25 @@ writing". The owner chose the desk wider and deeper only (77 cm kept) and the ch
   - Git Bash rewrites `/Game/...` arguments unless `MSYS_NO_PATHCONV=1`.
   - The player pawn parked by the office door blocks her way out.
 
+## Sheers behind the sage curtains (13 Nov 2026)
+
+Owner: "The sage curtains should not have the white translucent curtains clipping through them. Please fix those."
+
+- **The cause:** the sheer and the side curtains were simulated apart (`mo01_cloth.py`). The settled sheer stood up to
+  16 cm in front of the curtain it hangs behind (218 of 1020 game-mesh vertices, worst at the hem).
+- **The fix:** `furnishings/meredith_office_mo01/fix_sheer_mo01.py` reruns from the settled simulation it keeps
+  (`Sheer_Simulated_Original.npy`).
+  - Ray casts on the curtain faces find every fold layer along the depth line through each sheer vertex and four points
+    round it, for the N and E Z scales. The vertex goes at least 1.5 cm behind the rear-most layer.
+  - Each push fades over 10 cm, so the open middle moves at most 3.6 cm, at the curtain edges.
+  - Bounds: 2 cm off the wall, and in front of the sill.
+  - The shared `SM_MO01_Sheer` (4 windows) is saved in the master and exported as `export_mo01` does.
+- **Unreal:** `sheer_fix_ue.py` reimports it with `install_mo01`'s FBX options, material and build settings. Bounds
+  match the manifest (0 cm), with 1900 triangles and 3 UVs.
+- **Checked:** captures `UE_MO01_Curtains_*.png` (Play, test slot).
+- **Left as found:** a tiny bright fleck low on one north curtain is a gap in the curtain's own folds.
+- **Lesson:** a vertex-neighbourhood test against a coarse game mesh misses rows. Ray-cast the faces.
+
 ## Found, not changed
 
 - **A desk normal map in progress:** `T_DeskPedestal_N` (new) and `T_DeskPedestal_BC` / `_ORM` were unsaved in the

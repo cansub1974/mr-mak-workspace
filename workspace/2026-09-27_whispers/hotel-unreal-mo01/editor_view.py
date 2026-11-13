@@ -12,7 +12,9 @@ I = json.load(open(REC + "/MO01_Install_State.json"))["world"]["instance"]
 H = unreal.Transform(unreal.Vector(*I["translation_cm"]), unreal.Quat(*I["rotation_quat"]).rotator(), unreal.Vector(*I["scale"]))
 VIEWS = {"desk": ((2330, 560, 1065.4), (1960, 380, 995.4)), "desk_side": ((1990, 120, 1060.4), (1960, 410, 980.4)),
          "room": ((2510, 605, 1055.4), (1760, 290, 1045.4)), "top": ((1990, 470, 1240), (1960, 410, 905)),
-         "chair_front": ((1990, 560, 1010), (1915, 405, 940)), "sofa": ((2110, 520, 1060), (2110, 120, 960))}
+         "chair_front": ((1990, 560, 1010), (1915, 405, 940)), "sofa": ((2110, 520, 1060), (2110, 120, 960)),
+         "north_windows": ((2120, 560, 1080), (2110, 30, 1060)), "east_windows": ((2120, 400, 1080), (2570, 400, 1040)),
+         "hem_n": ((1990, 260, 960), (1910, 40, 930)), "hem_e": ((2380, 600, 960), (2565, 640, 930))}
 eye, at = VIEWS[VIEW]
 E, T = H.transform_location(unreal.Vector(*eye)), H.transform_location(unreal.Vector(*at))
 d = T - E

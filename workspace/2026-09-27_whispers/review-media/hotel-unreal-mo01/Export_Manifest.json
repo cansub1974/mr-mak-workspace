@@ -1080,8 +1080,8 @@
    "group": "MO01",
    "dest": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes",
    "file": "meshes/SM_MO01_Sheer.fbx",
-   "note": "",
-   "fingerprint": "fa7222bc26e8171bd4e23df8cd098c1079eb7e4a7141f38d221f3738be8a20e4",
+   "note": "13 Nov 2026: kept behind the side curtains (fix_sheer_mo01.py)",
+   "fingerprint": "f376db1f8c16c130b1d91fa9f807b2d1ba3af97a6e268b3d5c3a08a8e8f58809",
    "triangles": 1900,
    "vertices": 1020,
    "uv_layers": [
@@ -1101,16 +1101,16 @@
    "bounds_cm_ue": [
     [
      -131.54027462005615,
-     -33.21952819824219,
+     -30.89510202407837,
      3.215465322136879
     ],
     [
      128.4151315689087,
-     -8.548155426979065,
+     -7.249145209789276,
      370.5437660217285
     ]
    ],
-   "fbx_bytes": 320060
+   "fbx_bytes": 320124
   },
   "SM_MO01_Swag_E": {
    "id": "SM_MO01_Swag_E",

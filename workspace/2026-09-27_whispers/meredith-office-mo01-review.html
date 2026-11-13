@@ -55,6 +55,24 @@ figure img{width:100%;height:auto;display:block;border-radius:7px;background:#1b
 <p>Records: <code>hotel-unreal-mo01/README.md</code>; <code>Desk_Chair_E2K.json</code> and <code>PIE_Chair_*.jsonl</code> in <code>review-media/hotel-unreal-mo01/</code>; <code>MS02_Desk_Chair.json</code> in <code>review-media/meredith-office-mo01/build/</code>.</p>
 </section>
 
+<section class="mak-card" id="curtains">
+<h2>Sheers behind the sage curtains · 13 November</h2>
+<p>You asked: “The sage curtains should not have the white translucent curtains clipping through them. Please fix those.”</p>
+<div class="pair">
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_windows_n.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_windows_n.png" alt="In-game view across the office to the two lake windows and the east window: the sage velvet curtains hang solid at each side, the ivory sheers show only between them" loading="lazy"></a>
+<figcaption>In Play: the sage curtains hang solid; the sheer shows only in the open middle of each window. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_windows_n.png" download>Download</a></figcaption></figure>
+<figure><a href="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_desk.png"><img src="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_desk.png" alt="In-game view from the door corner: Meredith at her desk, the east window's sage curtains on the right without white streaks" loading="lazy"></a>
+<figcaption>From your earlier viewpoint: no white through the curtain folds. · <a class="media-download" href="review-media/hotel-unreal-mo01/captures/UE_MO01_Curtains_desk.png" download>Download</a></figcaption></figure>
+</div>
+<ul>
+<li><strong>The cause:</strong> the sheers and the curtains were simulated separately. The sheers settled forward through the curtains, by up to 16 cm near the floor.</li>
+<li><strong>The fix:</strong> in the MS02 master, wherever a sheer hangs behind a curtain, it now sits at least 1.5 cm behind the curtain's deepest fold. The change bends smoothly over 10 cm, so the open middle of each window keeps its folds (at most 3.6 cm of change, right at the curtain edges). One shared mesh serves all four windows.</li>
+<li><strong>In the game:</strong> the sheer is re-exported and reimported with the same settings and material, so all four windows show the fix.</li>
+<li><strong>Left as found:</strong> one tiny bright fleck low on a north curtain is light through a gap in the curtain's own folds, not the sheer.</li>
+</ul>
+<p>Records: <code>furnishings/meredith_office_mo01/fix_sheer_mo01.py</code>, <code>Sheer_Fix.json</code> (build) and <code>Sheer_Fix_UE.json</code> (Unreal).</p>
+</section>
+
 <section class="mak-card" id="furniture">
 <h2>Furniture, and Meredith at her desk</h2>
 <p>You asked: “there are blender files in there for the sofa, the desk and the chair. Copy them over to where you keep all the other models and add them to the approved furniture list. Add them to Meredith's office Blender file and place them like in the reference image. Then check to see that they are placed in the right spot in the Unreal file. Get rid of the textureless desk thing. The office needs to be finished.” Then: “yes I do want Meredith to sit and use the new desk and chair”.</p>

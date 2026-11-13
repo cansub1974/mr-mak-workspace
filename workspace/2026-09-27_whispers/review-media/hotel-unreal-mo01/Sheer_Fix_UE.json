@@ -1,0 +1,19 @@
+{
+ "path": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Meshes/SM_MO01_Sheer",
+ "bounds_err_cm": 0.0,
+ "bounds_before_y": [
+  -30.9,
+  -7.09
+ ],
+ "bounds_after_y": [
+  -30.9,
+  -7.25
+ ],
+ "triangles": 1900,
+ "uv_channels": 3,
+ "material": "/Game/Whispers/Presentation/Environment/HotelEden/MO01/Materials/MI_MO01_Sheer.MI_MO01_Sheer",
+ "slots": [
+  "M_MO01_Sheer"
+ ],
+ "dirty_after": []
+}

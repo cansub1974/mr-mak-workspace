@@ -1,0 +1,53 @@
+{
+ "before": {
+  "behind_curtains": 657,
+  "too_far_forward": 218,
+  "worst_cm": 15.66
+ },
+ "after": {
+  "behind_curtains": 657,
+  "too_far_forward": 0,
+  "worst_cm": 0.0
+ },
+ "moved_vertices": 473,
+ "max_push_cm": 15.66,
+ "middle_max_push_cm": 3.58,
+ "moved_over_1mm": 473,
+ "params": {
+  "clear_m": 0.015,
+  "near_x_m": 0.035,
+  "near_z_m": 0.06,
+  "falloff_m": 0.1
+ },
+ "mesh": "SM_MO01_Sheer",
+ "users": [
+  "MO01 | E13-W-0 | Sheer",
+  "MO01 | E13-W-1 | Sheer",
+  "MO01 | W3-06 | Sheer",
+  "MO01 | W3-07 | Sheer"
+ ],
+ "export": {
+  "fingerprint": "f376db1f8c16c130b1d91fa9f807b2d1ba3af97a6e268b3d5c3a08a8e8f58809",
+  "triangles": 1900,
+  "vertices": 1020,
+  "uv_layers": [
+   "UVT",
+   "UV0_Bake",
+   "UV1_Wood"
+  ],
+  "bounds_cm_ue": [
+   [
+    -131.54027462005615,
+    -30.89510202407837,
+    3.215465322136879
+   ],
+   [
+    128.4151315689087,
+    -7.249145209789276,
+    370.5437660217285
+   ]
+  ],
+  "fbx_bytes": 320124,
+  "note": "13 Nov 2026: kept behind the side curtains (fix_sheer_mo01.py)"
+ }
+}
