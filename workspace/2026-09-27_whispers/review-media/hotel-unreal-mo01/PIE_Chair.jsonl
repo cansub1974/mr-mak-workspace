@@ -1,0 +1,28 @@
+{"phase": "arm", "armed": true, "requested": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "isolate", "ok": true, "label": "mo01_chair", "active": "D:/Unreal Projects/Whispers 5.8/Saved/SaveGames/AgentSmoke/mo01_chair", "redirected": true, "expected": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "stage", "from": [1926.7, 440.4, 990.8], "to": [2059.9, 580.9, 993.0]}
+{"phase": "record_start", "seconds": 60.0, "tag": "a", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "check", "ok": true, "changed": []}
+{"phase": "stop"}
+{"phase": "arm", "armed": true, "requested": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "isolate", "ok": true, "label": "mo01_chair", "active": "D:/Unreal Projects/Whispers 5.8/Saved/SaveGames/AgentSmoke/mo01_chair", "redirected": true, "expected": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "record_start", "seconds": 120.0, "tag": "b", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "need", "need": "Bladder", "value": "3", "reply": "{\r\n\t\"ok\": true,\r\n\t\"card_id\": \"npc.meredith\",\r\n\t\"active_role\": \"Role.Manager\",\r\n\t\"block\": \"Life.Block.Shift\",\r\n\t\"active_band\": 5,\r\n\t\"desired_band\": 5,\r\n\t\"on_shift\": true,\r\n\t\"shift_work\": true,\r\n\t\"in_br"}
+{"phase": "scale", "reply": "{\r\n\t\"ok\": false,\r\n\t\"error\": \"time_scale_must_be_1_or_60\"\r\n}"}
+{"phase": "record_start", "seconds": 170.0, "tag": "c", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "record_start", "seconds": 240.0, "tag": "d", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "record_start", "seconds": 420.0, "tag": "e", "desk_top_z": 978.68, "meshes": []}
+{"phase": "check", "ok": true, "changed": []}
+{"phase": "stop"}
+{"phase": "arm", "armed": true, "requested": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "isolate", "ok": true, "label": "mo01_chair", "active": "D:/Unreal Projects/Whispers 5.8/Saved/SaveGames/AgentSmoke/mo01_chair", "redirected": true, "expected": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "record_start", "seconds": 150.0, "tag": "f", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "come", "admitted": true}
+{"phase": "check", "ok": true, "changed": []}
+{"phase": "stop"}
+{"phase": "arm", "armed": true, "requested": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "isolate", "ok": true, "label": "mo01_chair", "active": "D:/Unreal Projects/Whispers 5.8/Saved/SaveGames/AgentSmoke/mo01_chair", "redirected": true, "expected": "D:\\Unreal Projects\\Whispers 5.8\\Saved\\SaveGames\\AgentSmoke\\mo01_chair"}
+{"phase": "record_start", "seconds": 300.0, "tag": "g", "desk_top_z": 978.68, "meshes": [["CharacterMesh0", false, true, "SKM_MHC_Meredith_BodyMesh"], ["Body", true, false, "SK_Meredith_SuitCoveredBody"], ["Face", true, false, "SKM_MHC_Meredith_FaceMesh"], ["SkeletalMesh", false, true, "MHC_Meredith_Outfits_2"], ["SkeletalMesh1", false, true, "MHC_Meredith_Outfits"], ["UniformClothing", true, false, "SK_StaffUniform"], ["UniformLegwear", true, false, "SK_Meredith_SuitCoveredLegwear"]]}
+{"phase": "come", "admitted": true}
+{"phase": "check", "ok": true, "changed": []}
+{"phase": "stop"}

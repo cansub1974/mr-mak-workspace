@@ -1298,16 +1298,26 @@ def build_furniture(c):
     """The owner's three pieces from the approved library, placed after the reference with the numbers Unreal uses (spec
     FURNITURE). The chair keeps its relation to the desk (as Meredith's Life desk advertisements in Unreal)."""
     F = S.FURNITURE; out = []
-    kits = {k: append_object_mesh(os.path.join(WS, v["blend"]), v["objects"]) for k, v in F.items()}
-    md = ue_matrix(F["desk"]["cm"], F["desk"]["yaw"])
+    kits = {k: append_object_mesh(os.path.join(WS, v["blend"]), v["objects"]) for k, v in F.items() if "blend" in v}
+    sd = Matrix.Diagonal((*F["desk"]["scale"], 1.0))
+    md = ue_matrix(F["desk"]["cm"], F["desk"]["yaw"]) @ sd                   # 13 Nov: wider and deeper, its height kept
     out.append(place("MO01 | Furniture | Desk (FUR-107)", kits["desk"]["SM_DeskPedestal"], md, c))
-    ch = F["chair"]
-    mc = md @ ue_matrix(ch["rel_desk_cm"], ch["rel_yaw"])
-    out.append(place("MO01 | Furniture | Chair base (FUR-108)", kits["chair"]["SM_ChairSwivel_Base"], mc, c))
-    out.append(place("MO01 | Furniture | Chair seat (FUR-108)", kits["chair"]["SM_ChairSwivel_Seat"], mc @ Matrix.Translation((0, 0, ch["seat_z_cm"] * 0.01)), c))
-    out.append(place("MO01 | Furniture | Sofa (FUR-106)", kits["sofa"]["SM_SofaChesterfield"], ue_matrix(F["sofa"]["cm"], F["sofa"]["yaw"]), c))
+    # the swivel chair at its empty rest pose (Unreal AWhispersSwivelDeskChair): rolled back along the working pose's -X, the seat
+    # turned on the swivel; the base does not turn
+    ch = F["chair"]; dx, dy, dz = ch["dock_cm"]; a = math.radians(ch["dock_yaw"])
+    rest = (dx - ch["rest_roll_cm"] * math.cos(a), dy - ch["rest_roll_cm"] * math.sin(a), dz)
+    out.append(place("MO01 | Furniture | Chair base (FUR-108)", kits["chair"]["SM_ChairSwivel_Base"], ue_matrix(rest, ch["dock_yaw"] + ch["mesh_yaw"]), c))
+    out.append(place("MO01 | Furniture | Chair seat (FUR-108)", kits["chair"]["SM_ChairSwivel_Seat"],
+                     ue_matrix(rest, ch["dock_yaw"] + ch["rest_yaw"] + ch["mesh_yaw"]) @ Matrix.Translation((0, 0, ch["seat_z_cm"] * 0.01)), c))
+    out.append(place("MO01 | Furniture | Sofa (FUR-106)", kits["sofa"]["SM_SofaChesterfield"],
+                     ue_matrix(F["sofa"]["cm"], F["sofa"]["yaw"]) @ Matrix.Diagonal((*F["sofa"]["scale"], 1.0)), c))
+    # the reception's LP01 open guest ledger under her writing hand: the master's own mesh data, shared
+    jr = F["journal"]; src = bpy.data.objects[jr["source"]]
+    jo = bpy.data.objects.new("MO01 | Furniture | Journal (LP01 reception ledger)", src.data); c.objects.link(jo)
+    jo.matrix_world = ue_matrix(jr["cm"], jr["yaw"]); jo["mo01_copy_of"] = src.name
     for o in out:
-        o["mo01_fur"] = next(v["fur"] for k, v in F.items() if o.data.name in v["objects"])
+        o["mo01_fur"] = next(v["fur"] for k, v in F.items() if "objects" in v and o.data.name in v["objects"])
+    out.append(jo)
     bpy.context.view_layer.update()
     rows = {}
     for o in out:

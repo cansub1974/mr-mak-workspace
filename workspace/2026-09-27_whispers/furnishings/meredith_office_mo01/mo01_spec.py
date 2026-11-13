@@ -89,17 +89,29 @@ PALM = dict(asset="FUR-024", revision="P03", source_placement="LP01 | East stair
 # chair between it and the fire (the desk's drawer / kneehole side, its local +X, faces west), the chesterfield centred under
 # the portrait between the lake windows with its back to the wall (its back is its local -Y). The chair keeps the relation
 # the Unreal office had (100 cm off the desk's sitter side, turned 90 deg), as Meredith's seven Life desk advertisements do.
+# 13 Nov 2026 (owner): "The desk and the sofa need to be about 20 percent larger. They are hero pieces." - the desk wider and
+# deeper only (its 77 cm height kept so she works at a normal height; owner's choice), the chesterfield 20% all round with its
+# back where it stood. "Meredith's chair needs to be rotated about 70 degrees perpendicular to the desk when she is not in it"
+# - the chair is AWhispersSwivelDeskChair in Unreal: its working pose square to the desk at dock_cm, empty it rests rolled
+# rest_roll_cm back and its seat turned rest_yaw towards the door side (+y); the master shows the empty (rest) pose. "Place the
+# same journal that is on the reception desk on Meredith's desk right where she is writing" - the LP01 ledger (shared mesh).
+# Applied by ms02_desk_chair.py from the Unreal install record (Desk_Chair_E2K.json), so both stay one set of numbers.
 RUG_TOP_CM = round((FL + FLOOR_T + 0.009) * 100, 2)                  # 901.7 cm hotel-local (the rug's top): the desk group stands on it
 FURNITURE = dict(
     desk=dict(fur="FUR-107", blend="approved-media/desk-pedestal-pd01/PD01_Game.blend", objects=["SM_DeskPedestal"],
-              cm=(2030.0, 400.0, RUG_TOP_CM), yaw=180.0, unreal="Desk_Pedestal_MO"),
+              cm=(2030.0, 400.0, RUG_TOP_CM), yaw=180.0, scale=(1.2, 1.2, 1.0), unreal="Desk_Pedestal_MO"),
     chair=dict(fur="FUR-108", blend="approved-media/chair-swivel-sw01/SW01_Game.blend", objects=["SM_ChairSwivel_Base", "SM_ChairSwivel_Seat"],
-               rel_desk_cm=(100.0, 0.0, 0.0), rel_yaw=90.0, seat_z_cm=24.2, unreal="Chair_Swivel_MO (BP_SwivelChair)"),
+               dock_cm=(1942.0, 400.0, RUG_TOP_CM), dock_yaw=0.0, rest_yaw=70.0, rest_roll_cm=30.0, seat_z_cm=24.2,
+               mesh_yaw=-90.0, unreal="Chair_Swivel_MO (AWhispersSwivelDeskChair)"),
     sofa=dict(fur="FUR-106", blend="approved-media/sofa-chesterfield-cf01/CF01_Game.blend", objects=["SM_SofaChesterfield"],
-              cm=(2110.0, 122.0, 900.8), yaw=0.0, unreal="Sofa_Chesterfield_MO"),
+              cm=(2110.0, 132.45, 900.8), yaw=0.0, scale=(1.2, 1.2, 1.2), unreal="Sofa_Chesterfield_MO"),
+    journal=dict(source="LP01 | Reception guest ledger | SM_HotelEden_OpenLedger_DP02", cm=(2018.6, 416.98, 978.7), yaw=289.932,
+                 pen_rest_cm=(1993.0, 405.0, 982.5), unreal="Journal_Ledger_MO"),
 )
-# Meredith's Life desk advertisements (Life_Manager_*_SL8, E2K): 100 cm off the desk's sitter side, 89.6 cm up, yaw 180 to it
-LIFE_DESK_REL = dict(cm=(100.0, 0.0, 89.6), yaw=-180.0)
+# Meredith's six seated Life desk advertisements (Life_Manager_*_SL8, E2K, 13 Nov 2026): at the chair's rest seat point + 40 cm,
+# facing the rest yaw; Use 40 cm below (the pelvis point), Approach 40 cm in front (she stands there, back to the chair).
+# StandLean no longer advertises (it stood at the old chair centre). Their PresentationOverlay is Overlay_MO_DeskChair.
+LIFE_DESK_REST = dict(seat_point_cm=(1913.03, 402.82, 951.3), yaw=70.0, approach_cm=40.0)
 
 # lighting under the game rules (Whispers docs/features/lighting-authoring.md, fixture catalog v1)
 ZONE = "Light.Zone.Hotel.MeredithOffice"

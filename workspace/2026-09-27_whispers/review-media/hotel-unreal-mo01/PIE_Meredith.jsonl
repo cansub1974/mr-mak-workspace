@@ -133,3 +133,12 @@
 {"phase": "eye", "view": "desk_side"}
 {"phase": "check_verify", "ok": true, "changed": []}
 {"phase": "check_stop"}
+{"phase": "eye", "view": "desk_side"}
+{"phase": "eye", "view": "desk"}
+{"phase": "eye", "view": "desk_side"}
+{"phase": "eye", "view": "watch"}
+{"phase": "eye", "view": "hands"}
+{"phase": "eye", "view": "side"}
+{"phase": "eye", "view": "desk_side"}
+{"phase": "eye", "view": "side"}
+{"phase": "eye", "view": "desk"}

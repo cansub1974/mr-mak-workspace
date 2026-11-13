@@ -17,6 +17,9 @@ Guards (docs/agents/ue-mcp-toolchain.md): the E2K forest is checked before the s
 saved, and only if they are the only dirty ones. State: review-media/hotel-unreal-mo01/Furniture_E2K.json.
 """
 import unreal, json, sys, os, importlib.util
+# Superseded on 13 Nov 2026 by desk_chair_e2k.py (desk and chesterfield scaled, AWhispersSwivelDeskChair, the journal): this
+# 12 Nov install would put the old layout back, and the spec no longer carries its chair keys. Kept as the record of that install.
+raise SystemExit("furnish_e2k.py is superseded by desk_chair_e2k.py (13 Nov 2026)")
 STAGE = sys.argv[1] if len(sys.argv) > 1 else "plan"
 CARD = "C:/Users/Jason McKay/Documents/Codex/mr-mak-workspace/workspace/2026-09-27_whispers"
 REC = CARD + "/review-media/hotel-unreal-mo01"

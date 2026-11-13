@@ -1,0 +1,801 @@
+{
+ "before": {
+  "Desk_Pedestal_MO": {
+   "local": [
+    2030.0,
+    400.0,
+    901.7
+   ],
+   "yaw_local": 180.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/06/JGGFM74WATK6FDRF60FQI8",
+   "class": "/Script/Engine.StaticMeshActor"
+  },
+  "Sofa_Chesterfield_MO": {
+   "local": [
+    2110.0,
+    122.0,
+    900.8
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG",
+   "class": "/Script/Engine.StaticMeshActor"
+  },
+  "Chair_Swivel_MO": {
+   "local": [
+    1930.0,
+    400.0,
+    901.7
+   ],
+   "yaw_local": 270.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+   "class": "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/BP_SwivelChair.BP_SwivelChair_C"
+  }
+ },
+ "before_life": {
+  "Life_Manager_Meeting_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/ST/BNIVR1X17F93NNW6ZYR52R",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_Desk_Read_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/2/5W/W36M9C4H8A5NBDEPPXP2WC",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_Desk_Write_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/2Y/8F4RP1YK1THERS3T0AARMD",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_Desk_Type_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/GM/8ZO552FRXUV081YKG47BX9",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_Desk_Sit_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Y5/84FTV6R7M2REXVTDKSUNGX",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_Desk_Phone_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Z9/OTPFCUCEENQF2KDGTZNOUE",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    -40.0
+   ],
+   "advertise": true
+  },
+  "Life_Manager_StandLean_SL8": {
+   "local": [
+    1930.0,
+    400.0,
+    991.3
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/AX/PWLP58R0TEPMRWXRCQFLLD",
+   "class": "/Script/WhispersLife.WhispersLifeObject",
+   "approach": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "use": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "advertise": true
+  }
+ },
+ "before_activities": {
+  "Desk_Sit": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "Desk_Write": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "Desk_Type": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "Desk_Phone": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "Desk_Read": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "Meeting": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  },
+  "StandLean": {
+   "EnterClip": "None",
+   "ExitClip": "None",
+   "EnterSeconds": "1.5",
+   "ExitSeconds": "1.5"
+  }
+ },
+ "dirty_before": [],
+ "forest_before": {
+  "graph": "PCG_E2K_Vegetation",
+  "cells": 64,
+  "to_delete": 0,
+  "at_origin": 0,
+  "ok": true
+ },
+ "plan": {
+  "desk": {
+   "label": "Desk_Pedestal_MO",
+   "centre": [
+    2030.0,
+    400.0
+   ],
+   "yaw": 180.0,
+   "scale": [
+    1.2,
+    1.2,
+    1.0
+   ]
+  },
+  "sofa": {
+   "label": "Sofa_Chesterfield_MO",
+   "scale": 1.2
+  },
+  "chair_dock": [
+   1942.0,
+   400.0
+  ],
+  "rest_yaw": 70.0,
+  "rest_roll": 30.0,
+  "rest_seat_point": [
+   1913.026060429977,
+   402.81907786235774,
+   951.3000000000001
+  ],
+  "approach_cm": 40.0
+ },
+ "saves": [
+  {
+   "stage": "scale",
+   "saved": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG"
+   ],
+   "ok": true,
+   "others_left": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/06/JGGFM74WATK6FDRF60FQI8"
+   ],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  },
+  {
+   "stage": "chair",
+   "saved": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/8/OH/U8TYZK235JGKXSB0ROTIIY",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M"
+   ],
+   "ok": true,
+   "others_left": [],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  },
+  {
+   "stage": "life",
+   "saved": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/ST/BNIVR1X17F93NNW6ZYR52R",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/2/5W/W36M9C4H8A5NBDEPPXP2WC",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/2Y/8F4RP1YK1THERS3T0AARMD",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/GM/8ZO552FRXUV081YKG47BX9",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Y5/84FTV6R7M2REXVTDKSUNGX",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Z9/OTPFCUCEENQF2KDGTZNOUE",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/AX/PWLP58R0TEPMRWXRCQFLLD",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M"
+   ],
+   "ok": true,
+   "others_left": [],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  },
+  {
+   "stage": "overlay_so",
+   "saved": [],
+   "ok": true,
+   "others_left": [
+    "/Game/Whispers/World/SmartObjects/Office/SO_Manager_DeskChair",
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M"
+   ],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  },
+  {
+   "stage": "journal",
+   "saved": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/5D/E0B6ALGG66APVZ6LLRC3WR"
+   ],
+   "ok": true,
+   "others_left": [],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  },
+  {
+   "stage": "journal",
+   "saved": [
+    "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/5D/E0B6ALGG66APVZ6LLRC3WR"
+   ],
+   "ok": true,
+   "others_left": [],
+   "forest": {
+    "graph": "PCG_E2K_Vegetation",
+    "cells": 64,
+    "to_delete": 0,
+    "at_origin": 0,
+    "ok": true
+   }
+  }
+ ],
+ "scale": {
+  "desk": {
+   "local": [
+    2030.0,
+    400.0,
+    901.7
+   ],
+   "yaw_local": 180.0,
+   "scale": [
+    1.2,
+    1.2,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/06/JGGFM74WATK6FDRF60FQI8",
+   "class": "/Script/Engine.StaticMeshActor"
+  },
+  "sofa": {
+   "local": [
+    2110.0,
+    132.45,
+    900.8
+   ],
+   "yaw_local": 0.0,
+   "scale": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG",
+   "class": "/Script/Engine.StaticMeshActor"
+  },
+  "saved": [
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/B8/26DQV33MAQMC1B4D711WVG"
+  ]
+ },
+ "replaced_bp": {
+  "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+  "local": [
+   1930.0,
+   400.0,
+   901.7
+  ],
+  "yaw_local": 270.0,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "class": "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/BP_SwivelChair.BP_SwivelChair_C",
+  "meshes": {
+   "Base": [
+    "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/SM_ChairSwivel_Base.SM_ChairSwivel_Base",
+    [
+     "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/MI_ChairSwivel.MI_ChairSwivel"
+    ]
+   ],
+   "Seat": [
+    "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/SM_ChairSwivel_Seat.SM_ChairSwivel_Seat",
+    [
+     "/Game/Whispers/Presentation/Environment/HotelEden/Furniture/ChairSwivel/MI_ChairSwivel.MI_ChairSwivel"
+    ]
+   ]
+  }
+ },
+ "chair": {
+  "actor": {
+   "local": [
+    1942.0,
+    400.0,
+    901.7
+   ],
+   "yaw_local": -0.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/8/OH/U8TYZK235JGKXSB0ROTIIY",
+   "class": "/Script/WhispersLife.WhispersSwivelDeskChair"
+  },
+  "overlay": {
+   "local": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "yaw_local": 70.0,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M",
+   "class": "/Script/WhispersBody.WhispersReceptionOverlay"
+  },
+  "rest_seat_point": [
+   1913.026060429977,
+   402.81907786235774,
+   951.3000000000001
+  ],
+  "rest_yaw": 70.0,
+  "saved": [
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/B/YZ/PKJDAJBV5QOHZD85Y4AMYK",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/8/OH/U8TYZK235JGKXSB0ROTIIY",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M"
+  ],
+  "anchors": {
+   "Seat": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "Backrest": [
+    1904.82,
+    380.27,
+    983.3
+   ],
+   "Surface": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "PenHome": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "PhoneHome": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "KeyHolder": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "WriteHand": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "PhoneHand": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "LeftHand.Off": [
+    1913.03,
+    402.82,
+    951.3
+   ],
+   "FootL": [
+    1931.14,
+    417.51,
+    905.8
+   ],
+   "FootR": [
+    1908.59,
+    425.72,
+    905.8
+   ],
+   "Approach": [
+    1926.71,
+    440.41,
+    951.3
+   ],
+   "Plate": [
+    1923.72,
+    446.82,
+    1029.0
+   ],
+   "Cutlery": [
+    1909.11,
+    444.68,
+    1029.3
+   ],
+   "Glass": [
+    1902.36,
+    452.46,
+    1033.3
+   ]
+  }
+ },
+ "life": {
+  "rows": {
+   "Desk_Sit": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_0.SO_Manager_Office_0"
+   },
+   "Desk_Write": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_1.SO_Manager_Office_1"
+   },
+   "Desk_Type": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_2.SO_Manager_Office_2"
+   },
+   "Desk_Phone": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_3.SO_Manager_Office_3"
+   },
+   "Desk_Read": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_4.SO_Manager_Office_4"
+   },
+   "Meeting": {
+    "local": [
+     1913.03,
+     402.82,
+     991.3
+    ],
+    "use_world_local": [
+     1913.03,
+     402.82,
+     951.3
+    ],
+    "approach_world_local": [
+     1926.71,
+     440.41,
+     951.3
+    ],
+    "slot_err_cm": 0.0,
+    "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_Office_5.SO_Manager_Office_5"
+   },
+   "StandLean": {
+    "advertise": false
+   }
+  },
+  "saved": [
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/0/ST/BNIVR1X17F93NNW6ZYR52R",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/2/5W/W36M9C4H8A5NBDEPPXP2WC",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/2Y/8F4RP1YK1THERS3T0AARMD",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/4/GM/8ZO552FRXUV081YKG47BX9",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Y5/84FTV6R7M2REXVTDKSUNGX",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/6/Z9/OTPFCUCEENQF2KDGTZNOUE",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/9/AX/PWLP58R0TEPMRWXRCQFLLD",
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/9Q/RZISH7HFFQVD9FN1D40R8M"
+  ]
+ },
+ "activities": {
+  "rows": {
+   "Desk_Sit": "/Game/Whispers/Characters/Life/Activities/DA_Office_Desk_Sit.DA_Office_Desk_Sit",
+   "Desk_Write": "/Game/Whispers/Characters/Life/Activities/DA_Office_Desk_Write.DA_Office_Desk_Write",
+   "Desk_Type": "/Game/Whispers/Characters/Life/Activities/DA_Office_Desk_Type.DA_Office_Desk_Type",
+   "Desk_Phone": "/Game/Whispers/Characters/Life/Activities/DA_Office_Desk_Phone.DA_Office_Desk_Phone",
+   "Desk_Read": "/Game/Whispers/Characters/Life/Activities/DA_Office_Desk_Read.DA_Office_Desk_Read",
+   "Meeting": "/Game/Whispers/Characters/Life/Activities/DA_Office_Meeting.DA_Office_Meeting"
+  },
+  "enter_s": 3.2,
+  "exit_s": 3.6,
+  "dirty_after": []
+ },
+ "overlay_so": {
+  "definition": "/Game/Whispers/World/SmartObjects/Office/SO_Manager_DeskChair",
+  "before": null,
+  "slot_offset": [
+   0.0,
+   0.0,
+   -40.0
+  ],
+  "slot_world_local": [
+   1913.03,
+   402.82,
+   951.3
+  ],
+  "saved": []
+ },
+ "journal": {
+  "actor": {
+   "local": [
+    2018.6,
+    416.98,
+    978.7
+   ],
+   "yaw_local": 289.932,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "package": "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/5D/E0B6ALGG66APVZ6LLRC3WR",
+   "class": "/Script/Engine.StaticMeshActor"
+  },
+  "pen_rest_local": [
+   1993.0,
+   405.0,
+   982.5
+  ],
+  "desk_top_local_z": 978.68,
+  "rel_yaw_to_writer": 289.93,
+  "mesh": "/Game/Whispers/Presentation/Environment/HotelEden/UI01/Meshes/SM_HE_UI01_5982a967f1babb0c.SM_HE_UI01_5982a967f1babb0c",
+  "saved": [
+   "/Game/__ExternalActors__/Whispers/World/EdenE2K/L_EdenE2K/7/5D/E0B6ALGG66APVZ6LLRC3WR"
+  ],
+  "bottom_local_z": 978.68,
+  "top_local_z": 982.56,
+  "footprint_local_x": [
+   1967.25,
+   2037.75
+  ],
+  "footprint_local_y": [
+   360.59,
+   434.41
+  ]
+ }
+}

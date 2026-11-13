@@ -49,7 +49,9 @@ elif PH == "read":
     log(row)
 elif PH == "eye":
     VIEWS = {"desk": ((2330, 560, 900.4 + 165), (1960, 380, 900.4 + 95)), "desk_side": ((1990, 120, 900.4 + 160), (1960, 410, 900.4 + 80)),
-             "room": ((2510, 605, 900.4 + 155), (1760, 290, 900.4 + 145))}
+             "room": ((2510, 605, 900.4 + 155), (1760, 290, 900.4 + 145)),
+             "watch": ((2170, 640, 900.4 + 160), (1925, 420, 900.4 + 70)),
+             "hands": ((2045, 330, 900.4 + 125), (1980, 400, 900.4 + 82)), "side": ((1945, 175, 900.4 + 140), (1925, 420, 900.4 + 72))}
     eye, at = VIEWS[ARG or "desk"]
     pawn = unreal.GameplayStatics.get_player_pawn(w, 0); off = pawn.get_actor_eyes_view_point()[0] - pawn.get_actor_location()
     pawn.set_actor_location(H.transform_location(unreal.Vector(*eye)) - off, False, True)

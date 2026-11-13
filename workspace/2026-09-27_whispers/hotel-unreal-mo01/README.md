@@ -159,6 +159,50 @@ textureless desk thing." Then: "yes I do want Meredith to sit and use the new de
     Captures `UE_MO01_Meredith_After_Continue*.png`; state `Continue_Meredith_Office.json`. The game clock in the
     save moved on about 12 game minutes (10:12 to 10:24); nothing else was staged.
 
+## Hero desk, swivel chair and journal (13 Nov 2026)
+
+Owner: "The desk and the sofa need to be about 20 percent larger. They are hero pieces. Meredith's chair needs to be rotated
+about 70 degrees perpendicular to the desk when she is not in it. When she goes to sit in it she will stand in front of the chair
+with her back to it. She will sit down. The chair and her will rotate so that she and the chair are square to the desk. The chair
+and her will then move inwards to the desk so that she is sitting comfortably close ... Her hands must work at the level of the
+desk plus the width of a journal. Place the same journal that is on the reception desk on Meredith's desk right where she is
+writing". The owner chose the desk wider and deeper only (77 cm kept) and the chesterfield 20% all round.
+
+- **Code (Whispers repo; built, editor restarted once with the owner's permission after saving the other session's three
+  desk textures as asked):**
+  - `AWhispersSwivelDeskChair` (WhispersLife);
+  - the held seat in `UWhispersBodyComponent`;
+  - `bHoldSeatBetweenActivities` and `bSeatAtRest` on `AWhispersReceptionOverlay`;
+  - no stand-up for a seat conversation in a held chair.
+
+  See `docs/features/npc-body.md`, "Held seat and the swivel desk chair".
+- `desk_chair_e2k.py` stages:
+  - `scale`: the desk x (1.2, 1.2, 1.0); the chesterfield x 1.2, back kept.
+  - `chair`: the BP chair replaced with the new class, the same meshes and materials; working pose at hotel-local
+    (1942, 400) facing the desk; rest 30 cm back, seat turned 70 deg.
+  - `life`: the six seated `Life_Manager_*_SL8` at the rest seat point (1913.0, 402.8, 951.3), yaw 70, Approach 40 cm in
+    front, presentation `Overlay_MO_DeskChair`; StandLean stops advertising.
+  - `overlay_so`: Life claims the overlay's own Smart Object, so it got `SO_Manager_DeskChair`. Its slot is 40 cm below
+    the overlay root, so the overlay root stands 40 cm above the seat point.
+  - `activities`: the chair sit-down and stand-up montages, 3.2 s and 3.6 s.
+  - `journal 1993 405`: the UI01 LP01 ledger mesh with its PenRest under her pen, all corners on the desk.
+- `ms02_desk_chair.py` (furnishings/meredith_office_mo01): the master matches from the same record. `mo01_spec.FURNITURE`
+  and `build_mo01.build_furniture` carry the new layout; `furnish_e2k.py` is marked superseded.
+- **Play (`pie_chair_smoke.py`, test slot every time):**
+  - **Restore:** her Continue restores pulled in.
+  - **Between desk jobs:** a finished job holds her seated, and the next job on the chair continues in Loop (`held=1`).
+  - **Leaving** (a `come` move to the player): roll out (pelvis x 1945 to 1915), turn 70, then the stand-up.
+  - **Returning:** she turns her back to the chair, sits (Enter 3 s), swivels (1.6 s), rolls in (1.3 s).
+  - **Working:** pelvis 24 cm from the desk edge; wrists about 988 cm against a page at 982.5.
+
+  Captures `UE_MO01_Chair_*.png` and `captures/sequence/`.
+- **Lessons:**
+  - Moving the Life objects is not enough with a presentation overlay: Body checked the slot of the overlay's Smart
+    Object.
+  - Python cannot edit a Smart Object slot's offset, so move the frame to the slot.
+  - Git Bash rewrites `/Game/...` arguments unless `MSYS_NO_PATHCONV=1`.
+  - The player pawn parked by the office door blocks her way out.
+
 ## Found, not changed
 
 - **A desk normal map in progress:** `T_DeskPedestal_N` (new) and `T_DeskPedestal_BC` / `_ORM` were unsaved in the

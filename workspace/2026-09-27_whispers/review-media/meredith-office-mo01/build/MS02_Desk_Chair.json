@@ -1,0 +1,116 @@
+{
+ "before": {
+  "MO01 | Furniture | Desk (FUR-107)": [
+   20.3,
+   -4.0,
+   9.017,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MO01 | Furniture | Sofa (FUR-106)": [
+   21.1,
+   -1.22,
+   9.008,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MO01 | Furniture | Chair base (FUR-108)": [
+   19.3,
+   -4.0,
+   9.017,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MO01 | Furniture | Chair seat (FUR-108)": [
+   19.3,
+   -4.0,
+   9.259,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "after_hotel_local_cm": {
+  "MO01 | Furniture | Desk (FUR-107)": {
+   "x": [
+    1969.2,
+    2090.8
+   ],
+   "y": [
+    284.8,
+    515.2
+   ],
+   "z": [
+    901.7,
+    978.7
+   ]
+  },
+  "MO01 | Furniture | Sofa (FUR-106)": {
+   "x": [
+    1993.3,
+    2226.7
+   ],
+   "y": [
+    69.7,
+    195.2
+   ],
+   "z": [
+    900.8,
+    992.0
+   ]
+  },
+  "MO01 | Furniture | Chair base (FUR-108)": {
+   "x": [
+    1875.9,
+    1948.1
+   ],
+   "y": [
+    364.0,
+    436.1
+   ],
+   "z": [
+    901.7,
+    925.9
+   ]
+  },
+  "MO01 | Furniture | Chair seat (FUR-108)": {
+   "x": [
+    1860.3,
+    1963.6
+   ],
+   "y": [
+    348.6,
+    451.4
+   ],
+   "z": [
+    925.9,
+    1002.6
+   ]
+  },
+  "MO01 | Furniture | Journal (LP01 reception ledger)": {
+   "x": [
+    1971.9,
+    2033.1
+   ],
+   "y": [
+    364.5,
+    430.5
+   ],
+   "z": [
+    978.7,
+    982.6
+   ]
+  }
+ },
+ "journal_shares_mesh": "Ledger | open guest register DP02",
+ "chair_rest": {
+  "axis_cm": [
+   1912.0,
+   400.0
+  ],
+  "seat_yaw": 70.0
+ }
+}
