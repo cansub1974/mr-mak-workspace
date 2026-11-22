@@ -7,6 +7,7 @@ Re-running it is safe: it refreshes the program and settings and keeps the work 
 param(
   [string]$Ascent = '192.168.2.45',
   [string]$ModelUrl = '',          # default http://<Ascent>:8080/v1 (a test can point it elsewhere)
+  [string]$InklingUrl = '',        # default http://<Ascent>:8090/v1 (coding mode)
   [string]$GiteaUrl = '',          # default http://<Ascent>:3000
   [string]$WorkRoot = 'C:\OpenCode',
   [switch]$SkipGitea,
@@ -14,6 +15,7 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 if (-not $ModelUrl) { $ModelUrl = "http://${Ascent}:8080/v1" }
+if (-not $InklingUrl) { $InklingUrl = "http://${Ascent}:8090/v1" }
 if (-not $GiteaUrl) { $GiteaUrl = "http://${Ascent}:3000" }
 $src   = $PSScriptRoot
 $root  = Join-Path $env:LOCALAPPDATA 'OpenCode-Ascent'
@@ -70,7 +72,14 @@ $config = [ordered]@{
       'flash-next'   = @{ name = 'Flash-Next (default)'; limit = @{ context = 262144; output = 32768 }; attachment = $true; modalities = @{ input = @('text','image'); output = @('text') } }
       'gpt-oss-120b' = @{ name = 'gpt-oss-120b'; limit = @{ context = 131072; output = 32768 } }
       'qwen3.8-27b'  = @{ name = 'Qwen3.8-27B'; limit = @{ context = 262144; output = 32768 }; attachment = $true; modalities = @{ input = @('text','image'); output = @('text') } }
-    } } }
+    } }
+    # Coding mode on the Ascent (coding-mode on): Inkling replaces Flash-Next and BCW's Assistant is offline meanwhile.
+    inkling = [ordered]@{
+      npm = '@ai-sdk/openai-compatible'; name = 'Inkling (coding mode)'
+      options = @{ baseURL = $InklingUrl }
+      models = [ordered]@{
+        'inkling-2-mini' = @{ name = 'Inkling 2 Mini (coding mode only)'; limit = @{ context = 262144; output = 32768 }; attachment = $true; modalities = @{ input = @('text','image'); output = @('text') } }
+      } } }
   mcp = [ordered]@{
     playwright = @{ type = 'local'; enabled = $true
       command = @($node, (J "$root\mcp\playwright\node_modules\@playwright\mcp\cli.js"), '--browser', 'chromium')

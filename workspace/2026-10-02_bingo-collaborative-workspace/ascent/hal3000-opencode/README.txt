@@ -30,6 +30,12 @@ SAFETY RULES BUILT IN
 - Gitea refuses force-pushes and branch deletion for everyone, so its commits can always be undone.
 - Shared model: OpenCode uses the same two Flash-Next slots as BCW's users. During long OpenCode jobs, BCW answers can wait.
 
+CODING MODE (INKLING 2 MINI)
+- For longer coding sessions when BCW is quiet. On the Ascent run:  coding-mode on   (back to normal: coding-mode off;  check: coding-mode status)
+  From HAL3000: ssh -t bmt01@192.168.2.45 "~/bin/coding-mode on"
+- While it is on, Inkling replaces Flash-Next: BCW's Assistant is offline. In OpenCode pick "Inkling 2 Mini (coding mode only)" with /models.
+- After "coding-mode off" the first answer takes about a minute while Flash-Next reloads. A reboot always returns to normal mode.
+
 BLENDER
 - Install it from Blender-HAL3000\INSTALL-BLENDER.bat on this USB (after this OpenCode install). It enables the add-on and
   starts its server with Blender automatically. Then open Blender and ask OpenCode to describe the scene.

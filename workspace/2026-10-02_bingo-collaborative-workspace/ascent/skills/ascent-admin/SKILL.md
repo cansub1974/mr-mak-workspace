@@ -27,6 +27,11 @@ Logs: `journalctl -u <service> -n 100 --no-pager`; containers `sudo docker logs 
 Restart: `sudo systemctl restart <service>`; containers `sudo docker restart <name>`.
 `bmt01` is not in the docker group: every docker command needs sudo.
 
+Coding mode: `~/bin/coding-mode on|off|status`. `llama-inkling.service` (Inkling 2 Mini,
+new build in `~/src/llama.cpp-inkling`, port 8090 on all networks, ufw 192.168.2.0/24) has
+`Conflicts=llama-chat.service` and is not enabled, so starting either stops the other and a
+reboot is always normal mode (Flash-Next). Both models do not fit in memory at once.
+
 Codex sandbox: Ubuntu blocks unprivileged user namespaces, so `/etc/apparmor.d/bwrap`
 lets only `/usr/bin/bwrap` use them. Without it Codex can run no command
 ("bwrap: loopback: Failed RTM_NEWADDR"). Check: `codex sandbox -- echo ok`.
