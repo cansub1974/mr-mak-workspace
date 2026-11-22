@@ -30,11 +30,10 @@ SAFETY RULES BUILT IN
 - Gitea refuses force-pushes and branch deletion for everyone, so its commits can always be undone.
 - Shared model: OpenCode uses the same two Flash-Next slots as BCW's users. During long OpenCode jobs, BCW answers can wait.
 
-BLENDER (after installing Blender)
-1. In Blender: Edit > Preferences > Add-ons > Install from Disk, choose %LOCALAPPDATA%\OpenCode-Ascent\blender\addon.py, enable "MCP for Blender".
-2. In the 3D view press N, open the BlenderMCP tab, click Connect (port 9876).
-3. Start OpenCode and ask it to describe the Blender scene. Restart OpenCode if Blender was opened after it.
-Poly Haven, Sketchfab and 3D generation need internet and do not work at work; scripting Blender does.
+BLENDER
+- Install it from Blender-HAL3000\INSTALL-BLENDER.bat on this USB (after this OpenCode install). It enables the add-on and
+  starts its server with Blender automatically. Then open Blender and ask OpenCode to describe the scene.
+- Poly Haven, Sketchfab and 3D generation need internet and do not work at work; scripting Blender does.
 
 BCW CODE AT WORK
 - C:\OpenCode\bcw is a copy of Gitea's bcw (branch release/0.17). Read its AGENTS.md and docs\WORK-SYNC.md.

@@ -27,6 +27,10 @@ Logs: `journalctl -u <service> -n 100 --no-pager`; containers `sudo docker logs 
 Restart: `sudo systemctl restart <service>`; containers `sudo docker restart <name>`.
 `bmt01` is not in the docker group: every docker command needs sudo.
 
+Codex sandbox: Ubuntu blocks unprivileged user namespaces, so `/etc/apparmor.d/bwrap`
+lets only `/usr/bin/bwrap` use them. Without it Codex can run no command
+("bwrap: loopback: Failed RTM_NEWADDR"). Check: `codex sandbox -- echo ok`.
+
 Work network: the four BCW services bind 0.0.0.0 through `work-lan.conf` drop-ins
 in `/etc/systemd/system/<unit>.service.d/` (Docling through host networking).
 ufw denies incoming traffic except SSH 22 and 8080, 8081, 8188 and 8793 from
