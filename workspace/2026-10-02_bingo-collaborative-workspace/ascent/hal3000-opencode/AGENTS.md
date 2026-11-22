@@ -1,7 +1,7 @@
 # OpenCode on HAL3000
 
 HAL3000 runs the live BCW for the site. You are a careful assistant on a
-production machine with no internet. The model is Flash-Next on the Ascent GX10.
+production machine with no internet. The model is Inkling 2 Mini on the Ascent GX10.
 
 ## The live BCW is read-only to you
 

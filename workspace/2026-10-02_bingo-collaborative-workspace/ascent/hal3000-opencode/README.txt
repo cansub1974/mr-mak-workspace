@@ -2,7 +2,8 @@ OPENCODE FOR HAL3000 (ASCENT GX10, OFFLINE)
 Prepared 22 November 2026. OpenCode 1.19.6.
 
 WHAT IT INSTALLS (no administrator rights, no internet)
-- OpenCode, using Flash-Next on the Ascent (http://192.168.2.45:8080/v1). gpt-oss-120b and Qwen3.8-27B can be picked with /models.
+- OpenCode, using Inkling 2 Mini on the Ascent (http://192.168.2.45:8080/v1). Flash-Next, Qwen3.8-27B and gpt-oss-120b can be picked
+  with /models as fallbacks; picking one makes the Ascent swap models (a minute or two) for BCW too, so switch back afterwards.
 - MCP servers: Playwright (drives a browser, e.g. to check BCW pages) and Blender (works once Blender is installed, see below).
 - 76 skills: the Matt Pocock set, Superpowers, skill-creator, frontend-design, bcw-plow, and the 3D/Blender skills.
 - Private Git, Node and Python, so nothing else on HAL3000 is changed.
@@ -17,7 +18,7 @@ INSTALL
 1. Run OpenCode-HAL3000\INSTALL-OPENCODE.bat (double-click). It checks the package, then installs.
 2. When asked, type the Ascent's bmt01 SSH password. The installer fetches OpenCode's Gitea sign-in from the Ascent (you never see or type it) and downloads the BCW code.
    On the very first connection it trusts the Ascent's SSH key automatically.
-3. The last step asks Flash-Next for a test reply. "OpenCode answered through Flash-Next: READY" means everything works.
+3. The last step asks Inkling for a test reply. "OpenCode answered through Inkling: READY" means everything works.
 4. Open "OpenCode (Ascent)" on the desktop. It starts in C:\OpenCode. In a terminal, "opencode-ascent C:\OpenCode\bcw" starts it in the BCW code.
 Re-running the .bat is safe: it refreshes the program and settings and keeps C:\OpenCode and your sessions.
 If the Ascent was not reachable, the Gitea step is skipped with a message; re-run the .bat later.
@@ -28,13 +29,7 @@ SAFETY RULES BUILT IN
   force-push, branch deletion, git reset --hard, git clean, shutdown/restart, stopping services, editing anything under Documents\BCW.
 - Its rules file (%USERPROFILE%\.config\opencode\AGENTS.md) tells it the live BCW is read-only: it diagnoses and proposes, you apply fixes.
 - Gitea refuses force-pushes and branch deletion for everyone, so its commits can always be undone.
-- Shared model: OpenCode uses the same two Flash-Next slots as BCW's users. During long OpenCode jobs, BCW answers can wait.
-
-CODING MODE (INKLING 2 MINI)
-- For longer coding sessions when BCW is quiet. On the Ascent run:  coding-mode on   (back to normal: coding-mode off;  check: coding-mode status)
-  From HAL3000: ssh -t bmt01@192.168.2.45 "~/bin/coding-mode on"
-- While it is on, Inkling replaces Flash-Next: BCW's Assistant is offline. In OpenCode pick "Inkling 2 Mini (coding mode only)" with /models.
-- After "coding-mode off" the first answer takes about a minute while Flash-Next reloads. A reboot always returns to normal mode.
+- Shared model: OpenCode uses the same two Inkling slots as BCW's users. During long OpenCode jobs, BCW answers can wait.
 
 BLENDER
 - Install it from Blender-HAL3000\INSTALL-BLENDER.bat on this USB (after this OpenCode install). It enables the add-on and

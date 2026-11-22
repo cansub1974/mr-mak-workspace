@@ -17,7 +17,7 @@ than trusting this page when they differ.
 
 | Service | Address | Started by | Check |
 |---|---|---|---|
-| Chat router (llama-server) | 0.0.0.0:8080 | `llama-chat.service`, presets `~/llm/chat.ini` | `curl -s 127.0.0.1:8080/models` |
+| Chat router (llama-server, `~/src/llama.cpp-inkling` build) | 0.0.0.0:8080 | `llama-chat.service`, presets `~/llm/chat.ini` | `curl -s 127.0.0.1:8080/models` |
 | Retrieval (embed + rerank) | 0.0.0.0:8081 | `llama-retrieval.service`, presets `~/llm/retrieval.ini` | `curl -s 127.0.0.1:8081/models` |
 | ComfyUI (image edit) | 0.0.0.0:8188 | `comfyui.service` | `curl -s 127.0.0.1:8188/system_stats` |
 | Docling (document parsing) | 0.0.0.0:8793 | Docker container `docling`, `--network host` | `sudo docker ps` |
@@ -27,10 +27,11 @@ Logs: `journalctl -u <service> -n 100 --no-pager`; containers `sudo docker logs 
 Restart: `sudo systemctl restart <service>`; containers `sudo docker restart <name>`.
 `bmt01` is not in the docker group: every docker command needs sudo.
 
-Coding mode: `~/bin/coding-mode on|off|status`. `llama-inkling.service` (Inkling 2 Mini,
-new build in `~/src/llama.cpp-inkling`, port 8090 on all networks, ufw 192.168.2.0/24) has
-`Conflicts=llama-chat.service` and is not enabled, so starting either stops the other and a
-reboot is always normal mode (Flash-Next). Both models do not fit in memory at once.
+Default chat model: Inkling 2 Mini (`[inkling-2-mini]` in `~/llm/chat.ini`, load-on-startup).
+The chat service runs the newer build `~/src/llama.cpp-inkling` (its drop-in `work-lan.conf`); the old
+`~/src/llama.cpp` build is kept. Flash-Next (context 131072), Qwen3.8-27B and gpt-oss-120b stay listed;
+the router holds one model, so picking another swaps it in for BCW too. Inkling leaves about 40 GB
+free; Flash-Next filled memory. Undo the switch: `bash ~/inkling-switch.sh revert`.
 
 Codex sandbox: Ubuntu blocks unprivileged user namespaces, so `/etc/apparmor.d/bwrap`
 lets only `/usr/bin/bwrap` use them. Without it Codex can run no command
@@ -65,7 +66,7 @@ Before going back to Flash-Next, free ComfyUI
 The router loads a new model even when the old one is busy, so a swap during a
 running request can exhaust memory: swap only when chat is idle.
 
-Defaults live in three places, changed together: `load-on-startup` in
+Defaults (now inkling-2-mini) live in three places, changed together: `load-on-startup` in
 `~/llm/chat.ini`, `"model"` in `~/.config/opencode/opencode.json`, and
 `model` / `model_context_window` in `~/.codex/config.toml`.
 
