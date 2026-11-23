@@ -1,0 +1,494 @@
+<h1>BCW and the Ascent: Administrator Manual</h1>
+<p class="subtitle">Bingo Collaborative Workspace V0.17, the Ascent GX10 AI server and the HAL3000 tools. For the ICPM and whoever looks after the system. November 2026.</p>
+<div class="box"><p>This manual explains what the system can do and how to run it day to day. It is written for administrators, not programmers. Everyday features (the Assistant, Library search, calendar, reporting) are explained in the <strong>User Manual</strong>; this manual covers setting up, looking after and fixing the system.</p></div>
+<!--TOC-->
+
+<h2>1. The system at a glance</h2>
+<figure>
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial" font-size="13" role="img" aria-label="Laptops use BCW on HAL3000; HAL3000 uses the Ascent for AI and Mother for documents; everything is on the isolated 192.168.2.x network">
+ <defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5a6676"/></marker></defs>
+ <rect x="4" y="4" width="752" height="292" rx="10" fill="none" stroke="#9aa6b5" stroke-dasharray="6 4"/>
+ <text x="16" y="24" fill="#5a6676">Isolated work network 192.168.2.x (no internet)</text>
+ <rect x="20" y="110" width="140" height="70" rx="8" fill="#eef4fb" stroke="#0b5cad"/><text x="90" y="140" text-anchor="middle" font-weight="600">Staff laptops</text><text x="90" y="160" text-anchor="middle">browser</text>
+ <rect x="230" y="90" width="200" height="110" rx="8" fill="#0b5cad"/><text x="330" y="118" text-anchor="middle" fill="#fff" font-weight="600">HAL3000 · 192.168.2.35</text><text x="330" y="140" text-anchor="middle" fill="#fff">BCW and its services</text><text x="330" y="158" text-anchor="middle" fill="#fff">all records and backups</text><text x="330" y="176" text-anchor="middle" fill="#fff">OpenCode, Blender, GIMP</text>
+ <rect x="510" y="40" width="230" height="150" rx="8" fill="#eaf7ee" stroke="#3c9a5f"/><text x="625" y="64" text-anchor="middle" font-weight="600">Ascent GX10 · 192.168.2.45</text><text x="625" y="86" text-anchor="middle">Chat models · port 8080</text><text x="625" y="104" text-anchor="middle">Library search · 8081</text><text x="625" y="122" text-anchor="middle">Images (ComfyUI) · 8188</text><text x="625" y="140" text-anchor="middle">Document reading · 8793</text><text x="625" y="158" text-anchor="middle">Gitea code store · 3000</text><text x="625" y="176" text-anchor="middle">Codex (small fixes)</text>
+ <rect x="510" y="215" width="230" height="60" rx="8" fill="#fff4e5" stroke="#e3a33b"/><text x="625" y="240" text-anchor="middle" font-weight="600">Mother</text><text x="625" y="258" text-anchor="middle">shared documents · Library folder</text>
+ <line x1="160" y1="145" x2="226" y2="145" stroke="#5a6676" stroke-width="2" marker-end="url(#b)"/>
+ <line x1="430" y1="130" x2="506" y2="115" stroke="#5a6676" stroke-width="2" marker-end="url(#b)"/>
+ <line x1="430" y1="175" x2="506" y2="240" stroke="#5a6676" stroke-width="2" marker-end="url(#b)"/>
+</svg>
+<figcaption>HAL3000 holds everything of value. The Ascent does the AI work and holds no records.</figcaption>
+</figure>
+<div class="wrap"><table>
+<tr><th>Machine</th><th>What it does</th><th>What it holds</th></tr>
+<tr><td><strong>HAL3000</strong> (Windows 11, 192.168.2.35)</td><td>Runs BCW and its companion services (Nextcloud, OpenProject and others). It is also where the HAL3000 tools are installed: OpenCode, Blender, GIMP and the tools package.</td><td>Every record, chat, approval, Library index and backup.</td></tr>
+<tr><td><strong>Ascent GX10</strong> (NVIDIA GB10, 128 GB memory, 192.168.2.45)</td><td>Runs:
+ <ul>
+ <li>the AI chat model (Inkling 2 Mini by default);</li>
+ <li>the Library search models;</li>
+ <li>Docling, which reads documents and scanned pages;</li>
+ <li>ComfyUI, which makes and edits images;</li>
+ <li>Gitea, which stores the BCW program code;</li>
+ <li>Codex, for small code fixes.</li>
+ </ul></td><td>No records. Its AI model files are irreplaceable on site, because there is no internet to download them again.</td></tr>
+<tr><td><strong>Mother</strong></td><td>The shared document store. The Library reads from its <code>Library</code> folder.</td><td>Shared documents.</td></tr>
+</table></div>
+
+<h3>Addresses to know</h3>
+<div class="wrap"><table>
+<tr><th>What</th><th>Address</th></tr>
+<tr><td>BCW for staff</td><td><code>https://192.168.2.35</code></td></tr>
+<tr><td>Ascent chat models (BCW Model server)</td><td><code>http://192.168.2.45:8080/v1</code></td></tr>
+<tr><td>Ascent Library search (retrieval)</td><td><code>http://192.168.2.45:8081</code></td></tr>
+<tr><td>Ascent document reading (Docling)</td><td><code>http://192.168.2.45:8793</code></td></tr>
+<tr><td>Ascent images (ComfyUI)</td><td><code>http://192.168.2.45:8188</code></td></tr>
+<tr><td>Gitea (BCW code)</td><td><code>http://192.168.2.45:3000</code></td></tr>
+<tr><td>Ascent management login</td><td><code>ssh bmt01@192.168.2.45</code> (from PowerShell on HAL3000)</td></tr>
+</table></div>
+<div class="box warn"><p>The Ascent only accepts connections from the 192.168.2.x network, and its AI services have no passwords. The isolated network is their protection. Never connect the Ascent to another network or turn its firewall off.</p></div>
+
+<h2>2. Everyday care</h2>
+<h3>Daily: is everything up?</h3>
+<p>Double-click <strong>Ascent status</strong> on HAL3000's desktop (installed by the Tools package, section 9). It checks every service and says in plain words what is up or down:</p>
+<ul>
+<li>the Ascent on the network;</li>
+<li>chat, with the model loaded;</li>
+<li>Library search;</li>
+<li>Docling;</li>
+<li>ComfyUI;</li>
+<li>Gitea;</li>
+<li>SSH;</li>
+<li>BCW itself.</li>
+</ul>
+<p>"Everything is answering." means all is well.</p>
+<p>In BCW, <span class="ui">Tools → Admin → Site overview</span> shows:</p>
+<ul>
+<li>the release;</li>
+<li>the last backup;</li>
+<li>service health;</li>
+<li>any outstanding administration operations.</li>
+</ul>
+<p><span class="ui">Check work LAN</span> there tests the network without changing anything.</p>
+<h3>Weekly: back up</h3>
+<p>BCW has <strong>no automatic backup</strong>.</p>
+<ol>
+<li>Take one at least weekly, and always before an update: <span class="ui">Tools → Admin → Version &amp; backups → Backup now</span>.</li>
+<li>Regularly copy a backup off HAL3000 with BCW Maintenance → <span class="ui">Export backup</span> to a USB drive (section 7).</li>
+</ol>
+<h3>As needed</h3>
+<ul>
+<li>Approve new Library documents (<span class="ui">Project → Library → Waiting for approval</span>).</li>
+<li>Check <span class="ui">Failed reads</span> and <span class="ui">Uncertain</span> in the Library.</li>
+<li>Set up accounts as people arrive and leave.</li>
+<li>Create the weekly reporting cycle.</li>
+</ul>
+
+<h2>3. The Ascent AI server</h2>
+<h3>What it gives BCW</h3>
+<div class="wrap"><table>
+<tr><th>Service</th><th>What users get from it</th><th>If it is down</th></tr>
+<tr><td><strong>Chat</strong> (Inkling 2 Mini)</td><td>The Assistant, Preliminary Review, PLOW drafting and the Daily Brief text.</td><td>AI features wait. The rest of BCW works.</td></tr>
+<tr><td><strong>Library search</strong></td><td>Search by meaning plus ranking of the best passages.</td><td>Search falls back to plain words, and a notice says so.</td></tr>
+<tr><td><strong>Docling</strong></td><td>Reading layouts, tables and scanned pages (English and Traditional Chinese).</td><td>Scanned or complex documents wait to be read.</td></tr>
+<tr><td><strong>ComfyUI</strong></td><td>Making new images (Krea2) and editing pictures (Qwen Image Edit).</td><td>Image jobs stay queued.</td></tr>
+<tr><td><strong>Gitea and Codex</strong></td><td>The BCW code store and an AI coder for small fixes at work (section 10).</td><td>Development only. BCW is unaffected.</td></tr>
+</table></div>
+
+<h3>Switching on and off</h3>
+<ul>
+<li><strong>Switching on:</strong>
+ <ol>
+ <li>Plug a network cable into either wired port, then press the power button.</li>
+ <li>The Ascent takes the address 192.168.2.45 by itself.</li>
+ <li>Allow <strong>about 5 minutes</strong> before the models are ready. Then run <strong>Ascent status</strong>.</li>
+ </ol></li>
+<li><strong>Shutting down safely:</strong>
+ <ol>
+ <li>Warn users first: AI answers in progress will stop.</li>
+ <li>From PowerShell on HAL3000, run <code>ssh bmt01@192.168.2.45</code>, then <code>sudo poweroff</code>.</li>
+ <li>Wait for the lights to go out before unplugging.</li>
+ </ol>
+ Avoid simply pulling the power.</li>
+<li><strong>Restarting:</strong> the same as shutting down, but with <code>sudo reboot</code>. Allow about 5 minutes afterwards.</li>
+</ul>
+
+<h3>The AI models</h3>
+<p>The Ascent holds one chat model at a time. Choosing a different model in BCW makes the Ascent swap, which takes a minute or two. The swap affects <strong>everyone</strong>, including OpenCode and Codex.</p>
+<div class="wrap"><table>
+<tr><th>Model name</th><th>Use</th><th>Notes</th></tr>
+<tr><td><code>inkling-2-mini</code></td><td><strong>Default; keep this.</strong> Good all-rounder for the Assistant, reviews, reports and coding.</td><td>About 28 words a second. Handles very long conversations (262,144 tokens). Two answers at once. Leaves room for images to run alongside chat.</td></tr>
+<tr><td><code>flash-next</code></td><td>Fallback if Inkling disappoints on a task.</td><td>Similar speed; conversations up to 131,072 tokens (half Inkling's). Fills the Ascent's memory. Tick <span class="ui">Pause chat while images are made</span> while using it (section 6).</td></tr>
+<tr><td><code>gpt-oss-120b</code></td><td>Fallback.</td><td>Text only.</td></tr>
+<tr><td><code>qwen3.8-27b</code></td><td>Spare.</td><td>Slow (about 7 words a second).</td></tr>
+</table></div>
+<p>After using a fallback, switch BCW back to <code>inkling-2-mini</code>, and untick the image pause again if you ticked it for Flash-Next. If you leave <span class="ui">BCW conversation context tokens</span> blank, BCW adjusts to each model's limit by itself.</p>
+
+<h3>Managing the Ascent</h3>
+<p>Day-to-day management needs no login. If a service is down, you can restart it from HAL3000:</p>
+<ol>
+<li>Open PowerShell and run <code>ssh bmt01@192.168.2.45</code>. Enter the bmt01 password.</li>
+<li>Restart the service that is down:
+<div class="wrap"><table>
+<tr><th>Down</th><th>Command</th></tr>
+<tr><td>Chat</td><td><code>sudo systemctl restart llama-chat</code> (allow 2 minutes)</td></tr>
+<tr><td>Library search</td><td><code>sudo systemctl restart llama-retrieval</code></td></tr>
+<tr><td>Images</td><td><code>sudo systemctl restart comfyui</code></td></tr>
+<tr><td>Document reading</td><td><code>sudo docker restart docling</code></td></tr>
+<tr><td>Gitea</td><td><code>sudo docker restart gitea</code></td></tr>
+</table></div></li>
+<li>Type <code>exit</code> to leave, and run <strong>Ascent status</strong> again.</li>
+</ol>
+<div class="box"><p><strong>Rules for the Ascent:</strong></p>
+<ul>
+<li>Automatic updates are off on purpose. Leave them off.</li>
+<li>Never delete or move files in its <code>models</code> folder: they can't be downloaded again on site.</li>
+<li>Don't install NVIDIA drivers.</li>
+<li>New software must be built for <strong>arm64</strong>; ordinary Windows or PC (x64) programs won't run on it.</li>
+<li>Make bigger changes at home, or with a prepared kit.</li>
+</ul></div>
+
+<h3>If the Ascent misbehaves: the recovery ladder</h3>
+<ol>
+<li>Restart the one service that is down (above).</li>
+<li>Restart the whole Ascent (<code>sudo reboot</code>).</li>
+<li>Restore that service's settings from the Ascent's saved configuration. The ascent-admin instructions on the Ascent describe this, and Codex on the Ascent can do it.</li>
+<li>Reinstall the component from the Ascent's own offline kit (<code>~/offline</code>).</li>
+<li>Restore a full disk image, if one has been taken, or use the ASUS factory recovery USB. This is a last resort: it erases the Ascent, which must then be rebuilt.</li>
+</ol>
+<p>Steps 3 to 5 are specialist work. Write down the exact messages first.</p>
+
+<h2>4. Connecting BCW to the Ascent</h2>
+<p>Do this once after installing or updating V0.17, or whenever the Ascent's address changes.</p>
+<h3>Check the Ascent answers</h3>
+<p>On HAL3000, open <code>http://192.168.2.45:8080/v1/models</code> in a browser. A list of models with <code>inkling-2-mini</code> among them means BCW can reach it. If nothing loads, check:</p>
+<ul>
+<li>the cable;</li>
+<li>that HAL3000's own address starts with 192.168.2 (run <code>ipconfig</code>);</li>
+<li>that no other device uses 192.168.2.45.</li>
+</ul>
+<h3>Chat: the Model server</h3>
+<ol>
+<li>Sign in as an ICPM. Open <span class="ui">Tools → Admin → Model server</span> and press <span class="ui">Edit</span>.</li>
+<li><span class="ui">Model server URL</span>: <code>http://192.168.2.45:8080/v1</code></li>
+<li>Press <span class="ui">Load available models</span> and choose <code>inkling-2-mini</code> as the <span class="ui">Chat model</span>.</li>
+<li>Leave <span class="ui">BCW conversation context tokens</span> blank (it then uses the full 262,144). Leave <span class="ui">Temperature</span>, <span class="ui">Top-p</span>, <span class="ui">Maximum output tokens</span> and <span class="ui">Thinking</span> at their defaults.</li>
+<li>Press <span class="ui">Save model settings</span>, then <span class="ui">Check BCW compatibility</span>. It runs a safe test with made-up data and should pass.</li>
+</ol>
+<p>Model settings can't be changed while anyone's Assistant is working. Try again when it is quiet. The same panel also appears under <span class="ui">Daily Brief → Agent settings → Local model configuration</span>.</p>
+<h3>Library and images: Ascent services</h3>
+<ol>
+<li>Open <span class="ui">Project → Library → Ascent services</span> (last tab, ICPM only).</li>
+<li>Enter:
+ <ul>
+ <li><span class="ui">Docling address</span>: <code>http://192.168.2.45:8793</code></li>
+ <li><span class="ui">Retrieval server address</span>: <code>http://192.168.2.45:8081</code></li>
+ <li><span class="ui">ComfyUI address (image edits)</span>: <code>http://192.168.2.45:8188</code></li>
+ </ul></li>
+<li>Leave <span class="ui">Pause chat while images are made</span> <strong>unticked</strong> while Inkling is the model.</li>
+<li>Press <span class="ui">Save Ascent services</span>. The <strong>Library database</strong> badge should read "schema 1 of 1" in green.</li>
+</ol>
+<h3>Proving it works</h3>
+<p>A five-minute acceptance test:</p>
+<ul>
+<li>a Library search that shows an <span class="ui">Open original at page N</span> link;</li>
+<li>an Assistant question answered with citations;</li>
+<li>one Preliminary Review;</li>
+<li>one Word document from the Assistant;</li>
+<li>one image, with a <span class="ui">View</span> link in the conversation.</li>
+</ul>
+
+<h2>5. Users, roles and permissions</h2>
+<h3>Who is an administrator</h3>
+<p>Anyone with the <strong>ICPM</strong> role is a full administrator. BCW won't let you remove or disable the last ICPM. Administration lives under <span class="ui">Tools → Admin</span>:</p>
+<div class="wrap"><table>
+<tr><th>Card</th><th>Use it for</th></tr>
+<tr><td>Site overview</td><td>Health, storage, recovery, and the work network check.</td></tr>
+<tr><td>User accounts</td><td>Profiles, roles, passwords, sessions.</td></tr>
+<tr><td>Administration operations</td><td>Changes waiting for Nextcloud or OpenProject to confirm; retry them.</td></tr>
+<tr><td>Site settings</td><td>Site name, password length, session length, lockout rules.</td></tr>
+<tr><td>Audit history</td><td>Search and export what was done, and by whom.</td></tr>
+<tr><td>Application connections</td><td>Test or repair one user's Nextcloud and OpenProject link.</td></tr>
+<tr><td>Mother connection</td><td>The shared document folder.</td></tr>
+<tr><td>Version &amp; backups</td><td>Release, storage, Backup now.</td></tr>
+<tr><td>Role permissions</td><td>What each role can view or edit.</td></tr>
+<tr><td>Model server</td><td>The AI chat model (section 4).</td></tr>
+<tr><td>MCM connection</td><td>The Access risk database.</td></tr>
+</table></div>
+
+<h3>Adding a user</h3>
+<ol>
+<li>Open <span class="ui">User accounts → Create user</span>.</li>
+<li>Fill in:
+ <ul>
+ <li><span class="ui">Username</span>: lowercase, starting with a letter;</li>
+ <li><span class="ui">Person profile</span>: choose an existing person or create one;</li>
+ <li><span class="ui">Display name</span>;</li>
+ <li><span class="ui">Contact email</span>;</li>
+ <li><span class="ui">Assigned roles</span>.</li>
+ </ul></li>
+<li>Set a password of at least 15 characters. It works for BCW, Nextcloud and OpenProject.</li>
+<li>Confirm with <span class="ui">Your administrator password</span>.</li>
+</ol>
+<p>Laptop accounts BMT01 to BMT08 always exist and can't be deleted. To hand one to a new occupant, use <span class="ui">Resources → Accounts</span>. The handover keeps the account's password, content and settings, so set a new password if the previous occupant knew it.</p>
+<h3>Looking after accounts</h3>
+<p>Open a user's card:</p>
+<ul>
+<li><span class="ui">Set password</span>: a new password; signs them out everywhere.</li>
+<li><span class="ui">Unlock login</span>: after too many wrong passwords.</li>
+<li><span class="ui">Disable access</span> / <span class="ui">Enable access</span>: blocks or restores sign-in. Their work is kept.</li>
+<li><span class="ui">Sessions</span> → <span class="ui">Revoke all sessions</span>: signs them out of every device.</li>
+<li><span class="ui">Archive account</span>: permanent. The username can't be reused.</li>
+</ul>
+<p>If a card shows <strong>Administration pending</strong>, Nextcloud or OpenProject didn't confirm the change. Open <span class="ui">Administration operations</span>, choose the item and press <span class="ui">Retry same operation</span>. Don't start a different change to work around it.</p>
+
+<h3>Roles and permissions</h3>
+<p>The roles are ICPM, ICSS, Marine/Mechanical, Electrical, NavArc, Overflow01–03 and Senior Engineer. A person can hold several roles, and gets the highest permission of any of them.</p>
+<p><span class="ui">Role permissions</span> sets each feature to <strong>none</strong>, <strong>view</strong> or <strong>edit</strong> per role. The features are:</p>
+<ul>
+<li>Project work, MCM, Project calendar, Routines &amp; reminders;</li>
+<li>Reporting, Files, Conversations, Codex assistant;</li>
+<li>Team &amp; accounts, Resources, Operations, Library.</li>
+</ul>
+<p>The defaults are:</p>
+<ul>
+<li><strong>Resources</strong>: ICPM only.</li>
+<li><strong>MCM</strong> and <strong>Library</strong>: edit for ICPM and Senior Engineer, view for everyone else.</li>
+<li><strong>Everything else</strong>: edit for all roles.</li>
+<li><strong>Always ICPM only</strong>: Admin, role assignment, Agent settings and Ascent services.</li>
+</ul>
+<p>Changes apply on the user's next click.</p>
+<h3>Forgotten ICPM password</h3>
+<p>On HAL3000, signed in as the Windows user who owns BCW's data:</p>
+<ol>
+<li>Open <strong>BCW Maintenance</strong> and choose <span class="ui">Recover administrator access</span>.</li>
+<li>Enter an existing ICPM username and a new password.</li>
+<li>Press <span class="ui">Check / Preview</span>, then <span class="ui">Run selected action</span>.</li>
+</ol>
+
+<h2>6. Library administration</h2>
+<h3>First-time setup</h3>
+<ol>
+<li>On Mother, create a folder called <code>Library</code> with six folders inside: <code>01 Standards</code>, <code>02 Specifications</code>, <code>03 Procedures</code>, <code>04 Manuals</code>, <code>05 Drawings</code> and <code>06 Reports</code>. Under <code>06 Reports</code>, make one folder per subject.</li>
+<li>Copy in documents named <code>DocNo_Rev_Title</code>, e.g. <code>PRO-0007_R01_Tank inspection procedure.docx</code>.</li>
+<li>Press <span class="ui">Library → Sources → Scan now</span>.</li>
+<li>Approve the governing documents under <span class="ui">Waiting for approval</span>. <span class="ui">Select all on this page</span> and <span class="ui">Approve selected</span> handle up to 500 at a time.</li>
+</ol>
+<h3>The Library tabs</h3>
+<div class="wrap"><table>
+<tr><th>Tab</th><th>What you do there</th></tr>
+<tr><td>Search · Preliminary Review</td><td>Everyday use (see the User Manual).</td></tr>
+<tr><td>Waiting for approval</td><td>Approve or reject standards, specifications and procedures. Only approved ones reach the Assistant and Preliminary Review.</td></tr>
+<tr><td>Uncertain</td><td>Fix names or folders, or resolve duplicates, then <span class="ui">Scan now</span>.</td></tr>
+<tr><td>Superseded</td><td>Older revisions, for reference.</td></tr>
+<tr><td>Missing or unavailable</td><td>Files gone from their folder, or a folder BCW can't reach.</td></tr>
+<tr><td>Failed reads</td><td>Select and press <span class="ui">Read again</span>. Check that Docling is up first.</td></tr>
+<tr><td>Sources</td><td><span class="ui">Scan now</span>, <span class="ui">Add network folder</span>, and <span class="ui">Pause</span> / <span class="ui">Resume</span> / <span class="ui">Remove</span> for each source.</td></tr>
+<tr><td>Ascent services</td><td>The service addresses and the image pause setting (section 4).</td></tr>
+</table></div>
+<h3>Other document folders</h3>
+<p><span class="ui">Add network folder</span> adds another shared folder, such as <code>\\SERVER\Share\Folder</code>. You set its category, its file naming and whether each document needs approval.</p>
+<ul>
+<li>BCW reads it with the Windows account it runs under, so that account needs read access.</li>
+<li>Removing a source takes its documents out of search but keeps past citations.</li>
+<li>Mother's Library can be paused but not removed.</li>
+</ul>
+<h3>Good practice</h3>
+<ul>
+<li>A revised document goes in as a <strong>new file with a new revision number</strong>. Never overwrite the old one.</li>
+<li>BCW never changes the original files. Tidy them on Mother itself, then <span class="ui">Scan now</span>.</li>
+<li>Files over 50 MB are not read. Split very large scans.</li>
+</ul>
+<h3>Images</h3>
+<p>With Inkling as the chat model, images run alongside chat and take about a minute each. Leave <span class="ui">Pause chat while images are made</span> off.</p>
+<p>Tick it only if you switch the chat model to <code>flash-next</code>, which fills the Ascent's memory. BCW then pauses chat for about three minutes for each batch of images.</p>
+<p>Image jobs also wait if OpenCode or Codex keeps the Ascent busy for a long time.</p>
+
+<h2>7. Backups, updates and recovery</h2>
+<p>All maintenance is done on HAL3000 with <strong>BCW Maintenance</strong>, which you start from <code>C:\BCW\Maintenance.ps1</code> or from an update USB. Every action works the same way:</p>
+<ol>
+<li>Choose the action.</li>
+<li>Press <span class="ui">Check / Preview</span> and read what it will do.</li>
+<li>Press <span class="ui">Run selected action</span>.</li>
+</ol>
+<p>Maintenance refuses to start while people are working: it says so, for example <em>"BCW has active work; finish it before maintenance"</em>. Ask users to finish their Assistant chats and close Office and Access files, then try again.</p>
+<h3>Where things are</h3>
+<ul>
+<li>Program: <code>C:\BCW</code></li>
+<li>Data: <code>Documents\BCW\data</code> in the BCW Windows user's folder</li>
+<li>Backups: <code>Documents\BCW\data\backups</code></li>
+</ul>
+<h3>Backups</h3>
+<ul>
+<li><strong>Taking a backup:</strong> use <span class="ui">Backup now</span> under <span class="ui">Tools → Admin → Version &amp; backups</span>, or Maintenance → <span class="ui">Backup</span>.
+ <ul>
+ <li>It covers everything: records, accounts, AI history, documents and the Library.</li>
+ <li>BCW pauses briefly while it runs.</li>
+ <li>Every backup is checked.</li>
+ </ul></li>
+<li><strong>Copying it off HAL3000:</strong> Maintenance → <span class="ui">Export backup</span> to an empty folder on a USB drive. Keep it somewhere safe: it contains passwords and private records.</li>
+<li><strong>What doesn't count:</strong> copying the data folder by hand while BCW runs is <strong>not</strong> a backup.</li>
+<li><strong>Old backups:</strong> nothing deletes them automatically. Check free space now and then.</li>
+</ul>
+<h3>Restoring</h3>
+<ul>
+<li><span class="ui">Restore</span> puts the system back to a chosen backup. It first takes a safety backup of the current state. Anything done since the chosen backup is lost.</li>
+<li><span class="ui">Restore into fresh target</span> is for a replacement PC.</li>
+<li>Leave <em>"Restore only: also replace shared Mother documents"</em> unticked unless you really mean to overwrite Mother.</li>
+</ul>
+<h3>Updating BCW from a USB kit</h3>
+<ol>
+<li>Pick a quiet time. Take a backup.</li>
+<li>Ask users to finish and save their work.</li>
+<li>Plug in the update USB and run <code>UPDATE-BCW-V0.17.bat</code> (or the batch file for the new version) at its root. It checks the kit and opens Maintenance.</li>
+<li>Choose <span class="ui">Update</span>, the existing installation and the release folder on the USB. <strong>Never choose Install over an existing system.</strong></li>
+<li>Press <span class="ui">Check / Preview</span>. Confirm the versions, the data location and that a backup will be taken.</li>
+<li>Press <span class="ui">Run selected action</span>. It copies and checks the new release, backs up, upgrades the data and restarts the services.</li>
+<li>Reopen BCW from its usual launcher. Check the version under Version &amp; backups, and that records and chats are there.</li>
+</ol>
+<p>Updating to the same or an older release is refused (<em>"Update must be a newer release; use Restore for rollback"</em>). To go back to an earlier state, use <span class="ui">Restore</span>.</p>
+<h3>If something is interrupted</h3>
+<p>After a power cut or crash during maintenance, use <span class="ui">Recover interrupted update</span> or <span class="ui">Recover interrupted maintenance</span>. Never delete lock or marker files by hand.</p>
+<h3>Starting BCW</h3>
+<p>Run <code>C:\BCW\Start.ps1 -Open</code>, or use BCW's usual launcher. It starts BCW if it isn't running and opens the window.</p>
+
+<h2>8. Other connections and settings</h2>
+<h3>Mother</h3>
+<p><span class="ui">Tools → Admin → Mother connection</span>:</p>
+<ol>
+<li>Enter the <span class="ui">Shared folder address</span> (e.g. <code>\\MOTHER\Documents</code>) and the <span class="ui">Share access</span> type.</li>
+<li>Press <span class="ui">Test connection</span>, then <span class="ui">Connect Mother</span>.</li>
+</ol>
+<ul>
+<li>BCW can read Mother and add new files to it. It can't change, move or delete existing files.</li>
+<li><strong>Selected folder sharing</strong> shows one subfolder, read-only, to chosen accounts in Nextcloud as "Mother Shared".</li>
+</ul>
+<h3>MCM (Access risk database)</h3>
+<p><span class="ui">Tools → Admin → MCM connection → Edit</span>:</p>
+<ol>
+<li>Set the <span class="ui">File path on BCW host</span>.</li>
+<li>Tick <span class="ui">Enable this source</span>.</li>
+<li>Press <span class="ui">Save source settings</span>, then <span class="ui">Test saved connection</span>.</li>
+</ol>
+<p>Editing from BCW also needs <span class="ui">Allow editing according to role permissions</span>.</p>
+<h3>Mail and the Daily Brief</h3>
+<p><span class="ui">Daily Brief → Agent settings</span> holds the agent mailbox and the list of approved recipients (up to ten <code>mail.local</code> addresses).</p>
+<ol>
+<li>Press <span class="ui">Review mail settings</span>, then <span class="ui">Approve these mail settings</span>.</li>
+<li>Test with <span class="ui">Test saved mail connection · no send</span>.</li>
+</ol>
+<p>An automatic daily email needs its own schedule approval on the Daily Brief page.</p>
+<h3>Access from laptops (HTTPS)</h3>
+<p>Staff laptops reach BCW at <code>https://192.168.2.35</code>.</p>
+<ul>
+<li><strong>Certificate:</strong> HAL3000's certificate is set up with the kit's <code>INSTALL-BCW.bat</code>, option <strong>5 — Set up / renew offline LAN HTTPS</strong>. It lasts 397 days: renew it with the same option before it runs out.</li>
+<li><strong>Laptops:</strong> on each laptop, run <code>Trust-BCW-Https.bat</code> from <code>data\https\public</code>. Check that the fingerprint matches, then type TRUST.</li>
+<li><strong>If laptops can't connect:</strong> run <span class="ui">Check work LAN</span> in Site overview. Windows may have switched HAL3000's network to "Public".</li>
+</ul>
+<h3>Routines, resources and reporting</h3>
+<ul>
+<li><strong>Routines:</strong> the ICPM can assign routines to others and see <strong>All team routines</strong>. After a laptop handover, reassign the previous occupant's routines.</li>
+<li><strong>Resources:</strong> add people, plan and activate deployments, and issue equipment. Activating a deployment issues the cubicle, laptop and apartment together.</li>
+<li><strong>Weekly reporting:</strong> the ICPM creates each reporting cycle, adds last week's PLOW and the FTE workbooks, prepares the draft, reviews it and downloads the PowerPoint.</li>
+<li><strong>Skills:</strong> reviewed Assistant skills arrive only with a BCW release. Users turn them on themselves.</li>
+</ul>
+
+<h2>9. The HAL3000 tools on the Transcend USB</h2>
+<p>Each package installs for the current Windows user and needs <strong>no administrator rights</strong> and no internet. Each checks its own files first and is safe to run again. Install them in this order:</p>
+<div class="wrap"><table>
+<tr><th>Folder on the USB</th><th>Run</th><th>What you get</th></tr>
+<tr><td><code>OpenCode-HAL3000</code></td><td><code>INSTALL-OPENCODE.bat</code></td><td><strong>OpenCode</strong>, an AI coding and admin assistant in a terminal window, using Inkling on the Ascent. It comes with browser automation, the Blender connection and 76 skills. The installer asks once for the Ascent's bmt01 password, and fetches the BCW code into <code>C:\OpenCode\bcw</code>. Open it with "OpenCode (Ascent)" on the desktop.</td></tr>
+<tr><td><code>Blender-HAL3000</code></td><td><code>INSTALL-BLENDER.bat</code></td><td><strong>Blender 5.2.4</strong> for 3D work, with the "MCP for Blender" add-on, so OpenCode can build and change scenes in an open Blender. Online-only features (asset libraries, 3D generation) don't work at work.</td></tr>
+<tr><td><code>GIMP-HAL3000</code></td><td><code>INSTALL-GIMP.bat</code></td><td><strong>GIMP 3.2.8</strong> for editing photos and images.</td></tr>
+<tr><td><code>Tools-HAL3000</code></td><td><code>INSTALL-TOOLS.bat</code></td><td>
+ <ul>
+ <li><strong>Ascent status</strong> desktop check;</li>
+ <li><strong>VS Code</strong> with Python support, for viewing and editing code and text;</li>
+ <li><strong>GIMP offline help</strong>;</li>
+ <li><strong>KeePassXC</strong> password safe;</li>
+ <li><strong>7-Zip</strong>;</li>
+ <li><strong>Notepad++</strong>;</li>
+ <li><strong>draw.io</strong> for diagrams.</li>
+ </ul></td></tr>
+</table></div>
+<h3>What OpenCode is good for</h3>
+<ul>
+<li>Investigating problems: <span class="example">"Check whether the Ascent services are answering and summarise BCW's recent errors."</span></li>
+<li>Small scripts and spreadsheets: <span class="example">"Write a PowerShell script that lists files in Mother's Library that don't follow DocNo_Rev_Title."</span></li>
+<li>Small BCW code fixes, which it commits to Gitea when you ask.</li>
+<li>Blender scenes: <span class="example">"Describe the open Blender scene", "Add a simple deck plate model".</span></li>
+</ul>
+<div class="box"><p><strong>OpenCode's safety rules:</strong></p>
+<ul>
+<li>It treats the live BCW as read-only and asks before every file change or command.</li>
+<li>It is blocked from deleting folders, stopping Docker containers, force-pushing or shutting down.</li>
+<li>It shares the Ascent with BCW users, so long OpenCode jobs can slow the Assistant.</li>
+</ul></div>
+<h3>KeePassXC</h3>
+<p>Keep the Ascent, Gitea and BCW administrator passwords in a KeePassXC database on HAL3000, and keep a copy on the USB.</p>
+
+<h2>10. Improving BCW at work</h2>
+<p>The BCW program code is kept in <strong>Gitea</strong> on the Ascent (<code>http://192.168.2.45:3000</code>, sign-in required). This makes small fixes possible on site:</p>
+<ul>
+<li><strong>Codex on the Ascent</strong> or <strong>OpenCode on HAL3000</strong> can make and test small fixes. Each fix is saved as a commit in Gitea.</li>
+<li>Gitea refuses to overwrite history or delete branches, so any change can be undone.</li>
+<li><strong>Bigger changes, and every new BCW release kit, are made at home.</strong> A code fix in Gitea doesn't change the running BCW. It reaches HAL3000 in the next update kit.</li>
+</ul>
+<p><strong>Taking work fixes home:</strong></p>
+<ol>
+<li>Plug the Transcend into the Ascent.</li>
+<li>Run the export command in <code>BCW-V0.17-WORK-UPGRADE.txt</code>, section 4.</li>
+<li>Eject the drive safely.</li>
+<li>At home, the fixes are merged with the main code.</li>
+</ol>
+
+<h2>11. Troubleshooting</h2>
+<div class="wrap"><table>
+<tr><th>Symptom</th><th>Likely cause</th><th>What to do</th></tr>
+<tr><td>Ascent status: everything DOWN, Ascent "no answer"</td><td>Ascent off, unplugged, or still starting</td><td>Check power and cable; wait 5 minutes after switching on.</td></tr>
+<tr><td>Ascent answers but all its services are DOWN</td><td>HAL3000 isn't on 192.168.2.x</td><td>Run <code>ipconfig</code> on HAL3000. Its address must start with 192.168.2.</td></tr>
+<tr><td>One Ascent service DOWN</td><td>That service stopped</td><td>Restart it (section 3).</td></tr>
+<tr><td><span class="ui">Load available models</span> fails</td><td>Wrong address, or Ascent unreachable</td><td>Open <code>http://192.168.2.45:8080/v1/models</code> in a browser on HAL3000.</td></tr>
+<tr><td>Answers suddenly take about 3 minutes</td><td>The Ascent is swapping models (someone chose another model, perhaps in OpenCode)</td><td>Make sure BCW and OpenCode both use <code>inkling-2-mini</code>.</td></tr>
+<tr><td>Library search shows "words only"</td><td>Library search service down</td><td>Check the retrieval address; restart <code>llama-retrieval</code>.</td></tr>
+<tr><td>Scanned documents never become searchable</td><td>Docling down, or the file is over 50 MB</td><td>Restart Docling, then <span class="ui">Failed reads → Read again</span>.</td></tr>
+<tr><td>Images stay queued</td><td>ComfyUI down, or the Ascent kept busy by OpenCode or Codex</td><td>Check the ComfyUI address; restart <code>comfyui</code>; pause long coding jobs.</td></tr>
+<tr><td>Chat errors while images run</td><td>Memory full (Flash-Next in use)</td><td>Switch back to Inkling, or tick <span class="ui">Pause chat while images are made</span>.</td></tr>
+<tr><td>Library badge red / "unreachable"</td><td>The Library database on HAL3000 isn't answering</td><td>Restart BCW; if it persists, check Site overview.</td></tr>
+<tr><td>Documents marked "uncertain"</td><td>Bad name or folder, duplicate number and revision, or changed without a new revision</td><td>Fix on Mother, then <span class="ui">Scan now</span>.</td></tr>
+<tr><td>A source shows "unavailable"</td><td>Network folder unreachable, or no read access</td><td>Check the share and permissions; the next good scan restores it.</td></tr>
+<tr><td>Account stuck at "Administration pending"</td><td>Nextcloud or OpenProject missed the change</td><td><span class="ui">Administration operations → Retry same operation</span>.</td></tr>
+<tr><td>User locked out</td><td>Too many wrong passwords</td><td><span class="ui">Unlock login</span> on their card.</td></tr>
+<tr><td>ICPM password forgotten</td><td>—</td><td>BCW Maintenance → <span class="ui">Recover administrator access</span>.</td></tr>
+<tr><td>Update refused: "must be a newer release"</td><td>Same or older kit</td><td>Use the right kit; use Restore to go back.</td></tr>
+<tr><td>Maintenance: "BCW has active work"</td><td>Chats, reports, Office or Access files still open</td><td>Ask users to finish, then retry.</td></tr>
+<tr><td>Update fails with a file in use</td><td>BCW window or another program holding a file</td><td>Close BCW windows and open files, then run the same Update again.</td></tr>
+<tr><td>Power cut during maintenance</td><td>—</td><td><span class="ui">Recover interrupted update</span> / <span class="ui">Recover interrupted maintenance</span>.</td></tr>
+<tr><td>Laptops can't open BCW</td><td>HAL3000's network set to Public, firewall, or certificate not trusted</td><td><span class="ui">Check work LAN</span>; rerun the laptop trust helper.</td></tr>
+<tr><td>OpenCode says it can't reach the model</td><td>Ascent chat down</td><td>Run Ascent status; restart <code>llama-chat</code>.</td></tr>
+</table></div>
+<p>When asking for help, write down the exact message, what you were doing and the time. If BCW Maintenance stopped, keep its journal and don't retry an uncertain update.</p>
+
+<h2>12. Safety rules</h2>
+<ul>
+<li>Never delete, move or hand-copy BCW's data folder (<code>Documents\BCW\data</code>). Use Backup and Export backup.</li>
+<li>Never run <strong>Install</strong> over an existing system. Use <strong>Update</strong>. Go back with <strong>Restore</strong>, never by swapping program versions.</li>
+<li>Never delete lock, marker or journal files. Use the Recover actions.</li>
+<li>Backups contain passwords and private records. Store exported copies securely.</li>
+<li>Keep the Ascent on the isolated network, with its firewall on. Its AI services have no passwords of their own.</li>
+<li>Never delete the Ascent's model files. They can't be replaced on site.</li>
+<li>Leave the Ascent's automatic updates off. Make changes deliberately, with a plan.</li>
+<li>Don't change HAL3000's address without renewing the HTTPS certificate.</li>
+<li>Don't start a second account change to work around a failed one. Retry the same one.</li>
+</ul>
+
+<h2>13. What's on the Transcend USB</h2>
+<div class="wrap"><table>
+<tr><th>Item</th><th>Purpose</th></tr>
+<tr><td><code>Manuals</code></td><td>This manual and the User Manual (HTML and PDF).</td></tr>
+<tr><td><code>BCW-V0.17-WORK-UPGRADE.txt</code></td><td>Step-by-step: connect the Ascent, update HAL3000 to V0.17, point BCW at the Ascent.</td></tr>
+<tr><td><code>UPDATE-BCW-V0.17.bat</code> and <code>BCW-V0.17\BCW-release</code></td><td>The checked V0.17 update kit.</td></tr>
+<tr><td><code>BCW-V0.17\Development</code></td><td>The latest code bundle and the code-sync rules.</td></tr>
+<tr><td><code>OpenCode-HAL3000</code>, <code>Blender-HAL3000</code>, <code>GIMP-HAL3000</code>, <code>Tools-HAL3000</code></td><td>The HAL3000 tools (section 9).</td></tr>
+<tr><td><code>BCW-V0.16</code> and the V0.16 files</td><td>The previous release, kept for reference.</td></tr>
+<tr><td><code>HAL</code>, <code>Outlook-BCW-Calendar</code>, mailbox setup</td><td>Earlier HAL3000 setup files (mailbox, Outlook calendar).</td></tr>
+</table></div>

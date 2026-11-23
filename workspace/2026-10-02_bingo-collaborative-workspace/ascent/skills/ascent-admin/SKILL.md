@@ -51,17 +51,19 @@ Docker-published port bypasses ufw.
 The router holds **one chat model at a time**; a request naming the other
 model swaps them (about a minute).
 
-- `flash-next`: Qwen3.8-Flash-Next, 256k context, **default**, loaded at boot.
+- `inkling-2-mini`: Inkling 2 Mini, context 262144, **default**, loaded at boot.
   Two slots sharing one pool (`np = 2`, `kv-unified = true`, owner's
   decision): two answers at once, any conversation may use the full 262144;
-  a third request waits. Keep both lines.
-- `gpt-oss-120b`: 128k context, faster, text only.
-- `qwen3.8-27b`: spare, slow.
+  a third request waits. Keep both lines. Leaves about 40 GB free, so
+  ComfyUI image jobs run beside it and BCW's image pause stays off.
+- `flash-next`: Qwen3.8-Flash-Next, context 131072, fallback. It fills memory
+  (about 98 GB): with it loaded, BCW needs Library > Ascent services >
+  "Pause chat while images are made" ticked. Switch back to Inkling after use.
+- `gpt-oss-120b`: 128k context, text only, fallback.
+- `qwen3.8-27b`: spare, slow (about 7.5 tokens/s).
 
-**Memory rule:** ComfyUI image jobs need about 35 GB, which only exists while
-`gpt-oss-120b` is the loaded chat model. Before an image job, load gpt-oss
-(`curl -s -X POST 127.0.0.1:8080/models/load -H 'Content-Type: application/json' -d '{"model":"gpt-oss-120b"}'`).
-Before going back to Flash-Next, free ComfyUI
+**Memory rule:** ComfyUI image jobs need about 35 GB. Inkling leaves room;
+Flash-Next does not. Before loading Flash-Next by hand, free ComfyUI
 (`curl -s -X POST 127.0.0.1:8188/free -H 'Content-Type: application/json' -d '{"unload_models":true,"free_memory":true}'`).
 The router loads a new model even when the old one is busy, so a swap during a
 running request can exhaust memory: swap only when chat is idle.

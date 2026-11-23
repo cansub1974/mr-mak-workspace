@@ -1,0 +1,343 @@
+<h1>BCW and the Ascent: User Manual</h1>
+<p class="subtitle">Bingo Collaborative Workspace V0.17 with the Ascent AI server. For everyone who uses BCW day to day. November 2026.</p>
+<!--TOC-->
+
+<h2>1. What this system is</h2>
+<p>BCW (Bingo Collaborative Workspace) is the project's shared workspace. You open it in a web browser. It brings together the project's tasks, calendar, risk records, reports, files, people and equipment. It also gives every user a private AI <strong>Assistant</strong> and a searchable <strong>Library</strong> of standards, procedures and reports.</p>
+<p>Everything runs on the site's own network, with no internet and no cloud services. Your documents and conversations never leave the site.</p>
+<figure>
+<svg viewBox="0 0 720 230" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial" font-size="13" role="img" aria-label="Laptops connect to BCW on HAL3000, which uses the Ascent for AI and Mother for documents">
+ <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5a6676"/></marker></defs>
+ <rect x="10" y="80" width="150" height="70" rx="8" fill="#eef4fb" stroke="#0b5cad"/><text x="85" y="110" text-anchor="middle" font-weight="600">Your laptop</text><text x="85" y="130" text-anchor="middle">web browser</text>
+ <rect x="250" y="70" width="190" height="90" rx="8" fill="#0b5cad"/><text x="345" y="105" text-anchor="middle" fill="#fff" font-weight="600">HAL3000</text><text x="345" y="125" text-anchor="middle" fill="#fff">runs BCW and keeps</text><text x="345" y="142" text-anchor="middle" fill="#fff">all records</text>
+ <rect x="530" y="10" width="180" height="120" rx="8" fill="#eaf7ee" stroke="#3c9a5f"/><text x="620" y="35" text-anchor="middle" font-weight="600">Ascent (AI server)</text><text x="620" y="57" text-anchor="middle">Assistant's AI model</text><text x="620" y="75" text-anchor="middle">Library search</text><text x="620" y="93" text-anchor="middle">Document reading</text><text x="620" y="111" text-anchor="middle">Images</text>
+ <rect x="530" y="160" width="180" height="60" rx="8" fill="#fff4e5" stroke="#e3a33b"/><text x="620" y="185" text-anchor="middle" font-weight="600">Mother</text><text x="620" y="204" text-anchor="middle">shared documents</text>
+ <line x1="160" y1="115" x2="246" y2="115" stroke="#5a6676" stroke-width="2" marker-end="url(#a)"/>
+ <line x1="440" y1="100" x2="526" y2="75" stroke="#5a6676" stroke-width="2" marker-end="url(#a)"/>
+ <line x1="440" y1="135" x2="526" y2="185" stroke="#5a6676" stroke-width="2" marker-end="url(#a)"/>
+</svg>
+<figcaption>You only ever talk to BCW. BCW uses the Ascent for AI work and Mother for shared documents.</figcaption>
+</figure>
+<ul>
+<li><strong>HAL3000</strong> is the site PC that runs BCW. It stores every record, chat and approval.</li>
+<li><strong>The Ascent</strong> is a separate AI computer. It runs:
+ <ul>
+ <li>the Assistant's AI model (Inkling 2 Mini);</li>
+ <li>the Library's smart search;</li>
+ <li>document reading, including scanned pages in English and Traditional Chinese;</li>
+ <li>image making.</li>
+ </ul>
+ It stores nothing of yours.</li>
+<li><strong>Mother</strong> is the shared document store. The Library reads its documents from there.</li>
+</ul>
+<div class="box tip"><p>If the Ascent is switched off, BCW still works: tasks, calendar, files and records are all available. Only the AI features wait until it is back: the Assistant, smart Library search, reading new scanned documents, and images.</p></div>
+
+<h2>2. Getting started</h2>
+<h3>Signing in</h3>
+<ol>
+<li>Open BCW in your browser at <code>https://192.168.2.35</code>, or with the shortcut your administrator gave you. If the browser warns that the connection isn't private, your laptop hasn't been set up to trust BCW yet: ask the ICPM.</li>
+<li>Enter your <span class="ui">Username</span> and <span class="ui">Password</span>, then press <span class="ui">Enter workspace →</span>.</li>
+<li>To sign out, use the arrow (↪) under your name at the bottom of the left-hand menu.</li>
+</ol>
+<p>Your password is the same for BCW, Nextcloud and OpenProject. Change it under <span class="ui">Tools → My account → Change my password</span>. The change applies to all three.</p>
+<p>Some people sign in with a laptop account (BMT01 to BMT08). These accounts pass from one occupant to the next. Your administrator sets who currently holds each one.</p>
+
+<h3>Finding your way</h3>
+<p>The left-hand menu holds the main areas. Some areas have tabs along the top.</p>
+<div class="wrap"><table>
+<tr><th>Area</th><th>Tabs</th><th>Use it to…</th></tr>
+<tr><td><strong>Today</strong></td><td>none</td><td>See your day: the project week, your top tasks, sailing risks and due routines.</td></tr>
+<tr><td><strong>Project</strong></td><td>Tasks · Sailing readiness · Deliverables · Library</td><td>Work on tasks and milestones, check MCM risk records, track deliverables, search the Library and run Preliminary Reviews.</td></tr>
+<tr><td><strong>Schedule</strong></td><td>Calendar · Routines</td><td>Use the shared calendar, and your own repeating jobs and reminders.</td></tr>
+<tr><td><strong>Reporting</strong></td><td>Weekly reporting</td><td>Contribute to the weekly PLOW or internal report.</td></tr>
+<tr><td><strong>Resources</strong></td><td>Resources · Deployments</td><td>See people's arrivals and deployments. Managing people and equipment is usually the administrator's job.</td></tr>
+<tr><td><strong>Assistant</strong></td><td>none</td><td>Talk to your private AI Assistant.</td></tr>
+<tr><td><strong>Daily Brief</strong></td><td>Daily Brief</td><td>Preview and send the daily team briefing email.</td></tr>
+<tr><td><strong>Nextcloud</strong></td><td>none</td><td>Open Nextcloud Files and Mail.</td></tr>
+<tr><td><strong>Tools</strong></td><td>My account · Files · Conversations · Operations · …</td><td>Manage your password and sessions, project files, Mother documents and team chat rooms.</td></tr>
+</table></div>
+<p>The tabs you see depend on your role. If you expect a tab and it isn't there, ask your administrator (the ICPM).</p>
+
+<h3>Project weeks</h3>
+<p>BCW counts time in <strong>Project Weeks</strong>. A week runs Sunday to Saturday, and Week 1 began on 16 November 2025. The current week is shown at the top of <span class="ui">Today</span>. Reports, deliverables and calendar filters all use these week numbers.</p>
+
+<h2>3. Today</h2>
+<p><span class="ui">Today</span> is your start-of-day page. It shows:</p>
+<ul>
+<li><strong>The project week</strong>, with this week's Monday-to-Friday reporting dates.</li>
+<li><strong>Shortcut cards</strong> for Tasks, Sailing readiness, Weekly reporting and Resources (only those you may open).</li>
+<li><strong>Your priorities</strong>: up to five of your tasks. <span class="ui">View all tasks</span> opens the full list.</li>
+<li><strong>Sailing attention</strong>: a summary of open MCM risks for the next sailing. It is a reminder, not a readiness or clearance decision.</li>
+<li><strong>Your routines and overdue reminders</strong>, with <span class="ui">Done</span>, <span class="ui">Skip</span> and <span class="ui">Snooze 1 hour</span>.</li>
+</ul>
+<p>If a banner says <em>"Some sources are unavailable. Displayed records may be cached."</em>, one of the connected systems is briefly unreachable. Press <span class="ui">Refresh</span> later.</p>
+
+<h2>4. The Assistant</h2>
+<p>The Assistant is your own AI helper. Your chats are private to you. It runs on the Ascent with the <strong>Inkling 2 Mini</strong> model and can work with BCW's records, the Library, your files and images.</p>
+<div class="box"><p><strong>Why does it say "Codex"?</strong> Codex is the name of the software that drives the Assistant. The send button reads <span class="ui">Send to Codex</span> and replies are labelled "Codex", but the thinking is done by Inkling 2 Mini on the Ascent. Nothing is sent outside the site.</p></div>
+
+<h3>Starting and managing chats</h3>
+<ul>
+<li><span class="ui">New session</span> starts a fresh chat. Use a new chat for each new topic: it keeps answers focused and fast.</li>
+<li>Type in the <span class="ui">Request</span> box and press <span class="ui">Send to Codex</span>. Drafts save themselves ("Draft saved"), and <span class="ui">Save draft</span> saves now.</li>
+<li>The chat list offers <span class="ui">Recent chats</span>, <span class="ui">All chats</span>, <span class="ui">Archived chats</span> and <span class="ui">Deleted chats</span>. Inside a chat: <span class="ui">Rename</span>, <span class="ui">Archive</span>, <span class="ui">Delete chat</span> and <span class="ui">Restore</span>.</li>
+<li><span class="ui">Interrupt</span> stops an answer that is going the wrong way.</li>
+<li>You can close the page while it works. The work carries on and the answer is waiting when you come back.</li>
+<li><span class="ui">Assistant capabilities and limits</span> shows the current model and the skills it has.</li>
+</ul>
+
+<h3>What you can ask it to do</h3>
+<div class="wrap"><table>
+<tr><th>Capability</th><th>What it does</th><th>Example request</th></tr>
+<tr><td><strong>Answer from the Library</strong></td><td>Searches approved standards, procedures, manuals and reports. Each answer gives the document number, revision and page, with a link that opens the original at that page. It says plainly when the Library has no answer.</td><td class="example">"What does our tank inspection procedure require before entry? Cite it."</td></tr>
+<tr><td><strong>Write documents</strong></td><td>Creates Word, Excel, PowerPoint and PDF files. They appear under <span class="ui">Downloads</span> in the chat.</td><td class="example">"Write a one-page Word memo summarising this week's open risks."<br>"Make a Word report of all project tasks."</td></tr>
+<tr><td><strong>Read your files</strong></td><td>Reads files you add to the chat: PDF, Word, Excel, text, Markdown, CSV and JSON.</td><td class="example">"Compare the two attached test reports and list the differences."</td></tr>
+<tr><td><strong>Make and edit images</strong></td><td>Creates a new picture from a description (landscape, portrait or square), or edits a PNG, JPEG or WebP picture in the chat.</td><td class="example">"Make the background of photo.jpg plain white."<br>"Create a landscape image of a ship's engine room for a slide cover."</td></tr>
+<tr><td><strong>Look up project data</strong></td><td>Reads tasks, the calendar, inventory, routines and MCM risk records.</td><td class="example">"Which of my tasks are due in Project Week 54?"</td></tr>
+<tr><td><strong>Propose changes</strong></td><td>Suggests changes to tasks, milestones, calendar events, inventory, assignments and deployment dates. <strong>Nothing changes until you approve.</strong></td><td class="example">"Move the pump trial milestone to 3 December."</td></tr>
+<tr><td><strong>Explain and draft</strong></td><td>Summarises, rewrites, translates between English and Traditional Chinese, checks wording, and drafts emails or minutes.</td><td class="example">"Rewrite this paragraph for the client, more formally."</td></tr>
+<tr><td><strong>Mail</strong> (if your administrator turned it on)</td><td>Reads and searches the agent mailbox, and sends exact, reviewed emails to approved site addresses only.</td><td class="example">"Find last week's email about the crane inspection."</td></tr>
+</table></div>
+
+<h3>Approving the Assistant's proposals</h3>
+<p>When the Assistant wants to change something in BCW, a card appears: <em>"Awaiting your decision"</em>. Read it, then press <span class="ui">Approve once</span> or <span class="ui">Decline</span>. You can also just reply "yes" or "no". Past proposals are listed under <span class="ui">Proposal history</span>.</p>
+<p>The Assistant cannot change MCM records or existing Mother files, and it cannot act without your approval.</p>
+
+<h3>Adding files to a chat</h3>
+<ol>
+<li>Open <span class="ui">Files and execution</span> and choose <span class="ui">Add a file to this session</span>.</li>
+<li>The file shows "Processing…", then "Ready — text read". You can now ask about it.</li>
+<li>If it shows Failed, press <span class="ui">Retry reading</span>. Very large Office files read better split into parts.</li>
+</ol>
+<p>Files the Assistant makes are listed under <span class="ui">Downloads</span>. For spreadsheets, <span class="ui">Preview BCW records</span> shows what would be imported before anything changes.</p>
+
+<h3>Images</h3>
+<ul>
+<li>Image requests join a queue. A <strong>Your image jobs</strong> panel above the chat shows progress. When the image is ready, use <span class="ui">View</span> or <span class="ui">Download</span>. It also appears in the chat's Downloads.</li>
+<li>An image normally takes <strong>about a minute</strong>, and you can keep chatting meanwhile.</li>
+<li>You can have up to five image jobs waiting at once.</li>
+<li>New images are made with the Krea2 model. Edits to an existing picture use Qwen Image Edit. Describe what you want plainly; the Assistant writes the detailed instructions.</li>
+</ul>
+
+<h3>Skills</h3>
+<p>Skills are reviewed instruction sets that teach the Assistant a particular job, such as preparing a PLOW or writing in a set format. Open <span class="ui">Skills</span> to browse them:</p>
+<ul>
+<li><span class="ui">Inspect skill</span> shows what a skill does;</li>
+<li><span class="ui">Enable skill</span> turns it on for you;</li>
+<li><span class="ui">Use this skill</span> applies it to the current chat.</li>
+</ul>
+
+<h3>Getting the best answers</h3>
+<ul>
+<li><strong>Be specific.</strong> Name the document, the week, the system or the person.</li>
+<li><strong>Ask for citations</strong> when the answer matters ("cite the procedure and page").</li>
+<li><strong>Check before you rely on it.</strong> Open the cited page for anything safety- or contract-related. The Assistant can be wrong, and engineers remain responsible for engineering decisions.</li>
+<li><strong>One topic per chat.</strong> Very long chats get slower.</li>
+<li>The Ascent writes <strong>two answers at once</strong>. If two colleagues are already busy, your request waits its turn, usually briefly.</li>
+</ul>
+
+<h2>5. The Library</h2>
+<p><span class="ui">Project → Library</span> is the site's searchable collection of engineering references and reports. It covers standards, specifications, procedures, manuals, drawings, and received and issued reports. BCW only reads these files. It never moves, renames or deletes them.</p>
+
+<h3>Searching</h3>
+<ol>
+<li>Open the <span class="ui">Search</span> tab.</li>
+<li>Type words, a question or a document number in <span class="ui">Search the library</span>. Optionally pick a <span class="ui">Category</span>. Tick <span class="ui">Include superseded revisions</span> to see older revisions too.</li>
+<li>Press <span class="ui">Search library</span>. Each result shows the document number, revision, title, status and page.</li>
+<li><span class="ui">Open original at page N</span> opens the source document at the right page.</li>
+</ol>
+<p class="example">Examples: "hull plating minimum thickness", "PRO-0007", "what torque for the main engine holding-down bolts".</p>
+<p>Search understands meaning, not just exact words. If you see a notice that search is using words only, the Ascent's search service is unreachable. Results still work, just less cleverly.</p>
+
+<h3>Document status</h3>
+<div class="wrap"><table>
+<tr><th>Status</th><th>Meaning</th></tr>
+<tr><td><strong>current</strong></td><td>The latest revision. This is the one to use.</td></tr>
+<tr><td><strong>superseded</strong></td><td>An older revision. Still searchable, and clearly labelled.</td></tr>
+<tr><td><strong>uncertain</strong></td><td>A Library editor needs to sort it out. One of these applies:
+ <ul>
+ <li>the file name or folder doesn't follow the standard;</li>
+ <li>two files claim the same number and revision;</li>
+ <li>the file changed without a new revision number.</li>
+ </ul></td></tr>
+<tr><td><strong>awaiting approval</strong></td><td>A standard, specification or procedure that nobody has approved yet. You can see it, but the Assistant and Preliminary Review don't use it until it is approved.</td></tr>
+<tr><td><strong>missing / unavailable</strong></td><td>The file has gone from its folder, or the folder can't be reached.</td></tr>
+</table></div>
+
+<h3>Adding a document</h3>
+<ol>
+<li>Name the file <code>DocNo_Rev_Title</code>, for example <code>PRO-0007_R01_Tank inspection procedure.docx</code>. Revisions are written <code>R00</code>, <code>R01</code>… or <code>E</code> plus the edition year (e.g. <code>E2024</code>).</li>
+<li>Put it in the right folder of Mother's <strong>Library</strong> folder. You can reach it through <span class="ui">Tools → Files → Mother documents</span>.
+ <ul><li>01 Standards · 02 Specifications · 03 Procedures · 04 Manuals · 05 Drawings · 06 Reports\&lt;Subject&gt;</li></ul></li>
+<li>BCW finds it within 15 minutes. A Library editor can press <span class="ui">Scan now</span> to find it at once.</li>
+<li>Standards, specifications and procedures then wait for approval by a Library editor.</li>
+</ol>
+<p>BCW reads:</p>
+<ul>
+<li>PDF, Word, PowerPoint, Excel, text and Markdown files;</li>
+<li>scanned PDFs and images. Scanned pages are read on the Ascent, in English and Traditional Chinese.</li>
+</ul>
+<p>Files over 50 MB are not read.</p>
+<div class="box warn"><p><strong>New revision, new file.</strong> When a document is revised, add the new revision as a new file with the new revision number. BCW then marks the old one superseded. Don't overwrite the old file: a changed file with the same revision number becomes "uncertain".</p></div>
+
+<h3>Preliminary Review</h3>
+<p>Preliminary Review asks the AI to check a report against the approved references and earlier reports. It looks for inconsistencies, missing content and contradictions before the report goes out.</p>
+<ol>
+<li>Open <span class="ui">Preliminary Review</span>, use <span class="ui">Find a report to review</span>, then <span class="ui">Find reports</span>.</li>
+<li>Press <span class="ui">Review this report</span>. The review runs in the background, typically for a minute or two, and the list updates by itself.</li>
+<li>Press <span class="ui">Open findings</span>. Each finding is labelled <em>Inconsistency</em>, <em>Missing content</em>, <em>Contradiction</em> or <em>For engineer attention</em>. It quotes the report passage and the reference passage, each with an <span class="ui">Open original</span> link.</li>
+<li>For each finding, add an <span class="ui">Engineer note</span> if useful, then press <span class="ui">Accept</span> or <span class="ui">Dismiss</span>. <span class="ui">Reopen</span> undoes a decision.</li>
+</ol>
+<div class="box"><p>A review with no findings is <strong>not</strong> an approval. It means the AI found nothing to flag. The engineer's own review still decides.</p></div>
+
+<h2>6. Project work</h2>
+<h3>Tasks</h3>
+<p><span class="ui">Project → Tasks</span> shows the project's tasks and milestones, which live in OpenProject.</p>
+<ul>
+<li>Filter by <span class="ui">Work-package type</span> (All, Tasks, Milestones) or use <span class="ui">Search tasks…</span>.</li>
+<li><span class="ui">New task</span> and <span class="ui">New milestone</span> create items. Open an item to <span class="ui">Edit</span> it, <span class="ui">Prioritize</span> it or open it in <span class="ui">OpenProject ↗</span>.</li>
+<li>Saving sends the change to OpenProject. If someone else changed the task meanwhile, the save is refused. Reopen it and make your change again.</li>
+</ul>
+<h3>Deliverables</h3>
+<p><span class="ui">Project → Deliverables</span> tracks items with exact due dates and their due project week.</p>
+<ul>
+<li><span class="ui">New deliverable</span> takes a title, an owner and a delivery due date. <span class="ui">Link OpenProject task</span> connects it to a task.</li>
+<li><span class="ui">Mark delivered</span>, <span class="ui">Cancel deliverable</span> and <span class="ui">Reopen</span> change its state. Tick <span class="ui">Include completed and cancelled</span> to see finished items.</li>
+<li>Preparing a report doesn't mark it delivered. The ICPM does that here once it has actually gone out.</li>
+</ul>
+<h3>Sailing readiness (MCM)</h3>
+<p><span class="ui">Project → Sailing readiness</span> shows the MCM/MATSAFE engineering-risk database.</p>
+<ul>
+<li>Its tabs are Readiness overview, SWBS systems, Components, Defect notifications, General risks, Event assessments and Mitigations.</li>
+<li>By default it shows open Surface Trial assessments rated A or B. <span class="ui">Reset to default</span> returns to that view; <span class="ui">Show all assessments</span> clears the filters.</li>
+<li>Ratings: <strong>A</strong> Intolerable · <strong>B</strong> Undesirable · <strong>C</strong> Acceptable with review · <strong>D</strong> Acceptable. The rating is calculated from probability and severity and can't be overridden.</li>
+<li>Most people can view. Editors (usually the ICPM and Senior Engineer) can <span class="ui">Create record</span>, <span class="ui">Edit</span> and <span class="ui">Save to Access</span>. Records are closed, never deleted.</li>
+</ul>
+
+<h2>7. Calendar and routines</h2>
+<h3>Calendar</h3>
+<p><span class="ui">Schedule → Calendar</span> is the shared project calendar. It also shows OpenProject task deadlines.</p>
+<ul>
+<li>Switch between <span class="ui">Month view</span> and <span class="ui">Agenda view</span>. The arrows change month and <span class="ui">Today</span> jumps back. Weeks run Sunday to Saturday.</li>
+<li><span class="ui">New event</span> (or click a day) creates one of four kinds of entry:
+ <ul>
+ <li><strong>Meeting</strong> or <strong>Event</strong>: goes on the shared calendar, and can repeat daily, weekly, monthly or yearly.</li>
+ <li><strong>Task</strong>: creates a real OpenProject task with start and due dates.</li>
+ <li><strong>Reminder</strong>: a private reminder for you only.</li>
+ </ul></li>
+<li>Open an entry to <span class="ui">Edit</span> or <span class="ui">Cancel event</span>. For a repeating series, choose <span class="ui">This occurrence</span> or <span class="ui">Whole series</span>.</li>
+<li><span class="ui">Tags &amp; report settings</span> lets you show or hide tagged entries.</li>
+</ul>
+<div class="box"><p>BCW meetings do <strong>not</strong> send invitations. Tell attendees yourself, or use mail.</p></div>
+<h3>Routines</h3>
+<p><span class="ui">Schedule → Routines</span> holds your repeating jobs, such as a daily check or a weekly return.</p>
+<ul>
+<li><span class="ui">New routine</span>: give it a title, choose how it repeats (every day, weekdays, selected weekdays or monthly), and set a due time and a reminder.</li>
+<li>Each routine has <span class="ui">Done</span>, <span class="ui">Skip</span>, <span class="ui">Snooze 1 hour</span>, <span class="ui">Pause</span>/<span class="ui">Resume</span>, <span class="ui">Edit</span> and <span class="ui">Delete routine</span>.</li>
+<li>Missed dates collapse into one overdue item, so there is never a backlog to clear.</li>
+<li>Reminders can appear in classic Outlook through your private calendar address, shown on the page. Your administrator sets this up per laptop.</li>
+</ul>
+
+<h2>8. Weekly reporting</h2>
+<p><span class="ui">Reporting → Weekly reporting</span> prepares two kinds of report as editable PowerPoint drafts:</p>
+<ul>
+<li>the client <strong>PLOW</strong> (Plan of the Week, 16 slides);</li>
+<li>the <strong>internal BMT weekly meeting</strong> deck (9 slides).</li>
+</ul>
+<h3>Your part: the weekly update</h3>
+<ol>
+<li>Open the current reporting cycle and choose <span class="ui">Supply an optional weekly update</span>.</li>
+<li>Pick your <strong>Discipline</strong>, then fill in what applies: Accomplishments this period, Ad hoc support, Next-week plan, Concerns / decisions needed, and Source references / supporting files.</li>
+<li>Press <span class="ui">Submit weekly update</span>.</li>
+</ol>
+<p>If you leave your discipline blank or write "No change", last week's slide text is kept.</p>
+<h3>What the ICPM does</h3>
+<ol>
+<li>Creates the reporting cycle.</li>
+<li>Attaches last week's PLOW and the FTE hours workbooks.</li>
+<li>Asks the AI to prepare the draft. For the internal deck, that is a short interview of about six questions.</li>
+<li>Reviews and confirms every statement.</li>
+<li>Downloads the PowerPoint.</li>
+</ol>
+<p>The output is always a draft: issuing it is a human decision.</p>
+
+<h2>9. Files, mail and other tools</h2>
+<h3>Files</h3>
+<ul>
+<li><span class="ui">Tools → Files → Project files</span>: <span class="ui">Upload file</span>, <span class="ui">Search files</span> and <span class="ui">Download copy</span>.</li>
+<li>To edit an Office file in place, open it in Nextcloud and use <strong>Edit locally</strong>. A downloaded copy is separate, so changes to it don't save back.</li>
+<li><span class="ui">Mother documents</span>: you can add new files. Existing Mother files can't be replaced, renamed, moved or deleted from BCW.</li>
+</ul>
+<h3>Conversations</h3>
+<p><span class="ui">Tools → Conversations</span> shows the team's Nextcloud Talk rooms. Read and post with <span class="ui">Send message</span>. <span class="ui">Earlier messages</span> loads older messages.</p>
+<h3>Daily Brief</h3>
+<p><span class="ui">Daily Brief</span> prepares the daily team email: personnel movements, schedule, risks, tasks and history.</p>
+<ul>
+<li><span class="ui">Prepare briefing preview</span> shows the exact message.</li>
+<li><span class="ui">Send now</span> sends exactly that message to the approved site addresses.</li>
+<li>Your administrator can set it to send automatically on a schedule.</li>
+</ul>
+<h3>Nextcloud</h3>
+<p>The <span class="ui">Nextcloud</span> area links to Nextcloud <strong>Files</strong> and <strong>Mail</strong>. Nextcloud asks you to sign in with the same username and password.</p>
+<h3>Resources and deployments</h3>
+<p><span class="ui">Resources → Deployments</span> ("Deployments &amp; onboarding") shows who is arriving and leaving, and which cubicle, laptop and apartment each person has. Everyone can view it. The ICPM and ICSS plan and activate deployments.</p>
+<h3>My account</h3>
+<p><span class="ui">Tools → My account</span> lets you change your password and see your sessions. <span class="ui">Sign out all my BCW sessions</span> signs you out everywhere, which is useful if you left yourself signed in on another PC.</p>
+
+<h2>10. Roles: who can do what</h2>
+<div class="wrap"><table>
+<tr><th>Role</th><th>Typical permissions</th></tr>
+<tr><td><strong>All staff</strong> (Marine/Mechanical, Electrical, NavArc, Overflow and others)</td><td>Tasks, calendar, routines, reporting updates, files, conversations, the Assistant and the Daily Brief. Search the Library and run Preliminary Reviews. View Sailing readiness.</td></tr>
+<tr><td><strong>Senior Engineer</strong></td><td>As above, plus edit MCM records and manage the Library: approve documents, manage sources, Scan now.</td></tr>
+<tr><td><strong>ICSS</strong></td><td>As all staff, plus plan arrivals and deployments.</td></tr>
+<tr><td><strong>ICPM</strong> (administrator)</td><td>Everything: user accounts, role permissions, resources, reporting cycles, Library, AI and Ascent settings, backups and updates.</td></tr>
+</table></div>
+<p>Your ICPM can adjust what each role sees, so your screen may differ slightly from this manual.</p>
+
+<h2>11. When something isn't working</h2>
+<div class="wrap"><table>
+<tr><th>You see…</th><th>What it means / what to do</th></tr>
+<tr><td>"AI is not configured yet", or <span class="ui">New session</span> is greyed out</td><td>The Assistant isn't connected to the Ascent. Tell the ICPM.</td></tr>
+<tr><td>The Assistant is slow or seems stuck</td><td>Two others may already be using it; yours is next. If someone switched AI models, the first answer can take up to 3 minutes. Use <span class="ui">Interrupt</span> if it's clearly going nowhere.</td></tr>
+<tr><td>An answer fails in a very long chat</td><td>Ask again, or start a <span class="ui">New session</span> and summarise what you need.</td></tr>
+<tr><td>Image says it is waiting</td><td>It is queued, normally for about a minute. If it stays queued much longer, tell the ICPM: the Ascent may be busy or its image service down.</td></tr>
+<tr><td>"You already have five image jobs waiting"</td><td>Let some finish before asking for more.</td></tr>
+<tr><td>A notice that chat is paused while images are made</td><td>The ICPM has turned on image pausing. Answers resume in about 3 minutes, and anything you send meanwhile is answered afterwards.</td></tr>
+<tr><td>Attached file stays at "Processing…" or Failed</td><td>Wait a moment, then press <span class="ui">Retry reading</span>. Split very large files.</td></tr>
+<tr><td>A new Library document doesn't appear</td><td>Wait up to 15 minutes or ask a Library editor to <span class="ui">Scan now</span>. Check the file name (<code>DocNo_Rev_Title</code>) and the folder. Scanned files take longer.</td></tr>
+<tr><td>The Assistant ignores a procedure you know exists</td><td>It is probably still awaiting approval. Ask a Library editor.</td></tr>
+<tr><td>Search shows a "words only" notice</td><td>Smart search is unavailable for now. Results still work. Tell the ICPM if it lasts.</td></tr>
+<tr><td>A proposal says "Decision not confirmed"</td><td>Press <span class="ui">Check saved state</span>. Don't ask again straight away. If it says "Reconciliation required", tell the ICPM.</td></tr>
+<tr><td>"Some sources are unavailable…"</td><td>You are seeing saved data. Press <span class="ui">Refresh</span> later.</td></tr>
+<tr><td>Your save is refused because the record changed</td><td>Someone else edited it. Reopen it and redo your change.</td></tr>
+<tr><td>A tab is missing</td><td>Your role doesn't include it. Ask the ICPM.</td></tr>
+<tr><td>Locked out after wrong passwords</td><td>Wait for the lock to expire, or ask the ICPM to unlock your login.</td></tr>
+</table></div>
+
+<h2>12. Glossary</h2>
+<div class="wrap"><table>
+<tr><td><strong>Ascent</strong></td><td>The site's AI computer. It runs the Assistant's model, smart search, document reading and images.</td></tr>
+<tr><td><strong>Assistant</strong></td><td>Your private AI helper in BCW. Its label says "Codex".</td></tr>
+<tr><td><strong>BCW</strong></td><td>Bingo Collaborative Workspace, the project's web workspace.</td></tr>
+<tr><td><strong>BMT account</strong></td><td>A laptop login (BMT01–BMT08) that passes between occupants.</td></tr>
+<tr><td><strong>Citation</strong></td><td>The document number, revision and page an answer came from, with a link to open it.</td></tr>
+<tr><td><strong>Deliverable</strong></td><td>A tracked item with an exact due date.</td></tr>
+<tr><td><strong>Deployment</strong></td><td>A person's dated assignment, with cubicle, laptop and apartment.</td></tr>
+<tr><td><strong>FTE workbook</strong></td><td>The Excel hours workbook whose charts go into the PLOW.</td></tr>
+<tr><td><strong>HAL3000</strong></td><td>The site PC that runs BCW and keeps every record.</td></tr>
+<tr><td><strong>ICPM / ICSS</strong></td><td>The project manager role (BCW administrator) and the support role.</td></tr>
+<tr><td><strong>Inkling 2 Mini</strong></td><td>The AI model the Assistant uses.</td></tr>
+<tr><td><strong>Library</strong></td><td>The searchable collection of standards, specifications, procedures, manuals, drawings and reports.</td></tr>
+<tr><td><strong>MCM / MATSAFE</strong></td><td>The Access engineering-risk database behind Sailing readiness.</td></tr>
+<tr><td><strong>Mother</strong></td><td>The shared document store on the site network.</td></tr>
+<tr><td><strong>Nextcloud</strong></td><td>Files, calendar, Talk chat rooms and mail.</td></tr>
+<tr><td><strong>OpenProject</strong></td><td>The system that owns tasks, milestones and their dates.</td></tr>
+<tr><td><strong>PLOW</strong></td><td>Plan of the Week, the client weekly PowerPoint report.</td></tr>
+<tr><td><strong>Preliminary Review</strong></td><td>An AI check of a report against approved references. Engineers accept or dismiss each finding.</td></tr>
+<tr><td><strong>Project Week</strong></td><td>The contract week number (Sunday to Saturday; Week 1 began 16 November 2025).</td></tr>
+<tr><td><strong>Proposal</strong></td><td>A change the Assistant suggests. Nothing happens until you press Approve once.</td></tr>
+<tr><td><strong>Routine</strong></td><td>Your own repeating job with reminders.</td></tr>
+<tr><td><strong>Skill</strong></td><td>A reviewed set of instructions that teaches the Assistant a particular job.</td></tr>
+<tr><td><strong>SWBS</strong></td><td>The ship work-breakdown system code.</td></tr>
+<tr><td><strong>Superseded</strong></td><td>An older revision of a document, kept for reference.</td></tr>
+</table></div>
