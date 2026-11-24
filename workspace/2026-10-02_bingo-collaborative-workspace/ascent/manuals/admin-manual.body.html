@@ -391,6 +391,23 @@
 <li><strong>Weekly reporting:</strong> the ICPM creates each reporting cycle, adds last week's PLOW and the FTE workbooks, prepares the draft, reviews it and downloads the PowerPoint.</li>
 <li><strong>Skills:</strong> reviewed Assistant skills arrive only with a BCW release. Users turn them on themselves.</li>
 </ul>
+<h3>Moving people already on site</h3>
+<p>To move someone who is already deployed to another BMT position, laptop or cubicle, use <strong>Manage deployment</strong>. For example, moving Jason from BMT01 to BMT05 with BMT05's laptop and a new cubicle:</p>
+<ol>
+<li>Open <span class="ui">Resources → Deployments</span>, open the person's deployment and press <span class="ui">Edit</span>. This opens <strong>Manage deployment</strong>.</li>
+<li>Change <span class="ui">BMT position</span> to the new account, e.g. BMT05. It must have no occupant. The <strong>laptop</strong> switches to that position's laptop by itself, because each laptop belongs to its BMT login.</li>
+<li>Pick the new <strong>cubicle</strong>, and an apartment or other items if they change.</li>
+<li>Check <strong>Role/Position</strong>. The person keeps the roles ticked here. When moving the ICPM, keep <strong>ICPM</strong> ticked.</li>
+<li>Press <strong>Save</strong>. The person keeps their deployment and history, and the old position's items are released.</li>
+</ol>
+<p>Afterwards:</p>
+<ul>
+<li><strong>Password:</strong> the person now signs in with the new account, which keeps its own password. Set a new one in <span class="ui">User accounts → Set password</span>.</li>
+<li><strong>Old position:</strong> it is now empty but keeps its roles. Remove any you don't want under <span class="ui">Resources → Accounts</span>. BCW allows removing ICPM there once another account someone signs in as has it.</li>
+</ul>
+<p>To change only a cubicle or other items, use the same dialog and leave the BMT position unchanged.</p>
+<div class="box warn"><p><strong>Don't use Transfer on the laptop to move a person.</strong> Transfer moves the person to the other account, but they take on <em>that account's existing roles</em>, not their own. Transferring the ICPM this way leaves ICPM on the empty old account, and nobody who signs in has the Admin tab. V0.16 allows this. From V0.17, BCW refuses with <em>"This change would leave no enabled ICPM that anyone signs in as"</em>.</p>
+<p><strong>Always keep ICPM on at least two accounts people actually sign in to.</strong></p></div>
 
 <h2>9. The HAL3000 tools on the Transcend USB</h2>
 <p>Each package installs for the current Windows user and needs <strong>no administrator rights</strong> and no internet. Each checks its own files first and is safe to run again. Install them in this order:</p>
@@ -459,6 +476,7 @@
 <tr><td>Account stuck at "Administration pending"</td><td>Nextcloud or OpenProject missed the change</td><td><span class="ui">Administration operations → Retry same operation</span>.</td></tr>
 <tr><td>User locked out</td><td>Too many wrong passwords</td><td><span class="ui">Unlock login</span> on their card.</td></tr>
 <tr><td>ICPM password forgotten</td><td>—</td><td>BCW Maintenance → <span class="ui">Recover administrator access</span>.</td></tr>
+<tr><td>The Admin tab has gone for everyone</td><td>No account anyone signs in as has ICPM, usually after moving people with Transfer</td><td>Sign in as the old position (e.g. BMT01), which may still hold ICPM. Otherwise run <code>BCW-ICPM-REPAIR\REPAIR-ICPM-BMT01.bat</code> from the Transcend. It previews, backs up, then gives BMT01 ICPM again.</td></tr>
 <tr><td>Update refused: "must be a newer release"</td><td>Same or older kit</td><td>Use the right kit; use Restore to go back.</td></tr>
 <tr><td>Maintenance: "BCW has active work"</td><td>Chats, reports, Office or Access files still open</td><td>Ask users to finish, then retry.</td></tr>
 <tr><td>Update fails with a file in use</td><td>BCW window or another program holding a file</td><td>Close BCW windows and open files, then run the same Update again.</td></tr>
