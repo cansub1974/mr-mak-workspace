@@ -1,5 +1,5 @@
 <h1>BCW and the Ascent: User Manual</h1>
-<p class="subtitle">Bingo Collaborative Workspace V0.17 with the Ascent AI server. For everyone who uses BCW day to day. November 2026.</p>
+<p class="subtitle">Bingo Collaborative Workspace V0.18 with the Ascent AI server. For everyone who uses BCW day to day. November 2026.</p>
 <!--TOC-->
 
 <h2>1. What this system is</h2>
@@ -113,7 +113,7 @@
 
 <h3>Images</h3>
 <ul>
-<li>Image requests join a queue. A <strong>Your image jobs</strong> panel above the chat shows progress. When the image is ready, use <span class="ui">View</span> or <span class="ui">Download</span>. It also appears in the chat's Downloads.</li>
+<li>Image requests join a queue. When the image is ready, BCW says so in the same chat ("Image ready: …") and the picture is in that chat's <span class="ui">Downloads</span>. If it could not be made, the chat says that too; just ask again.</li>
 <li>An image normally takes <strong>about a minute</strong>, and you can keep chatting meanwhile.</li>
 <li>You can have up to five image jobs waiting at once.</li>
 <li>New images are made with the Krea2 model. Edits to an existing picture use Qwen Image Edit. Describe what you want plainly; the Assistant writes the detailed instructions.</li>
@@ -161,10 +161,26 @@
  <li>the file changed without a new revision number.</li>
  </ul></td></tr>
 <tr><td><strong>awaiting approval</strong></td><td>A standard, specification or procedure that nobody has approved yet. You can see it, but the Assistant and Preliminary Review don't use it until it is approved.</td></tr>
-<tr><td><strong>missing / unavailable</strong></td><td>The file has gone from its folder, or the folder can't be reached.</td></tr>
+<tr><td><strong>missing / unavailable</strong></td><td>The file has gone from its folder, or the folder can't be reached. A Library editor can delete missing records (see the Administrator Manual).</td></tr>
 </table></div>
 
-<h3>Adding a document</h3>
+<h3>Adding documents (the easy way)</h3>
+<ol>
+<li>Open <span class="ui">Project → Library → Add documents</span>.</li>
+<li>Drag your files onto the box (or click it to choose them). Up to 50 at a time.</li>
+<li>BCW reads each one and suggests its <strong>folder</strong>, <strong>document number</strong>, <strong>revision</strong>, <strong>title</strong> and, for a report, its <strong>subject</strong> folder. Each row shows how sure it is, why, and the exact name the file will get, e.g. <code>Library/06 Reports/Vessel A/RPT-0043_R00_Hull thickness survey.pdf</code>.</li>
+<li>Correct anything that's wrong by typing in the row. A document with no number printed on it gets the next free number, marked "New number issued by BCW". A new report subject shows <strong>new folder</strong>.</li>
+<li>Tick the rows and press <span class="ui">File selected</span>. This needs Library edit (ICPM or Senior Engineer). Anyone else can drop files and correct them; an editor then files them.</li>
+</ol>
+<p>BCW writes a new, correctly named copy into Mother's Library and reads it in straight away, so it is searchable at once. It never replaces an existing file:</p>
+<ul>
+<li>a file that is already in the library is not filed twice;</li>
+<li>the same number and revision as an existing document is refused;</li>
+<li>a higher revision is filed next to the old one, which becomes superseded.</li>
+</ul>
+<p>Scanned files show <strong>Waiting for the Ascent</strong> while the Ascent is off and are read when it's back. You can also attach documents in the Assistant and say <span class="example">"Add these to the library."</span> It shows the same suggestions and asks you to approve the filing in the chat.</p>
+
+<h3>Adding a document by hand</h3>
 <ol>
 <li>Name the file <code>DocNo_Rev_Title</code>, for example <code>PRO-0007_R01_Tank inspection procedure.docx</code>. Revisions are written <code>R00</code>, <code>R01</code>… or <code>E</code> plus the edition year (e.g. <code>E2024</code>).</li>
 <li>Put it in the right folder of Mother's <strong>Library</strong> folder. You can reach it through <span class="ui">Tools → Files → Mother documents</span>.

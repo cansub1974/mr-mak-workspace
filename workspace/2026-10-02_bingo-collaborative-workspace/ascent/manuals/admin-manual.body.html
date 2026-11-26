@@ -1,5 +1,5 @@
 <h1>BCW and the Ascent: Administrator Manual</h1>
-<p class="subtitle">Bingo Collaborative Workspace V0.17, the Ascent GX10 AI server and the HAL3000 tools. For the ICPM and whoever looks after the system. November 2026.</p>
+<p class="subtitle">Bingo Collaborative Workspace V0.18, the Ascent GX10 AI server and the HAL3000 tools. For the ICPM and whoever looks after the system. November 2026.</p>
 <div class="box"><p>This manual explains what the system can do and how to run it day to day. It is written for administrators, not programmers. Everyday features (the Assistant, Library search, calendar, reporting) are explained in the <strong>User Manual</strong>; this manual covers setting up, looking after and fixing the system.</p></div>
 <!--TOC-->
 
@@ -269,7 +269,7 @@
 <h3>First-time setup</h3>
 <ol>
 <li>On Mother, create a folder called <code>Library</code> with six folders inside: <code>01 Standards</code>, <code>02 Specifications</code>, <code>03 Procedures</code>, <code>04 Manuals</code>, <code>05 Drawings</code> and <code>06 Reports</code>. Under <code>06 Reports</code>, make one folder per subject.</li>
-<li>Copy in documents named <code>DocNo_Rev_Title</code>, e.g. <code>PRO-0007_R01_Tank inspection procedure.docx</code>.</li>
+<li>Add documents with <span class="ui">Library → Add documents</span> (drop them, check the suggested names, <span class="ui">File selected</span>), or copy them in by hand named <code>DocNo_Rev_Title</code>, e.g. <code>PRO-0007_R01_Tank inspection procedure.docx</code>.</li>
 <li>Press <span class="ui">Library → Sources → Scan now</span>.</li>
 <li>Approve the governing documents under <span class="ui">Waiting for approval</span>. <span class="ui">Select all on this page</span> and <span class="ui">Approve selected</span> handle up to 500 at a time.</li>
 </ol>
@@ -277,10 +277,11 @@
 <div class="wrap"><table>
 <tr><th>Tab</th><th>What you do there</th></tr>
 <tr><td>Search · Preliminary Review</td><td>Everyday use (see the User Manual).</td></tr>
+<tr><td>Add documents</td><td>Drop files; BCW suggests folder, number, revision, title and subject, and shows the exact name. Correct, tick and <span class="ui">File selected</span>. It writes a new file into Mother's Library (never replacing one) and reads it in at once. Anyone can drop and correct; filing needs Library edit.</td></tr>
 <tr><td>Waiting for approval</td><td>Approve or reject standards, specifications and procedures. Only approved ones reach the Assistant and Preliminary Review.</td></tr>
 <tr><td>Uncertain</td><td>Fix names or folders, or resolve duplicates, then <span class="ui">Scan now</span>.</td></tr>
 <tr><td>Superseded</td><td>Older revisions, for reference.</td></tr>
-<tr><td>Missing or unavailable</td><td>Files gone from their folder, or a folder BCW can't reach.</td></tr>
+<tr><td>Missing or unavailable</td><td>Files gone from their folder, or a folder BCW can't reach. Tick <em>missing</em> records and press <span class="ui">Delete records</span>, then confirm, to clear them out (up to 500 at a time). Past answers and reviews keep their quoted text. <em>Unavailable</em> records can't be deleted: they come back with the next good scan.</td></tr>
 <tr><td>Failed reads</td><td>Select and press <span class="ui">Read again</span>. Check that Docling is up first.</td></tr>
 <tr><td>Sources</td><td><span class="ui">Scan now</span>, <span class="ui">Add network folder</span>, and <span class="ui">Pause</span> / <span class="ui">Resume</span> / <span class="ui">Remove</span> for each source.</td></tr>
 <tr><td>Ascent services</td><td>The service addresses and the image pause setting (section 4).</td></tr>
@@ -295,7 +296,7 @@
 <h3>Good practice</h3>
 <ul>
 <li>A revised document goes in as a <strong>new file with a new revision number</strong>. Never overwrite the old one.</li>
-<li>BCW never changes the original files. Tidy them on Mother itself, then <span class="ui">Scan now</span>.</li>
+<li>BCW never changes or replaces existing files; Add documents only creates new ones. Tidy files on Mother itself, then <span class="ui">Scan now</span>.</li>
 <li>Files over 50 MB are not read. Split very large scans.</li>
 </ul>
 <h3>Images</h3>
@@ -339,7 +340,7 @@
 <ol>
 <li>Pick a quiet time. Take a backup.</li>
 <li>Ask users to finish and save their work.</li>
-<li>Plug in the update USB and run <code>UPDATE-BCW-V0.17.bat</code> (or the batch file for the new version) at its root. It checks the kit and opens Maintenance.</li>
+<li>Plug in the update USB and run <code>UPDATE-BCW-V0.18.bat</code> (or the batch file for the newest version) at its root. It checks the kit and opens Maintenance.</li>
 <li>Choose <span class="ui">Update</span>, the existing installation and the release folder on the USB. <strong>Never choose Install over an existing system.</strong></li>
 <li>Press <span class="ui">Check / Preview</span>. Confirm the versions, the data location and that a backup will be taken.</li>
 <li>Press <span class="ui">Run selected action</span>. It copies and checks the new release, backs up, upgrades the data and restarts the services.</li>
@@ -392,21 +393,20 @@
 <li><strong>Skills:</strong> reviewed Assistant skills arrive only with a BCW release. Users turn them on themselves.</li>
 </ul>
 <h3>Moving people already on site</h3>
-<p>To move someone who is already deployed to another BMT position, laptop or cubicle, use <strong>Manage deployment</strong>. For example, moving Jason from BMT01 to BMT05 with BMT05's laptop and a new cubicle:</p>
+<p>To move someone who is already deployed to another BMT position, use <strong>Move position</strong> (ICPM). For example, moving Jason from BMT01 to BMT05 with BMT05's laptop and a new cubicle:</p>
 <ol>
-<li>Open <span class="ui">Resources → Deployments</span>, open the person's deployment and press <span class="ui">Edit</span>. This opens <strong>Manage deployment</strong>.</li>
-<li>Change <span class="ui">BMT position</span> to the new account, e.g. BMT05. It must have no occupant. The <strong>laptop</strong> switches to that position's laptop by itself, because each laptop belongs to its BMT login.</li>
-<li>Pick the new <strong>cubicle</strong>, and an apartment or other items if they change.</li>
-<li>Check <strong>Role/Position</strong>. The person keeps the roles ticked here. When moving the ICPM, keep <strong>ICPM</strong> ticked.</li>
-<li>Press <strong>Save</strong>. The person keeps their deployment and history, and the old position's items are released.</li>
+<li>Open <span class="ui">Resources</span>, open the person, and under <span class="ui">Current and planned deployments</span> press <span class="ui">Move position</span>.</li>
+<li>Choose the <strong>new position</strong>, e.g. BMT05. Only empty positions are listed. Its <strong>laptop</strong> is issued and the old laptop returned.</li>
+<li>Keep the <strong>cubicle</strong> or pick a free one. An apartment and other equipment stay with the person.</li>
+<li>Check the <strong>roles</strong> that move with them. They are all ticked; keep <strong>ICPM</strong> ticked when moving the ICPM. The old position is left with no roles.</li>
+<li>Optionally type a <strong>new password</strong> for the new position (twice) and your own password to confirm, so they can sign in straight away.</li>
+<li>Check the summary line ("Jason: BMT01 → BMT05 · laptop … · cubicle … · roles …") and press <span class="ui">Move to BMT05</span>.</li>
 </ol>
-<p>Afterwards:</p>
-<ul>
-<li><strong>Password:</strong> the person now signs in with the new account, which keeps its own password. Set a new one in <span class="ui">User accounts → Set password</span>.</li>
-<li><strong>Old position:</strong> it is now empty but keeps its roles. Remove any you don't want under <span class="ui">Resources → Accounts</span>. BCW allows removing ICPM there once another account someone signs in as has it.</li>
-</ul>
-<p>To change only a cubicle or other items, use the same dialog and leave the BMT position unchanged.</p>
-<div class="box warn"><p><strong>Don't use Transfer on the laptop to move a person.</strong> Transfer moves the person to the other account, but they take on <em>that account's existing roles</em>, not their own. Transferring the ICPM this way leaves ICPM on the empty old account, and nobody who signs in has the Admin tab. V0.16 allows this. From V0.17, BCW refuses with <em>"This change would leave no enabled ICPM that anyone signs in as"</em>.</p>
+<p>It all happens in one save, or not at all. If you moved yourself, sign out and sign in as the new position. If the new password couldn't be set, the move still stands and the account stays usable: set the password again under <span class="ui">Admin → Users</span>.</p>
+<p>To change only a cubicle or other items, use <span class="ui">Manage deployment</span> and leave the BMT position unchanged.</p>
+<h3>Ending a deployment</h3>
+<p>On the person's Active deployment press <span class="ui">Confirm departure</span>. It releases the laptop, cubicle and everything else issued to them, marks the deployment Completed and leaves the position empty. The position keeps its roles.</p>
+<div class="box warn"><p><strong>BCW keeps an administrator.</strong> A departure, transfer or move that would leave no ICPM on an account someone signs in to is refused: <em>"This departure would leave no enabled ICPM that anyone signs in as"</em>. Give ICPM to another occupied position first. Don't use Transfer on a laptop to move a person: it gives them the other position's roles, not their own. Use Move position.</p>
 <p><strong>Always keep ICPM on at least two accounts people actually sign in to.</strong></p></div>
 
 <h2>9. The HAL3000 tools on the Transcend USB</h2>
@@ -453,7 +453,7 @@
 <p><strong>Taking work fixes home:</strong></p>
 <ol>
 <li>Plug the Transcend into the Ascent.</li>
-<li>Run the export command in <code>BCW-V0.17-WORK-UPGRADE.txt</code>, section 4.</li>
+<li>Run the export command in <code>BCW-V0.18-WORK-UPGRADE.txt</code>, under <em>Development at work</em>.</li>
 <li>Eject the drive safely.</li>
 <li>At home, the fixes are merged with the main code.</li>
 </ol>
@@ -503,9 +503,10 @@
 <div class="wrap"><table>
 <tr><th>Item</th><th>Purpose</th></tr>
 <tr><td><code>Manuals</code></td><td>This manual and the User Manual (HTML and PDF).</td></tr>
-<tr><td><code>BCW-V0.17-WORK-UPGRADE.txt</code></td><td>Step-by-step: connect the Ascent, update HAL3000 to V0.17, point BCW at the Ascent.</td></tr>
-<tr><td><code>UPDATE-BCW-V0.17.bat</code> and <code>BCW-V0.17\BCW-release</code></td><td>The checked V0.17 update kit.</td></tr>
-<tr><td><code>BCW-V0.17\Development</code></td><td>The latest code bundle and the code-sync rules.</td></tr>
+<tr><td><code>BCW-V0.18-WORK-UPGRADE.txt</code></td><td>Step-by-step: what's new and how to update HAL3000 from V0.17 to V0.18.</td></tr>
+<tr><td><code>UPDATE-BCW-V0.18.bat</code> and <code>BCW-V0.18\BCW-release</code></td><td>The checked V0.18 update kit.</td></tr>
+<tr><td><code>BCW-V0.18\Development</code></td><td>The latest code bundle and the code-sync rules.</td></tr>
+<tr><td><code>BCW-V0.17</code> and the V0.17 files</td><td>The previous release (connecting the Ascent is described in <code>BCW-V0.17-WORK-UPGRADE.txt</code>).</td></tr>
 <tr><td><code>OpenCode-HAL3000</code>, <code>Blender-HAL3000</code>, <code>GIMP-HAL3000</code>, <code>Tools-HAL3000</code></td><td>The HAL3000 tools (section 9).</td></tr>
 <tr><td><code>BCW-V0.16</code> and the V0.16 files</td><td>The previous release, kept for reference.</td></tr>
 <tr><td><code>HAL</code>, <code>Outlook-BCW-Calendar</code>, mailbox setup</td><td>Earlier HAL3000 setup files (mailbox, Outlook calendar).</td></tr>
