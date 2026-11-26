@@ -10,7 +10,8 @@ param(
   [string]$GiteaUrl = '',          # default http://<Ascent>:3000
   [string]$WorkRoot = 'C:\OpenCode',
   [switch]$SkipGitea,
-  [switch]$NoShortcut              # tests: leave the desktop and the user PATH alone
+  [switch]$NoShortcut,             # tests: leave the desktop, the user PATH and environment alone
+  [switch]$SkipDesktop             # tests: do not install the OpenCode Desktop app
 )
 $ErrorActionPreference = 'Stop'
 if (-not $ModelUrl) { $ModelUrl = "http://${Ascent}:8080/v1" }
@@ -23,7 +24,7 @@ $tar = Join-Path $env:SystemRoot 'System32\tar.exe'   # Windows' own tar (not Gi
 function J($p) { ($p -replace '\\','/') }
 
 Step 'Checking the package'
-foreach ($f in 'payload.zip','PortableGit.7z.exe','opencode-cache.zip','AGENTS.md','SHA256SUMS.txt') { if (!(Test-Path (Join-Path $src $f))) { throw "Missing $f beside this installer." } }
+foreach ($f in 'payload.zip','PortableGit.7z.exe','opencode-cache.zip','opencode-desktop-win-x64.exe','AGENTS.md','SHA256SUMS.txt') { if (!(Test-Path (Join-Path $src $f))) { throw "Missing $f beside this installer." } }
 foreach ($line in Get-Content (Join-Path $src 'SHA256SUMS.txt')) {
   if (-not $line.Trim()) { continue }
   $h, $n = $line -split '\s+\*?', 2
@@ -49,7 +50,9 @@ if (Test-Path "$cfg\node_modules") { Remove-Item "$cfg\node_modules" -Recurse -F
 Copy-Item "$tmp\config\*" $cfg -Recurse -Force
 Copy-Item "$tmp\cache\models.json" (Join-Path $env:USERPROFILE '.cache\opencode\models.json') -Force
 Remove-Item $tmp -Recurse -Force
-Write-Host 'OpenCode, Git, Node, Python, Playwright and the Blender MCP are in place.'
+# comfy-cli (used by the ComfyUI MCP): no usage reporting, no first-run question.
+cmd /c "`"$root\comfy-lib\comfy.cmd`" --skip-prompt tracking disable" *> $null
+Write-Host 'OpenCode, Git, Node, Python, Playwright, and the Blender, FreeCAD and ComfyUI MCPs are in place.'
 
 Step "Writing settings into $cfg"
 New-Item -ItemType Directory -Force $cfg | Out-Null
@@ -79,6 +82,20 @@ $config = [ordered]@{
     blender = @{ type = 'local'; enabled = $true
       command = @($py, '-c', 'from blender_mcp.server import main; main()')
       environment = @{ DISABLE_TELEMETRY = 'true'; BLENDER_MCP_DISABLE_TELEMETRY = 'true' } }
+    comfy = @{ type = 'local'; enabled = $true
+      command = @($py, '-c', "import sys; sys.path.insert(0, r'$(J "$root\comfy-lib")'); from comfy_mcp.server import main; main()")
+      environment = @{ PYTHONPATH = (J "$root\comfy-lib"); COMFY_BIN = (J "$root\comfy-lib\comfy.cmd"); COMFYUI_URL = "http://${Ascent}:8188"; DO_NOT_TRACK = '1' } }
+    freecad = @{ type = 'local'; enabled = $true
+      command = @($py, '-c', "import sys; sys.path.insert(0, r'$(J "$root\freecad-lib")'); from freecad_mcp.server import main; main()",
+        '--freecadcmd', (J (Join-Path $env:LOCALAPPDATA 'Programs\FreeCAD 1.1\bin\FreeCADCmd.exe')))
+      environment = @{ PYTHONPATH = (J "$root\freecad-lib") } }
+  }
+  # ComfyUI MCP: generate and run workflows on the Ascent's ComfyUI. Tools that would install, update,
+  # download or start a ComfyUI on HAL3000, or use paid cloud models, are switched off.
+  tools = [ordered]@{
+    'comfy_launch_comfyui' = $false; 'comfy_stop_comfyui' = $false; 'comfy_restart_comfyui' = $false; 'comfy_update_comfyui' = $false
+    'comfy_switch_comfyui_version' = $false; 'comfy_install_node' = $false; 'comfy_download_model' = $false; 'comfy_download' = $false
+    'comfy_auth_login' = $false; 'comfy_partner_generate' = $false; 'comfy_emit_partner_workflow' = $false
   }
   permission = [ordered]@{
     read = [ordered]@{ '*' = 'allow'; '*.env' = 'ask'; '*.env.*' = 'ask'; '*.env.example' = 'allow' }
@@ -125,6 +142,23 @@ $lnk.TargetPath = "$root\opencode-ascent.cmd"; $lnk.WorkingDirectory = $WorkRoot
 $userPath = [Environment]::GetEnvironmentVariable('Path', 'User')
 if ($userPath -notlike "*$root*") { [Environment]::SetEnvironmentVariable('Path', ($userPath.TrimEnd(';') + ";$root"), 'User') }
 Write-Host "Desktop shortcut 'OpenCode (Ascent)' created; 'opencode-ascent' works in new terminals (add a folder to start there)."
+# The Desktop app starts from the Start menu, not the launcher, so it reads the same offline switches from the user environment.
+foreach ($kv in @{ OPENCODE_DISABLE_MODELS_FETCH = '1'; OPENCODE_DISABLE_AUTOUPDATE = '1'; OPENCODE_DISABLE_LSP_DOWNLOAD = '1'; OPENCODE_GIT_BASH_PATH = "$root\git\bin\bash.exe"; DISABLE_TELEMETRY = 'true' }.GetEnumerator()) {
+  [Environment]::SetEnvironmentVariable($kv.Key, $kv.Value, 'User')
+}
+$userPath = [Environment]::GetEnvironmentVariable('Path', 'User')
+foreach ($d in "$root\git\cmd", "$root
+ode") { if ($userPath -notlike "*$d*") { $userPath = $userPath.TrimEnd(';') + ";$d" } }
+[Environment]::SetEnvironmentVariable('Path', $userPath, 'User')
+}
+
+if (-not $SkipDesktop) {
+  Step 'Installing the OpenCode Desktop app (for this Windows user)'
+  $setup = Start-Process (Join-Path $src 'opencode-desktop-win-x64.exe') -ArgumentList '/S', '/currentuser' -Wait -PassThru
+  $app = Join-Path $env:LOCALAPPDATA 'Programs\@opencode-aidesktop\OpenCode.exe'
+  if ($setup.ExitCode -or !(Test-Path $app)) { throw "The OpenCode Desktop setup did not finish (exit code $($setup.ExitCode))." }
+  Write-Host "OpenCode Desktop $((Get-Item $app).VersionInfo.ProductVersion) installed. Start it from the Start menu or the 'OpenCode' desktop icon."
+  Write-Host 'It uses the same model, skills, MCP servers and safety rules as the terminal version.'
 }
 
 $git = "$root\git\cmd\git.exe"
